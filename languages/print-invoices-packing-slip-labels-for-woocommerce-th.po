@@ -1,0 +1,4727 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels\n"
+"POT-Creation-Date: 2024-07-18 12:47+0530\n"
+"PO-Revision-Date: 2024-07-18 12:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: print-invoices-packing-slip-labels-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;"
+"esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:128
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:60
+msgid "Settings updated."
+msgstr "อัปเดตการตั้งค่าแล้ว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:129
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:61
+msgid "All fields are mandatory"
+msgstr "ทุกสาขามีผลบังคับใช้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:130
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:62
+#, php-format
+msgid "Unable to update settings due to an internal error. %s To troubleshoot please click %s here. %s"
+msgstr "ไม่สามารถอัปเดตการตั้งค่าได้เนื่องจากข้อผิดพลาดภายใน %s หากต้องการแก้ไขปัญหา โปรดคลิก %s ที่นี่ %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:131
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:63
+msgid "You have to select order(s) first!"
+msgstr "คุณต้องเลือกคำสั่งซื้อก่อน!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:132
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:64
+msgid "One or more order do not have invoice generated. Generate manually?"
+msgstr "คำสั่งซื้ออย่างน้อยหนึ่งรายการไม่มีการสร้างใบแจ้งหนี้ สร้างด้วยตนเอง?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:133
+#: admin/class-wf-woocommerce-packing-list-admin.php:1551
+#: admin/class-wf-woocommerce-packing-list-admin.php:2159
+#: admin/class-wf-woocommerce-packing-list-admin.php:4409
+#: admin/class-wf-woocommerce-packing-list-admin.php:4519
+#: admin/class-wf-woocommerce-packing-list-admin.php:4710 admin/modules/customizer/customizer.php:60
+#: admin/modules/customizer/customizer.php:264 includes/class-wf-woocommerce-packing-list-basic-func.php:65
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:85 public/modules/invoice/invoice.php:164
+#: public/modules/shippinglabel/shippinglabel.php:262
+msgid "Error"
+msgstr "ผิดพลาด"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:134
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:66
+msgid "Please wait"
+msgstr "โปรดรอ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:135
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:67
+msgid "is required"
+msgstr "ต้องระบุ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:136
+#: admin/class-wf-woocommerce-packing-list-admin.php:4345 admin/views/documents.php:18
+#: admin/views/freevspro.php:6 includes/class-wf-woocommerce-packing-list-basic-func.php:68
+#: public/class-wf-woocommerce-packing-list-public.php:140 public/modules/invoice/invoice.php:30
+#: public/modules/invoice/invoice.php:126 public/modules/invoice/invoice.php:127
+#: public/modules/invoice/invoice.php:1078 public/modules/invoice/invoice.php:1106
+#: public/modules/invoice/invoice.php:1419 public/modules/invoice/invoice.php:1944
+#: public/modules/invoice/views/invoice-admin-settings.php:44
+msgid "Invoice"
+msgstr "ใบแจ้งหนี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:137
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:69
+#: public/class-wf-woocommerce-packing-list-public.php:141
+msgid "number has not been generated yet. Do you want to manually generate one ?"
+msgstr "ยังไม่ได้สร้างหมายเลข คุณต้องการสร้างด้วยตนเองหรือไม่"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:138
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:70
+#: public/class-wf-woocommerce-packing-list-public.php:137
+msgid ""
+"‘Generate invoice for free orders’ is disabled in Invoice settings > Advanced. You are attempting to "
+"generate invoice for this free order. Proceed?"
+msgstr ""
+"'สร้างใบแจ้งหนี้สำหรับคำสั่งซื้อฟรี' ถูกปิดใช้งานในการตั้งค่าใบแจ้งหนี้ > ขั้นสูง คุณกำลังพยายามสร้างใบแจ้งหนี้สำหรับคำสั่งซื้อฟรีนี้ ดำเนินการ?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:139
+#: public/class-wf-woocommerce-packing-list-public.php:138
+msgid "Refund in this order seems not having credit number yet. Do you want to manually generate one ?"
+msgstr "การคืนเงินในคำสั่งซื้อนี้ดูเหมือนว่ายังไม่มีหมายเลขเครดิต คุณต้องการสร้างด้วยตนเองหรือไม่"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:140
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:71
+#: public/class-wf-woocommerce-packing-list-public.php:139
+msgid "Please fill the `from address` in the plugin's general settings."
+msgstr "กรุณากรอก `ที่อยู่ผู้ส่ง` ในการตั้งค่าทั่วไปของปลั๊กอิน"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:141
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:72
+msgid "Code Copied"
+msgstr "คัดลอกรหัสแล้ว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:142 admin/partials/form_wizard/form_wizard.php:425
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:73
+msgid "Close"
+msgstr "ปิด"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:143 admin/modules/customizer/views/customize.php:123
+#: admin/modules/customizer/views/customize.php:141 admin/modules/customizer/views/customize.php:190
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:74
+msgid "Save"
+msgstr "บันทึก"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:144
+#: admin/class-wf-woocommerce-packing-list-admin.php:2160
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:75
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:86
+msgid "Please enter mandatory fields"
+msgstr "กรุณากรอกข้อมูลในช่องบังคับ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:145
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:76
+msgid "You can add more than 1 order meta in"
+msgstr "คุณสามารถเพิ่มเมตาคำสั่งซื้อได้มากกว่า 1 รายการ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:146 admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:24 includes/class-wf-woocommerce-packing-list-basic-func.php:77
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:147 admin/views/_custom_field_editor_form.php:42
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:78
+msgid "You can edit an existing item by using its key."
+msgstr "คุณสามารถแก้ไขรายการที่มีอยู่ได้โดยใช้คีย์"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:149
+msgid "Add"
+msgstr "เพิ่ม"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:247
+msgctxt "placeholder"
+msgid "Enter "
+msgstr "เข้า "
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:403 admin/class-wf-woocommerce-packing-list-admin.php:693
+msgid "Invoice/Packing"
+msgstr "ใบแจ้งหนี้/การบรรจุ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:405
+msgid "WT PDF Invoice Debug"
+msgstr "การแก้ไขข้อบกพร่องใบแจ้งหนี้ WT PDF"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:416 admin/partials/admin-settings.php:40
+#: public/modules/deliverynote/views/admin-settings.php:37
+#: public/modules/dispatchlabel/views/admin-settings.php:36
+#: public/modules/invoice/views/invoice-admin-settings.php:44
+#: public/modules/packinglist/views/admin-settings.php:39
+#: public/modules/shippinglabel/views/admin-settings.php:30
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:417
+msgid "Support"
+msgstr "สนับสนุน"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:418
+msgid "Review"
+msgstr "รีวิว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:419 admin/views/help.php:46 admin/views/help.php:49
+msgid "Documentation"
+msgstr "เอกสาร"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:425
+msgid "PDF Invoices"
+msgstr "ใบสั่งซื้อ PDF"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:429
+msgid "Shipping labels"
+msgstr "ฉลากการจัดส่ง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:433
+msgid "Pick lists"
+msgstr "เลือกรายการ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:437
+msgid "Proforma invoices"
+msgstr "ใบแจ้งหนี้ Proforma"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:441 admin/views/documents.php:73
+msgid "Address labels"
+msgstr "ป้ายที่อยู่"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:444
+msgid "Premium Extensions"
+msgstr "ส่วนขยายระดับพรีเมียม"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:482
+msgid "Document details"
+msgstr "รายละเอียดเอกสาร"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:504
+msgid "Print/Download"
+msgstr "พิมพ์/ดาวน์โหลด"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:692 admin/class-wf-woocommerce-packing-list-admin.php:720
+msgid "General Settings"
+msgstr "การตั้งค่าทั่วไป"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:708 admin/class-wf-woocommerce-packing-list-admin.php:709
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:806 admin/class-wf-woocommerce-packing-list-admin.php:816
+msgid "You are not allowed to access this page"
+msgstr "คุณไม่ได้รับอนุญาตให้เข้าถึงหน้านี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:834 admin/class-wf-woocommerce-packing-list-admin.php:964
+msgid "You are not allowed to view this page."
+msgstr "คุณไม่ได้รับอนุญาตให้ดูหน้านี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:835
+msgid "Access denied !!!."
+msgstr "ปฏิเสธการเข้าใช้ !!!."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:853 admin/class-wf-woocommerce-packing-list-admin.php:903
+#: admin/class-wf-woocommerce-packing-list-admin.php:983
+#: admin/class-wf-woocommerce-packing-list-admin.php:2521
+#: admin/class-wf-woocommerce-packing-list-admin.php:3974
+#: admin/class-wf-woocommerce-packing-list-admin.php:4085
+#: admin/class-wf-woocommerce-packing-list-admin.php:4137
+#: admin/class-wf-woocommerce-packing-list-admin.php:4257
+msgid "You are not allowed to do this action"
+msgstr "คุณไม่ได้รับอนุญาตให้ดำเนินการนี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:861 admin/class-wf-woocommerce-packing-list-admin.php:991
+msgid "There is no order with this id"
+msgstr "ไม่มีคำสั่งซื้อด้วยรหัสนี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:881
+#: admin/class-wf-woocommerce-packing-list-admin.php:1011
+msgid "It seems this order is not yours"
+msgstr "ดูเหมือนว่าคำสั่งซื้อนี้ไม่ใช่ของคุณ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:896
+#: admin/class-wf-woocommerce-packing-list-admin.php:1026
+msgid "It seems the products in this order were removed, we cannot proceed this actoin now."
+msgstr "ดูเหมือนว่าผลิตภัณฑ์ในคำสั่งซื้อนี้ถูกลบออกแล้ว เราไม่สามารถดำเนินการต่อได้ในขณะนี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:900
+#: admin/class-wf-woocommerce-packing-list-admin.php:1030
+msgid "There is no items in this order."
+msgstr "ไม่มีรายการในคำสั่งซื้อนี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:950
+msgid "Invalid order id"
+msgstr "รหัสคำสั่งซื้อไม่ถูกต้อง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:955
+msgid "Invalid access key and mail id"
+msgstr "รหัสการเข้าถึงและรหัสไปรษณีย์ไม่ถูกต้อง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:963
+msgid "Empty order"
+msgstr "ออเดอร์ว่างๆ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:973
+msgid "It seems this order is not yours."
+msgstr "ดูเหมือนว่าคำสั่งซื้อนี้ไม่ใช่ของคุณ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1656
+#: admin/class-wf-woocommerce-packing-list-admin.php:4760
+msgid "Settings Updated"
+msgstr "อัปเดตการตั้งค่าแล้ว"
+
+#. translators: %s: method
+#: admin/class-wf-woocommerce-packing-list-admin.php:2087 public/modules/invoice/invoice.php:990
+#, php-format
+msgid "via %s"
+msgstr "โดย %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2092
+msgid "Free!"
+msgstr "ฟรี!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2244
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:170
+msgid "Item with same meta key already exists"
+msgstr "มีรายการที่มีคีย์เมตาเดียวกันอยู่แล้ว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2302
+msgid ""
+"This will remove all invoice numbers created by WooCommerce PDF Invoices, Packing Slips, Delivery Notes & "
+"Shipping Labels by WebToffee."
+msgstr ""
+"การดำเนินการนี้จะลบหมายเลขใบแจ้งหนี้ทั้งหมดที่สร้างโดย WooCommerce PDF Invoices, Packing Slips, Delivery Notes & "
+"Shipping Labels by WebToffee"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2302
+msgid "Note:"
+msgstr "บันทึก:"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2302
+#, php-format
+msgid ""
+"Before using this tool, please make sure you followed the steps described in this article %1$s how to reset/"
+"delete existing invoice numbers%2$s."
+msgstr ""
+"ก่อนที่จะใช้เครื่องมือนี้ โปรดตรวจสอบให้แน่ใจว่าคุณได้ทำตามขั้นตอนที่อธิบายไว้ในบทความนี้ %1$s วิธีรีเซ็ต/ลบหมายเลขใบแจ้งหนี้ที่มีอยู่%2$s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2305
+msgid "Delete all generated invoice numbers"
+msgstr "ลบหมายเลขใบแจ้งหนี้ที่สร้างขึ้นทั้งหมด"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2306 admin/modules/customizer/views/customize.php:207
+msgid "Delete"
+msgstr "ลบ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2536
+msgid "Updated"
+msgstr "อัพเดท"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2543
+msgid "No modules"
+msgstr "ไม่มีโมดูล"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3928
+msgid "Do not show again"
+msgstr "ไม่แสดงอีกครั้ง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3933 admin/modules/customizer/views/customize.php:120
+#: admin/modules/customizer/views/customize.php:197
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:169 admin/views/admin-settings-debug.php:180
+#: admin/views/admin-settings-debug.php:233
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3936
+msgid "Generate"
+msgstr "สร้าง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3991 admin/modules/customizer/customizer.php:265
+msgid "Success"
+msgstr "สำเร็จ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3993
+msgid "Cannot close this banner"
+msgstr "ไม่สามารถปิดแบนเนอร์นี้ได้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4163
+msgid "Settings are empty"
+msgstr "การตั้งค่าว่างเปล่า"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4203
+msgid "Imported successfully"
+msgstr "นำเข้าเรียบร้อยแล้ว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4207
+msgid "Incorrect file"
+msgstr "ไฟล์ไม่ถูกต้อง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4211
+msgid "Error: Empty JSON file"
+msgstr "ข้อผิดพลาด: ไฟล์ JSON ว่างเปล่า"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4215
+msgid "Error: Invalid JSON data"
+msgstr "ข้อผิดพลาด: ข้อมูล JSON ไม่ถูกต้อง"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4219
+msgid "Error uploading the file"
+msgstr "เกิดข้อผิดพลาดในการอัปโหลดไฟล์"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4290
+msgid "Error:"
+msgstr "ผิดพลาด:"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4290
+msgid "Truncation did not complete as expected."
+msgstr "การตัดทอนไม่เสร็จสมบูรณ์ตามที่คาดไว้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4344 admin/views/general.php:333
+msgid "Total files"
+msgstr "รวมไฟล์"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4346 admin/views/documents.php:22
+#: admin/views/freevspro.php:7 public/modules/packinglist/packinglist.php:26
+#: public/modules/packinglist/packinglist.php:79 public/modules/packinglist/packinglist.php:80
+#: public/modules/packinglist/packinglist.php:254 public/modules/packinglist/packinglist.php:399
+#: public/modules/packinglist/views/admin-settings.php:39
+msgid "Packing slip"
+msgstr "ใบบรรจุ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4347 admin/views/documents.php:39
+#: admin/views/freevspro.php:9 public/modules/shippinglabel/shippinglabel.php:25
+#: public/modules/shippinglabel/shippinglabel.php:233 public/modules/shippinglabel/shippinglabel.php:234
+#: public/modules/shippinglabel/shippinglabel.php:551 public/modules/shippinglabel/views/admin-settings.php:30
+msgid "Shipping label"
+msgstr "ฉลากการจัดส่งสินค้า"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4348 admin/views/documents.php:47
+#: admin/views/freevspro.php:11 public/modules/deliverynote/deliverynote.php:24
+#: public/modules/deliverynote/deliverynote.php:76 public/modules/deliverynote/deliverynote.php:77
+#: public/modules/deliverynote/deliverynote.php:244 public/modules/deliverynote/deliverynote.php:368
+#: public/modules/deliverynote/views/admin-settings.php:37
+msgid "Delivery note"
+msgstr "บันทึกการส่งมอบ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4349 admin/views/documents.php:43
+#: admin/views/freevspro.php:10 public/modules/dispatchlabel/dispatchlabel.php:25
+#: public/modules/dispatchlabel/dispatchlabel.php:74 public/modules/dispatchlabel/dispatchlabel.php:75
+#: public/modules/dispatchlabel/dispatchlabel.php:349 public/modules/dispatchlabel/views/admin-settings.php:36
+msgid "Dispatch label"
+msgstr "ป้ายส่งของ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4350 admin/views/documents.php:61
+msgid "Picklist"
+msgstr "รายการเลือก"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4351 admin/views/documents.php:85
+#: admin/views/freevspro.php:12
+msgid "Proforma invoice"
+msgstr "ใบแจ้งหนี้ Proforma"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4352 admin/views/documents.php:26
+#: admin/views/freevspro.php:8
+msgid "Credit note"
+msgstr "ใบลดหนี้"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4540 admin/views/_form_field_generator_new.php:565
+msgid "No temporary file found"
+msgstr "ไม่พบไฟล์ชั่วคราว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4545
+msgid "Successfully cleared all temp files."
+msgstr "ล้างไฟล์ชั่วคราวทั้งหมดสำเร็จแล้ว"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4546
+msgid "No files found."
+msgstr "ไม่พบไฟล์"
+
+#: admin/data/data.filters-help.php:3
+msgid "Order Details"
+msgstr "รายละเอียดการสั่งซื้อ"
+
+#: admin/data/data.filters-help.php:4 public/modules/invoice/invoice.php:1172
+msgid "Product Table"
+msgstr "ตารางผลิตภัณฑ์"
+
+#: admin/data/data.filters-help.php:5
+msgid "Summary Table"
+msgstr "ตารางสรุป"
+
+#: admin/data/data.filters-help.php:6 public/modules/invoice/views/general.php:211
+msgid "Others"
+msgstr "อื่นๆ"
+
+#: admin/data/data.filters-help.php:11
+msgid "Alter order date"
+msgstr "เปลี่ยนแปลงวันที่สั่งซื้อ"
+
+#: admin/data/data.filters-help.php:12
+msgid "This filter is used to alter the order date in all the document templates"
+msgstr "ตัวกรองนี้ใช้เพื่อแก้ไขวันที่สั่งซื้อในเทมเพลตเอกสารทั้งหมด"
+
+#: admin/data/data.filters-help.php:25
+msgid "Alter invoice date"
+msgstr "เปลี่ยนแปลงวันที่ในใบแจ้งหนี้"
+
+#: admin/data/data.filters-help.php:26
+msgid "This filter is used to alter the invoice date in all the document templates"
+msgstr "ตัวกรองนี้ใช้เพื่อแก้ไขวันที่ในใบแจ้งหนี้ในเทมเพลตเอกสารทั้งหมด"
+
+#: admin/data/data.filters-help.php:39 admin/data/data.filters-help.php:40
+msgid "Alter dispatch date"
+msgstr "เปลี่ยนแปลงวันจัดส่ง"
+
+#: admin/data/data.filters-help.php:53
+msgid "Alter barcode information"
+msgstr "แก้ไขข้อมูลบาร์โค้ด"
+
+#: admin/data/data.filters-help.php:54
+msgid "This filter is used to alter the barcode information for all the document templates"
+msgstr "ตัวกรองนี้ใช้เพื่อแก้ไขข้อมูลบาร์โค้ดสำหรับเทมเพลตเอกสารทั้งหมด"
+
+#: admin/data/data.filters-help.php:63 admin/data/data.filters-help.php:64
+msgid "Alter shipping address"
+msgstr "เปลี่ยนแปลงที่อยู่จัดส่ง"
+
+#: admin/data/data.filters-help.php:79 admin/data/data.filters-help.php:80
+msgid "Alter billing address"
+msgstr "แก้ไขที่อยู่สำหรับการเรียกเก็บเงิน"
+
+#: admin/data/data.filters-help.php:95 admin/data/data.filters-help.php:96
+msgid "Alter shipping from address"
+msgstr "เปลี่ยนแปลงการจัดส่งจากที่อยู่"
+
+#: admin/data/data.filters-help.php:111
+msgid "Add additional information"
+msgstr "เพิ่มข้อมูลเพิ่มเติม"
+
+#: admin/data/data.filters-help.php:112
+msgid "Add additional info"
+msgstr "เพิ่มข้อมูลเพิ่มเติม"
+
+#: admin/data/data.filters-help.php:124
+msgid "Alter product table head.(Add,remove, change the order)"
+msgstr "ปรับเปลี่ยนหัวตารางสินค้า (เพิ่ม ลบ เปลี่ยนลำดับ)"
+
+#: admin/data/data.filters-help.php:125
+msgid "Alter product table head.(Add, remove, change order)"
+msgstr "ปรับเปลี่ยนหัวโต๊ะสินค้า (เพิ่ม ลบ เปลี่ยนแปลงลำดับ)"
+
+#: admin/data/data.filters-help.php:140
+msgid "Alter the product name in package documents"
+msgstr "เปลี่ยนชื่อผลิตภัณฑ์ในเอกสารบรรจุภัณฑ์"
+
+#: admin/data/data.filters-help.php:141
+msgid "Alter product name in product (Works with Packing List, Shipping Label and Delivery note only)"
+msgstr "เปลี่ยนชื่อผลิตภัณฑ์ในผลิตภัณฑ์ (ใช้งานได้กับรายการบรรจุภัณฑ์ ฉลากการจัดส่ง และบันทึกการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:150
+msgid "Add product variation in package documents"
+msgstr "เพิ่มรูปแบบผลิตภัณฑ์ในเอกสารบรรจุภัณฑ์"
+
+#: admin/data/data.filters-help.php:151
+msgid "Add product variation in product (Works with Packing List, Shipping Label and Delivery note only)"
+msgstr "เพิ่มรูปแบบผลิตภัณฑ์ในผลิตภัณฑ์ (ใช้งานได้กับรายการบรรจุภัณฑ์ ฉลากการจัดส่ง และบันทึกการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:159
+msgid "Alter item quantity in package documents"
+msgstr "แก้ไขปริมาณสินค้าในเอกสารบรรจุภัณฑ์"
+
+#: admin/data/data.filters-help.php:160
+msgid "Alter item quantity in product table (Works with Packing List, Shipping Label and Delivery note only)"
+msgstr "แก้ไขปริมาณสินค้าในตารางผลิตภัณฑ์ (ใช้งานได้กับรายการบรรจุภัณฑ์ ฉลากการจัดส่ง และบันทึกการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:168
+msgid "Alter item total in package documents"
+msgstr "แก้ไขผลรวมรายการในเอกสารแพ็คเกจ"
+
+#: admin/data/data.filters-help.php:169
+msgid "Alter item total in product table (Works with Packing List, Shipping Label and Delivery note only)"
+msgstr "แก้ไขรายการสินค้าทั้งหมดในตารางผลิตภัณฑ์ (ใช้งานได้กับรายการบรรจุภัณฑ์ ฉลากการจัดส่ง และบันทึกการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:177
+msgid "Add additional column in product table of package documents"
+msgstr "เพิ่มคอลัมน์เพิ่มเติมในตารางผลิตภัณฑ์ของเอกสารแพ็คเกจ"
+
+#: admin/data/data.filters-help.php:178
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` filter. You need to add column "
+"data via this filter. (Works with Packing List, Shipping Label and Delivery note only)"
+msgstr ""
+"คุณสามารถเพิ่มส่วนหัวคอลัมน์เพิ่มเติมได้ผ่านตัวกรอง `wf_pklist_alter_product_table_head` คุณต้องเพิ่มข้อมูลคอลัมน์ผ่านตัวกรองนี้ "
+"(ใช้งานได้กับรายการบรรจุภัณฑ์ ฉลากการจัดส่ง และบันทึกการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:190
+msgid "Alter product table column in package documents"
+msgstr "แก้ไขคอลัมน์ตารางผลิตภัณฑ์ในเอกสารแพ็คเกจ"
+
+#: admin/data/data.filters-help.php:191
+msgid "Alter product table column. (Works with Packing List, Shipping Label and Delivery note only)"
+msgstr "แก้ไขคอลัมน์ตารางผลิตภัณฑ์ (ใช้งานได้กับรายการบรรจุภัณฑ์ ฉลากการจัดส่ง และบันทึกการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:200
+msgid "Alter product name"
+msgstr "เปลี่ยนชื่อผลิตภัณฑ์"
+
+#: admin/data/data.filters-help.php:201
+msgid "Alter product name. (Works with Invoice and Dispatch label only)"
+msgstr "เปลี่ยนชื่อผลิตภัณฑ์. (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:210
+msgid "Add product variation"
+msgstr "เพิ่มรูปแบบผลิตภัณฑ์"
+
+#: admin/data/data.filters-help.php:211
+msgid "Add product variation. (Works with Invoice and Dispatch label only)"
+msgstr "เพิ่มรูปแบบผลิตภัณฑ์ (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:220
+msgid "Alter item quantity"
+msgstr "เปลี่ยนแปลงปริมาณรายการ"
+
+#: admin/data/data.filters-help.php:221
+msgid "Alter item quantity. (Works with Invoice and Dispatch label only)"
+msgstr "เปลี่ยนแปลงปริมาณรายการ (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:229
+msgid "Alter item price"
+msgstr "ปรับเปลี่ยนราคาสินค้า"
+
+#: admin/data/data.filters-help.php:230
+msgid "Alter item price. (Works with Invoice and Dispatch label only)"
+msgstr "ปรับเปลี่ยนราคาสินค้า. (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:238
+msgid "Alter item price format"
+msgstr "ปรับเปลี่ยนรูปแบบราคาสินค้า"
+
+#: admin/data/data.filters-help.php:239
+msgid "Alter formated item price. (Works with Invoice and Dispatch label only)"
+msgstr "แก้ไขราคาสินค้าที่จัดรูปแบบ (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:247
+msgid "Alter item total"
+msgstr "แก้ไขรายการทั้งหมด"
+
+#: admin/data/data.filters-help.php:248
+msgid "Alter item total. (Works with Invoice and Dispatch label only)"
+msgstr "แก้ไขรายการทั้งหมด (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:256
+msgid "Alter item total format"
+msgstr "แก้ไขรูปแบบผลรวมของรายการ"
+
+#: admin/data/data.filters-help.php:257
+msgid "Alter formated item total. (Works with Invoice and Dispatch label only)"
+msgstr "แก้ไขผลรวมรายการที่จัดรูปแบบ (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:265
+msgid "Add additional column in product table"
+msgstr "เพิ่มคอลัมน์เพิ่มเติมในตารางผลิตภัณฑ์"
+
+#: admin/data/data.filters-help.php:266
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` filter. You need to add column "
+"data via this filter. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"คุณสามารถเพิ่มส่วนหัวคอลัมน์เพิ่มเติมได้ผ่านตัวกรอง `wf_pklist_alter_product_table_head` คุณต้องเพิ่มข้อมูลคอลัมน์ผ่านตัวกรองนี้ "
+"(ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:278
+msgid "Alter product table column"
+msgstr "แก้ไขคอลัมน์ตารางผลิตภัณฑ์"
+
+#: admin/data/data.filters-help.php:279
+msgid "Alter product table column. (Works with Invoice and Dispatch label only)"
+msgstr "แก้ไขคอลัมน์ตารางผลิตภัณฑ์ (ใช้ได้กับป้ายกำกับใบแจ้งหนี้และการจัดส่งเท่านั้น)"
+
+#: admin/data/data.filters-help.php:290 admin/data/data.filters-help.php:291
+msgid "Alter subtotal"
+msgstr "แก้ไขผลรวมย่อย"
+
+#: admin/data/data.filters-help.php:300
+msgid "Alter subtotal format"
+msgstr "เปลี่ยนรูปแบบผลรวมย่อย"
+
+#: admin/data/data.filters-help.php:301
+msgid "Alter formated subtotal"
+msgstr "แก้ไขผลรวมย่อยที่มีการจัดรูปแบบ"
+
+#: admin/data/data.filters-help.php:310 admin/data/data.filters-help.php:311
+msgid "Alter shipping method"
+msgstr "ปรับเปลี่ยนวิธีการจัดส่ง"
+
+#: admin/data/data.filters-help.php:319 admin/data/data.filters-help.php:320
+msgid "Alter fee"
+msgstr "ค่าธรรมเนียมการเปลี่ยนแปลง"
+
+#: admin/data/data.filters-help.php:328 admin/data/data.filters-help.php:329
+msgid "Alter total fee"
+msgstr "เปลี่ยนแปลงค่าธรรมเนียมทั้งหมด"
+
+#: admin/data/data.filters-help.php:337 admin/data/data.filters-help.php:338
+msgid "Alter total price"
+msgstr "ปรับราคารวม"
+
+#: admin/data/data.filters-help.php:347 admin/data/data.filters-help.php:348
+msgid "Alter total price in words"
+msgstr "เปลี่ยนราคารวมเป็นคำพูด"
+
+#: admin/data/data.filters-help.php:359 admin/data/data.filters-help.php:360
+msgid "Alter additional item meta"
+msgstr "แก้ไขเมตารายการเพิ่มเติม"
+
+#: admin/data/data.filters-help.php:371
+msgid "Hide/Show received seal in invoice"
+msgstr "ซ่อน/แสดงตราประทับที่ได้รับในใบแจ้งหนี้"
+
+#: admin/data/data.filters-help.php:372
+msgid "Hide/Show received seal in invoice."
+msgstr "ซ่อน/แสดงตราประทับที่ได้รับในใบแจ้งหนี้"
+
+#: admin/data/data.filters-help.php:385
+msgid "Add extra text in received seal"
+msgstr "เพิ่มข้อความพิเศษในตราประทับที่ได้รับ"
+
+#: admin/data/data.filters-help.php:386
+msgid "Add extra text in received seal."
+msgstr "เพิ่มข้อความพิเศษในตราประทับที่ได้รับ"
+
+#: admin/data/data.filters-help.php:401
+msgid "Alter template HTML before printing"
+msgstr "แก้ไขเทมเพลต HTML ก่อนพิมพ์"
+
+#: admin/data/data.filters-help.php:402
+msgid "Alter template HTML before printing."
+msgstr "แก้ไขเทมเพลต HTML ก่อนพิมพ์"
+
+#: admin/data/data.filters-help.php:415
+msgid "Alter the variation data."
+msgstr "แก้ไขข้อมูลรูปแบบ"
+
+#: admin/data/data.filters-help.php:419
+msgid "Alter the settings array"
+msgstr "เปลี่ยนอาร์เรย์การตั้งค่า"
+
+#: admin/data/data.filters-help.php:433
+msgid "Alter the footer data"
+msgstr "แก้ไขข้อมูลส่วนท้าย"
+
+#: admin/data/data.filters-help.php:434
+msgid "Alter the footer data."
+msgstr "แก้ไขข้อมูลส่วนท้าย"
+
+#: admin/data/data.tooltip.php:3
+msgid "Key in your company name."
+msgstr "กรอกชื่อบริษัทของคุณ"
+
+#: admin/data/data.tooltip.php:4
+msgid "When enabled, replaces state code with state name in the from, return, billing and shipping addresses"
+msgstr "เมื่อเปิดใช้งาน จะแทนที่รหัสรัฐด้วยชื่อรัฐในที่อยู่ต้นทาง การส่งคืน ที่อยู่สำหรับการเรียกเก็บเงิน และที่อยู่สำหรับจัดส่ง"
+
+#: admin/data/data.tooltip.php:5
+msgid "Enable to have a preview of the document before the print is initiated"
+msgstr "เปิดใช้งานเพื่อดูตัวอย่างเอกสารก่อนที่จะเริ่มพิมพ์"
+
+#: admin/data/data.tooltip.php:6
+msgid "The default library to be used PDF generation"
+msgstr "ไลบรารีเริ่มต้นที่จะใช้ในการสร้าง PDF"
+
+#: admin/modules/customizer/classes/class-customizer.php:423
+msgid "Refund"
+msgstr "คืนเงิน"
+
+#: admin/modules/customizer/classes/class-customizer.php:449
+msgid "incl. tax"
+msgstr "รวม ภาษี"
+
+#: admin/modules/customizer/classes/class-customizer.php:721
+#: admin/modules/customizer/classes/class-customizer.php:1292
+msgid "n/a"
+msgstr "ไม่มี"
+
+#: admin/modules/customizer/classes/class-customizer.php:2004
+msgid ""
+"Mauris dignissim neque ut sapien vulputate, eu semper tellus porttitor. Cras porta lectus id augue interdum "
+"egestas."
+msgstr ""
+"Mauris dnissim neque ut sapien vulputate, eu semper tellus porttitor. Cras porta lectus id augue interdum "
+"egestas"
+
+#: admin/modules/customizer/classes/class-customizer.php:2022
+msgid ""
+"Mauris dignissim neque ut sapien vulputate, eu semper tellus porttitor. Cras porta lectus id augue interdum "
+"egestas. Suspendisse potenti. Phasellus mollis porttitor enim sit amet fringilla. Nulla sed ligula "
+"venenatis, rutrum lectus vel"
+msgstr ""
+"Mauris dnissim neque ut sapien vulputate, eu semper tellus porttitor. Cras porta lectus id augue interdum "
+"egestas ระงับศักยภาพ Phasellus mollis porttitor enim นั่ง amet fringilla Nulla sed ligula venenatis, rutrum "
+"lectus vel"
+
+#: admin/modules/customizer/classes/class-customizer.php:2027
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec vehicula purus. Mauris tempor nec ipsum "
+"ac tempus. Aenean vehicula porttitor tortor, et interdum tellus fermentum at. Fusce pellentesque justo "
+"rhoncus"
+msgstr ""
+"Lorem ipsum dolor นั่ง amet, consectetur adipiscing elit. Nunc nec ยานพาหนะ purus. มอริสชั่วคราวและ ipsum ac "
+"tempus Aenean vehicula porttitor tortor และ interdum tellus fermentum ที่ Fusce pellentesque justo rhoncus"
+
+#: admin/modules/customizer/customizer.php:90
+msgid "Unable to generate PDF."
+msgstr "ไม่สามารถสร้าง PDF ได้"
+
+#: admin/modules/customizer/customizer.php:95
+msgid "There is no order with this given id"
+msgstr "ไม่มีคำสั่งซื้อสำหรับ ID ที่ระบุนี้"
+
+#: admin/modules/customizer/customizer.php:206 admin/modules/customizer/customizer.php:211
+#: public/modules/packinglist/views/admin-settings.php:51
+msgid "Customize"
+msgstr "ปรับแต่ง"
+
+#: admin/modules/customizer/customizer.php:266
+msgid "You can't undo this action. Are you sure?"
+msgstr "คุณไม่สามารถยกเลิกการกระทำนี้ได้ คุณแน่ใจไหม?"
+
+#: admin/modules/customizer/customizer.php:267
+msgid "Click here to add Company logo"
+msgstr "คลิกที่นี่เพื่อเพิ่มโลโก้บริษัท"
+
+#: admin/modules/customizer/customizer.php:268
+msgid "Click here to add Company name"
+msgstr "คลิกที่นี่เพื่อเพิ่มชื่อบริษัท"
+
+#: admin/modules/customizer/customizer.php:269
+msgid "Click here to add From address"
+msgstr "คลิกที่นี่เพื่อเพิ่มที่อยู่จาก"
+
+#: admin/modules/customizer/customizer.php:270
+msgid "Click here to add Signature"
+msgstr "คลิกที่นี่เพื่อเพิ่มลายเซ็น"
+
+#: admin/modules/customizer/customizer.php:271
+msgid "Please save all data before leaving this page. All unsaved data will be lost. Are you sure?"
+msgstr "กรุณาบันทึกข้อมูลทั้งหมดก่อนออกจากหน้านี้ ข้อมูลที่ไม่ได้บันทึกทั้งหมดจะสูญหาย คุณแน่ใจไหม?"
+
+#: admin/modules/customizer/customizer.php:272 admin/modules/customizer/views/customize.php:186
+msgid "Create new template"
+msgstr "สร้างเทมเพลตใหม่"
+
+#: admin/modules/customizer/customizer.php:273
+msgid "Change layout"
+msgstr "เปลี่ยนเค้าโครง"
+
+#: admin/modules/customizer/customizer.php:274
+msgid "Saving"
+msgstr "กำลังบันทึก"
+
+#: admin/modules/customizer/customizer.php:275 public/modules/invoice/invoice.php:162
+#: public/modules/shippinglabel/shippinglabel.php:260
+msgid "Please enter order number"
+msgstr "กรุณากรอกหมายเลขคำสั่งซื้อ"
+
+#: admin/modules/customizer/customizer.php:276 public/modules/invoice/invoice.php:163
+#: public/modules/shippinglabel/shippinglabel.php:261
+msgid "Generating"
+msgstr "กำลังสร้าง"
+
+#: admin/modules/customizer/customizer.php:277
+msgid "This is premium template which is not compatible with the basic plugin"
+msgstr "นี่เป็นเทมเพลตระดับพรีเมียมซึ่งเข้ากันไม่ได้กับปลั๊กอินพื้นฐาน"
+
+#: admin/modules/customizer/customizer.php:278
+msgid ""
+"This is basic template. In order to use premium feature, you need to switch and activate the premium "
+"template"
+msgstr "นี่คือเทมเพลตพื้นฐาน ในการใช้ฟีเจอร์พรีเมียม คุณต้องสลับและเปิดใช้งานเทมเพลตพรีเมียม"
+
+#: admin/modules/customizer/customizer.php:324 admin/modules/customizer/customizer.php:725
+msgid "Active"
+msgstr "เปิดใช้งาน"
+
+#: admin/modules/customizer/customizer.php:697
+msgid "Error."
+msgstr "ข้อผิดพลาด."
+
+#: admin/modules/customizer/customizer.php:728 admin/modules/customizer/views/customize.php:206
+msgid "Activate"
+msgstr "ใช้งาน"
+
+#: admin/modules/customizer/customizer.php:755
+msgid "No template found."
+msgstr "ไม่พบเทมเพลต"
+
+#: admin/modules/customizer/customizer.php:772
+msgid "Unable to save theme."
+msgstr "ไม่สามารถบันทึกธีมได้"
+
+#: admin/modules/customizer/customizer.php:791
+msgid "Template with same name already exists."
+msgstr "มีเทมเพลตที่มีชื่อเดียวกันนี้อยู่แล้ว"
+
+#: admin/modules/customizer/customizer.php:829
+msgid "Template created."
+msgstr "สร้างเทมเพลตแล้ว"
+
+#: admin/modules/customizer/customizer.php:835
+msgid "Template created and activated."
+msgstr "สร้างเทมเพลตและเปิดใช้งานแล้ว"
+
+#: admin/modules/customizer/customizer.php:872
+msgid "Template updated."
+msgstr "อัปเดตเทมเพลตแล้ว"
+
+#: admin/modules/customizer/customizer.php:875
+msgid "Template updated and activated."
+msgstr "เทมเพลตได้รับการอัปเดตและเปิดใช้งานแล้ว"
+
+#: admin/modules/customizer/customizer.php:921
+msgid "Unable to switch view."
+msgstr "ไม่สามารถสลับมุมมองได้"
+
+#: admin/modules/customizer/customizer.php:1317
+msgid "Unable to load template."
+msgstr "ไม่สามารถโหลดเทมเพลตได้"
+
+#: admin/modules/customizer/customizer.php:1369
+msgid "Untitled template"
+msgstr "เทมเพลตที่ไม่มีชื่อ"
+
+#: admin/modules/customizer/customizer.php:1513
+msgid "Lighter"
+msgstr "ไฟแช็ก"
+
+#: admin/modules/customizer/customizer.php:1514
+msgid "Normal"
+msgstr "ปกติ"
+
+#: admin/modules/customizer/customizer.php:1515
+msgid "Bold"
+msgstr "ตัวอักษรเส้นหนา"
+
+#: admin/modules/customizer/customizer.php:1516
+msgid "Bolder"
+msgstr "โดดเด่นยิ่งขึ้น"
+
+#: admin/modules/customizer/customizer.php:1530
+msgid "Select One"
+msgstr "เลือกหนึ่งอัน"
+
+#: admin/modules/customizer/customizer.php:1548
+msgid "Left"
+msgstr "ซ้าย"
+
+#: admin/modules/customizer/customizer.php:1549
+msgid "Right"
+msgstr "ขวา"
+
+#: admin/modules/customizer/customizer.php:1550
+msgid "Center"
+msgstr "กึ่งกลาง"
+
+#: admin/modules/customizer/customizer.php:1551
+msgid "Start"
+msgstr "เริ่ม"
+
+#: admin/modules/customizer/customizer.php:1552
+msgid "End"
+msgstr "สิ้นสุด"
+
+#: admin/modules/customizer/customizer.php:1560
+msgid "None"
+msgstr "ไม่มี"
+
+#: admin/modules/customizer/customizer.php:1573
+msgid "Solid"
+msgstr "เส้น"
+
+#: admin/modules/customizer/customizer.php:1574
+msgid "Dotted"
+msgstr "ลายจุด"
+
+#: admin/modules/customizer/customizer.php:1575
+msgid "Dashed"
+msgstr "Dashed"
+
+#: admin/modules/customizer/data/data.tooltip.php:3
+msgid "Click to view predefined templates."
+msgstr "คลิกเพื่อดูเทมเพลตที่กำหนดไว้ล่วงหน้า"
+
+#: admin/modules/customizer/data/data.tooltip.php:4
+msgid "Create a new template or edit an existing template."
+msgstr "สร้างเทมเพลตใหม่หรือแก้ไขเทมเพลตที่มีอยู่"
+
+#: admin/modules/customizer/data/data.tooltip.php:5
+msgid "Displays the currently chosen document template with provisions to modify."
+msgstr "แสดงเทมเพลตเอกสารที่เลือกในปัจจุบันพร้อมข้อกำหนดในการแก้ไข"
+
+#: admin/modules/customizer/data/data.tooltip.php:6
+msgid "Shows a preview of the template on an actual order. Key in an order number to view the same."
+msgstr "แสดงตัวอย่างเทมเพลตตามคำสั่งซื้อจริง ป้อนหมายเลขคำสั่งซื้อเพื่อดูรายการเดียวกัน"
+
+#: admin/modules/customizer/data/data.translation_strings.php:1
+msgid "Invoice No:"
+msgstr "เลขที่ใบแจ้งหนี้:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:2
+msgid "Order Date:"
+msgstr "วันสั่ง:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:3
+msgid "Dispatch Date:"
+msgstr "วันที่จัดส่ง:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:4
+msgid "From Address:"
+msgstr "จากที่อยู่:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:5
+msgid "Billing Address:"
+msgstr "ที่อยู่เรียกเก็บเงิน:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:6
+#: admin/modules/customizer/data/data.translation_strings.php:45
+msgid "Email:"
+msgstr "อีเมล์:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:7
+msgid "Tel:"
+msgstr "โทรศัพท์:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:8
+msgid "Shipping Address:"
+msgstr "ที่อยู่จัดส่ง:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:9
+msgid "Tracking number:"
+msgstr "หมายเลขติดตาม:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:10
+msgid "SSN:"
+msgstr "SSN:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:11
+msgid "SKU"
+msgstr "รหัสสินค้า"
+
+#: admin/modules/customizer/data/data.translation_strings.php:12
+msgid "Product"
+msgstr "สินค้า"
+
+#: admin/modules/customizer/data/data.translation_strings.php:13
+msgid "Quantity"
+msgstr "จำนวน"
+
+#: admin/modules/customizer/data/data.translation_strings.php:14
+msgid "Price"
+msgstr "ราคา"
+
+#: admin/modules/customizer/data/data.translation_strings.php:15
+msgid "Total Price"
+msgstr "ราคารวม"
+
+#: admin/modules/customizer/data/data.translation_strings.php:16
+#: admin/modules/customizer/views/_customize_properties.php:622 admin/views/wt_ipc_free_pro.php:752
+#: admin/views/wt_ipc_free_pro.php:794 public/modules/invoice/invoice.php:1199
+msgid "Subtotal"
+msgstr "รวม"
+
+#: admin/modules/customizer/data/data.translation_strings.php:17
+#: admin/modules/customizer/views/_customize_properties.php:628 admin/views/wt_ipc_free_pro.php:756
+#: admin/views/wt_ipc_free_pro.php:798 public/modules/invoice/invoice.php:1200
+msgid "Shipping"
+msgstr "ค่าจัดส่ง"
+
+#: admin/modules/customizer/data/data.translation_strings.php:18
+#: admin/modules/customizer/views/_customize_properties.php:635 public/modules/invoice/invoice.php:1201
+msgid "Cart Discount"
+msgstr "ส่วนลดในตะกร้าสินค้า"
+
+#: admin/modules/customizer/data/data.translation_strings.php:19
+#: admin/modules/customizer/views/_customize_properties.php:641 public/modules/invoice/invoice.php:1202
+msgid "Order Discount"
+msgstr "ส่วนลดการสั่งซื้อ"
+
+#: admin/modules/customizer/data/data.translation_strings.php:20
+#: admin/modules/customizer/views/_customize_properties.php:648 public/modules/invoice/invoice.php:1203
+msgid "Total Tax"
+msgstr "ภาษีทั้งหมด"
+
+#: admin/modules/customizer/data/data.translation_strings.php:21
+#: admin/modules/customizer/views/_customize_properties.php:654 admin/views/wt_ipc_free_pro.php:768
+#: admin/views/wt_ipc_free_pro.php:810 public/modules/invoice/invoice.php:1204
+msgid "Fee"
+msgstr "ค่าธรรมเนียม"
+
+#: admin/modules/customizer/data/data.translation_strings.php:22
+msgid "Coupon Used"
+msgstr "คูปองที่ใช้แล้ว"
+
+#: admin/modules/customizer/data/data.translation_strings.php:23
+#: admin/modules/customizer/views/_customize_properties.php:667 admin/views/wt_ipc_free_pro.php:780
+#: admin/views/wt_ipc_free_pro.php:822 public/modules/invoice/invoice.php:1207
+msgid "Total"
+msgstr "ทั้งหมด"
+
+#: admin/modules/customizer/data/data.translation_strings.php:24
+msgid "INVOICE"
+msgstr "ใบ แจ้ง หนี้"
+
+#: admin/modules/customizer/data/data.translation_strings.php:25
+msgid "Invoice Date:"
+msgstr "วันที่ในใบสั่งซื้อ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:26
+msgid "Invoice No.:"
+msgstr "หมายเลขอินวอยซ์"
+
+#: admin/modules/customizer/data/data.translation_strings.php:27
+msgid "Order No.:"
+msgstr "หมายเลขคำสั่งซื้อ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:28
+msgid "Order date:"
+msgstr "วันที่ทำรายการสั่งซื้อ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:29
+msgid "Image"
+msgstr "รูปภาพ"
+
+#: admin/modules/customizer/data/data.translation_strings.php:30
+msgid "Jumbing LED Light Wall Ball"
+msgstr "ลูกบอลไฟ LED ติดผนังแบบกระโดด"
+
+#: admin/modules/customizer/data/data.translation_strings.php:31
+msgid "Payment method:"
+msgstr "วิธีชำระเงิน:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:32
+msgid "Payment method: "
+msgstr "วิธีการชำระเงิน: "
+
+#: admin/modules/customizer/data/data.translation_strings.php:33 admin/views/wt_ipc_free_pro.php:776
+#: admin/views/wt_ipc_free_pro.php:818
+msgid "Payment method"
+msgstr "วิธีการชำระเงิน"
+
+#: admin/modules/customizer/data/data.translation_strings.php:34
+msgid "Payment Method:"
+msgstr "วิธีการชำระเงิน:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:35
+#: admin/modules/customizer/views/_customize_properties.php:661 public/modules/invoice/invoice.php:1206
+msgid "Payment Method"
+msgstr "วิธีการชำระเงิน"
+
+#: admin/modules/customizer/data/data.translation_strings.php:36
+msgid "Order No:"
+msgstr "หมายเลขคำสั่งซื้อ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:37
+msgid "Date:"
+msgstr "วันที่:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:38
+msgid "From:"
+msgstr "จาก:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:39
+msgid "From"
+msgstr "จาก"
+
+#: admin/modules/customizer/data/data.translation_strings.php:40
+msgid "To:"
+msgstr "ถึง:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:41
+msgid "Weight:"
+msgstr "น้ำหนัก:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:42
+msgid "Ship Date:"
+msgstr "วันที่จัดส่ง:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:43
+msgid "Phone No:"
+msgstr "หมายเลขโทรศัพท์:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:44
+msgid "Ph No:"
+msgstr "หมายเลข Ph:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:46
+msgid "Tracking Number:"
+msgstr "หมายเลขติดตาม:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:47
+msgid "Order no:"
+msgstr "หมายเลขคำสั่งซื้อ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:48
+msgid "Total Weight"
+msgstr "น้ำหนักรวม"
+
+#: admin/modules/customizer/data/data.translation_strings.php:49
+msgid "Contact Number"
+msgstr "หมายเลขติดต่อ"
+
+#: admin/modules/customizer/data/data.translation_strings.php:50
+msgid "Email"
+msgstr "อีเมล"
+
+#: admin/modules/customizer/data/data.translation_strings.php:51
+msgid "SSN"
+msgstr "สสส"
+
+#: admin/modules/customizer/data/data.translation_strings.php:52
+msgid "VAT"
+msgstr "ภาษี"
+
+#: admin/modules/customizer/data/data.translation_strings.php:53
+msgid "Customer Note"
+msgstr "บันทึกของลูกค้า"
+
+#: admin/modules/customizer/data/data.translation_strings.php:54
+msgid "Customer Note:"
+msgstr "หมายเหตุจากลูกค้า:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:55
+msgid "Bill to"
+msgstr "ส่งเบิกไปที่"
+
+#: admin/modules/customizer/data/data.translation_strings.php:56
+msgid "Ship to"
+msgstr "ที่อยู่จัดส่ง"
+
+#: admin/modules/customizer/data/data.translation_strings.php:57
+msgid "Invoice no:"
+msgstr "หมายเลขใบแจ้งหนี้:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:58
+msgid "Invoice date:"
+msgstr "วันที่ในใบแจ้งหนี้:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:59
+msgid "VAT:"
+msgstr "ภาษีมูลค่าเพิ่ม:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:60
+msgid "Customer note:"
+msgstr "หมายเหตุลูกค้า:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:61 public/modules/invoice/invoice.php:1178
+#: public/modules/shippinglabel/shippinglabel.php:172
+msgid "Customer note"
+msgstr "บันทึกเพิ่มเติม"
+
+#: admin/modules/customizer/data/data.translation_strings.php:62
+msgid "Unit Price"
+msgstr "ราคาต่อหน่วย"
+
+#: admin/modules/customizer/data/data.translation_strings.php:63
+msgid "Unit price"
+msgstr "ราคาต่อหน่วย"
+
+#: admin/modules/customizer/data/data.translation_strings.php:64
+msgid "Total price"
+msgstr "ราคารวมทั้งหมด"
+
+#: admin/modules/customizer/data/data.translation_strings.php:65
+msgid "S.no"
+msgstr "ส.โน"
+
+#: admin/modules/customizer/data/data.translation_strings.php:66
+msgid "S.No"
+msgstr "ส.โน"
+
+#: admin/modules/customizer/data/data.translation_strings.php:67
+msgid "Phone no:"
+msgstr "หมายเลขโทรศัพท์:"
+
+#: admin/modules/customizer/views/_customize_properties.php:119
+#: admin/modules/customizer/views/_customize_properties.php:293
+#: admin/modules/customizer/views/_customize_properties.php:317
+#: admin/modules/customizer/views/_customize_properties.php:581 admin/views/wt_ipc_free_pro.php:478
+#: admin/views/wt_ipc_free_pro.php:492 public/modules/shippinglabel/shippinglabel.php:109
+#: public/modules/shippinglabel/shippinglabel.php:134
+msgid "Title"
+msgstr "หัวข้อ"
+
+#: admin/modules/customizer/views/_customize_properties.php:125
+#: admin/modules/customizer/views/_customize_properties.php:212
+#: admin/modules/customizer/views/_customize_properties.php:264
+#: admin/modules/customizer/views/_customize_properties.php:322
+#: admin/modules/customizer/views/_customize_properties.php:586 public/modules/invoice/invoice.php:343
+msgid "Font size"
+msgstr "ขนาดตัวอักษร"
+
+#: admin/modules/customizer/views/_customize_properties.php:132
+#: admin/modules/customizer/views/_customize_properties.php:298
+msgid "Text align"
+msgstr "จัดแนวข้อความ"
+
+#: admin/modules/customizer/views/_customize_properties.php:142
+msgid "Text Color"
+msgstr "สีข้อความ"
+
+#: admin/modules/customizer/views/_customize_properties.php:154
+msgid "Display"
+msgstr "แสดง"
+
+#: admin/modules/customizer/views/_customize_properties.php:158
+#: public/modules/shippinglabel/shippinglabel.php:161
+msgid "Company Logo"
+msgstr "เครื่องหมาย บริษัท (Logo)"
+
+#: admin/modules/customizer/views/_customize_properties.php:159
+msgid "Company Name"
+msgstr "ชื่อ บริษัท"
+
+#: admin/modules/customizer/views/_customize_properties.php:163
+msgid "Logo Width"
+msgstr "ความกว้างของโลโก้"
+
+#: admin/modules/customizer/views/_customize_properties.php:170
+msgid "Logo Height"
+msgstr "ความสูงของโลโก้"
+
+#: admin/modules/customizer/views/_customize_properties.php:178
+msgid "Company name font size"
+msgstr "ขนาดตัวอักษรชื่อบริษัท"
+
+#: admin/modules/customizer/views/_customize_properties.php:184
+msgid "Extra Details"
+msgstr "รายละเอียดเพิ่มเติม"
+
+#: admin/modules/customizer/views/_customize_properties.php:190
+msgid "Extra detail font size"
+msgstr "ขนาดตัวอักษรที่มีรายละเอียดเพิ่มเติม"
+
+#: admin/modules/customizer/views/_customize_properties.php:196
+msgid "Header Color"
+msgstr "สีส่วนหัว"
+
+#: admin/modules/customizer/views/_customize_properties.php:207
+#: admin/modules/customizer/views/_customize_properties.php:241 public/modules/invoice/invoice.php:337
+msgid "Text"
+msgstr "ข้อความ"
+
+#: admin/modules/customizer/views/_customize_properties.php:220
+#: admin/modules/customizer/views/_customize_properties.php:272
+msgid "Style"
+msgstr "รูปแบบ"
+
+#: admin/modules/customizer/views/_customize_properties.php:230
+#: admin/modules/customizer/views/_customize_properties.php:282
+#: admin/modules/customizer/views/_customize_properties.php:306
+#: admin/modules/customizer/views/_customize_properties.php:329
+msgid "Text color"
+msgstr "สีข้อความ"
+
+#: admin/modules/customizer/views/_customize_properties.php:246 public/modules/invoice/views/general.php:319
+msgid "Format"
+msgstr "รูปแบบ"
+
+#: admin/modules/customizer/views/_customize_properties.php:340
+msgid "Table head background"
+msgstr "พื้นหลังหัวโต๊ะ"
+
+#: admin/modules/customizer/views/_customize_properties.php:347
+msgid "Table head text color"
+msgstr "สีข้อความของหัวตาราง"
+
+#: admin/modules/customizer/views/_customize_properties.php:354
+msgid "Table body text color"
+msgstr "สีข้อความเนื้อหาของตาราง"
+
+#: admin/modules/customizer/views/_customize_properties.php:368
+msgid "Serial No label"
+msgstr "หมายเลขซีเรียล ไม่มีป้ายกำกับ"
+
+#: admin/modules/customizer/views/_customize_properties.php:374
+msgid "Serial no text align"
+msgstr "อนุกรมไม่มีการจัดแนวข้อความ"
+
+#: admin/modules/customizer/views/_customize_properties.php:391
+msgid "Image label"
+msgstr "ป้ายกำกับรูปภาพ"
+
+#: admin/modules/customizer/views/_customize_properties.php:397
+msgid "Image text align"
+msgstr "จัดแนวข้อความรูปภาพ"
+
+#: admin/modules/customizer/views/_customize_properties.php:414
+msgid "SKU label"
+msgstr "ป้าย SKU"
+
+#: admin/modules/customizer/views/_customize_properties.php:420
+msgid "SKU text align"
+msgstr "การจัดแนวข้อความ SKU"
+
+#: admin/modules/customizer/views/_customize_properties.php:437
+msgid "Product label"
+msgstr "ฉลากสินค้า"
+
+#: admin/modules/customizer/views/_customize_properties.php:443
+msgid "Product text align"
+msgstr "จัดข้อความผลิตภัณฑ์"
+
+#: admin/modules/customizer/views/_customize_properties.php:460
+msgid "Qty label"
+msgstr "ป้ายปริมาณ"
+
+#: admin/modules/customizer/views/_customize_properties.php:466
+msgid "Qty text align"
+msgstr "จัดข้อความจำนวน"
+
+#: admin/modules/customizer/views/_customize_properties.php:483
+msgid "Price label"
+msgstr "ป้ายราคา"
+
+#: admin/modules/customizer/views/_customize_properties.php:489
+msgid "Price text align"
+msgstr "จัดข้อความราคา"
+
+#: admin/modules/customizer/views/_customize_properties.php:506
+msgid "Tax label"
+msgstr "ป้ายภาษี"
+
+#: admin/modules/customizer/views/_customize_properties.php:512
+msgid "Tax text align"
+msgstr "จัดข้อความภาษี"
+
+#: admin/modules/customizer/views/_customize_properties.php:529
+msgid "Total weight label"
+msgstr "ป้ายน้ำหนักรวม"
+
+#: admin/modules/customizer/views/_customize_properties.php:535
+msgid "Total weight text align"
+msgstr "จัดข้อความน้ำหนักรวม"
+
+#: admin/modules/customizer/views/_customize_properties.php:552
+msgid "Total label"
+msgstr "ป้ายกำกับทั้งหมด"
+
+#: admin/modules/customizer/views/_customize_properties.php:558
+msgid "Total text align"
+msgstr "จัดแนวข้อความทั้งหมด"
+
+#: admin/modules/customizer/views/_customize_properties.php:572
+msgid "Signature type"
+msgstr "ประเภทลายเซ็น"
+
+#: admin/modules/customizer/views/_customize_properties.php:576
+msgid "Manual Signature"
+msgstr "ลายเซ็นคู่มือ"
+
+#: admin/modules/customizer/views/_customize_properties.php:577
+msgid "Image Signature"
+msgstr "ลายเซ็นรูปภาพ"
+
+#: admin/modules/customizer/views/_customize_properties.php:594
+msgid "Align"
+msgstr "ตําแหน่ง"
+
+#: admin/modules/customizer/views/_customize_properties.php:611
+msgid "Label"
+msgstr "ฉลาก"
+
+#: admin/modules/customizer/views/_customize_properties.php:690
+msgid "Note"
+msgstr "หมายเหตุ"
+
+#: admin/modules/customizer/views/_customize_properties.php:691
+msgid ""
+"Displays customer`s VAT number saved in the order details by third-party plugins in this document. "
+"Supported meta keys are"
+msgstr "แสดงหมายเลข VAT ของลูกค้าที่บันทึกไว้ในรายละเอียดคำสั่งซื้อโดยปลั๊กอินของบุคคลที่สามในเอกสารนี้ เมตาคีย์ที่รองรับคือ"
+
+#: admin/modules/customizer/views/_customize_properties.php:693
+msgid "To add a different meta key"
+msgstr "หากต้องการเพิ่มเมตาคีย์อื่น"
+
+#: admin/modules/customizer/views/_customize_properties.php:694
+msgid "Upgrade to premium"
+msgstr "อัพเกรดเป็นพรีเมี่ยม"
+
+#: admin/modules/customizer/views/_customize_properties.php:753 admin/views/premium_extension_page.php:141
+#: public/modules/deliverynote/views/admin-settings.php:103
+#: public/modules/dispatchlabel/views/admin-settings.php:101
+#: public/modules/invoice/views/invoice-admin-settings.php:81 public/modules/packinglist/views/general.php:147
+#: public/modules/shippinglabel/views/admin-settings.php:98
+msgid "Show More"
+msgstr "แสดงเพิ่มเติม"
+
+#: admin/modules/customizer/views/_customize_properties.php:754 admin/views/premium_extension_page.php:142
+#: public/modules/deliverynote/views/admin-settings.php:104
+#: public/modules/dispatchlabel/views/admin-settings.php:102
+#: public/modules/invoice/views/invoice-admin-settings.php:82 public/modules/packinglist/views/general.php:148
+#: public/modules/shippinglabel/views/admin-settings.php:99
+msgid "Show Less"
+msgstr "แสดงน้อยลง"
+
+#: admin/modules/customizer/views/_customize_properties.php:758 admin/views/premium_extension_page.php:146
+msgid "Checkout Premium"
+msgstr "ชำระเงินแบบพรีเมียม"
+
+#: admin/modules/customizer/views/_pdf_preview.php:22
+msgid "View sample customization demo"
+msgstr "ดูตัวอย่างการสาธิตการปรับแต่ง"
+
+#: admin/modules/customizer/views/_pdf_preview.php:28
+msgid "Preview sample PDF"
+msgstr "ดูตัวอย่าง PDF"
+
+#: admin/modules/customizer/views/_pdf_preview.php:29
+msgid "Order"
+msgstr "ใบสั่ง"
+
+#: admin/modules/customizer/views/_pdf_preview.php:34 admin/modules/customizer/views/_pdf_preview.php:35
+#: admin/partials/form_wizard/form_wizard.php:267 admin/views/_form_field_generator_new.php:675
+#: public/modules/invoice/views/qrcode_promote.php:37
+msgid "Order number"
+msgstr "หมายเลขคำสั่งซื้อ"
+
+#: admin/modules/customizer/views/customize.php:93 admin/views/admin-settings-debug.php:158
+msgid "Templates"
+msgstr "แม่แบบ"
+
+#: admin/modules/customizer/views/customize.php:98
+msgid "Type template name to search"
+msgstr "พิมพ์ชื่อเทมเพลตเพื่อค้นหา"
+
+#: admin/modules/customizer/views/customize.php:108
+msgid "Enter a name for your template"
+msgstr "ป้อนชื่อเทมเพลตของคุณ"
+
+#: admin/modules/customizer/views/customize.php:113
+msgid "Please enter name"
+msgstr "กรุณาใส่ชื่อ"
+
+#: admin/modules/customizer/views/customize.php:131
+msgid "Choose a layout."
+msgstr "เลือกเค้าโครง"
+
+#: admin/modules/customizer/views/customize.php:137
+msgid "All unsaved changes will be lost upon switching to a new layout."
+msgstr "การเปลี่ยนแปลงที่ยังไม่ได้บันทึกทั้งหมดจะสูญหายไปเมื่อเปลี่ยนไปใช้รูปแบบใหม่"
+
+#: admin/modules/customizer/views/customize.php:139
+msgid "Save before you proceed."
+msgstr "บันทึกก่อนดำเนินการต่อ"
+
+#: admin/modules/customizer/views/customize.php:140
+msgid "Saving..."
+msgstr "กำลังบันทึก..."
+
+#: admin/modules/customizer/views/customize.php:193
+msgid "Save and activate"
+msgstr "บันทึกและเปิดใช้งาน"
+
+#: admin/modules/customizer/views/customize.php:208
+msgid "Create new"
+msgstr "สร้างใหม่"
+
+#: admin/modules/customizer/views/customize.php:209
+msgid "My templates"
+msgstr "เทมเพลตของฉัน"
+
+#: admin/modules/customizer/views/customize.php:216
+msgid "This template is not comaptible with QR Code addon plugin"
+msgstr "เทมเพลตนี้เข้ากันไม่ได้กับปลั๊กอินเสริม QR Code"
+
+#: admin/modules/customizer/views/customize.php:252
+msgid "Unlock limitless possibilities of invoice customization with the addon -"
+msgstr "ปลดล็อกความเป็นไปได้ที่ไร้ขีดจำกัดของการปรับแต่งใบแจ้งหนี้ด้วยส่วนเสริม -"
+
+#: admin/modules/customizer/views/customize.php:253
+msgid "Customizer for WooCommerce PDF Invoices Plugin"
+msgstr "เครื่องมือปรับแต่งสำหรับปลั๊กอินใบแจ้งหนี้ PDF ของ WooCommerce"
+
+#: admin/modules/customizer/views/customize.php:260 admin/modules/customizer/views/customize.php:272
+msgid "Visual"
+msgstr "ภาพ"
+
+#: admin/modules/customizer/views/customize.php:261 admin/modules/customizer/views/customize.php:275
+msgid "Code"
+msgstr "รหัส"
+
+#: admin/modules/customizer/views/customize.php:275 public/modules/invoice/invoice.php:1160
+#: public/modules/shippinglabel/shippinglabel.php:158
+msgid "Pro version"
+msgstr "รุ่นโปร"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:38
+msgid "I couldn't understand how to make it work"
+msgstr "ฉันไม่เข้าใจวิธีทำให้มันใช้งานได้"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:40
+msgid "Would you like us to assist you?"
+msgstr "คุณต้องการให้เราช่วยเหลือคุณหรือไม่?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:44
+msgid "Language support issues"
+msgstr "ปัญหาการสนับสนุนด้านภาษา"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:49
+msgid "Plugin settings not available in my language"
+msgstr "การตั้งค่าปลั๊กอินไม่มีให้บริการในภาษาของฉัน"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:51
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:57
+msgid "Which language?"
+msgstr "ภาษาไหน?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+msgid "Missing RTL/Unicode language(e.g Chinese, Arabic etc) support for PDF document."
+msgstr "ไม่มีการสนับสนุนภาษา RTL/Unicode (เช่น จีน อาหรับ ฯลฯ) สำหรับเอกสาร PDF"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+#, php-format
+msgid "Already tried the free %s WebToffee mPDF addon %s."
+msgstr "ลองใช้ %s โปรแกรมเสริม WebToffee mPDF %s ฟรีแล้ว"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:63
+msgid "I am unable to add customer VAT(or GSTIN or ABN or any other tax id etc)"
+msgstr "ฉันไม่สามารถเพิ่ม VAT ของลูกค้าได้ (หรือ GSTIN หรือ ABN หรือรหัสภาษีอื่นๆ ฯลฯ)"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:68
+msgid "Unable to add from third party plugin that collects customer VAT(or GSTIN or ABN etc)"
+msgstr "ไม่สามารถเพิ่มจากปลั๊กอินบุคคลที่สามที่รวบรวมภาษีมูลค่าเพิ่มของลูกค้า (หรือ GSTIN หรือ ABN ฯลฯ )"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:70
+msgid "Mention the name of the plugin or meta key if any"
+msgstr "พูดถึงชื่อของปลั๊กอินหรือเมตาคีย์ ถ้ามี"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:74
+msgid "Need a field to add the tax id on checkout page"
+msgstr "ต้องการช่องเพื่อเพิ่มรหัสภาษีในหน้าชำระเงิน"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:82
+msgid "I found a better plugin"
+msgstr "ฉันพบปลั๊กอินที่ดีกว่า"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:84
+msgid "Which plugin?"
+msgstr "ปลั๊กอินไหน?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "ปลั๊กอินนี้ใช้งานได้ดี แต่ฉันต้องการคุณลักษณะเฉพาะที่คุณไม่รองรับ"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:90
+msgid "Could you tell us more about that feature?"
+msgstr "คุณช่วยบอกเราเพิ่มเติมเกี่ยวกับคุณสมบัตินั้นได้ไหม?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:94
+msgid "The plugin didn't work as expected"
+msgstr "ปลั๊กอินไม่ทำงานตามที่คาดไว้"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:96
+msgid "What did you expect?"
+msgstr "คุณคาดหวังอะไร?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:100
+msgid "Other"
+msgstr "อื่นๆ"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:102
+msgid "Could you tell us a bit more?"
+msgstr "คุณช่วยบอกเราอีกหน่อยได้ไหม?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:121
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "หากคุณมีเวลา โปรดแจ้งให้เราทราบว่าทำไมคุณจึงปิดใช้งาน:"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:158
+msgid "We do not collect any personal data when you submit this form. It's your feedback that we value."
+msgstr "เราไม่รวบรวมข้อมูลส่วนบุคคลใด ๆ เมื่อคุณส่งแบบฟอร์มนี้ มันเป็นความคิดเห็นของคุณที่เราให้ความสำคัญ"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:159
+msgid "Privacy Policy"
+msgstr "นโยบายความเป็นส่วนตัว"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:162
+msgid "Delete all the settings made by this plugin"
+msgstr "ลบการตั้งค่าทั้งหมดที่ทำโดยปลั๊กอินนี้"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:167
+msgid "Go to support"
+msgstr "ไปอุดหนุนครับ"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:168
+msgid "Submit & Deactivate"
+msgstr "ส่งและปิดการใช้งาน"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:170
+msgid "I rather wouldn't say"
+msgstr "ฉันไม่พูดดีกว่า"
+
+#: admin/partials/admin-settings.php:19
+msgid "Documents"
+msgstr "เอกสาร"
+
+#: admin/partials/admin-settings.php:20 public/modules/deliverynote/views/admin-settings.php:7
+#: public/modules/dispatchlabel/views/admin-settings.php:6 public/modules/invoice/views/general.php:69
+#: public/modules/invoice/views/invoice-admin-settings.php:7
+#: public/modules/packinglist/views/admin-settings.php:7
+#: public/modules/shippinglabel/views/admin-settings.php:6
+msgid "General"
+msgstr "ทั่วไป"
+
+#: admin/partials/admin-settings.php:21
+msgid "Help Guide"
+msgstr "คู่มือช่วยเหลือ"
+
+#: admin/partials/admin-settings.php:24
+msgid "Free vs Premium"
+msgstr "ฟรีเทียบกับพรีเมียม"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/admin-settings.php:41
+msgid "WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels"
+msgstr "ใบแจ้งหนี้ PDF ของ WooCommerce สลิปการบรรจุ บันทึกการจัดส่ง และฉลากการจัดส่ง"
+
+#: admin/partials/form_wizard/form_wizard.php:38 admin/views/_form_field_generator_new.php:624
+#: public/modules/invoice/views/general.php:25 public/modules/invoice/views/invoice_number_preview.php:23
+msgid "Click to append with existing data"
+msgstr "คลิกเพื่อผนวกข้อมูลที่มีอยู่"
+
+#: admin/partials/form_wizard/form_wizard.php:147
+msgid "Hello there! Let’s begin with the basics"
+msgstr "สวัสดี! เริ่มต้นด้วยพื้นฐาน"
+
+#: admin/partials/form_wizard/form_wizard.php:152
+msgid "Step 1"
+msgstr "ขั้นตอนที่ 1"
+
+#: admin/partials/form_wizard/form_wizard.php:153
+msgid "Step 2"
+msgstr "ขั้นตอนที่ 2"
+
+#: admin/partials/form_wizard/form_wizard.php:154
+msgid "Step 3"
+msgstr "ขั้นตอนที่ 3"
+
+#: admin/partials/form_wizard/form_wizard.php:158
+msgid "Add shop details"
+msgstr "เพิ่มรายละเอียดร้านค้า"
+
+#: admin/partials/form_wizard/form_wizard.php:161
+msgid "Shop name"
+msgstr "ชื่อร้านค้า"
+
+#: admin/partials/form_wizard/form_wizard.php:167 admin/views/general.php:106
+msgid "Address line 1"
+msgstr "ที่อยู่บรรทัดที่ 1"
+
+#: admin/partials/form_wizard/form_wizard.php:171 admin/views/general.php:114
+msgid "Address line 2"
+msgstr "ที่อยู่บรรทัดที่ 2"
+
+#: admin/partials/form_wizard/form_wizard.php:178 admin/views/general.php:122
+msgid "City"
+msgstr "เมือง"
+
+#: admin/partials/form_wizard/form_wizard.php:182 admin/views/general.php:130
+msgid "Country/State"
+msgstr "ประเทศ/รัฐ"
+
+#: admin/partials/form_wizard/form_wizard.php:184 admin/views/_form_field_generator_new.php:515
+msgid "Select country"
+msgstr "เลือกประเทศ"
+
+#: admin/partials/form_wizard/form_wizard.php:196 admin/views/general.php:138
+msgid "Postal code"
+msgstr "รหัส Zip / ไปรษณีย์"
+
+#: admin/partials/form_wizard/form_wizard.php:200
+msgid "Phone number"
+msgstr "เบอร์โทรศัพย์"
+
+#: admin/partials/form_wizard/form_wizard.php:206
+msgid "Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#: admin/partials/form_wizard/form_wizard.php:212
+msgid "Upload logo"
+msgstr "อัปโหลด โลโก้"
+
+#: admin/partials/form_wizard/form_wizard.php:219 admin/views/_form_field_generator_new.php:457
+msgid "Recommended size is 150x50px."
+msgstr "ขนาดที่แนะนำคือ 150x50px"
+
+#: admin/partials/form_wizard/form_wizard.php:226 admin/partials/form_wizard/form_wizard.php:247
+msgid "Next"
+msgstr "ถัดไป"
+
+#: admin/partials/form_wizard/form_wizard.php:227
+msgid "Skip invoice setup"
+msgstr "ข้ามการตั้งค่าใบแจ้งหนี้"
+
+#: admin/partials/form_wizard/form_wizard.php:231
+msgid "Choose emails for invoice attachment"
+msgstr "เลือกอีเมลสำหรับแนบใบแจ้งหนี้"
+
+#: admin/partials/form_wizard/form_wizard.php:232
+msgid "Choose the order emails to which you'd like to attach invoices for your customers"
+msgstr "เลือกอีเมลคำสั่งซื้อที่คุณต้องการแนบใบแจ้งหนี้ให้กับลูกค้าของคุณ"
+
+#: admin/partials/form_wizard/form_wizard.php:248 admin/partials/form_wizard/form_wizard.php:340
+msgid "Back"
+msgstr "กลับ"
+
+#: admin/partials/form_wizard/form_wizard.php:252
+msgid "Create your unique invoice numbering system"
+msgstr "สร้างระบบการกำหนดหมายเลขใบแจ้งหนี้เฉพาะของคุณ"
+
+#: admin/partials/form_wizard/form_wizard.php:255
+msgid "Complete the invoice number format to suit your requirements"
+msgstr "กรอกรูปแบบหมายเลขใบแจ้งหนี้ให้ตรงกับความต้องการของคุณ"
+
+#: admin/partials/form_wizard/form_wizard.php:260 admin/views/_form_field_generator_new.php:668
+msgid "Prefix"
+msgstr "คำขึ้นต้น"
+
+#: admin/partials/form_wizard/form_wizard.php:262 admin/partials/form_wizard/form_wizard.php:275
+#: admin/views/_form_field_generator_new.php:670 admin/views/_form_field_generator_new.php:683
+msgid "Choose date"
+msgstr "เลือกวันที่"
+
+#: admin/partials/form_wizard/form_wizard.php:268 admin/views/_form_field_generator_new.php:676
+msgid "Custom number"
+msgstr "หมายเลขที่กำหนดเอง"
+
+#: admin/partials/form_wizard/form_wizard.php:273 admin/views/_form_field_generator_new.php:681
+msgid "Suffix"
+msgstr "คำลงท้าย"
+
+#: admin/partials/form_wizard/form_wizard.php:281 admin/views/_form_field_generator_new.php:628
+msgid "What should be the starting number for your invoices?"
+msgstr "หมายเลขเริ่มต้นสำหรับใบแจ้งหนี้ของคุณควรเป็นหมายเลขใด"
+
+#: admin/partials/form_wizard/form_wizard.php:291
+msgid "What length would you prefer for your invoice number"
+msgstr "คุณต้องการความยาวเท่าใดสำหรับหมายเลขใบแจ้งหนี้ของคุณ"
+
+#: admin/partials/form_wizard/form_wizard.php:324 admin/views/_form_field_generator_new.php:715
+#: public/modules/invoice/views/invoice_number_preview.php:30
+msgid "PREVIEW"
+msgstr "ดูตัวอย่าง"
+
+#: admin/partials/form_wizard/form_wizard.php:327 admin/views/_form_field_generator_new.php:718
+#: public/modules/invoice/views/invoice_number_preview.php:33
+msgid "If the order number is"
+msgstr "หากเป็นหมายเลขคำสั่งซื้อ"
+
+#: admin/partials/form_wizard/form_wizard.php:329 admin/views/_form_field_generator_new.php:720
+#: public/modules/invoice/views/invoice_number_preview.php:35
+#, php-format
+msgid "the %s number would be"
+msgstr "หมายเลข %s จะเป็น"
+
+#: admin/partials/form_wizard/form_wizard.php:332 admin/views/_form_field_generator_new.php:723
+#: public/modules/invoice/views/invoice_number_preview.php:38
+#, php-format
+msgid "Your next %s number would be"
+msgstr "หมายเลข %s ถัดไปของคุณจะเป็น"
+
+#: admin/partials/form_wizard/form_wizard.php:339
+msgid "Finish setup"
+msgstr "ตั้งค่าให้เสร็จสิ้น"
+
+#: admin/partials/form_wizard/form_wizard.php:351 admin/views/_form_field_generator_new.php:626
+msgid "Add date to invoice number"
+msgstr "เพิ่มวันที่ลงในหมายเลขใบแจ้งหนี้"
+
+#: admin/partials/form_wizard/form_wizard.php:358 admin/views/_form_field_generator_new.php:747
+msgid "Date format strings"
+msgstr "สตริงรูปแบบวันที่"
+
+#: admin/partials/form_wizard/form_wizard.php:358 admin/views/_form_field_generator_new.php:747
+#: public/modules/invoice/views/general.php:319
+msgid "Output"
+msgstr "ส่งออก"
+
+#: admin/partials/form_wizard/form_wizard.php:422
+msgid "Invoice setup successfully"
+msgstr "ตั้งค่าใบแจ้งหนี้สำเร็จ"
+
+#: admin/views/_custom_field_editor_form.php:19 admin/views/_custom_field_editor_form.php:22
+#: admin/views/_custom_field_editor_form.php:31
+msgid "Add new"
+msgstr "เพิ่มใหม่"
+
+#: admin/views/_custom_field_editor_form.php:40
+msgid "You can add custom/predefined order meta using its key"
+msgstr "คุณสามารถเพิ่มเมตาคำสั่งซื้อแบบกำหนดเอง/ที่กำหนดไว้ล่วงหน้าได้โดยใช้คีย์ของมัน"
+
+#: admin/views/_custom_field_editor_form.php:47
+msgid "Field Name"
+msgstr "ชื่อฟิลด์"
+
+#: admin/views/_custom_field_editor_form.php:48
+msgid "Meta Key"
+msgstr "เมตาคีย์"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "To add more than one custom order meta,"
+msgstr "หากต้องการเพิ่มเมตาคำสั่งซื้อที่กำหนดเองมากกว่าหนึ่งรายการ"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "upgrade to premium version"
+msgstr "อัปเกรดเป็นเวอร์ชันพรีเมียม"
+
+#: admin/views/_form_field_generator_new.php:428
+msgid "Order Meta"
+msgstr "สั่งซื้อเมต้า"
+
+#: admin/views/_form_field_generator_new.php:430
+msgid "Add/Edit Order Meta Field"
+msgstr "เพิ่ม/แก้ไขฟิลด์ Meta คำสั่งซื้อ"
+
+#: admin/views/_form_field_generator_new.php:456
+msgid "Upload your image"
+msgstr "อัปโหลดภาพของคุณ"
+
+#: admin/views/_form_field_generator_new.php:491 admin/views/admin-settings-debug.php:196
+#: admin/views/admin-settings-debug.php:236
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+#: admin/views/_form_field_generator_new.php:557
+msgid "Document"
+msgstr "เอกสาร"
+
+#: admin/views/_form_field_generator_new.php:558
+msgid "PDF"
+msgstr "ไฟล์ PDF"
+
+#: admin/views/_form_field_generator_new.php:559
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/views/_form_field_generator_new.php:560
+msgid "Action"
+msgstr "การกระทำ"
+
+#: admin/views/_form_field_generator_new.php:627
+msgid "Invoice number format"
+msgstr "รูปแบบหมายเลขใบแจ้งหนี้"
+
+#: admin/views/_form_field_generator_new.php:629
+msgid "What length would you prefer for your invoice"
+msgstr "คุณต้องการความยาวเท่าไรสำหรับใบแจ้งหนี้ของคุณ"
+
+#: admin/views/_form_field_generator_new.php:634 admin/views/_form_field_generator_new.php:650
+msgid "Use order date as input instead."
+msgstr "ใช้วันที่สั่งซื้อเป็นข้อมูลเข้าแทน"
+
+#: admin/views/_form_field_generator_new.php:640
+msgid "Add date to credit note number"
+msgstr "เพิ่มวันที่ลงในหมายเลขใบลดหนี้"
+
+#: admin/views/_form_field_generator_new.php:641
+msgid "Creditnote number format"
+msgstr "รูปแบบหมายเลขใบลดหนี้"
+
+#: admin/views/_form_field_generator_new.php:642
+msgid "What should be the starting number for your credit notes?"
+msgstr "หมายเลขเริ่มต้นสำหรับใบลดหนี้ของคุณควรเป็นตัวเลขใด?"
+
+#: admin/views/_form_field_generator_new.php:643
+msgid "What length would you prefer for your credit note"
+msgstr "คุณต้องการความยาวเท่าใดสำหรับใบลดหนี้ของคุณ"
+
+#: admin/views/_form_field_generator_new.php:653
+msgid "Add date to proforma invoice number"
+msgstr "เพิ่มวันที่ให้กับหมายเลขใบแจ้งหนี้ Proforma"
+
+#: admin/views/_form_field_generator_new.php:654
+msgid "Proforma invoice number format"
+msgstr "รูปแบบหมายเลขใบแจ้งหนี้ Proforma"
+
+#: admin/views/_form_field_generator_new.php:655
+msgid "What should be the starting number for your proforma invoices?"
+msgstr "หมายเลขเริ่มต้นสำหรับใบแจ้งหนี้ Proforma ของคุณควรเป็นเท่าใด"
+
+#: admin/views/_form_field_generator_new.php:656
+msgid "What length would you prefer for your proforma invoice"
+msgstr "คุณต้องการความยาวเท่าไรสำหรับใบแจ้งหนี้ proforma ของคุณ"
+
+#: admin/views/_form_field_generator_new.php:668
+msgid "Removing year [Y] from the prefix will disable the annual reset functionality"
+msgstr "การลบปี [Y] ออกจากคำนำหน้าจะปิดใช้งานฟังก์ชันการรีเซ็ตรายปี"
+
+#: admin/views/_form_field_generator_new.php:674
+msgid "Switching to order number will disable the annual reset functionality"
+msgstr "การเปลี่ยนไปใช้หมายเลขคำสั่งซื้อจะปิดใช้ฟังก์ชันการรีเซ็ตรายปี"
+
+#: admin/views/_form_field_generator_new.php:681
+msgid "Removing year [Y] from the suffix will disable the annual reset functionality"
+msgstr "การลบปี [Y] ออกจากส่วนต่อท้ายจะปิดใช้งานฟังก์ชันการรีเซ็ตรายปี"
+
+#: admin/views/_form_field_generator_new.php:694
+msgid "The latest specified starting number will be used after reset"
+msgstr "หมายเลขเริ่มต้นที่ระบุล่าสุดจะถูกใช้หลังจากการรีเซ็ต"
+
+#: admin/views/admin-settings-branding.php:6
+msgid "Developed by"
+msgstr "พัฒนาโดย"
+
+#: admin/views/admin-settings-debug.php:39
+msgid "Reset successfully"
+msgstr "รีเซ็ตสำเร็จ"
+
+#: admin/views/admin-settings-debug.php:48
+msgid "Debug"
+msgstr "ตรวจแก้จุดบกพร่อง"
+
+#: admin/views/admin-settings-debug.php:49
+msgid "Caution: Settings here are only for advanced users."
+msgstr "ข้อควรระวัง: การตั้งค่าที่นี่มีไว้สำหรับผู้ใช้ขั้นสูงเท่านั้น"
+
+#: admin/views/admin-settings-debug.php:118
+msgid "Export settings (JSON)"
+msgstr "การตั้งค่าการส่งออก (JSON)"
+
+#: admin/views/admin-settings-debug.php:120
+msgid "Export"
+msgstr "ส่งออก"
+
+#: admin/views/admin-settings-debug.php:130
+msgid "Import settings (JSON)"
+msgstr "การตั้งค่าการนำเข้า (JSON)"
+
+#: admin/views/admin-settings-debug.php:134 admin/views/admin-settings-debug.php:183
+msgid "Import"
+msgstr "นำเข้า"
+
+#: admin/views/admin-settings-debug.php:134
+msgid "Please select json file"
+msgstr "โปรดเลือกไฟล์ json"
+
+#: admin/views/admin-settings-debug.php:139
+msgid "Last imported on:"
+msgstr "นำเข้าครั้งล่าสุดเมื่อ:"
+
+#: admin/views/admin-settings-debug.php:151
+msgid "Importing the file will delete all the settings and replace with data from chosen file"
+msgstr "การนำเข้าไฟล์จะลบการตั้งค่าทั้งหมดและแทนที่ด้วยข้อมูลจากไฟล์ที่เลือก"
+
+#: admin/views/admin-settings-debug.php:163
+msgid "Combine with the existing templates"
+msgstr "รวมกับเทมเพลตที่มีอยู่"
+
+#: admin/views/admin-settings-debug.php:168
+msgid "Replace the existing templates"
+msgstr "แทนที่เทมเพลตที่มีอยู่"
+
+#: admin/views/admin-settings-debug.php:173
+#, php-format
+msgid "To proceed with the import, please type %1$s in the field below"
+msgstr "หากต้องการดำเนินการนำเข้าต่อ โปรดพิมพ์ %1$s ในช่องด้านล่าง"
+
+#: admin/views/admin-settings-debug.php:194
+msgid "Reset all settings to default"
+msgstr "รีเซ็ตการตั้งค่าทั้งหมดเป็นค่าเริ่มต้น"
+
+#: admin/views/admin-settings-debug.php:202
+msgid "Last updated on:"
+msgstr "อัปเดตล่าสุดเมื่อ:"
+
+#: admin/views/admin-settings-debug.php:214
+msgid "Reset will delete all the settings, saved templates and reset to the default settings"
+msgstr "การรีเซ็ตจะลบการตั้งค่าทั้งหมด เทมเพลตที่บันทึกไว้ และรีเซ็ตเป็นการตั้งค่าเริ่มต้น"
+
+#: admin/views/admin-settings-debug.php:221
+msgid "Do not reset the templates"
+msgstr "อย่ารีเซ็ตเทมเพลต"
+
+#: admin/views/admin-settings-debug.php:225
+#, php-format
+msgid "To proceed with the reset, please type %1$s in the field below"
+msgstr "หากต้องการดำเนินการรีเซ็ตต่อ โปรดพิมพ์ %1$s ในช่องด้านล่าง"
+
+#: admin/views/admin-settings-help-filters.php:28 admin/views/help.php:36
+msgid "Filters"
+msgstr "กรอง"
+
+#: admin/views/admin-settings-help-filters.php:30
+msgid "Some useful `filters` to extend plugin's functionality"
+msgstr "`ตัวกรอง' ที่มีประโยชน์บางส่วนเพื่อขยายการทำงานของปลั๊กอิน"
+
+#: admin/views/admin-settings-help-filters.php:32
+msgid "search filter"
+msgstr "ตัวกรองการค้นหา"
+
+#: admin/views/admin-settings-help-filters.php:61
+msgid "Example Code"
+msgstr "รหัสตัวอย่าง"
+
+#: admin/views/admin-settings-help-filters.php:83
+msgid "Copy Code"
+msgstr "คัดลอกรหัส"
+
+#: admin/views/admin-settings-save-button-form-wizard.php:6 admin/views/admin-settings-save-button.php:6
+#: public/modules/deliverynote/views/general.php:91 public/modules/dispatchlabel/views/general.php:77
+#: public/modules/packinglist/views/general.php:93 public/modules/shippinglabel/views/general.php:63
+msgid "Update Settings"
+msgstr "ปรับปรุงการตั้งค่า"
+
+#: admin/views/admin-settings-system-info.php:5
+msgid "System Configuration"
+msgstr "การกำหนดค่าระบบ"
+
+#: admin/views/admin-settings-system-info.php:6
+msgid "Copy"
+msgstr "คัดลอก"
+
+#: admin/views/admin-settings-system-info.php:7
+msgid "Copied"
+msgstr "คัดลอกแล้ว"
+
+#: admin/views/admin-settings-system-info.php:14
+msgid "5.6 or higher recommended"
+msgstr "แนะนำ 5.6 หรือสูงกว่า"
+
+#: admin/views/admin-settings-system-info.php:27
+msgid "Recommended, will use fallback functions"
+msgstr "แนะนำให้ใช้ฟังก์ชันสำรอง"
+
+#: admin/views/admin-settings-system-info.php:33
+msgid "Required if you have images in your documents"
+msgstr "จำเป็นหากคุณมีรูปภาพในเอกสารของคุณ"
+
+#: admin/views/admin-settings-system-info.php:36
+msgid "Better with transparent PNG images"
+msgstr "ดีกว่าด้วยภาพ PNG โปร่งใส"
+
+#: admin/views/admin-settings-system-info.php:39 admin/views/admin-settings-system-info.php:57
+msgid "Recommended for better performances"
+msgstr "แนะนำเพื่อประสิทธิภาพที่ดีขึ้น"
+
+#: admin/views/admin-settings-system-info.php:48
+msgid "To compress PDF documents"
+msgstr "เพื่อบีบอัดเอกสาร PDF"
+
+#: admin/views/admin-settings-system-info.php:51
+msgid "Recommended to compress PDF documents"
+msgstr "แนะนำให้บีบอัดเอกสาร PDF"
+
+#: admin/views/admin-settings-system-info.php:54
+msgid "For better performances"
+msgstr "เพื่อการแสดงที่ดีขึ้น"
+
+#. translators: <a> tags
+#. 'required' => sprintf( __( 'Recommended: 128MB (more for plugin-heavy setups<br/>See: %1$sIncreasing the WordPress Memory Limit%2$s', 'print-invoices-packing-slip-labels-for-woocommerce' ), '<a href="https://docs.woocommerce.com/document/increasing-the-wordpress-memory-limit/" target="_blank">', '</a>' ),
+#: admin/views/admin-settings-system-info.php:68
+msgid "Recommended 128MB or more"
+msgstr "แนะนำ 128MB หรือมากกว่า"
+
+#: admin/views/admin-settings-system-info.php:73
+msgid "Allow remote stylesheets and images"
+msgstr "อนุญาตสไตล์ชีตและรูปภาพระยะไกล"
+
+#: admin/views/admin-settings-system-info.php:76
+msgid "allow_url_fopen disabled"
+msgstr "allow_url_fopen ปิดการใช้งาน"
+
+#: admin/views/admin-settings-system-info.php:80
+msgid "Writtable"
+msgstr "เขียนได้"
+
+#: admin/views/admin-settings-system-info.php:120
+msgid "Required"
+msgstr "ต้องการ"
+
+#: admin/views/admin-settings-system-info.php:121
+msgid "Present"
+msgstr "ปัจจุบัน"
+
+#: admin/views/customizer-promotion-popup.php:37 admin/views/customizer-promotion-popup.php:60
+#, fuzzy
+#| msgid "Advanced filters and customizations for import and export"
+msgid "Get advanced customization options for"
+msgstr "ตัวกรองขั้นสูงและการปรับแต่งสำหรับการนำเข้าและส่งออก"
+
+#: admin/views/customizer-promotion-popup.php:37
+#, fuzzy
+#| msgid "Invoices, Packing slips and Credit notes"
+msgid "invoices, packing slips, and credit notes."
+msgstr "ใบแจ้งหนี้ ใบบรรจุสินค้า และใบลดหนี้"
+
+#: admin/views/customizer-promotion-popup.php:39
+#, fuzzy
+#| msgid "Add additional data to invoice layout"
+msgid "Add additional fields to invoices"
+msgstr "เพิ่มข้อมูลเพิ่มเติมให้กับโครงร่างใบแจ้งหนี้"
+
+#: admin/views/customizer-promotion-popup.php:40 admin/views/customizer-promotion-popup.php:63
+#, fuzzy
+#| msgid "Multiple pre-built layouts"
+msgid "Multiple pre-built templates"
+msgstr "เค้าโครงที่สร้างไว้ล่วงหน้าหลายแบบ"
+
+#: admin/views/customizer-promotion-popup.php:41 admin/views/customizer-promotion-popup.php:64
+#, fuzzy
+#| msgid "Customize shipping label size"
+msgid "Customize using Code Editor"
+msgstr "ปรับแต่งขนาดฉลากการจัดส่ง"
+
+#: admin/views/customizer-promotion-popup.php:42 admin/views/customizer-promotion-popup.php:65
+#, fuzzy
+#| msgid "View sample customization demo"
+msgid "More customization options"
+msgstr "ดูตัวอย่างการสาธิตการปรับแต่ง"
+
+#: admin/views/customizer-promotion-popup.php:48
+msgid "Upgrade for more customization on packing slip"
+msgstr ""
+
+#: admin/views/customizer-promotion-popup.php:50
+#, fuzzy
+#| msgid "Add custom footers to packing slips"
+msgid "Advanced customization option for packing slip templates"
+msgstr "เพิ่มส่วนท้ายแบบกำหนดเองลงในบันทึกการจัดส่ง"
+
+#: admin/views/customizer-promotion-popup.php:51
+msgid "Show/hide fields like billing address, weight, product image etc"
+msgstr ""
+
+#: admin/views/customizer-promotion-popup.php:52
+#, fuzzy
+#| msgid "Add additional product & order data fields"
+msgid "Add additional data such as product meta, order meta, product attributes etc"
+msgstr "เพิ่มช่องข้อมูลผลิตภัณฑ์และคำสั่งซื้อเพิ่มเติม"
+
+#: admin/views/customizer-promotion-popup.php:53
+msgid "Group and sort product table based on different conditions"
+msgstr ""
+
+#: admin/views/customizer-promotion-popup.php:54
+#, fuzzy
+#| msgid "View sample customization demo"
+msgid "Many more customization options"
+msgstr "ดูตัวอย่างการสาธิตการปรับแต่ง"
+
+#: admin/views/customizer-promotion-popup.php:60
+#, fuzzy
+#| msgid "Shipping labels, Dispatch labels and Delivery notes"
+msgid "shipping labels, dispatch labels, and delivery notes."
+msgstr "ป้ายกำกับการจัดส่ง ป้ายกำกับการจัดส่ง และบันทึกการจัดส่ง"
+
+#: admin/views/customizer-promotion-popup.php:62
+#, fuzzy
+#| msgid "Add order meta fields to shipping labels"
+msgid "Add additional fields to shipping labels"
+msgstr "เพิ่มฟิลด์เมตาคำสั่งซื้อให้กับป้ายกำกับการจัดส่ง"
+
+#: admin/views/customizer-promotion-popup.php:124 admin/views/freevspro.php:146
+msgid "Upgrade To Premium"
+msgstr "อัปเกรดเป็นพรีเมียม"
+
+#: admin/views/documents.php:15
+msgid "Invoices, Packing Slips and Credit Notes Module"
+msgstr "โมดูลใบแจ้งหนี้ สลิปการบรรจุ และใบลดหนี้"
+
+#: admin/views/documents.php:36
+msgid "Shipping labels, Dispatch labels and Delivery Notes Module"
+msgstr "ป้ายกำกับการจัดส่ง ป้ายกำกับการจัดส่ง และโมดูลบันทึกการจัดส่ง"
+
+#: admin/views/documents.php:58
+msgid "Picklists Add-on"
+msgstr "ส่วนเสริมรายการเลือก"
+
+#: admin/views/documents.php:70
+msgid "Address Label Add-on"
+msgstr "ส่วนเสริมฉลากที่อยู่"
+
+#: admin/views/documents.php:82
+msgid "Proforma Invoices Add-on"
+msgstr "โปรแกรมเสริมใบแจ้งหนี้ Proforma"
+
+#: admin/views/documents.php:134
+msgid "Free version"
+msgstr "รุ่นฟรี"
+
+#: admin/views/documents.php:138
+msgid "Premium version"
+msgstr "รุ่นพรีเมี่ยม"
+
+#: admin/views/documents.php:147
+#, php-format
+msgid "You are using free version of %1$s. %2$s Checkout premium here %3$s."
+msgstr "คุณกำลังใช้ %1$s เวอร์ชันฟรี %2$s ชำระเงินแบบพรีเมียมที่นี่ %3$s"
+
+#: admin/views/documents.php:182
+msgid "Get Add-on"
+msgstr "รับส่วนเสริม"
+
+#: admin/views/freevspro.php:13
+msgid "Pick list"
+msgstr "เลือกรายการ"
+
+#: admin/views/freevspro.php:14
+msgid "Address label"
+msgstr "ป้ายที่อยู่"
+
+#: admin/views/freevspro.php:15 public/modules/invoice/views/general.php:140
+msgid "My account - Order lists page"
+msgstr "บัญชีของฉัน - หน้ารายการสั่งซื้อ"
+
+#: admin/views/freevspro.php:16 public/modules/invoice/views/general.php:141
+msgid "My account - Order details page"
+msgstr "บัญชีของฉัน - หน้ารายละเอียดการสั่งซื้อ"
+
+#: admin/views/freevspro.php:17 public/modules/invoice/views/general.php:142
+msgid "Order email"
+msgstr "สั่งซื้ออีเมล์"
+
+#: admin/views/freevspro.php:87
+msgid "Features"
+msgstr "คุณสมบัติ"
+
+#: admin/views/freevspro.php:88
+msgid "Free"
+msgstr "ฟรี"
+
+#: admin/views/freevspro.php:89
+msgid "Premium"
+msgstr "พรีเมียม"
+
+#: admin/views/freevspro.php:138
+msgid "30 Day Money Back Guarantee"
+msgstr "รับประกันคืนเงินภายใน 30 วัน"
+
+#: admin/views/freevspro.php:139
+msgid "Fast and Superior Support"
+msgstr "การสนับสนุนที่รวดเร็วและเหนือกว่า"
+
+#: admin/views/general.php:13
+msgid ""
+"The company name and the address details from this section will be used as the sender address in the "
+"invoice and other related documents."
+msgstr "ชื่อบริษัทและรายละเอียดที่อยู่จากส่วนนี้จะใช้เป็นที่อยู่ของผู้ส่งในใบแจ้งหนี้และเอกสารอื่นๆ ที่เกี่ยวข้อง"
+
+#: admin/views/general.php:26
+msgid "Load from WooCommerce"
+msgstr "โหลดจาก WooCommerce"
+
+#: admin/views/general.php:36
+msgid "Company details"
+msgstr "รายละเอียดบริษัท"
+
+#: admin/views/general.php:41
+msgid "Name"
+msgstr "ชื่อ"
+
+#: admin/views/general.php:46
+msgid "To include the keyed in name to the Invoice, ensure to select"
+msgstr "หากต้องการรวมการป้อนชื่อลงในใบแจ้งหนี้ ตรวจสอบให้แน่ใจว่าได้เลือก"
+
+#: admin/views/general.php:47
+msgid "Company name"
+msgstr "ชื่อบริษัท"
+
+#: admin/views/general.php:48
+msgid "from"
+msgstr "จาก"
+
+#: admin/views/general.php:49 admin/views/general.php:59
+msgid "Invoice > Customize > Company Logo / Name"
+msgstr "ใบแจ้งหนี้ > ปรับแต่ง > โลโก้บริษัท/ชื่อ"
+
+#: admin/views/general.php:54
+msgid "Logo"
+msgstr "โลโก้"
+
+#: admin/views/general.php:58
+msgid "To include the uploaded image as logo to the invoice, ensure to select Company logo from"
+msgstr "หากต้องการรวมรูปภาพที่อัปโหลดเป็นโลโก้ลงในใบแจ้งหนี้ ตรวจสอบให้แน่ใจว่าได้เลือกโลโก้บริษัทจาก"
+
+#: admin/views/general.php:60
+msgid "Recommended size is 150×50px"
+msgstr "ขนาดที่แนะนำคือ 150×50px"
+
+#: admin/views/general.php:67
+msgid "Company Tax ID"
+msgstr "หมายเลขประจำตัวผู้เสียภาษีของบริษัท"
+
+#: admin/views/general.php:71
+msgid ""
+"Specify your company tax ID. For e.g., you may enter as VAT: GB123456789, GSTIN:0948745 or ABN:51 824 753 "
+"556"
+msgstr ""
+"ระบุหมายเลขประจำตัวผู้เสียภาษีของบริษัทของคุณ ตัวอย่างเช่น คุณอาจป้อนเป็น VAT: GB123456789, GSTIN:0948745 หรือ ABN:51 824 "
+"753 556"
+
+#: admin/views/general.php:75 public/modules/invoice/invoice.php:1189 public/modules/invoice/invoice.php:1193
+#: public/modules/shippinglabel/shippinglabel.php:173
+msgid "Footer"
+msgstr "ส่วนล่าง"
+
+#: admin/views/general.php:90
+msgid "Address details"
+msgstr "รายละเอียดที่อยู่"
+
+#: admin/views/general.php:98
+msgid "Department/Business unit/Sender name"
+msgstr "แผนก/หน่วยธุรกิจ/ชื่อผู้ส่ง"
+
+#: admin/views/general.php:132
+msgid "Choose a country&hellip;"
+msgstr "เลือกประเทศ..."
+
+#: admin/views/general.php:147
+msgid "Contact number"
+msgstr "เบอร์ติดต่อ"
+
+#: admin/views/general.php:162
+msgid "Advanced options"
+msgstr "ตัวเลือกขั้นสูง"
+
+#: admin/views/general.php:169
+msgid "Display state name"
+msgstr "แสดงชื่อรัฐ"
+
+#: admin/views/general.php:173
+msgid "Enable to show state name in addresses"
+msgstr "เปิดใช้งานเพื่อแสดงชื่อรัฐในที่อยู่"
+
+#: admin/views/general.php:181
+msgid "Display currency code"
+msgstr "แสดงรหัสสกุลเงิน"
+
+#: admin/views/general.php:185
+msgid "Enable to show currency code instead of currency symbol"
+msgstr "เปิดใช้งานเพื่อแสดงรหัสสกุลเงินแทนสัญลักษณ์สกุลเงิน"
+
+#: admin/views/general.php:193
+msgid "Preview before printing"
+msgstr "ดูตัวอย่างก่อนที่จะพิมพ์"
+
+#: admin/views/general.php:197
+msgid "Preview documents before printing"
+msgstr "ดูตัวอย่างเอกสารก่อนพิมพ์"
+
+#: admin/views/general.php:205
+msgid "Enable RTL support"
+msgstr "เปิดใช้งานการสนับสนุน RTL"
+
+#: admin/views/general.php:209
+msgid "RTL support for documents"
+msgstr "รองรับ RTL สำหรับเอกสาร"
+
+#: admin/views/general.php:213
+msgid "For better RTL integration in PDF documents, please use our"
+msgstr "เพื่อการรวม RTL ที่ดีขึ้นในเอกสาร PDF โปรดใช้ของเรา"
+
+#: admin/views/general.php:214
+msgid "mPDF add-on"
+msgstr "โปรแกรมเสริม mPDF"
+
+#: admin/views/general.php:226
+msgid "PDF library"
+msgstr "ห้องสมุด PDF"
+
+#: admin/views/general.php:239 admin/views/general.php:259
+msgid "Enable additional currency font support"
+msgstr "เปิดใช้งานการสนับสนุนแบบอักษรสกุลเงินเพิ่มเติม"
+
+#: admin/views/general.php:244 admin/views/general.php:264
+msgid "Enable to use additional font library to support the currency symbol in pdf"
+msgstr "เปิดใช้งานเพื่อใช้ไลบรารีแบบอักษรเพิ่มเติมเพื่อรองรับสัญลักษณ์สกุลเงินในรูปแบบ pdf"
+
+#: admin/views/general.php:275
+msgid "Enable a common print button for"
+msgstr "เปิดใช้งานปุ่มพิมพ์ทั่วไปสำหรับ"
+
+#: admin/views/general.php:276 admin/views/general.php:291
+msgid "orders listing page"
+msgstr "หน้ารายการคำสั่งซื้อ"
+
+#: admin/views/general.php:281
+msgid "All document types"
+msgstr "เอกสารทุกประเภท"
+
+#: admin/views/general.php:290
+msgid "Enable dedicated print buttons for"
+msgstr "เปิดใช้งานปุ่มพิมพ์เฉพาะสำหรับ"
+
+#: admin/views/general.php:305
+msgid "Print button access for"
+msgstr "การเข้าถึงปุ่มพิมพ์สำหรับ"
+
+#: admin/views/general.php:312
+msgid "Logged in users"
+msgstr "ผู้ใช้งานเข้าสู่ระบบ"
+
+#: admin/views/general.php:313
+msgid "Users will be redirected to login page if not logged in"
+msgstr "ผู้ใช้จะถูกเปลี่ยนเส้นทางไปยังหน้าเข้าสู่ระบบหากไม่ได้เข้าสู่ระบบ"
+
+#: admin/views/general.php:314
+msgid "Secure"
+msgstr "ปลอดภัย"
+
+#: admin/views/general.php:318
+msgid "All users"
+msgstr "ผู้ใช้ทั้งหมด"
+
+#: admin/views/general.php:319
+msgid "Users who haven`t logged will also be allowed to print"
+msgstr "ผู้ใช้ที่ไม่ได้เข้าสู่ระบบจะได้รับอนุญาตให้พิมพ์ได้"
+
+#: admin/views/general.php:329
+msgid "File path"
+msgstr "เส้นทางไฟล์"
+
+#: admin/views/general.php:337
+msgid "Automatic cleanup"
+msgstr "การล้างข้อมูลอัตโนมัติ"
+
+#: admin/views/general.php:342 public/modules/deliverynote/views/general.php:29
+#: public/modules/deliverynote/views/general.php:44 public/modules/deliverynote/views/general.php:59
+#: public/modules/dispatchlabel/views/general.php:30 public/modules/dispatchlabel/views/general.php:45
+#: public/modules/packinglist/views/general.php:31 public/modules/packinglist/views/general.php:46
+#: public/modules/packinglist/views/general.php:61
+msgid "Yes"
+msgstr "ใช่"
+
+#: admin/views/general.php:343 public/modules/deliverynote/views/general.php:30
+#: public/modules/deliverynote/views/general.php:45 public/modules/deliverynote/views/general.php:60
+#: public/modules/dispatchlabel/views/general.php:31 public/modules/dispatchlabel/views/general.php:46
+#: public/modules/packinglist/views/general.php:32 public/modules/packinglist/views/general.php:47
+#: public/modules/packinglist/views/general.php:62
+msgid "No"
+msgstr "ไม่"
+
+#: admin/views/general.php:352
+msgid "Interval"
+msgstr "ช่วง"
+
+#: admin/views/general.php:362
+msgid "In minutes. Eg: 1440 for 1 day. Minimum value is 1440"
+msgstr "ในไม่กี่นาที เช่น 1440 สำหรับ 1 วัน ค่าต่ำสุดคือ 1440"
+
+#: admin/views/help.php:37 admin/views/help.php:42
+msgid "Help Links"
+msgstr "ลิงค์ช่วยเหลือ"
+
+#: admin/views/help.php:38
+msgid "System Info"
+msgstr "System Info"
+
+#: admin/views/help.php:47
+msgid "Refer to our documentation to setup and get started"
+msgstr "โปรดดูเอกสารประกอบของเราเพื่อตั้งค่าและเริ่มต้นใช้งาน"
+
+#: admin/views/help.php:54
+msgid "Help and Support"
+msgstr "ช่วยเหลือและสนับสนุน"
+
+#: admin/views/help.php:55
+msgid "We would love to help you on any queries or issues."
+msgstr "เรายินดีที่จะช่วยเหลือคุณในทุกข้อสงสัยหรือปัญหา"
+
+#: admin/views/help.php:57
+msgid "Contact Us"
+msgstr "ติดต่อเรา"
+
+#: admin/views/premium_extension_listing.php:8
+msgid "Premium extensions"
+msgstr "ส่วนขยายระดับพรีเมียม"
+
+#: admin/views/premium_extension_listing.php:9
+msgid "Automatically generate professional WooCommerce order-related documents for all your orders"
+msgstr "สร้างเอกสารที่เกี่ยวข้องกับคำสั่งซื้อ WooCommerce แบบมืออาชีพโดยอัตโนมัติสำหรับคำสั่งซื้อทั้งหมดของคุณ"
+
+#: admin/views/premium_extension_listing.php:15 admin/views/wt_ipc_free_pro.php:6
+#: admin/views/wt_pro_addons_list.php:9
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes plugin"
+msgstr "ปลั๊กอิน WooCommerce PDF ใบบันทึกการจัดส่ง และใบลดหนี้"
+
+#: admin/views/premium_extension_listing.php:18 admin/views/wt_pro_addons_list.php:14
+msgid "Auto-generate invoices, packing slips, and credit notes"
+msgstr "สร้างใบแจ้งหนี้ บันทึกการจัดส่ง และใบลดหนี้โดยอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:19 admin/views/wt_pro_addons_list.php:15
+msgid "Show payment link on invoice"
+msgstr "แสดงลิงค์การชำระเงินบนใบแจ้งหนี้"
+
+#: admin/views/premium_extension_listing.php:20 admin/views/wt_pro_addons_list.php:16
+msgid "Add ‘Pay Later’ option at checkout"
+msgstr "เพิ่มตัวเลือก \"ชำระเงินภายหลัง\" เมื่อชำระเงิน"
+
+#: admin/views/premium_extension_listing.php:21 admin/views/wt_pro_addons_list.php:17
+msgid "Attach documents to selected order status emails"
+msgstr "แนบเอกสารไปกับอีเมลสถานะคำสั่งซื้อที่เลือก"
+
+#: admin/views/premium_extension_listing.php:22 admin/views/wt_pro_addons_list.php:18
+msgid "Enable customers to print invoices & packing slips"
+msgstr "ช่วยให้ลูกค้าสามารถพิมพ์ใบแจ้งหนี้และใบบรรจุสินค้าได้"
+
+#: admin/views/premium_extension_listing.php:23 admin/views/wt_pro_addons_list.php:19
+msgid "Customize document layout & properties"
+msgstr "ปรับแต่งเค้าโครงและคุณสมบัติของเอกสาร"
+
+#: admin/views/premium_extension_listing.php:24 admin/views/premium_extension_listing.php:42
+#: admin/views/premium_extension_listing.php:59 admin/views/wt_ipc_free_pro.php:285
+#: admin/views/wt_pl_free_pro.php:66 admin/views/wt_pro_addons_list.php:20
+#: admin/views/wt_pro_addons_list.php:40 admin/views/wt_pro_addons_list.php:59
+#: admin/views/wt_sdd_free_pro.php:120
+msgid "Show product variation data"
+msgstr "แสดงข้อมูลรูปแบบผลิตภัณฑ์"
+
+#: admin/views/premium_extension_listing.php:25 admin/views/wt_pro_addons_list.php:21
+msgid "Add custom data to documents"
+msgstr "เพิ่มข้อมูลที่กำหนดเองลงในเอกสาร"
+
+#: admin/views/premium_extension_listing.php:26 admin/views/wt_pro_addons_list.php:22
+msgid "Multiple display options for bundle products"
+msgstr "ตัวเลือกการแสดงหลายรายการสำหรับผลิตภัณฑ์แบบรวมกลุ่ม"
+
+#: admin/views/premium_extension_listing.php:27 admin/views/premium_extension_listing.php:45
+#: admin/views/wt_ipc_free_pro.php:231 admin/views/wt_pl_free_pro.php:38 admin/views/wt_pro_addons_list.php:23
+#: admin/views/wt_pro_addons_list.php:43 admin/views/wt_sdd_free_pro.php:104
+msgid "Group products by ‘Category’"
+msgstr "จัดกลุ่มผลิตภัณฑ์ตาม 'หมวดหมู่'"
+
+#: admin/views/premium_extension_listing.php:28 admin/views/wt_pro_addons_list.php:24
+msgid "Verified compatibility with major plugins"
+msgstr "ตรวจสอบความเข้ากันได้กับปลั๊กอินหลัก"
+
+#: admin/views/premium_extension_listing.php:29 admin/views/premium_extension_listing.php:47
+#: admin/views/premium_extension_listing.php:63 admin/views/premium_extension_listing.php:77
+#: admin/views/premium_extension_listing.php:95 admin/views/wt_pi_free_pro.php:393
+#: admin/views/wt_pro_addons_list.php:25 admin/views/wt_pro_addons_list.php:45
+#: admin/views/wt_pro_addons_list.php:63 admin/views/wt_pro_addons_list.php:83
+#: admin/views/wt_pro_addons_list.php:103
+msgid "Multilingual support"
+msgstr "การสนับสนุนหลายภาษา"
+
+#: admin/views/premium_extension_listing.php:35 admin/views/wt_pro_addons_list.php:31
+#: admin/views/wt_sdd_free_pro.php:6
+msgid "WooCommerce Shipping labels, Dispatch labels and Delivery Notes plugin"
+msgstr "ป้ายกำกับ WooCommerce Shipping, ป้ายกำกับการจัดส่ง และปลั๊กอินบันทึกการจัดส่ง"
+
+#: admin/views/premium_extension_listing.php:38 admin/views/wt_pro_addons_list.php:36
+msgid "Create delivery notes, shipping & dispatch labels"
+msgstr "สร้างบันทึกการจัดส่ง ป้ายกำกับการจัดส่งและการจัดส่ง"
+
+#: admin/views/premium_extension_listing.php:39 admin/views/wt_pro_addons_list.php:37
+msgid "Enable customers to print the documents from order emails"
+msgstr "ช่วยให้ลูกค้าสามารถพิมพ์เอกสารจากอีเมลสั่งซื้อได้"
+
+#: admin/views/premium_extension_listing.php:40 admin/views/wt_pro_addons_list.php:38
+msgid "Customize shipping label size"
+msgstr "ปรับแต่งขนาดฉลากการจัดส่ง"
+
+#: admin/views/premium_extension_listing.php:41 admin/views/wt_pro_addons_list.php:39
+msgid "Add multiple shipping labels on one page"
+msgstr "เพิ่มป้ายกำกับการจัดส่งหลายรายการในหน้าเดียว"
+
+#: admin/views/premium_extension_listing.php:43 admin/views/wt_pro_addons_list.php:41
+msgid "Add extra product & order data fields"
+msgstr "เพิ่มช่องข้อมูลผลิตภัณฑ์และคำสั่งซื้อเพิ่มเติม"
+
+#: admin/views/premium_extension_listing.php:44 admin/views/wt_pro_addons_list.php:42
+msgid "Pre-built layouts & customizable templates"
+msgstr "เค้าโครงที่สร้างไว้ล่วงหน้าและเทมเพลตที่ปรับแต่งได้"
+
+#: admin/views/premium_extension_listing.php:46 admin/views/wt_pro_addons_list.php:44
+msgid "Sort products based on Name or SKU"
+msgstr "จัดเรียงผลิตภัณฑ์ตามชื่อหรือ SKU"
+
+#: admin/views/premium_extension_listing.php:53 admin/views/wt_pro_addons_list.php:51
+msgid "WooCommerce Picklists plugin"
+msgstr "ปลั๊กอินรายการเลือก WooCommerce"
+
+#: admin/views/premium_extension_listing.php:56 admin/views/wt_pro_addons_list.php:56
+msgid "Bulk print picklists from the admin order page"
+msgstr "รายการเลือกพิมพ์จำนวนมากจากหน้าคำสั่งซื้อของผู้ดูแลระบบ"
+
+#: admin/views/premium_extension_listing.php:57 admin/views/wt_pl_free_pro.php:24
+#: admin/views/wt_pro_addons_list.php:57
+msgid "Automatically email picklists based on order status"
+msgstr "ส่งอีเมลรายการตัวเลือกโดยอัตโนมัติตามสถานะคำสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:58 admin/views/wt_pro_addons_list.php:58
+msgid "Create or customize picklist templates"
+msgstr "สร้างหรือปรับแต่งเทมเพลตรายการเลือก"
+
+#: admin/views/premium_extension_listing.php:60 admin/views/wt_pro_addons_list.php:60
+msgid "Group products in picklist by order/category"
+msgstr "จัดกลุ่มผลิตภัณฑ์ในรายการเลือกตามคำสั่งซื้อ/หมวดหมู่"
+
+#: admin/views/premium_extension_listing.php:61 admin/views/wt_pro_addons_list.php:61
+msgid "Add product meta fields & attributes"
+msgstr "เพิ่มฟิลด์และแอตทริบิวต์เมตาของผลิตภัณฑ์"
+
+#: admin/views/premium_extension_listing.php:62 admin/views/wt_pro_addons_list.php:62
+msgid "Exclude virtual products from picklists"
+msgstr "แยกผลิตภัณฑ์เสมือนออกจากรายการเลือก"
+
+#: admin/views/premium_extension_listing.php:69 admin/views/wt_pi_free_pro.php:292
+#: admin/views/wt_pro_addons_list.php:89
+msgid "WooCommerce Address Labels plugin"
+msgstr "ปลั๊กอินป้ายกำกับที่อยู่ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:72
+msgid "Generate ‘Shipping Address’, ‘Billing Address’, ‘From Address’, and ‘Return Address’ labels"
+msgstr "สร้างป้ายกำกับ 'ที่อยู่สำหรับจัดส่ง', 'ที่อยู่สำหรับการเรียกเก็บเงิน', 'ที่อยู่จาก' และ 'ที่อยู่ผู้ส่ง'"
+
+#: admin/views/premium_extension_listing.php:73 admin/views/wt_pro_addons_list.php:98
+msgid "Customize label sizes"
+msgstr "ปรับแต่งขนาดฉลาก"
+
+#: admin/views/premium_extension_listing.php:74 admin/views/wt_pro_addons_list.php:99
+msgid "Bulk print address labels"
+msgstr "พิมพ์ฉลากที่อยู่จำนวนมาก"
+
+#: admin/views/premium_extension_listing.php:75
+msgid "Offers built-in label templates"
+msgstr "เสนอเทมเพลตฉลากในตัว"
+
+#: admin/views/premium_extension_listing.php:76 admin/views/wt_pro_addons_list.php:101
+msgid "Change address label layout"
+msgstr "เปลี่ยนเค้าโครงฉลากที่อยู่"
+
+#: admin/views/premium_extension_listing.php:83
+msgid "WooCommerce Proforma Invoices"
+msgstr "ใบแจ้งหนี้ Proforma ของ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:86 admin/views/wt_pro_addons_list.php:74
+msgid "Create proforma invoices automatically"
+msgstr "สร้างใบแจ้งหนี้ Proforma โดยอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:87 admin/views/wt_pro_addons_list.php:75
+msgid "Pre-built proforma invoice layouts"
+msgstr "เค้าโครงใบแจ้งหนี้ Proforma ที่สร้างไว้ล่วงหน้า"
+
+#: admin/views/premium_extension_listing.php:88 admin/views/premium_extension_listing.php:106
+#: admin/views/wt_pro_addons_list.php:76
+msgid "Easy invoice layout customization"
+msgstr "ปรับแต่งเค้าโครงใบแจ้งหนี้ได้ง่าย"
+
+#: admin/views/premium_extension_listing.php:89 admin/views/wt_pro_addons_list.php:77
+msgid "Attach proforma invoice PDF to order emails"
+msgstr "แนบใบแจ้งหนี้ Proforma PDF เพื่อสั่งซื้ออีเมล"
+
+#: admin/views/premium_extension_listing.php:90 admin/views/wt_pro_addons_list.php:78
+msgid "Allow customers to print invoices"
+msgstr "อนุญาตให้ลูกค้าพิมพ์ใบแจ้งหนี้"
+
+#: admin/views/premium_extension_listing.php:91 admin/views/wt_pi_free_pro.php:61
+#: admin/views/wt_pro_addons_list.php:79
+msgid "Set custom proforma invoice number"
+msgstr "กำหนดหมายเลขใบแจ้งหนี้ Proforma ที่กำหนดเอง"
+
+#: admin/views/premium_extension_listing.php:92 admin/views/wt_pro_addons_list.php:80
+msgid "Add additional product & order data fields"
+msgstr "เพิ่มช่องข้อมูลผลิตภัณฑ์และคำสั่งซื้อเพิ่มเติม"
+
+#: admin/views/premium_extension_listing.php:93 admin/views/wt_pi_free_pro.php:206
+#: admin/views/wt_pro_addons_list.php:81
+msgid "Attach special notes with proforma invoices"
+msgstr "แนบบันทึกพิเศษพร้อมกับใบแจ้งหนี้ Proforma"
+
+#: admin/views/premium_extension_listing.php:94 admin/views/wt_pro_addons_list.php:82
+msgid "Attach transport & sales terms"
+msgstr "แนบเงื่อนไขการขนส่งและการขาย"
+
+#: admin/views/premium_extension_listing.php:101
+msgid "Customizer for WooCommerce PDF Invoices"
+msgstr "เครื่องมือปรับแต่งสำหรับใบแจ้งหนี้ PDF ของ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:104
+msgid "Drag-and-drop easy customization"
+msgstr "ปรับแต่งได้ง่ายด้วยการลากและวาง"
+
+#: admin/views/premium_extension_listing.php:105
+msgid "Advanced visual and code editor"
+msgstr "โปรแกรมแก้ไขภาพและโค้ดขั้นสูง"
+
+#: admin/views/premium_extension_listing.php:107
+msgid "Customize individual elements using block editors"
+msgstr "ปรับแต่งแต่ละองค์ประกอบโดยใช้เครื่องมือแก้ไขบล็อก"
+
+#: admin/views/premium_extension_listing.php:108
+msgid "View live preview of customization"
+msgstr "ดูตัวอย่างการปรับแต่งแบบสดๆ"
+
+#: admin/views/premium_extension_listing.php:109
+msgid "Change color, text, background, border & more"
+msgstr "เปลี่ยนสี ข้อความ พื้นหลัง เส้นขอบ และอื่นๆ"
+
+#: admin/views/premium_extension_listing.php:115 admin/views/wt_pro_addons_list.php:109
+#: public/modules/invoice/views/qrcode_promote.php:25
+msgid "QR Code Addon for WooCommerce PDF Invoices"
+msgstr "QR Code Addon สำหรับใบแจ้งหนี้ PDF ของ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:118 admin/views/wt_pro_addons_list.php:114
+msgid "Assign QR codes to all generated invoices"
+msgstr "กำหนดรหัส QR ให้กับใบแจ้งหนี้ที่สร้างขึ้นทั้งหมด"
+
+#: admin/views/premium_extension_listing.php:119 admin/views/wt_pro_addons_list.php:115
+msgid "Create QR code that reads order or invoice number"
+msgstr "สร้างรหัส QR ที่อ่านหมายเลขคำสั่งซื้อหรือใบแจ้งหนี้"
+
+#: admin/views/premium_extension_listing.php:120 admin/views/wt_pro_addons_list.php:116
+msgid "Add custom data to invoices"
+msgstr "เพิ่มข้อมูลที่กำหนดเองลงในใบแจ้งหนี้"
+
+#: admin/views/premium_extension_listing.php:121
+msgid "Compatible with WooCommerce PDF Invoice, Packing Slip & Credit Note (Premium)"
+msgstr "เข้ากันได้กับ WooCommerce PDF Invoice, Packing Slip & Credit Note (พรีเมียม)"
+
+#: admin/views/premium_extension_listing.php:122 admin/views/wt_pro_addons_list.php:118
+msgid "Compatible with WooCommerce PDF Invoices, Packing Slips, Delivery Notes, and Shipping Labels (Free)"
+msgstr "เข้ากันได้กับใบแจ้งหนี้ PDF ของ WooCommerce สลิปการบรรจุ บันทึกการจัดส่ง และฉลากการจัดส่ง (ฟรี)"
+
+#: admin/views/premium_extension_listing.php:128
+msgid "Remote Print add-on for WooCommerce PDF Invoices - PrintNode"
+msgstr "โปรแกรมเสริมการพิมพ์ระยะไกลสำหรับใบแจ้งหนี้ PDF ของ WooCommerce - PrintNode"
+
+#: admin/views/premium_extension_listing.php:131
+msgid "Offers cloud printing of invoice PDFs using PrintNode"
+msgstr "เสนอการพิมพ์ใบแจ้งหนี้ PDF บนคลาวด์โดยใช้ PrintNode"
+
+#: admin/views/premium_extension_listing.php:132
+msgid "Print PDF invoices for WooCommerce"
+msgstr "พิมพ์ใบแจ้งหนี้ PDF สำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:133
+msgid "Lightning-fast printing"
+msgstr "การพิมพ์ที่รวดเร็วปานสายฟ้า"
+
+#: admin/views/premium_extension_listing.php:134
+msgid "Supports automatic & manual printing"
+msgstr "รองรับการพิมพ์แบบอัตโนมัติและแบบแมนนวล"
+
+#: admin/views/premium_extension_listing.php:135
+msgid "Support for serial and USB scales"
+msgstr "รองรับเครื่องชั่งแบบอนุกรมและ USB"
+
+#: admin/views/premium_extension_listing.php:136
+msgid "Ensure security with base64 & URI printing"
+msgstr "มั่นใจในความปลอดภัยด้วยการพิมพ์ base64 และ URI"
+
+#: admin/views/premium_extension_listing.php:137
+msgid "Cross-platform compatibility"
+msgstr "ความเข้ากันได้ข้ามแพลตฟอร์ม"
+
+#: admin/views/premium_extension_listing.php:143
+msgid "WebToffee WooCommerce Request A Quote"
+msgstr "WebToffee WooCommerce ขอใบเสนอราคา"
+
+#: admin/views/premium_extension_listing.php:146
+msgid "Add quote button to the product & shop pages"
+msgstr "เพิ่มปุ่มใบเสนอราคาในหน้าสินค้าและร้านค้า"
+
+#: admin/views/premium_extension_listing.php:147
+msgid "Enable quotation request for selected products"
+msgstr "เปิดใช้งานการขอใบเสนอราคาสำหรับผลิตภัณฑ์ที่เลือก"
+
+#: admin/views/premium_extension_listing.php:148
+msgid "Automatically send quotes to users"
+msgstr "ส่งใบเสนอราคาให้กับผู้ใช้โดยอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:149
+msgid "Disable guest users from asking for quote"
+msgstr "ปิดการใช้งานผู้ใช้ทั่วไปจากการขอใบเสนอราคา"
+
+#: admin/views/premium_extension_listing.php:150
+msgid "Hide prices and ‘add to cart’ button"
+msgstr "ซ่อนราคาและปุ่ม 'หยิบลงตะกร้า'"
+
+#: admin/views/premium_extension_listing.php:151
+msgid "Automatic email alerts for admin & users"
+msgstr "การแจ้งเตือนทางอีเมลอัตโนมัติสำหรับผู้ดูแลระบบและผู้ใช้"
+
+#: admin/views/premium_extension_listing.php:152
+msgid "Easy button and form customization"
+msgstr "ปรับแต่งปุ่มและแบบฟอร์มได้ง่าย"
+
+#: admin/views/premium_extension_listing.php:153
+msgid "Set quote expiry period"
+msgstr "กำหนดระยะเวลาหมดอายุของใบเสนอราคา"
+
+#: admin/views/premium_extension_listing.php:154
+msgid "Limit spams with reCAPTCHA"
+msgstr "จำกัดสแปมด้วย reCAPTCHA"
+
+#: admin/views/premium_extension_listing.php:160
+msgid "Sequential Order Number for WooCommerce"
+msgstr "หมายเลขคำสั่งซื้อตามลำดับสำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:163
+msgid "Auto reset sequence per month/year etc"
+msgstr "ลำดับการรีเซ็ตอัตโนมัติต่อเดือน/ปี ฯลฯ"
+
+#: admin/views/premium_extension_listing.php:164
+msgid "Add a custom suffix for order numbers"
+msgstr "เพิ่มส่วนต่อท้ายที่กำหนดเองสำหรับหมายเลขคำสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:165
+msgid "Date suffix in order numbers"
+msgstr "ส่วนต่อท้ายวันที่ในหมายเลขคำสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:166
+msgid "Custom sequence for free orders"
+msgstr "ลำดับที่กำหนดเองสำหรับการสั่งซื้อฟรี"
+
+#: admin/views/premium_extension_listing.php:167
+msgid "Increment sequence in custom series"
+msgstr "ลำดับการเพิ่มในชุดข้อมูลแบบกำหนดเอง"
+
+#: admin/views/premium_extension_listing.php:168
+msgid "More order number templates"
+msgstr "เทมเพลตหมายเลขคำสั่งซื้อเพิ่มเติม"
+
+#: admin/views/premium_extension_listing.php:174
+msgid "Data Import & Export"
+msgstr "การนำเข้าและส่งออกข้อมูล"
+
+#: admin/views/premium_extension_listing.php:175
+msgid "The best-in-the-class import, export, and migration solutions for your WooCommerce data"
+msgstr "โซลูชันการนำเข้า ส่งออก และการย้ายที่ดีที่สุดสำหรับข้อมูล WooCommerce ของคุณ"
+
+#: admin/views/premium_extension_listing.php:181
+msgid "Import Export Suite for WooCommerce"
+msgstr "นำเข้าชุดส่งออกสำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:184
+msgid ""
+"Import/export Products, Orders, Subscriptions, Coupons, Customers, WordPress Users, Categories & Tags, "
+"Reviews"
+msgstr "นำเข้า/ส่งออกผลิตภัณฑ์ คำสั่งซื้อ การสมัครสมาชิก คูปอง ลูกค้า ผู้ใช้ WordPress หมวดหมู่และแท็ก บทวิจารณ์"
+
+#: admin/views/premium_extension_listing.php:185 admin/views/premium_extension_listing.php:202
+#: admin/views/premium_extension_listing.php:220 admin/views/premium_extension_listing.php:239
+msgid "Supports Excel, XML, CSV, and TSV file formats"
+msgstr "รองรับรูปแบบไฟล์ Excel, XML, CSV และ TSV"
+
+#: admin/views/premium_extension_listing.php:186 admin/views/premium_extension_listing.php:221
+msgid "Schedule automated import & export"
+msgstr "กำหนดเวลานำเข้าและส่งออกอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:187 admin/views/premium_extension_listing.php:206
+#: admin/views/premium_extension_listing.php:225 admin/views/premium_extension_listing.php:245
+msgid "Import from URL, Google Sheets, FTP/SFTP"
+msgstr "นำเข้าจาก URL, Google ชีต, FTP/SFTP"
+
+#: admin/views/premium_extension_listing.php:188 admin/views/premium_extension_listing.php:207
+#: admin/views/premium_extension_listing.php:226 admin/views/premium_extension_listing.php:246
+msgid "Export to FTP/SFTP"
+msgstr "ส่งออกเป็น FTP/SFTP"
+
+#: admin/views/premium_extension_listing.php:189
+msgid "Import & export custom fields and values"
+msgstr "นำเข้าและส่งออกฟิลด์และค่าที่กำหนดเอง"
+
+#: admin/views/premium_extension_listing.php:190 admin/views/premium_extension_listing.php:227
+#: admin/views/premium_extension_listing.php:247
+msgid "Advanced filters and customizations for import & export"
+msgstr "ตัวกรองขั้นสูงและการปรับแต่งสำหรับการนำเข้าและส่งออก"
+
+#: admin/views/premium_extension_listing.php:191 admin/views/premium_extension_listing.php:209
+msgid "Add and update data while importing"
+msgstr "เพิ่มและอัปเดตข้อมูลขณะนำเข้า"
+
+#: admin/views/premium_extension_listing.php:192 admin/views/premium_extension_listing.php:210
+#: admin/views/premium_extension_listing.php:229 admin/views/premium_extension_listing.php:249
+msgid "Maintains action history and debug logs"
+msgstr "รักษาประวัติการดำเนินการและบันทึกการแก้ไขข้อบกพร่อง"
+
+#: admin/views/premium_extension_listing.php:193 admin/views/premium_extension_listing.php:211
+#: admin/views/premium_extension_listing.php:230 admin/views/premium_extension_listing.php:250
+msgid "Compatible with major 3rd-party plugins"
+msgstr "เข้ากันได้กับปลั๊กอินหลักของบุคคลที่สาม"
+
+#: admin/views/premium_extension_listing.php:199
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "ปลั๊กอินส่งออกการนำเข้าผลิตภัณฑ์สำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:203 admin/views/premium_extension_listing.php:240
+msgid "Schedule automated import and export"
+msgstr "กำหนดการนำเข้าและส่งออกอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:204
+msgid "Support for multiple product types"
+msgstr "รองรับผลิตภัณฑ์หลายประเภท"
+
+#: admin/views/premium_extension_listing.php:205
+msgid "Export product images in a separate zip file"
+msgstr "ส่งออกรูปภาพผลิตภัณฑ์เป็นไฟล์ zip แยกต่างหาก"
+
+#: admin/views/premium_extension_listing.php:208
+msgid "Advanced filters and customizations for import and export"
+msgstr "ตัวกรองขั้นสูงและการปรับแต่งสำหรับการนำเข้าและส่งออก"
+
+#: admin/views/premium_extension_listing.php:217
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "คำสั่งซื้อ คูปอง การนำเข้าส่งออกการสมัครสมาชิกสำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:222
+msgid "Email customers on order status change"
+msgstr "ส่งอีเมลถึงลูกค้าเกี่ยวกับการเปลี่ยนแปลงสถานะคำสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:223
+msgid "Create users on order import"
+msgstr "สร้างผู้ใช้ตามคำสั่งนำเข้า"
+
+#: admin/views/premium_extension_listing.php:224
+msgid "Filter export by products, order status, email, date, etc"
+msgstr "กรองการส่งออกตามสินค้า สถานะการสั่งซื้อ อีเมล วันที่ ฯลฯ"
+
+#: admin/views/premium_extension_listing.php:228 admin/views/premium_extension_listing.php:248
+msgid "Add & update data while importing"
+msgstr "เพิ่มและอัปเดตข้อมูลขณะนำเข้า"
+
+#: admin/views/premium_extension_listing.php:236
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "ผู้ใช้ WordPress และลูกค้า WooCommerce นำเข้าส่งออก"
+
+#: admin/views/premium_extension_listing.php:241
+msgid "Customize and send emails to new users on import"
+msgstr "ปรับแต่งและส่งอีเมลไปยังผู้ใช้ใหม่ในการนำเข้า"
+
+#: admin/views/premium_extension_listing.php:242
+msgid "Retain user passwords on import/export"
+msgstr "เก็บรหัสผ่านผู้ใช้ในการนำเข้า/ส่งออก"
+
+#: admin/views/premium_extension_listing.php:243
+msgid "Export and import custom fields and third-party plugin fields"
+msgstr "ส่งออกและนำเข้าฟิลด์ที่กำหนดเองและฟิลด์ปลั๊กอินของบุคคลที่สาม"
+
+#: admin/views/premium_extension_listing.php:244
+msgid "Filter by user role, email, date, etc"
+msgstr "กรองตามบทบาทของผู้ใช้ อีเมล วันที่ ฯลฯ"
+
+#: admin/views/premium_extension_listing.php:256
+msgid "WebToffee WooCommerce Product Feed & Sync Manager"
+msgstr "WebToffee WooCommerce ฟีดผลิตภัณฑ์ & ตัวจัดการการซิงค์"
+
+#: admin/views/premium_extension_listing.php:259
+msgid "Generate WooCommerce product feeds for Google Shopping, Facebook Shop, and Instagram Shop"
+msgstr "สร้างฟีดผลิตภัณฑ์ WooCommerce สำหรับ Google Shopping, Facebook Shop และ Instagram Shop"
+
+#: admin/views/premium_extension_listing.php:260
+msgid "Sync WooCommerce products to Facebook catalog"
+msgstr "ซิงค์ผลิตภัณฑ์ WooCommerce กับแค็ตตาล็อก Facebook"
+
+#: admin/views/premium_extension_listing.php:261
+msgid "Additional feed intervals (30 minutes, 6 hours, 12 hours)"
+msgstr "ช่วงเวลาการให้อาหารเพิ่มเติม (30 นาที, 6 ชั่วโมง, 12 ชั่วโมง)"
+
+#: admin/views/premium_extension_listing.php:262
+msgid "Support for additional fields that can be added to the feed"
+msgstr "รองรับช่องเพิ่มเติมที่สามารถเพิ่มลงในฟีดได้"
+
+#: admin/views/premium_extension_listing.php:263
+msgid "WPML multilingual and multicurrency support "
+msgstr "WPML รองรับหลายภาษาและหลายสกุลเงิน "
+
+#: admin/views/premium_extension_listing.php:264
+msgid "Google local product inventory feed"
+msgstr "ฟีดสินค้าคงคลังของผลิตภัณฑ์ในพื้นที่ของ Google"
+
+#: admin/views/premium_extension_listing.php:265
+msgid "Exclude specific products"
+msgstr "ไม่รวมผลิตภัณฑ์ที่เฉพาะเจาะจง"
+
+#: admin/views/premium_extension_listing.php:266
+msgid "Include or exclude specific categories"
+msgstr "รวมหรือยกเว้นหมวดหมู่เฉพาะ"
+
+#: admin/views/premium_extension_listing.php:267
+msgid "Exclude out-of-stock products"
+msgstr "ไม่รวมสินค้าที่หมดสต็อก"
+
+#: admin/views/premium_extension_listing.php:268
+msgid "Filter products based on product type"
+msgstr "กรองผลิตภัณฑ์ตามประเภทผลิตภัณฑ์"
+
+#: admin/views/premium_extension_listing.php:269
+msgid "Map categories on product level"
+msgstr "จัดทำแผนที่หมวดหมู่ในระดับผลิตภัณฑ์"
+
+#: admin/views/premium_extension_listing.php:276
+msgid "E-commerce Promotions"
+msgstr "โปรโมชันอีคอมเมิร์ซ"
+
+#: admin/views/premium_extension_listing.php:277
+msgid "Create and run successful promotional campaigns with the best tools for WooCommerce"
+msgstr "สร้างและดำเนินแคมเปญส่งเสริมการขายที่ประสบความสำเร็จด้วยเครื่องมือที่ดีที่สุดสำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:283
+msgid "WebToffee WooCommerce Gift Cards"
+msgstr "บัตรของขวัญ WebToffee WooCommerce"
+
+#: admin/views/premium_extension_listing.php:286
+msgid "Create unlimited gift cards"
+msgstr "สร้างบัตรของขวัญได้ไม่จำกัด"
+
+#: admin/views/premium_extension_listing.php:287
+msgid "Email gift cards to customers"
+msgstr "ส่งอีเมลบัตรของขวัญให้กับลูกค้า"
+
+#: admin/views/premium_extension_listing.php:288
+msgid "Provide refunds to store credit"
+msgstr "คืนเงินให้เครดิตในการจัดเก็บ"
+
+#: admin/views/premium_extension_listing.php:289
+msgid "20+ predefined gift card templates"
+msgstr "เทมเพลตบัตรของขวัญที่กำหนดไว้ล่วงหน้ามากกว่า 20 แบบ"
+
+#: admin/views/premium_extension_listing.php:290
+msgid "Category wise template listing"
+msgstr "หมวดหมู่รายการเทมเพลตที่ชาญฉลาด"
+
+#: admin/views/premium_extension_listing.php:291
+msgid "Add custom templates for gift cards"
+msgstr "เพิ่มเทมเพลตแบบกำหนดเองสำหรับบัตรของขวัญ"
+
+#: admin/views/premium_extension_listing.php:292
+msgid "Generate gift cards based on order status"
+msgstr "สร้างบัตรของขวัญตามสถานะการสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:293
+msgid "Manage user credit balance"
+msgstr "จัดการยอดเครดิตของผู้ใช้"
+
+#: admin/views/premium_extension_listing.php:294
+msgid "Fixed and custom gift card amounts"
+msgstr "จำนวนบัตรของขวัญคงที่และกำหนดเอง"
+
+#: admin/views/premium_extension_listing.php:295
+msgid "Add usage restrictions for gift cards"
+msgstr "เพิ่มข้อจำกัดการใช้งานสำหรับบัตรของขวัญ"
+
+#: admin/views/premium_extension_listing.php:301
+msgid "Frequently Bought Together for WooCommerce"
+msgstr "ซื้อร่วมกันบ่อยครั้งสำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:304
+msgid "Automatically generate suggestions based on order history"
+msgstr "สร้างคำแนะนำโดยอัตโนมัติตามประวัติการสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:305
+msgid "Display recommended products on the product pages"
+msgstr "แสดงสินค้าแนะนำในหน้าสินค้า"
+
+#: admin/views/premium_extension_listing.php:306
+msgid "Quick setup page to add & edit recommendations"
+msgstr "หน้าการตั้งค่าด่วนเพื่อเพิ่มและแก้ไขคำแนะนำ"
+
+#: admin/views/premium_extension_listing.php:307
+msgid "Multiple product recommendation layouts"
+msgstr "เค้าโครงคำแนะนำผลิตภัณฑ์หลายแบบ"
+
+#: admin/views/premium_extension_listing.php:308
+msgid "Set up discounts on the recommended product bundle"
+msgstr "ตั้งค่าส่วนลดสำหรับชุดผลิตภัณฑ์ที่แนะนำ"
+
+#: admin/views/premium_extension_listing.php:309
+msgid "Manually create a bought-together list"
+msgstr "สร้างรายการที่ซื้อร่วมกันด้วยตนเอง"
+
+#: admin/views/premium_extension_listing.php:310
+msgid "Use upsells, cross-sells, & related products as frequently bought products"
+msgstr "ใช้การขายต่อยอด การขายต่อเนื่อง และผลิตภัณฑ์ที่เกี่ยวข้องเป็นผลิตภัณฑ์ที่ซื้อบ่อย"
+
+#: admin/views/premium_extension_listing.php:311
+msgid "Customize the title, button, and label texts"
+msgstr "ปรับแต่งชื่อ ปุ่ม และข้อความป้ายกำกับ"
+
+#: admin/views/premium_extension_listing.php:312
+msgid "Customize the display of the recommended products"
+msgstr "ปรับแต่งการแสดงสินค้าที่แนะนำ"
+
+#: admin/views/premium_extension_listing.php:318
+msgid "Smart Coupons for WooCommerce"
+msgstr "คูปองอัจฉริยะสำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:321
+msgid "Advanced BOGO Coupons"
+msgstr "คูปอง BOGO ขั้นสูง"
+
+#: admin/views/premium_extension_listing.php:322
+msgid "Offer store credits"
+msgstr "เสนอเครดิตร้านค้า"
+
+#: admin/views/premium_extension_listing.php:323
+msgid "Create attractive gift cards "
+msgstr "สร้างบัตรของขวัญที่น่าสนใจ "
+
+#: admin/views/premium_extension_listing.php:324
+msgid "Give away product coupons"
+msgstr "แจกคูปองสินค้า"
+
+#: admin/views/premium_extension_listing.php:325
+msgid "Coupons based on past purchases"
+msgstr "คูปองตามการซื้อที่ผ่านมา"
+
+#: admin/views/premium_extension_listing.php:326
+msgid "Restrict coupons by country"
+msgstr "จำกัดคูปองตามประเทศ"
+
+#: admin/views/premium_extension_listing.php:327
+msgid "Create and offer sign-up discount coupons"
+msgstr "สร้างและเสนอคูปองส่วนลดการลงทะเบียน"
+
+#: admin/views/premium_extension_listing.php:328
+msgid "Cart abandonment coupons"
+msgstr "คูปองการละทิ้งรถเข็น"
+
+#: admin/views/premium_extension_listing.php:329
+msgid "Customizable countdown sales banner"
+msgstr "แบนเนอร์การขายนับถอยหลังที่ปรับแต่งได้"
+
+#: admin/views/premium_extension_listing.php:330
+msgid "Bulk generate coupons"
+msgstr "สร้างคูปองจำนวนมาก"
+
+#: admin/views/premium_extension_listing.php:331
+msgid "Import and export coupons"
+msgstr "นำเข้าและส่งออกคูปอง"
+
+#: admin/views/premium_extension_listing.php:332
+msgid "Coupon embeds"
+msgstr "ฝังคูปอง"
+
+#: admin/views/premium_extension_listing.php:333
+msgid "Allow coupon combinations"
+msgstr "อนุญาตให้ใช้การรวมคูปอง"
+
+#: admin/views/premium_extension_listing.php:339
+msgid "URL Coupons for WooCommerce"
+msgstr "คูปอง URL สำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:342
+msgid "Generate custom coupon URLs"
+msgstr "สร้าง URL คูปองที่กำหนดเอง"
+
+#: admin/views/premium_extension_listing.php:343
+msgid "Set up a redirect page"
+msgstr "ตั้งค่าหน้าเปลี่ยนเส้นทาง"
+
+#: admin/views/premium_extension_listing.php:344
+msgid "Automatically add products"
+msgstr "เพิ่มผลิตภัณฑ์โดยอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:345
+msgid "Create QR code coupons"
+msgstr "สร้างคูปองรหัส QR"
+
+#: admin/views/premium_extension_listing.php:351
+msgid "Payment & subscription"
+msgstr "การชำระเงินและการสมัครสมาชิก"
+
+#: admin/views/premium_extension_listing.php:352
+msgid "The most popular payment gateways and subscription solutions to scale your business"
+msgstr "เกตเวย์การชำระเงินและโซลูชันการสมัครสมาชิกที่ได้รับความนิยมสูงสุดเพื่อขยายธุรกิจของคุณ"
+
+#: admin/views/premium_extension_listing.php:357
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr "เกตเวย์การชำระเงินแถบ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:361
+msgid "Add 20+ payment methods"
+msgstr "เพิ่มวิธีการชำระเงินมากกว่า 20 วิธี"
+
+#: admin/views/premium_extension_listing.php:362
+msgid "Activates Stripe checkout"
+msgstr "เปิดใช้งานการชำระเงินแบบ Stripe"
+
+#: admin/views/premium_extension_listing.php:363
+msgid "Secured payments with SCA and 3D secure"
+msgstr "การชำระเงินที่ปลอดภัยด้วย SCA และ 3D ปลอดภัย"
+
+#: admin/views/premium_extension_listing.php:364
+msgid "Supports recurring payments"
+msgstr "รองรับการชำระเงินที่เกิดขึ้นประจำ"
+
+#: admin/views/premium_extension_listing.php:365
+msgid "Compatible with WPML"
+msgstr "เข้ากันได้กับ WPML"
+
+#: admin/views/premium_extension_listing.php:366
+msgid "Log all Stripe transactions"
+msgstr "บันทึกธุรกรรม Stripe ทั้งหมด"
+
+#: admin/views/premium_extension_listing.php:367
+msgid "Monitor payments using Stripe dashboard"
+msgstr "ตรวจสอบการชำระเงินโดยใช้แดชบอร์ด Stripe"
+
+#: admin/views/premium_extension_listing.php:372
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "เกตเวย์การชำระเงิน PayPal Express Checkout สำหรับ WooCommerce"
+
+#: admin/views/premium_extension_listing.php:376
+msgid "Adds PayPal Smart Button Checkout option"
+msgstr "เพิ่มตัวเลือกการชำระเงินด้วยปุ่มอัจฉริยะของ PayPal"
+
+#: admin/views/premium_extension_listing.php:377
+msgid "Accepts payment using multiple Alternative Payment Methods (APM)"
+msgstr "รับการชำระเงินโดยใช้วิธีการชำระเงินทางเลือก (APM) หลายวิธี"
+
+#: admin/views/premium_extension_listing.php:378
+msgid "Adds Express PayPal Checkout Option on the product page and Mini-cart for faster checkout"
+msgstr "เพิ่มตัวเลือกการชำระเงินด่วน PayPal ในหน้าผลิตภัณฑ์และรถเข็นขนาดเล็กเพื่อการชำระเงินที่รวดเร็วยิ่งขึ้น"
+
+#: admin/views/premium_extension_listing.php:379
+msgid "Capture the authorized payment later"
+msgstr "จับการชำระเงินที่ได้รับอนุญาตในภายหลัง"
+
+#: admin/views/premium_extension_listing.php:380
+msgid "Partial and Full Refund of the order amount"
+msgstr "การคืนเงินบางส่วนและเต็มจำนวนตามจำนวนคำสั่งซื้อ"
+
+#: admin/views/premium_extension_listing.php:381
+msgid "Lots of customization options like button style, position, etc"
+msgstr "ตัวเลือกการปรับแต่งมากมาย เช่น สไตล์ปุ่ม ตำแหน่ง ฯลฯ"
+
+#: admin/views/premium_extension_listing.php:382
+msgid "Option to enable in-context checkout"
+msgstr "ตัวเลือกในการเปิดใช้งานการชำระเงินในบริบท"
+
+#: admin/views/premium_extension_listing.php:383
+msgid "Supports WooCommerce Subscriptions for Express buttons"
+msgstr "รองรับการสมัครสมาชิก WooCommerce สำหรับปุ่ม Express"
+
+#: admin/views/premium_extension_listing.php:384
+msgid "Allows guest checkout"
+msgstr "อนุญาตให้แขกเช็คเอาท์"
+
+#: admin/views/premium_extension_listing.php:385
+msgid "Option to set up a specific PayPal locale"
+msgstr "ตัวเลือกในการตั้งค่าสถานที่ PayPal เฉพาะ"
+
+#: admin/views/premium_extension_listing.php:386
+msgid "Shortcode support for the Paypal Express button"
+msgstr "รองรับรหัสย่อสำหรับปุ่ม Paypal Express"
+
+#: admin/views/premium_extension_listing.php:387
+msgid "Timely compatibility updates and bug fixes"
+msgstr "การอัปเดตความเข้ากันได้และการแก้ไขข้อบกพร่องทันเวลา"
+
+#: admin/views/premium_extension_listing.php:392
+msgid "Subscriptions for WooCommerce"
+msgstr "การสมัครสมาชิก WooCommerce"
+
+#: admin/views/premium_extension_listing.php:396
+msgid "Create simple & variable subscriptions"
+msgstr "สร้างการสมัครสมาชิกที่เรียบง่ายและแปรผัน"
+
+#: admin/views/premium_extension_listing.php:397
+msgid "Synchronize subscription renewal"
+msgstr "ประสานการต่ออายุการสมัครสมาชิก"
+
+#: admin/views/premium_extension_listing.php:398
+msgid "Pro-rate charges till first renewal"
+msgstr "ค่าธรรมเนียมตามสัดส่วนจนถึงการต่ออายุครั้งแรก"
+
+#: admin/views/premium_extension_listing.php:399
+msgid "Set free trial and sign-up fee"
+msgstr "ตั้งค่าการทดลองใช้ฟรีและค่าธรรมเนียมการสมัคร"
+
+#: admin/views/premium_extension_listing.php:400
+msgid "Send automated emails notifications"
+msgstr "ส่งการแจ้งเตือนทางอีเมลอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:401
+msgid "Supports recurring discounts"
+msgstr "รองรับส่วนลดที่เกิดซ้ำ"
+
+#: admin/views/premium_extension_listing.php:402
+msgid "Renewal interval & expiry customizations"
+msgstr "ช่วงเวลาการต่ออายุและการปรับแต่งการหมดอายุ"
+
+#: admin/views/premium_extension_listing.php:408
+msgid "Privacy compliance"
+msgstr "การปฏิบัติตามความเป็นส่วนตัว"
+
+#: admin/views/premium_extension_listing.php:409
+msgid ""
+"Get Help with Ensuring Compliance to Major Privacy Laws for Your WordPress Website - GDPR, CCPA, LGPD, "
+"CNIL, and More."
+msgstr ""
+"รับความช่วยเหลือในการปฏิบัติตามกฎหมายความเป็นส่วนตัวที่สำคัญสำหรับเว็บไซต์ WordPress ของคุณ - GDPR, CCPA, LGPD, CNIL และอื่นๆ"
+
+#: admin/views/premium_extension_listing.php:415
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "ปลั๊กอินยินยอมคุกกี้ GDPR (พร้อม CCPA)"
+
+#: admin/views/premium_extension_listing.php:418
+msgid "Assits in GDPR (RGPD, DSVGO), LGPD, CNIL, POPIA, and CCPA"
+msgstr "ช่วยเหลือใน GDPR (RGPD, DSVGO), LGPD, CNIL, POPIA และ CCPA"
+
+#: admin/views/premium_extension_listing.php:419
+msgid "Create a cookie consent banner"
+msgstr "สร้างแบนเนอร์ยินยอมให้ใช้คุกกี้"
+
+#: admin/views/premium_extension_listing.php:420
+msgid "Scan and list cookies"
+msgstr "สแกนและแสดงรายการคุกกี้"
+
+#: admin/views/premium_extension_listing.php:421
+msgid "Automatically block cookies/script"
+msgstr "บล็อกคุกกี้/สคริปต์โดยอัตโนมัติ"
+
+#: admin/views/premium_extension_listing.php:422
+msgid "Customize cookie banner"
+msgstr "ปรับแต่งแบนเนอร์คุกกี้"
+
+#: admin/views/premium_extension_listing.php:423
+msgid "Create cookie policy"
+msgstr "สร้างนโยบายคุกกี้"
+
+#: admin/views/premium_extension_listing.php:424
+msgid "User consent logging"
+msgstr "การบันทึกความยินยอมของผู้ใช้"
+
+#: admin/views/premium_extension_listing.php:425
+msgid "Explicit/Implicit consent"
+msgstr "ความยินยอมโดยชัดแจ้ง/โดยปริยาย"
+
+#: admin/views/premium_extension_listing.php:426
+msgid "Location based exclusion for banner"
+msgstr "การยกเว้นตามสถานที่สำหรับแบนเนอร์"
+
+#: admin/views/premium_extension_listing.php:427
+msgid "Granular consent based on cookie categories"
+msgstr "ความยินยอมโดยละเอียดตามหมวดหมู่คุกกี้"
+
+#: admin/views/premium_extension_page.php:81
+msgid "You are covered by our 30-Day Money Back Guarantee"
+msgstr "คุณได้รับการคุ้มครองโดยการรับประกันคืนเงินภายใน 30 วันของเรา"
+
+#: admin/views/premium_extension_page.php:91
+msgid "Supported by a team with 99% Customer Satisfaction Score"
+msgstr "สนับสนุนโดยทีมงานที่มีคะแนนความพึงพอใจของลูกค้า 99%"
+
+#: admin/views/wt_ipc_free_pro.php:10 admin/views/wt_sdd_free_pro.php:10
+msgid "Supported documents"
+msgstr "เอกสารที่รองรับ"
+
+#: admin/views/wt_ipc_free_pro.php:41
+msgid "Automatically create invoice based on order status"
+msgstr "สร้างใบแจ้งหนี้โดยอัตโนมัติตามสถานะการสั่งซื้อ"
+
+#: admin/views/wt_ipc_free_pro.php:54
+msgid "Attach document to order email"
+msgstr "แนบเอกสารในอีเมล์สั่งซื้อ"
+
+#: admin/views/wt_ipc_free_pro.php:85
+msgid "Custom invoice date"
+msgstr "วันที่ในใบแจ้งหนี้ที่กำหนดเอง"
+
+#: admin/views/wt_ipc_free_pro.php:88 admin/views/wt_ipc_free_pro.php:98
+msgid "Use order date"
+msgstr "ใช้วันที่สั่งซื้อ"
+
+#: admin/views/wt_ipc_free_pro.php:92 admin/views/wt_ipc_free_pro.php:102
+msgid "Use invoice created date"
+msgstr "ใช้วันที่สร้างใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:108
+msgid "Show print invoice button to customers"
+msgstr "แสดงปุ่มพิมพ์ใบแจ้งหนี้ให้กับลูกค้า"
+
+#: admin/views/wt_ipc_free_pro.php:139
+msgid "Show print packing slip button to customers"
+msgstr "แสดงปุ่มพิมพ์ใบส่งสินค้าให้กับลูกค้า"
+
+#: admin/views/wt_ipc_free_pro.php:162
+msgid "Use order number as document number"
+msgstr "ใช้หมายเลขคำสั่งซื้อเป็นหมายเลขเอกสาร"
+
+#: admin/views/wt_ipc_free_pro.php:185
+msgid "Use custom number series to number documents"
+msgstr "ใช้ชุดตัวเลขแบบกำหนดเองเพื่อกำหนดหมายเลขเอกสาร"
+
+#: admin/views/wt_ipc_free_pro.php:208
+msgid "Change document number format & length"
+msgstr "เปลี่ยนรูปแบบหมายเลขเอกสารและความยาว"
+
+#: admin/views/wt_ipc_free_pro.php:254 admin/views/wt_pi_free_pro.php:122 admin/views/wt_pl_free_pro.php:94
+#: admin/views/wt_sdd_free_pro.php:80
+msgid "Sort order items in product table"
+msgstr "เรียงลำดับรายการในตารางผลิตภัณฑ์"
+
+#: admin/views/wt_ipc_free_pro.php:316
+msgid "Display options for bundled products"
+msgstr "แสดงตัวเลือกสำหรับผลิตภัณฑ์ที่รวมกลุ่ม"
+
+#: admin/views/wt_ipc_free_pro.php:339
+msgid "Generate invoices for old orders"
+msgstr "สร้างใบแจ้งหนี้สำหรับคำสั่งซื้อเก่า"
+
+#: admin/views/wt_ipc_free_pro.php:352 public/modules/invoice/views/general.php:229
+msgid "Generate invoices for free orders"
+msgstr "สร้างใบแจ้งหนี้สำหรับคำสั่งซื้อฟรี"
+
+#: admin/views/wt_ipc_free_pro.php:365
+msgid "Option to include/exclude tax to Invoice"
+msgstr "ตัวเลือกในการรวม/ไม่รวมภาษีในใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:378
+msgid "Separate tax column in the product table for multiple tax options in invoices"
+msgstr "แยกคอลัมน์ภาษีในตารางผลิตภัณฑ์สำหรับตัวเลือกภาษีหลายรายการในใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:391
+msgid "Customizable tax items, tax fields (SSN, VAT, etc.)"
+msgstr "รายการภาษีที่ปรับแต่งได้ ช่องภาษี (SSN, VAT ฯลฯ)"
+
+#: admin/views/wt_ipc_free_pro.php:422
+msgid "Display free line items on invoice"
+msgstr "แสดงรายการโฆษณาอิสระในใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:435
+msgid "Customize invoice PDF name format"
+msgstr "ปรับแต่งรูปแบบชื่อใบแจ้งหนี้ PDF"
+
+#: admin/views/wt_ipc_free_pro.php:448
+msgid "Add a payment link to invoice"
+msgstr "เพิ่มลิงก์การชำระเงินไปยังใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:461
+msgid "Show Pay Later option at checkout"
+msgstr "แสดงตัวเลือกจ่ายทีหลังเมื่อชำระเงิน"
+
+#: admin/views/wt_ipc_free_pro.php:474
+msgid "Customize Pay Later option display"
+msgstr "ปรับแต่งการแสดงตัวเลือกจ่ายทีหลัง"
+
+#: admin/views/wt_ipc_free_pro.php:482 admin/views/wt_ipc_free_pro.php:496
+msgid "Description"
+msgstr "รายละเอียด"
+
+#: admin/views/wt_ipc_free_pro.php:486 admin/views/wt_ipc_free_pro.php:500
+msgid "Instruction"
+msgstr "วิธีการใช้"
+
+#: admin/views/wt_ipc_free_pro.php:505 admin/views/wt_sdd_free_pro.php:144
+msgid "Add order meta fields"
+msgstr "เพิ่มฟิลด์เมตาการสั่งซื้อ"
+
+#: admin/views/wt_ipc_free_pro.php:513
+msgid "(But customer notes can be added)"
+msgstr "(แต่สามารถเพิ่มหมายเหตุลูกค้าได้)"
+
+#: admin/views/wt_ipc_free_pro.php:536 admin/views/wt_pi_free_pro.php:164 admin/views/wt_sdd_free_pro.php:176
+msgid "Add product meta fields"
+msgstr "เพิ่มฟิลด์เมตาของผลิตภัณฑ์"
+
+#: admin/views/wt_ipc_free_pro.php:567 admin/views/wt_pi_free_pro.php:178 admin/views/wt_sdd_free_pro.php:200
+#: public/modules/deliverynote/views/admin-settings.php:72
+#: public/modules/dispatchlabel/views/admin-settings.php:69
+msgid "Add product attributes"
+msgstr "เพิ่มคุณลักษณะของผลิตภัณฑ์"
+
+#: admin/views/wt_ipc_free_pro.php:598 public/modules/invoice/views/general.php:194
+msgid "Custom logo for invoice"
+msgstr "โลโก้ที่กำหนดเองสำหรับใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:611
+msgid "Add product images to packing slips"
+msgstr "เพิ่มรูปภาพผลิตภัณฑ์ลงในบันทึกการบรรจุ"
+
+#: admin/views/wt_ipc_free_pro.php:624
+msgid "Custom footer"
+msgstr "ส่วนท้ายที่กำหนดเอง"
+
+#: admin/views/wt_ipc_free_pro.php:647 admin/views/wt_pi_free_pro.php:262 admin/views/wt_pl_free_pro.php:150
+#: admin/views/wt_sdd_free_pro.php:288
+msgid "Document customizer"
+msgstr "เครื่องมือปรับแต่งเอกสาร"
+
+#: admin/views/wt_ipc_free_pro.php:651 admin/views/wt_sdd_free_pro.php:292
+msgid "(Visual editor)"
+msgstr "(โปรแกรมแก้ไขภาพ)"
+
+#: admin/views/wt_ipc_free_pro.php:665 admin/views/wt_sdd_free_pro.php:306
+msgid "(Visual and code editor)"
+msgstr "(ตัวแก้ไขภาพและโค้ด)"
+
+#: admin/views/wt_ipc_free_pro.php:678
+msgid "Pre-built layouts for documents"
+msgstr "เค้าโครงที่สร้างไว้ล่วงหน้าสำหรับเอกสาร"
+
+#: admin/views/wt_ipc_free_pro.php:709
+msgid "Save document layout as template"
+msgstr "บันทึกเค้าโครงเอกสารเป็นเทมเพลต"
+
+#: admin/views/wt_ipc_free_pro.php:740
+msgid "Add additional data to invoice layout"
+msgstr "เพิ่มข้อมูลเพิ่มเติมให้กับโครงร่างใบแจ้งหนี้"
+
+#: admin/views/wt_ipc_free_pro.php:744 admin/views/wt_ipc_free_pro.php:786
+msgid "Total tax"
+msgstr "ยอดภาษีทั้งหมด"
+
+#: admin/views/wt_ipc_free_pro.php:748 admin/views/wt_ipc_free_pro.php:790
+msgid "Tracking number"
+msgstr "หมายเลขติดตาม"
+
+#: admin/views/wt_ipc_free_pro.php:760 admin/views/wt_ipc_free_pro.php:802
+msgid "Cart discount"
+msgstr "ส่วนลดในรถเข็น"
+
+#: admin/views/wt_ipc_free_pro.php:764 admin/views/wt_ipc_free_pro.php:806
+msgid "Order discount"
+msgstr "ส่วนลดการสั่งซื้อ"
+
+#: admin/views/wt_ipc_free_pro.php:772 admin/views/wt_ipc_free_pro.php:814
+#: public/modules/invoice/invoice.php:1205
+msgid "Coupon info"
+msgstr "ข้อมูลคูปอง"
+
+#: admin/views/wt_ipc_free_pro.php:827 admin/views/wt_pi_free_pro.php:276 admin/views/wt_pl_free_pro.php:164
+#: admin/views/wt_sdd_free_pro.php:428
+msgid "WPML compatibility"
+msgstr "ความเข้ากันได้ของ WPML"
+
+#: admin/views/wt_pi_free_pro.php:6 admin/views/wt_pro_addons_list.php:69
+msgid "WooCommerce Proforma Invoices plugin"
+msgstr "ปลั๊กอินใบแจ้งหนี้ WooCommerce Proforma"
+
+#: admin/views/wt_pi_free_pro.php:10
+msgid "Create proforma invoice automatically for selected order statuses"
+msgstr "สร้างใบแจ้งหนี้ Proforma โดยอัตโนมัติสำหรับสถานะคำสั่งซื้อที่เลือก"
+
+#: admin/views/wt_pi_free_pro.php:24
+msgid "Attach invoice PDF to order emails"
+msgstr "แนบใบแจ้งหนี้ PDF เพื่อสั่งซื้ออีเมล"
+
+#: admin/views/wt_pi_free_pro.php:38 public/modules/invoice/views/general.php:134
+msgid "Show print invoice button for customers"
+msgstr "แสดงปุ่มพิมพ์ใบแจ้งหนี้ให้กับลูกค้า"
+
+#: admin/views/wt_pi_free_pro.php:70
+msgid "Based on order number"
+msgstr "ขึ้นอยู่กับหมายเลขคำสั่งซื้อ"
+
+#: admin/views/wt_pi_free_pro.php:74
+msgid "Custom number series"
+msgstr "ชุดหมายเลขที่กำหนดเอง"
+
+#: admin/views/wt_pi_free_pro.php:80
+msgid "Separate tax column in product table for multiple tax options in proforma invoices"
+msgstr "แยกคอลัมน์ภาษีในตารางผลิตภัณฑ์สำหรับตัวเลือกภาษีหลายรายการในใบแจ้งหนี้ Proforma"
+
+#: admin/views/wt_pi_free_pro.php:94
+msgid "Use custom number format & length"
+msgstr "ใช้รูปแบบตัวเลขและความยาวที่กำหนดเอง"
+
+#: admin/views/wt_pi_free_pro.php:108
+msgid "Group products by 'Category'"
+msgstr "จัดกลุ่มผลิตภัณฑ์ตาม 'หมวดหมู่'"
+
+#: admin/views/wt_pi_free_pro.php:136
+msgid "Show variation data of products"
+msgstr "แสดงข้อมูลรูปแบบของผลิตภัณฑ์"
+
+#: admin/views/wt_pi_free_pro.php:150
+msgid "Add order meta fields "
+msgstr "เพิ่มฟิลด์เมตาการสั่งซื้อ "
+
+#: admin/views/wt_pi_free_pro.php:192
+msgid "Add custom footer"
+msgstr "เพิ่มส่วนท้ายที่กำหนดเอง"
+
+#: admin/views/wt_pi_free_pro.php:220
+msgid "Attach transport terms"
+msgstr "แนบเงื่อนไขการขนส่ง"
+
+#: admin/views/wt_pi_free_pro.php:234
+msgid "Attach sales terms"
+msgstr "แนบเงื่อนไขการขาย"
+
+#: admin/views/wt_pi_free_pro.php:248
+msgid "Multiple pre-built layouts"
+msgstr "เค้าโครงที่สร้างไว้ล่วงหน้าหลายแบบ"
+
+#: admin/views/wt_pi_free_pro.php:296
+msgid "Generate address labels"
+msgstr "สร้างป้ายกำกับที่อยู่"
+
+#: admin/views/wt_pi_free_pro.php:310
+msgid "Supported address types"
+msgstr "ประเภทที่อยู่ที่รองรับ"
+
+#: admin/views/wt_pi_free_pro.php:319
+msgid "Shipping address"
+msgstr "ที่อยู่สำหรับจัดส่ง"
+
+#: admin/views/wt_pi_free_pro.php:323
+msgid "Billing address"
+msgstr "ที่อยู่ออกใบเสร็จ"
+
+#: admin/views/wt_pi_free_pro.php:327
+msgid "From address"
+msgstr "จากที่อยู่"
+
+#: admin/views/wt_pi_free_pro.php:331
+msgid "Return address"
+msgstr "ที่อยู่กลับ"
+
+#: admin/views/wt_pi_free_pro.php:337
+msgid "Multiple address label layouts"
+msgstr "เค้าโครงป้ายที่อยู่หลายแบบ"
+
+#: admin/views/wt_pi_free_pro.php:351
+msgid "Customize layout properties"
+msgstr "ปรับแต่งคุณสมบัติเค้าโครง"
+
+#: admin/views/wt_pi_free_pro.php:365
+msgid "WPML compatibilityCustomize label sizes"
+msgstr "ความเข้ากันได้ของ WPML กำหนดขนาดฉลากเอง"
+
+#: admin/views/wt_pi_free_pro.php:379
+msgid "Bulk print shipping labels"
+msgstr "พิมพ์ฉลากการจัดส่งจำนวนมาก"
+
+#: admin/views/wt_pl_free_pro.php:6
+msgid "WooCommerce Pick lists plugin"
+msgstr "ปลั๊กอินรายการเลือก WooCommerce"
+
+#: admin/views/wt_pl_free_pro.php:10
+msgid "Generate picklists"
+msgstr "สร้างรายการเลือก"
+
+#: admin/views/wt_pl_free_pro.php:52
+msgid "Group products by ‘Order’"
+msgstr "จัดกลุ่มผลิตภัณฑ์ตาม 'คำสั่งซื้อ'"
+
+#: admin/views/wt_pl_free_pro.php:80
+msgid "Exclude virtual items from picklists"
+msgstr "แยกรายการเสมือนออกจากรายการเลือก"
+
+#: admin/views/wt_pl_free_pro.php:108
+msgid "Product meta fields"
+msgstr "ช่องเมตาของผลิตภัณฑ์"
+
+#: admin/views/wt_pl_free_pro.php:122
+msgid "Product attributes"
+msgstr "คุณลักษณะของผลิตภัณฑ์"
+
+#: admin/views/wt_pl_free_pro.php:136
+msgid "Pre-built layouts"
+msgstr "เค้าโครงที่สร้างไว้ล่วงหน้า"
+
+#: admin/views/wt_pro_addons_list.php:94
+msgid "Generate Shipping Address labels"
+msgstr "สร้างฉลากที่อยู่จัดส่ง"
+
+#: admin/views/wt_pro_addons_list.php:95
+msgid "Generate Billing Address labels"
+msgstr "สร้างป้ายกำกับที่อยู่สำหรับการเรียกเก็บเงิน"
+
+#: admin/views/wt_pro_addons_list.php:96
+msgid "Generate From Address labels"
+msgstr "สร้างป้ายกำกับจากที่อยู่"
+
+#: admin/views/wt_pro_addons_list.php:97
+msgid "Generate Return Address labels"
+msgstr "สร้างป้ายกำกับที่อยู่ผู้ส่งกลับ"
+
+#: admin/views/wt_pro_addons_list.php:100
+msgid "Built-in label templates"
+msgstr "เทมเพลตฉลากในตัว"
+
+#: admin/views/wt_pro_addons_list.php:102
+msgid "Customize layout elements & properties"
+msgstr "ปรับแต่งองค์ประกอบเค้าโครงและคุณสมบัติ"
+
+#: admin/views/wt_pro_addons_list.php:117
+msgid "Compatible with WooCommerce PDF Invoice, Packing Slip & Credit Note (Pro)"
+msgstr "เข้ากันได้กับใบแจ้งหนี้ PDF ของ WooCommerce สลิปการบรรจุและใบลดหนี้ (Pro)"
+
+#: admin/views/wt_sdd_free_pro.php:42 public/modules/shippinglabel/views/general.php:26
+msgid "Shipping label size"
+msgstr "ขนาดฉลากการจัดส่ง"
+
+#: admin/views/wt_sdd_free_pro.php:46 admin/views/wt_sdd_free_pro.php:56
+msgid "Full page"
+msgstr "เต็มหน้า"
+
+#: admin/views/wt_sdd_free_pro.php:50 admin/views/wt_sdd_free_pro.php:60
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+#: admin/views/wt_sdd_free_pro.php:66
+msgid "Add multiple shipping labels in one page"
+msgstr "เพิ่มป้ายกำกับการจัดส่งหลายรายการในหน้าเดียว"
+
+#: admin/views/wt_sdd_free_pro.php:224
+msgid "Add print document button to selected order emails"
+msgstr "เพิ่มปุ่มพิมพ์เอกสารลงในอีเมลคำสั่งซื้อที่เลือก"
+
+#: admin/views/wt_sdd_free_pro.php:256
+msgid "Pre-built layout for documents"
+msgstr "เค้าโครงที่สร้างไว้ล่วงหน้าสำหรับเอกสาร"
+
+#: admin/views/wt_sdd_free_pro.php:320
+msgid "Add custom fields to shipping label layout"
+msgstr "เพิ่มฟิลด์ที่กำหนดเองให้กับเค้าโครงฉลากการจัดส่ง"
+
+#: admin/views/wt_sdd_free_pro.php:324 admin/views/wt_sdd_free_pro.php:334
+msgid "Company logo"
+msgstr "โลโก้บริษัท"
+
+#: admin/views/wt_sdd_free_pro.php:328 admin/views/wt_sdd_free_pro.php:338
+msgid "Return policy"
+msgstr "นโยบายการคืนสินค้า"
+
+#: admin/views/wt_sdd_free_pro.php:344
+msgid "Include product image in delivery note"
+msgstr "รวมรูปภาพผลิตภัณฑ์ในบันทึกการจัดส่ง"
+
+#: admin/views/wt_sdd_free_pro.php:358 public/modules/deliverynote/views/general.php:38
+#: public/modules/dispatchlabel/views/general.php:24 public/modules/packinglist/views/general.php:40
+msgid "Add customer note"
+msgstr "เพิ่มหมายเหตุลูกค้า"
+
+#: admin/views/wt_sdd_free_pro.php:382 public/modules/deliverynote/views/general.php:53
+#: public/modules/dispatchlabel/views/general.php:39 public/modules/packinglist/views/general.php:55
+msgid "Add footer"
+msgstr "เพิ่มส่วนท้าย"
+
+#: admin/views/wt_sdd_free_pro.php:414
+msgid "Separate tax column in product table for multiple tax options in dispatch labels"
+msgstr "แยกคอลัมน์ภาษีในตารางผลิตภัณฑ์สำหรับตัวเลือกภาษีหลายรายการในป้ายกำกับการจัดส่ง"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:29
+msgid "Invoice Generation In Progress"
+msgstr "อยู่ระหว่างการสร้างใบแจ้งหนี้"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:30
+msgid ""
+"Invoice numbers are getting generated in the background. This process may take a little while, so please be "
+"patient."
+msgstr "กำลังสร้างหมายเลขใบแจ้งหนี้ในเบื้องหลัง กระบวนการนี้อาจใช้เวลาสักครู่ ดังนั้นโปรดอดใจรอ"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:31
+msgid "View progress"
+msgstr "ดูความคืบหน้า"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:54
+#, php-format
+msgid ""
+"Hey, we at %1$s WebToffee %2$s would like to thank you for using %3$s %4$s %5$s. %6$s Less than a minute of "
+"your time will motivate us to keep doing what we do. We would really appreciate if you could take a moment "
+"to drop a quick review that motivate us to keep going."
+msgstr ""
+"สวัสดี พวกเราที่ %1$s WebToffee %2$s ขอขอบคุณที่ใช้ %3$s %4$s %5$s %6$s "
+"เวลาของคุณไม่ถึงหนึ่งนาทีจะกระตุ้นให้เราทำสิ่งที่เราทำต่อไป เราจะยินดีเป็นอย่างยิ่งหากคุณสละเวลาสักครู่เพื่อเขียนรีวิวสั้นๆ "
+"ที่เป็นแรงบันดาลใจให้เราดำเนินการต่อไป"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:57
+msgid "Remind me later"
+msgstr "เตือนฉันภายหลัง"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:58
+msgid "Not interested"
+msgstr "ไม่สนใจ"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:59
+msgid "Review now"
+msgstr "รีวิวเลย"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:65
+msgid "Knock, Knock!"
+msgstr "ก๊อกก๊อก!"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:66
+msgid "You`ve just created"
+msgstr "คุณเพิ่งสร้างขึ้น"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:68
+msgid "commercial documents using"
+msgstr "การใช้เอกสารทางการค้า"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:69
+msgid "Woocommerce PDF invoices, packing slips, delivery notes, and shipping labels"
+msgstr "ใบแจ้งหนี้ PDF ของ Woocommerce สลิปการบรรจุ บันทึกการจัดส่ง และป้ายกำกับการจัดส่ง"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:70
+msgid "That’s awesome! We’d love it if you take a moment to share what you think and help spread the word."
+msgstr "ที่น่ากลัว! เรายินดีอย่างยิ่งหากคุณสละเวลาสักครู่เพื่อแบ่งปันสิ่งที่คุณคิดและช่วยกระจายข่าว"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:72
+msgid "Rate us now"
+msgstr "ให้คะแนนเราตอนนี้"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+#, php-format
+msgid ""
+"The plugins %s and %s cannot be active in your store at the same time. Kindly deactivate one of these prior "
+"to activating the other."
+msgstr ""
+"ปลั๊กอิน %s และ %s ไม่สามารถใช้งานได้ในร้านค้าของคุณพร้อมกัน โปรดปิดการใช้งานรายการใดรายการหนึ่งก่อนที่จะเปิดใช้งานรายการอื่น"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+msgid "Go to plugins page"
+msgstr "ไปที่หน้าปลั๊กอิน"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:176
+#, php-format
+msgid ""
+"%s WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels (Basic) %s is enabled but not "
+"effective. It requires %s WooCommerce %s in order to work."
+msgstr ""
+"%s WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels (Basic) %s "
+"ถูกเปิดใช้งานแต่ไม่มีประสิทธิผล ต้องใช้ %s WooCommerce %s จึงจะทำงานได้"
+
+#: public/modules/deliverynote/data/data.templates.php:5
+msgid "Classic"
+msgstr "คลาสสิก"
+
+#: public/modules/deliverynote/data/data.tooltip.php:3 public/modules/packinglist/data/data.tooltip.php:3
+msgid "Adds product image to the line items in the product table"
+msgstr "เพิ่มรูปภาพผลิตภัณฑ์ลงในรายการโฆษณาในตารางผลิตภัณฑ์"
+
+#: public/modules/deliverynote/data/data.tooltip.php:4
+msgid "Adds customer note to the delivery note"
+msgstr "เพิ่มบันทึกลูกค้าในบันทึกการจัดส่ง"
+
+#: public/modules/deliverynote/data/data.tooltip.php:5
+msgid "Adds Footer to the delivery note"
+msgstr "เพิ่มส่วนท้ายให้กับบันทึกการจัดส่ง"
+
+#: public/modules/deliverynote/deliverynote.php:231 public/modules/deliverynote/deliverynote.php:251
+#: public/modules/deliverynote/deliverynote.php:262 public/modules/deliverynote/deliverynote.php:263
+msgid "Print Delivery note"
+msgstr "พิมพ์ใบส่งสินค้า"
+
+#: public/modules/deliverynote/deliverynote.php:245
+msgid "Print/Download Delivery note"
+msgstr "พิมพ์/ดาวน์โหลดใบส่งสินค้า"
+
+#: public/modules/deliverynote/deliverynote.php:250 public/modules/deliverynote/deliverynote.php:399
+#: public/modules/dispatchlabel/dispatchlabel.php:243 public/modules/dispatchlabel/dispatchlabel.php:390
+#: public/modules/invoice/invoice.php:1406 public/modules/invoice/invoice.php:1974
+#: public/modules/packinglist/packinglist.php:260 public/modules/packinglist/packinglist.php:430
+#: public/modules/shippinglabel/shippinglabel.php:375 public/modules/shippinglabel/shippinglabel.php:582
+msgid "Print"
+msgstr "พิมพ์"
+
+#: public/modules/deliverynote/deliverynote.php:343
+msgid "Unable to print Delivery note. Please check the items in the order."
+msgstr "ไม่สามารถพิมพ์ใบส่งสินค้าได้ กรุณาตรวจสอบรายการตามลำดับ"
+
+#: public/modules/deliverynote/views/admin-settings.php:66
+msgid "Multiple templates to personalize the document"
+msgstr "เทมเพลตหลายแบบเพื่อปรับแต่งเอกสารในแบบของคุณ"
+
+#: public/modules/deliverynote/views/admin-settings.php:67
+msgid "Add a print delivery note button to the order email"
+msgstr "เพิ่มปุ่มบันทึกการจัดส่งแบบพิมพ์ลงในอีเมลคำสั่งซื้อ"
+
+#: public/modules/deliverynote/views/admin-settings.php:68
+#: public/modules/dispatchlabel/views/admin-settings.php:71 public/modules/packinglist/views/general.php:112
+msgid "Sort order items in the product table"
+msgstr "เรียงลำดับรายการในตารางผลิตภัณฑ์"
+
+#: public/modules/deliverynote/views/admin-settings.php:69
+#: public/modules/invoice/views/invoice-admin-settings.php:24 public/modules/packinglist/views/general.php:111
+msgid "Group products by category"
+msgstr "จัดกลุ่มผลิตภัณฑ์ตามหมวดหมู่"
+
+#: public/modules/deliverynote/views/admin-settings.php:70
+#: public/modules/dispatchlabel/views/admin-settings.php:70
+#: public/modules/invoice/views/invoice-admin-settings.php:26 public/modules/packinglist/views/general.php:113
+msgid "Show variation data for variable products"
+msgstr "แสดงข้อมูลรูปแบบสำหรับผลิตภัณฑ์แปรผัน"
+
+#: public/modules/deliverynote/views/admin-settings.php:71
+msgid "Add product & order meta fields"
+msgstr "เพิ่มฟิลด์เมตาผลิตภัณฑ์และคำสั่งซื้อ"
+
+#: public/modules/deliverynote/views/admin-settings.php:73
+msgid "Generate shipping labels and dispatch labels"
+msgstr "สร้างฉลากการจัดส่งและฉลากการจัดส่ง"
+
+#: public/modules/deliverynote/views/admin-settings.php:81
+#: public/modules/dispatchlabel/views/admin-settings.php:79
+#: public/modules/invoice/views/invoice-admin-settings.php:59 public/modules/packinglist/views/general.php:125
+#: public/modules/shippinglabel/views/admin-settings.php:76
+msgid "Get advanced features for your"
+msgstr "รับคุณสมบัติขั้นสูงสำหรับคุณ"
+
+#: public/modules/deliverynote/views/admin-settings.php:87
+#: public/modules/dispatchlabel/views/admin-settings.php:85
+#: public/modules/shippinglabel/views/admin-settings.php:82
+msgid "Shipping labels, Dispatch labels and Delivery notes"
+msgstr "ป้ายกำกับการจัดส่ง ป้ายกำกับการจัดส่ง และบันทึกการจัดส่ง"
+
+#: public/modules/deliverynote/views/admin-settings.php:107
+#: public/modules/dispatchlabel/views/admin-settings.php:105
+#: public/modules/invoice/views/invoice-admin-settings.php:85 public/modules/packinglist/views/general.php:151
+#: public/modules/shippinglabel/views/admin-settings.php:102
+msgid "View add-on"
+msgstr "ดูส่วนเสริม"
+
+#: public/modules/deliverynote/views/general.php:11
+msgid "Configure the general settings required for the delivery note."
+msgstr "กำหนดการตั้งค่าทั่วไปที่จำเป็นสำหรับบันทึกการจัดส่ง"
+
+#: public/modules/deliverynote/views/general.php:23 public/modules/packinglist/views/general.php:25
+msgid "Include product image"
+msgstr "รวมรูปภาพสินค้า"
+
+#: public/modules/dispatchlabel/data/data.templates.php:5
+msgid "Dispatch Label 1"
+msgstr "ป้ายกำกับการจัดส่ง 1"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:3
+msgid "Adds customer note in the dispatch label"
+msgstr "เพิ่มหมายเหตุลูกค้าในป้ายกำกับการจัดส่ง"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:4
+msgid "Adds footer in dispatch label"
+msgstr "เพิ่มส่วนท้ายในป้ายกำกับการจัดส่ง"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:210 public/modules/dispatchlabel/dispatchlabel.php:244
+#: public/modules/dispatchlabel/dispatchlabel.php:255 public/modules/dispatchlabel/dispatchlabel.php:256
+msgid "Print Dispatch Label"
+msgstr "พิมพ์ฉลากการจัดส่ง"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:237
+msgid "Dispatch Label"
+msgstr "ป้ายส่งสินค้า"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:238
+msgid "Print/Download Dispatch Label"
+msgstr "พิมพ์/ดาวน์โหลดฉลากการจัดส่ง"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:65
+#: public/modules/shippinglabel/views/admin-settings.php:60
+msgid "Multiple templates to personalize the label"
+msgstr "เทมเพลตหลายแบบเพื่อปรับแต่งป้ายกำกับในแบบของคุณ"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:66
+#: public/modules/shippinglabel/views/admin-settings.php:61
+msgid "Add a print label button to the order email"
+msgstr "เพิ่มปุ่มป้ายกำกับการพิมพ์ลงในอีเมลคำสั่งซื้อ"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:67
+#: public/modules/invoice/views/invoice-admin-settings.php:23
+msgid "Show different taxes in separate columns"
+msgstr "แสดงภาษีที่แตกต่างกันในคอลัมน์แยกกัน"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:68
+msgid "Add order & product meta fields"
+msgstr "เพิ่มฟิลด์คำสั่งซื้อและผลิตภัณฑ์เมตา"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:72
+msgid "Generate shipping labels and delivery notes"
+msgstr "สร้างฉลากการจัดส่งและบันทึกการจัดส่ง"
+
+#: public/modules/dispatchlabel/views/general.php:12
+msgid "Configure the general settings required for the dispatch label."
+msgstr "กำหนดการตั้งค่าทั่วไปที่จำเป็นสำหรับฉลากการจัดส่ง"
+
+#: public/modules/invoice/data/data.templates-prev-version.php:5
+#: public/modules/packinglist/data/data.templates.php:5
+msgid "Basic - 1"
+msgstr "พื้นฐาน - 1"
+
+#: public/modules/invoice/data/data.templates.php:5
+msgid "Basic - 0"
+msgstr "พื้นฐาน - 0"
+
+#: public/modules/invoice/data/data.tooltip.php:3
+msgid ""
+"Admins and customers both can leverage this feature wherever applicable. Disabling will remove all the "
+"provisions. Yet, the invoices are customizable."
+msgstr "ผู้ดูแลระบบและลูกค้าสามารถใช้ประโยชน์จากคุณลักษณะนี้ได้ทุกที่ การปิดใช้งานจะลบข้อกำหนดทั้งหมด แต่ใบแจ้งหนี้สามารถปรับแต่งได้"
+
+#: public/modules/invoice/data/data.tooltip.php:4
+msgid "The date is displayed on the invoice. It can be either the order creation date or the invoiced date."
+msgstr "วันที่จะปรากฏบนใบแจ้งหนี้ อาจเป็นวันที่สร้างใบสั่งหรือวันที่ออกใบแจ้งหนี้ก็ได้"
+
+#: public/modules/invoice/data/data.tooltip.php:5
+msgid "Allows customers to print the invoice from the specified pages."
+msgstr "ช่วยให้ลูกค้าสามารถพิมพ์ใบแจ้งหนี้จากหน้าที่กำหนดได้"
+
+#: public/modules/invoice/invoice.php:31
+msgid "Print invoice"
+msgstr "พิมพ์ใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:32
+msgid "Download invoice"
+msgstr "ดาวน์โหลดใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:301
+#, php-format
+msgid ""
+"You can control the visibility of the seal according to order status via filters. See filter documentation "
+"%s here. %s"
+msgstr "คุณสามารถควบคุมการมองเห็นของซีลตามสถานะการสั่งซื้อผ่านตัวกรอง ดูเอกสารประกอบตัวกรอง %s ที่นี่ %s"
+
+#: public/modules/invoice/invoice.php:320
+msgid "Width"
+msgstr "ความกว้าง"
+
+#: public/modules/invoice/invoice.php:328
+msgid "Height"
+msgstr "ความสูง"
+
+#: public/modules/invoice/invoice.php:352
+msgid "Border width"
+msgstr "ความกว้างของเส้นขอบ"
+
+#: public/modules/invoice/invoice.php:360
+msgid "Line height"
+msgstr "ความสูงของเส้น"
+
+#: public/modules/invoice/invoice.php:368
+msgid "Opacity"
+msgstr "บริเวณทึบแสง"
+
+#: public/modules/invoice/invoice.php:389
+msgid "Border radius"
+msgstr "รัศมีชายแดน"
+
+#: public/modules/invoice/invoice.php:397
+msgid "From left"
+msgstr "จากซ้าย"
+
+#: public/modules/invoice/invoice.php:405
+msgid "From top"
+msgstr "จากด้านบน"
+
+#: public/modules/invoice/invoice.php:413
+msgid "Angle"
+msgstr "มุม"
+
+#: public/modules/invoice/invoice.php:420
+msgid "Color"
+msgstr "สี"
+
+#: public/modules/invoice/invoice.php:1161
+msgid "Pro Add-on"
+msgstr "โปรแกรมเสริมโปร"
+
+#: public/modules/invoice/invoice.php:1165
+msgid "Document title"
+msgstr "ชื่อเอกสาร"
+
+#: public/modules/invoice/invoice.php:1166
+msgid "Company Logo / Name"
+msgstr "โลโก้บริษัท / ชื่อ"
+
+#: public/modules/invoice/invoice.php:1168 public/modules/invoice/invoice.php:1446
+msgid "Invoice Number"
+msgstr "หมายเลขใบสั่งซื้อ"
+
+#: public/modules/invoice/invoice.php:1169 public/modules/shippinglabel/shippinglabel.php:164
+msgid "Order Number"
+msgstr "หมายเลขคำสั่งซื้อ"
+
+#: public/modules/invoice/invoice.php:1170
+msgid "Invoice Date"
+msgstr "วันที่แจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:1171 public/modules/shippinglabel/shippinglabel.php:165
+msgid "Order Date"
+msgstr "วันที่สั่งซื้อ"
+
+#: public/modules/invoice/invoice.php:1173 public/modules/shippinglabel/shippinglabel.php:162
+msgid "From Address"
+msgstr "จากที่อยู่"
+
+#: public/modules/invoice/invoice.php:1174
+msgid "Billing Address"
+msgstr "ที่อยู่เรียกเก็บเงิน"
+
+#: public/modules/invoice/invoice.php:1175
+msgid "Shipping Address"
+msgstr "ที่อยู่จัดส่ง"
+
+#: public/modules/invoice/invoice.php:1176 public/modules/shippinglabel/shippinglabel.php:168
+msgid "Email Field"
+msgstr "ฟิลด์อีเมล"
+
+#: public/modules/invoice/invoice.php:1177 public/modules/shippinglabel/shippinglabel.php:169
+msgid "Tel Field"
+msgstr "โทรฟิลด์"
+
+#: public/modules/invoice/invoice.php:1179 public/modules/shippinglabel/shippinglabel.php:171
+msgid "SSN number"
+msgstr "หมายเลขเอสเอสเอ็น"
+
+#: public/modules/invoice/invoice.php:1180 public/modules/shippinglabel/shippinglabel.php:170
+msgid "VAT number"
+msgstr "หมายเลขภาษี"
+
+#: public/modules/invoice/invoice.php:1182
+msgid "Payment received stamp"
+msgstr "แสตมป์ที่ได้รับการชำระเงิน"
+
+#: public/modules/invoice/invoice.php:1187 public/modules/shippinglabel/shippinglabel.php:174
+msgid "Barcode"
+msgstr "บาร์โค้ด"
+
+#: public/modules/invoice/invoice.php:1190
+msgid "QR code"
+msgstr "QR code"
+
+#: public/modules/invoice/invoice.php:1192
+msgid "QR Code"
+msgstr "คิวอาร์โค้ด"
+
+#: public/modules/invoice/invoice.php:1198 public/modules/shippinglabel/shippinglabel.php:175
+msgid "Tracking Number"
+msgstr "หมายเลขติดตามการจัดส่ง"
+
+#: public/modules/invoice/invoice.php:1346
+msgid "Print Invoices"
+msgstr "พิมพ์ใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:1347
+msgid "Download Invoices"
+msgstr "ดาวน์โหลดใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:1391 public/modules/invoice/invoice.php:1430
+msgid "Print Invoice"
+msgstr "พิมพ์ใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:1399 public/modules/invoice/invoice.php:1431
+msgid "Download Invoice"
+msgstr "ดาวน์โหลดใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:1407 public/modules/packinglist/packinglist.php:267
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: public/modules/invoice/invoice.php:1420
+msgid "Print/Download Invoice"
+msgstr "พิมพ์/ดาวน์โหลดใบแจ้งหนี้"
+
+#: public/modules/invoice/invoice.php:1707
+msgid "Customizer module is not active."
+msgstr "โมดูลตัวปรับแต่งไม่ทำงาน"
+
+#: public/modules/invoice/views/general.php:18
+msgid "Configure the general settings required for the invoice."
+msgstr "กำหนดการตั้งค่าทั่วไปที่จำเป็นสำหรับใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:51
+msgid "Enable to print, download, and mail invoices."
+msgstr "เปิดใช้งานการพิมพ์ ดาวน์โหลด และส่งใบแจ้งหนี้ทางไปรษณีย์"
+
+#: public/modules/invoice/views/general.php:53
+msgid "Enable Invoice"
+msgstr "เปิดใช้งานใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:76 public/modules/invoice/views/qrcode_promote.php:38
+msgid "Invoice date"
+msgstr "วันที่ในใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:82 public/modules/invoice/views/qrcode_promote.php:39
+msgid "Order date"
+msgstr "วันสั่ง"
+
+#: public/modules/invoice/views/general.php:83
+msgid "Invoiced date"
+msgstr "วันที่ออกใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:93
+msgid "Automate invoice creation"
+msgstr "สร้างใบแจ้งหนี้อัตโนมัติ"
+
+#: public/modules/invoice/views/general.php:100 public/modules/invoice/views/general.php:126
+msgid "Choose order status"
+msgstr "เลือกสถานะการสั่งซื้อ"
+
+#: public/modules/invoice/views/general.php:101
+msgid "Automatically creates invoices for selected order statuses."
+msgstr "สร้างใบแจ้งหนี้โดยอัตโนมัติสำหรับสถานะคำสั่งซื้อที่เลือก"
+
+#: public/modules/invoice/views/general.php:108
+msgid "Attach invoice PDF to admin email"
+msgstr "แนบใบแจ้งหนี้ PDF ไปกับอีเมลผู้ดูแลระบบ"
+
+#: public/modules/invoice/views/general.php:112
+msgid "Enable to attach invoice PDF to the new order email notification"
+msgstr "เปิดใช้งานการแนบใบแจ้งหนี้ PDF ไปกับการแจ้งเตือนทางอีเมลคำสั่งซื้อใหม่"
+
+#: public/modules/invoice/views/general.php:119
+msgid "Attach invoice pdf in customer email"
+msgstr "แนบใบแจ้งหนี้ PDF ในอีเมลลูกค้า"
+
+#: public/modules/invoice/views/general.php:127
+msgid "Invoice in PDF format will be attached with the order email for chosen order statuses."
+msgstr "ใบแจ้งหนี้ในรูปแบบ PDF จะถูกแนบไปกับอีเมลคำสั่งซื้อสำหรับสถานะคำสั่งซื้อที่เลือก"
+
+#: public/modules/invoice/views/general.php:159 public/modules/invoice/views/qrcode_promote.php:32
+#: public/modules/invoice/views/qrcode_promote.php:36
+msgid "Invoice number"
+msgstr "เลขที่"
+
+#: public/modules/invoice/views/general.php:178
+msgid "Invoice details"
+msgstr "รายละเอียดใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:185
+msgid "Order meta fields"
+msgstr "สั่งซื้อฟิลด์เมตา"
+
+#: public/modules/invoice/views/general.php:189
+msgid "Select/add order meta to display additional information related to the order on the invoice."
+msgstr "เลือก/เพิ่มเมตาคำสั่งซื้อเพื่อแสดงข้อมูลเพิ่มเติมที่เกี่ยวข้องกับคำสั่งซื้อในใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:197
+msgid ""
+"If left blank, default to the logo from General settings. Ensure to select company logo from ‘Invoice > "
+"Customize > Company Logo’ to reflect on the invoice. Recommended size is 150×50px."
+msgstr ""
+"หากเว้นว่างไว้ ให้ใช้โลโก้เป็นค่าเริ่มต้นจากการตั้งค่าทั่วไป ตรวจสอบให้แน่ใจว่าได้เลือกโลโก้บริษัทจาก 'ใบแจ้งหนี้ > ปรับแต่ง > โลโก้บริษัท' "
+"เพื่อสะท้อนถึงใบแจ้งหนี้ ขนาดที่แนะนำคือ 150×50px"
+
+#: public/modules/invoice/views/general.php:218
+msgid "Generate invoices for existing orders"
+msgstr "สร้างใบแจ้งหนี้สำหรับคำสั่งซื้อที่มีอยู่"
+
+#: public/modules/invoice/views/general.php:222
+msgid "Enable to create invoice for orders generated before plugin installation"
+msgstr "เปิดใช้งานเพื่อสร้างใบแจ้งหนี้สำหรับคำสั่งซื้อที่สร้างขึ้นก่อนการติดตั้งปลั๊กอิน"
+
+#: public/modules/invoice/views/general.php:233
+msgid "Enable to create invoices for free orders"
+msgstr "เปิดใช้งานเพื่อสร้างใบแจ้งหนี้สำหรับการสั่งซื้อฟรี"
+
+#: public/modules/invoice/views/general.php:240
+msgid "Display free line items in the invoice"
+msgstr "แสดงรายการบรรทัดอิสระในใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:244
+msgid "Include free(priced as 0) line items in the invoice"
+msgstr "รวมบรรทัดรายการฟรี (ราคาเป็น 0) ในใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:247
+msgid "Enable to create invoices for free orders."
+msgstr "เปิดใช้งานเพื่อสร้างใบแจ้งหนี้สำหรับการสั่งซื้อฟรี"
+
+#: public/modules/invoice/views/general.php:253
+msgid "PDF name format"
+msgstr "รูปแบบชื่อ PDF"
+
+#: public/modules/invoice/views/general.php:258
+msgid "[prefix][order_no]"
+msgstr "[คำนำหน้า][order_no]"
+
+#: public/modules/invoice/views/general.php:259
+msgid "[prefix][invoice_no]"
+msgstr "[คำนำหน้า][ใบแจ้งหนี้_no]"
+
+#: public/modules/invoice/views/general.php:263
+msgid "Select a name format for PDF invoice that includes invoice/order number."
+msgstr "เลือกรูปแบบชื่อสำหรับใบแจ้งหนี้ PDF ที่มีใบแจ้งหนี้/หมายเลขคำสั่งซื้อ"
+
+#: public/modules/invoice/views/general.php:269
+msgid "Custom PDF name prefix"
+msgstr "คำนำหน้าชื่อ PDF ที่กำหนดเอง"
+
+#: public/modules/invoice/views/general.php:271
+msgid ""
+"Input a custom prefix for ‘PDF name format’ that will appear at the beginning of the name. Defaulted to "
+"‘Invoice_’."
+msgstr "ป้อนคำนำหน้าที่กำหนดเองสำหรับ \"รูปแบบชื่อ PDF\" ที่จะปรากฏที่จุดเริ่มต้นของชื่อ ตั้งค่าเริ่มต้นเป็น 'ใบแจ้งหนี้_'"
+
+#: public/modules/invoice/views/general.php:277
+msgid "Use latest settings for invoice"
+msgstr "ใช้การตั้งค่าล่าสุดสำหรับใบแจ้งหนี้"
+
+#: public/modules/invoice/views/general.php:284
+msgid ""
+"Enable to apply the most recent settings to previous order invoices. This will match the previous invoices "
+"with the upcoming invoices.Changing the company address, name or any other settings in the future may "
+"overwrite previously created invoices with the most up-to-date information."
+msgstr ""
+"เปิดใช้งานเพื่อใช้การตั้งค่าล่าสุดกับใบแจ้งหนี้การสั่งซื้อก่อนหน้า ซึ่งจะจับคู่ใบแจ้งหนี้ก่อนหน้ากับใบแจ้งหนี้ที่กำลังจะมาถึง การเปลี่ยนที่อยู่บริษัท ชื่อ "
+"หรือการตั้งค่าอื่นๆ ในอนาคตอาจเขียนทับใบแจ้งหนี้ที่สร้างไว้ก่อนหน้านี้ด้วยข้อมูลล่าสุด"
+
+#: public/modules/invoice/views/general.php:312
+msgid "Date formats"
+msgstr "รูปแบบวันที่"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:19
+msgid "Multiple premium invoice templates to choose from"
+msgstr "เทมเพลตใบแจ้งหนี้พรีเมียมหลายแบบให้เลือก"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:20
+#, fuzzy
+#| msgid "Add product meta fields & attributes"
+msgid "Add custom data like product meta, order meta, attributes etc"
+msgstr "เพิ่มฟิลด์และแอตทริบิวต์เมตาของผลิตภัณฑ์"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:21
+msgid "Enable customers to Pay Later at checkout"
+msgstr "ช่วยให้ลูกค้าชำระเงินภายหลังเมื่อชำระเงิน"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:22
+msgid "Collect payments with a payment link on the invoice"
+msgstr "เก็บการชำระเงินด้วยลิงก์การชำระเงินในใบแจ้งหนี้"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:25
+msgid "Sort order items in the product table "
+msgstr "เรียงลำดับรายการในตารางผลิตภัณฑ์ "
+
+#: public/modules/invoice/views/invoice-admin-settings.php:27 public/modules/packinglist/views/general.php:114
+msgid "Multiple display formats for bundled products"
+msgstr "รูปแบบการแสดงหลายรูปแบบสำหรับผลิตภัณฑ์ที่รวมกลุ่ม"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:28
+msgid "Generate packing slips and credit notes"
+msgstr "สร้างบันทึกการจัดส่งและใบลดหนี้"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:65 public/modules/packinglist/views/general.php:131
+msgid "Invoices, Packing slips and Credit notes"
+msgstr "ใบแจ้งหนี้ ใบบรรจุสินค้า และใบลดหนี้"
+
+#: public/modules/invoice/views/qrcode_promote.php:26
+msgid "To help you comply with invoice mandates that require QR Codes"
+msgstr "เพื่อช่วยให้คุณปฏิบัติตามข้อบังคับในใบแจ้งหนี้ที่ต้องใช้รหัส QR"
+
+#: public/modules/invoice/views/qrcode_promote.php:28
+msgid "Assign QR code to all of invoices generated for the orders in your store"
+msgstr "กำหนดรหัส QR ให้กับใบแจ้งหนี้ทั้งหมดที่สร้างขึ้นสำหรับคำสั่งซื้อในร้านค้าของคุณ"
+
+#: public/modules/invoice/views/qrcode_promote.php:29
+msgid "Assign different types of info in your QR code, including:"
+msgstr "กำหนดข้อมูลประเภทต่างๆ ในโค้ด QR ของคุณ รวมถึง:"
+
+#: public/modules/invoice/views/qrcode_promote.php:31
+msgid "Order number (default)"
+msgstr "หมายเลขคำสั่งซื้อ (ค่าเริ่มต้น)"
+
+#: public/modules/invoice/views/qrcode_promote.php:34
+msgid "Custom details, as below:"
+msgstr "รายละเอียดที่กำหนดเองดังต่อไปนี้:"
+
+#: public/modules/invoice/views/qrcode_promote.php:40
+msgid "Seller tax ID"
+msgstr "หมายเลขประจำตัวผู้เสียภาษีผู้ขาย"
+
+#: public/modules/invoice/views/qrcode_promote.php:41
+msgid "Buyer name"
+msgstr "ชื่อผู้ซื้อ"
+
+#: public/modules/invoice/views/qrcode_promote.php:42
+msgid "Seller name"
+msgstr "ชื่อผู้ขาย"
+
+#: public/modules/invoice/views/qrcode_promote.php:43
+msgid "Invoice total"
+msgstr "รวมใบแจ้งหนี้"
+
+#: public/modules/invoice/views/qrcode_promote.php:44
+msgid "Invoice total tax"
+msgstr "ใบกำกับภาษีทั้งหมด"
+
+#: public/modules/invoice/views/qrcode_promote.php:49
+msgid ""
+"Compatible with WooCommerce PDF Invoice, Packing Slips, Delivery Notes, and Shipping Label (Free and Pro "
+"versions)"
+msgstr "เข้ากันได้กับใบแจ้งหนี้ PDF ของ WooCommerce, สลิปการบรรจุ, บันทึกการจัดส่งและฉลากการจัดส่ง (เวอร์ชันฟรีและ Pro)"
+
+#: public/modules/invoice/views/qrcode_promote.php:51
+msgid "Get Plugin"
+msgstr "รับปลั๊กอิน"
+
+#: public/modules/packinglist/data/data.tooltip.php:4
+msgid "Adds customer note to the packing slip"
+msgstr "เพิ่มหมายเหตุของลูกค้าลงในบันทึกการจัดส่ง"
+
+#: public/modules/packinglist/data/data.tooltip.php:5
+msgid "Adds Footer to the packing slip"
+msgstr "เพิ่มส่วนท้ายลงในบันทึกการจัดส่ง"
+
+#: public/modules/packinglist/packinglist.php:238 public/modules/packinglist/packinglist.php:261
+#: public/modules/packinglist/packinglist.php:279 public/modules/packinglist/packinglist.php:280
+msgid "Print Packing slip"
+msgstr "พิมพ์สลิปการบรรจุ"
+
+#: public/modules/packinglist/packinglist.php:255
+msgid "Print/Download Packing slip"
+msgstr "พิมพ์/ดาวน์โหลดใบส่งสินค้า"
+
+#: public/modules/packinglist/packinglist.php:268 public/modules/packinglist/packinglist.php:286
+#: public/modules/packinglist/packinglist.php:287
+msgid "Download Packing slip"
+msgstr "ดาวน์โหลดใบส่งสินค้า"
+
+#: public/modules/packinglist/packinglist.php:374 public/modules/shippinglabel/shippinglabel.php:518
+msgid "Unable to print Packing slip. Please check the items in the order."
+msgstr "ไม่สามารถพิมพ์ใบส่งสินค้าได้ กรุณาตรวจสอบรายการตามลำดับ"
+
+#: public/modules/packinglist/views/general.php:12
+msgid "Configure the general settings required for the packing slip."
+msgstr "กำหนดการตั้งค่าทั่วไปที่จำเป็นสำหรับบันทึกการจัดส่ง"
+
+#: public/modules/packinglist/views/general.php:108
+msgid "Automatically attach packing slip with order email"
+msgstr "แนบใบส่งสินค้าพร้อมกับอีเมลสั่งซื้อโดยอัตโนมัติ"
+
+#: public/modules/packinglist/views/general.php:109
+msgid "Built-in templates to personalize packing slip"
+msgstr "เทมเพลตในตัวเพื่อปรับแต่งบันทึกการจัดส่งในแบบของคุณ"
+
+#: public/modules/packinglist/views/general.php:110
+msgid "Add a print packing slip button to My account page"
+msgstr "เพิ่มปุ่มพิมพ์บันทึกการจัดส่งลงในหน้าบัญชีของฉัน"
+
+#: public/modules/packinglist/views/general.php:115
+msgid "Add custom footers to packing slips"
+msgstr "เพิ่มส่วนท้ายแบบกำหนดเองลงในบันทึกการจัดส่ง"
+
+#: public/modules/packinglist/views/general.php:116
+msgid "Add additional order & product meta fields"
+msgstr "เพิ่มฟิลด์คำสั่งซื้อและผลิตภัณฑ์เมตาเพิ่มเติม"
+
+#: public/modules/packinglist/views/general.php:117
+msgid "Add additional product attributes"
+msgstr "เพิ่มคุณสมบัติของผลิตภัณฑ์เพิ่มเติม"
+
+#: public/modules/packinglist/views/general.php:118
+msgid "Generate invoices and credits notes"
+msgstr "สร้างใบแจ้งหนี้และใบลดหนี้"
+
+#: public/modules/shippinglabel/data/data.templates.php:5
+msgid "Shipping Label 1"
+msgstr "ป้ายกำกับการจัดส่ง 1"
+
+#: public/modules/shippinglabel/data/data.tooltip.php:3
+msgid "Adds footer to the  Shipping label"
+msgstr "เพิ่มส่วนท้ายให้กับป้ายกำกับการจัดส่ง"
+
+#: public/modules/shippinglabel/shippinglabel.php:114 public/modules/shippinglabel/shippinglabel.php:139
+msgid "Title font size"
+msgstr "ขนาดตัวอักษรชื่อเรื่อง"
+
+#: public/modules/shippinglabel/shippinglabel.php:121
+msgid "Address font size"
+msgstr "ขนาดตัวอักษรที่อยู่"
+
+#: public/modules/shippinglabel/shippinglabel.php:163
+msgid "To Address"
+msgstr "ไปยังที่อยู่"
+
+#: public/modules/shippinglabel/shippinglabel.php:166
+msgid "Weight"
+msgstr "น้ำหนัก"
+
+#: public/modules/shippinglabel/shippinglabel.php:167
+msgid "Shipping Method"
+msgstr "วิธีการจัดส่งสินค้า"
+
+#: public/modules/shippinglabel/shippinglabel.php:176
+msgid "Package Number"
+msgstr "หมายเลขแพ็คเกจ"
+
+#: public/modules/shippinglabel/shippinglabel.php:177
+msgid "Box name"
+msgstr "ชื่อกล่อง"
+
+#: public/modules/shippinglabel/shippinglabel.php:178
+msgid "No of Items"
+msgstr "ไม่มีรายการ"
+
+#: public/modules/shippinglabel/shippinglabel.php:179
+msgid "Fragile"
+msgstr "บอบบาง"
+
+#: public/modules/shippinglabel/shippinglabel.php:180
+msgid "This way up"
+msgstr "ทางขึ้นนี้."
+
+#: public/modules/shippinglabel/shippinglabel.php:181
+msgid "Keep dry"
+msgstr "ให้แห้ง"
+
+#: public/modules/shippinglabel/shippinglabel.php:183
+msgid "Return Policy"
+msgstr "นโยบายการคืนสินค้า"
+
+#: public/modules/shippinglabel/shippinglabel.php:350 public/modules/shippinglabel/shippinglabel.php:368
+#: public/modules/shippinglabel/shippinglabel.php:376 public/modules/shippinglabel/shippinglabel.php:386
+#: public/modules/shippinglabel/shippinglabel.php:387
+msgid "Print Shipping Label"
+msgstr "พิมพ์ฉลากการจัดส่ง"
+
+#: public/modules/shippinglabel/shippinglabel.php:367
+msgid "Shipping Label"
+msgstr "แถบที่อยู่เพื่อการจัดส่งสินค้า"
+
+#: public/modules/shippinglabel/views/admin-settings.php:62
+msgid "Generate custom-sized shipping labels"
+msgstr "สร้างฉลากการจัดส่งตามขนาดที่กำหนดเอง"
+
+#: public/modules/shippinglabel/views/admin-settings.php:63
+msgid "Fit multiple shipping labels on a single page"
+msgstr "ติดป้ายกำกับการจัดส่งหลายรายการในหน้าเดียว"
+
+#: public/modules/shippinglabel/views/admin-settings.php:64
+msgid "Add company logo & return policy to label"
+msgstr "เพิ่มโลโก้บริษัทและนโยบายการคืนสินค้าลงในป้ายกำกับ"
+
+#: public/modules/shippinglabel/views/admin-settings.php:65
+msgid "Add notes like fragile, keep dry, etc."
+msgstr "เพิ่มโน้ต เช่น เปราะบาง เก็บไว้ในที่แห้ง ฯลฯ"
+
+#: public/modules/shippinglabel/views/admin-settings.php:66
+msgid "Add order meta fields to shipping labels"
+msgstr "เพิ่มฟิลด์เมตาคำสั่งซื้อให้กับป้ายกำกับการจัดส่ง"
+
+#: public/modules/shippinglabel/views/admin-settings.php:67
+msgid "Include the package number & box names on the label"
+msgstr "ระบุหมายเลขบรรจุภัณฑ์และชื่อกล่องบนฉลาก"
+
+#: public/modules/shippinglabel/views/admin-settings.php:68
+msgid "Display the total number of items on label"
+msgstr "แสดงจำนวนรายการทั้งหมดบนฉลาก"
+
+#: public/modules/shippinglabel/views/admin-settings.php:69
+msgid "Generate dispatch labels and delivery notes"
+msgstr "สร้างฉลากการจัดส่งและบันทึกการจัดส่ง"
+
+#: public/modules/shippinglabel/views/general.php:12
+msgid "Configure the general settings required for the shipping label."
+msgstr "กำหนดการตั้งค่าทั่วไปที่จำเป็นสำหรับฉลากการจัดส่ง"
+
+#: public/modules/shippinglabel/views/general.php:31
+msgid "Full Page"
+msgstr "Full Page"
+
+#: public/modules/shippinglabel/views/general.php:32
+msgid "Custom (Pro version)"
+msgstr "กำหนดเอง (รุ่น Pro)"
+
+#: public/modules/shippinglabel/views/general.php:36
+msgid "Set the  Size of the Shipping label to be either full page or custom size."
+msgstr "ตั้งค่าขนาดของป้ายกำกับการจัดส่งให้เป็นขนาดเต็มหน้าหรือขนาดที่กำหนดเอง"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+msgstr "https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-lips/"
+
+#. Description of the plugin/theme
+msgid "Prints Packing List,Invoice,Delivery Note and Shipping Label."
+msgstr "พิมพ์รายการบรรจุภัณฑ์ ใบแจ้งหนี้ ใบส่งสินค้า และฉลากการจัดส่ง"
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "Webท๊อฟฟี่"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#~ msgid "Phone:"
+#~ msgstr "เบอร์:"
+
+#~ msgid "Street address"
+#~ msgstr "ที่อยู่"
+
+#~ msgid "WordPress Backup and Migration"
+#~ msgstr "การสำรองข้อมูลและการโยกย้าย WordPress"
+
+#~ msgid "One-click backup and restore"
+#~ msgstr "สำรองและกู้คืนเพียงคลิกเดียว"
+
+#~ msgid "Multiple storage locations"
+#~ msgstr "สถานที่จัดเก็บหลายแห่ง"
+
+#~ msgid "URL import supported"
+#~ msgstr "รองรับการนำเข้า URL"
+
+#~ msgid "Email notifications support"
+#~ msgstr "รองรับการแจ้งเตือนทางอีเมล"
+
+#~ msgid "Multiple file formats supported"
+#~ msgstr "รองรับไฟล์ได้หลายรูปแบบ"
+
+#~ msgid "Auto delete backups"
+#~ msgstr "ลบข้อมูลสำรองอัตโนมัติ"
+
+#~ msgid "Exclude specific DB tables"
+#~ msgstr "ไม่รวมตาราง DB ที่เฉพาะเจาะจง"
+
+#~ msgid "Display Discounts for WooCommerce"
+#~ msgstr "แสดงส่วนลดสำหรับ WooCommerce"
+
+#~ msgid "Display available coupons on the product pages"
+#~ msgstr "แสดงคูปองที่มีอยู่ในหน้าผลิตภัณฑ์"
+
+#~ msgid "Customize the coupon template"
+#~ msgstr "ปรับแต่งเทมเพลตคูปอง"
+
+#~ msgid "Show countdown timers for time-limited coupons"
+#~ msgstr "แสดงตัวนับถอยหลังสำหรับคูปองแบบจำกัดเวลา"
+
+#~ msgid "Show restriction info within the coupon"
+#~ msgstr "แสดงข้อมูลข้อจำกัดภายในคูปอง"
+
+#~ msgid "Limit the number of coupons to display on a page"
+#~ msgstr "จำกัดจำนวนคูปองที่จะแสดงบนเพจ"
+
+#~ msgid "Hide discount display section from guest users"
+#~ msgstr "ซ่อนส่วนแสดงส่วนลดจากผู้ใช้ทั่วไป"
+
+#~ msgid "Hide coupons without restrictions"
+#~ msgstr "ซ่อนคูปองโดยไม่มีข้อจำกัด"
+
+#~ msgid "Adjust the discounts section location"
+#~ msgstr "ปรับตำแหน่งของส่วนส่วนลด"
+
+#~ msgid "WebToffee WooCommerce Best Sellers"
+#~ msgstr "Webท๊อฟฟี่ WooCommerce สินค้าขายดี"
+
+#~ msgid "Create a best seller page for displaying best selling products"
+#~ msgstr "สร้างเพจขายดีเพื่อแสดงสินค้าขายดี"
+
+#~ msgid "Add best seller labels to WooCommerce products"
+#~ msgstr "เพิ่มป้ายกำกับสินค้าขายดีให้กับผลิตภัณฑ์ WooCommerce"
+
+#~ msgid "Rank products based on sales"
+#~ msgstr "จัดอันดับผลิตภัณฑ์ตามยอดขาย"
+
+#~ msgid "Supports simple and variable products"
+#~ msgstr "รองรับผลิตภัณฑ์ที่เรียบง่ายและหลากหลาย"
+
+#~ msgid "Create a best seller slider on store pages"
+#~ msgstr "สร้างแถบเลื่อนสินค้าขายดีบนหน้าร้านค้า"
+
+#~ msgid "Add a custom best seller seal"
+#~ msgstr "เพิ่มตราประทับสินค้าขายดีแบบกำหนดเอง"
+
+#~ msgid "Customize slider view for WooCommerce best sellers"
+#~ msgstr "ปรับแต่งมุมมองแถบเลื่อนสำหรับสินค้าขายดีของ WooCommerce"
+
+#~ msgid "Set product limit for best sellers"
+#~ msgstr "กำหนดขีดจำกัดผลิตภัณฑ์สำหรับสินค้าขายดี"
+
+#~ msgid "Add product meta fields & attributes to invoices"
+#~ msgstr "เพิ่มฟิลด์และแอตทริบิวต์เมตาผลิตภัณฑ์ลงในใบแจ้งหนี้"

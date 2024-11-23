@@ -1,0 +1,5294 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices, Packing Slips, Delivery Notes and "
+"Shipping Labels\n"
+"POT-Creation-Date: 2024-07-18 13:09+0530\n"
+"PO-Revision-Date: 2024-07-18 13:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: print-invoices-packing-slip-labels-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:128
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:60
+msgid "Settings updated."
+msgstr "সেটিংস আপডেট."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:129
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:61
+msgid "All fields are mandatory"
+msgstr "সব মাঠ আবশ্যক"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:130
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:62
+#, php-format
+msgid ""
+"Unable to update settings due to an internal error. %s To troubleshoot please click %s "
+"here. %s"
+msgstr ""
+"একটি অভ্যন্তরীণ ত্রুটির কারণে সেটিংস আপডেট করতে অক্ষম৷ %s সমস্যা সমাধানের জন্য দয়া করে এখানে "
+"%s ক্লিক করুন৷ %s"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:131
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:63
+msgid "You have to select order(s) first!"
+msgstr "আপনাকে প্রথমে অর্ডার (গুলি) নির্বাচন করতে হবে!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:132
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:64
+msgid "One or more order do not have invoice generated. Generate manually?"
+msgstr "এক বা একাধিক অর্ডারের চালান তৈরি হয় না। ম্যানুয়ালি তৈরি করবেন?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:133
+#: admin/class-wf-woocommerce-packing-list-admin.php:1551
+#: admin/class-wf-woocommerce-packing-list-admin.php:2159
+#: admin/class-wf-woocommerce-packing-list-admin.php:4409
+#: admin/class-wf-woocommerce-packing-list-admin.php:4519
+#: admin/class-wf-woocommerce-packing-list-admin.php:4710
+#: admin/modules/customizer/customizer.php:60 admin/modules/customizer/customizer.php:264
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:65
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:85
+#: public/modules/invoice/invoice.php:164
+#: public/modules/shippinglabel/shippinglabel.php:262
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:134
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:66
+msgid "Please wait"
+msgstr "অনুগ্রহপূর্বক অপেক্ষা করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:135
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:67
+msgid "is required"
+msgstr "দরকার"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:136
+#: admin/class-wf-woocommerce-packing-list-admin.php:4345 admin/views/documents.php:18
+#: admin/views/freevspro.php:6
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:68
+#: public/class-wf-woocommerce-packing-list-public.php:140
+#: public/modules/invoice/invoice.php:30 public/modules/invoice/invoice.php:126
+#: public/modules/invoice/invoice.php:127 public/modules/invoice/invoice.php:1078
+#: public/modules/invoice/invoice.php:1106 public/modules/invoice/invoice.php:1419
+#: public/modules/invoice/invoice.php:1944
+#: public/modules/invoice/views/invoice-admin-settings.php:44
+msgid "Invoice"
+msgstr "চালান"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:137
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:69
+#: public/class-wf-woocommerce-packing-list-public.php:141
+msgid "number has not been generated yet. Do you want to manually generate one ?"
+msgstr "সংখ্যা এখনো তৈরি করা হয়নি. আপনি কি ম্যানুয়ালি একটি তৈরি করতে চান?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:138
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:70
+#: public/class-wf-woocommerce-packing-list-public.php:137
+msgid ""
+"‘Generate invoice for free orders’ is disabled in Invoice settings > Advanced. You are "
+"attempting to generate invoice for this free order. Proceed?"
+msgstr ""
+"'ফ্রি অর্ডারের জন্য ইনভয়েস তৈরি করুন' ইনভয়েস সেটিংস > অ্যাডভান্সড-এ অক্ষম করা আছে। আপনি এই "
+"বিনামূল্যের অর্ডারের জন্য চালান তৈরি করার চেষ্টা করছেন৷ এগিয়ে যান?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:139
+#: public/class-wf-woocommerce-packing-list-public.php:138
+msgid ""
+"Refund in this order seems not having credit number yet. Do you want to manually "
+"generate one ?"
+msgstr ""
+"এই অর্ডারে রিফান্ডে এখনও ক্রেডিট নম্বর নেই বলে মনে হচ্ছে। আপনি কি ম্যানুয়ালি একটি তৈরি করতে "
+"চান?"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:140
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:71
+#: public/class-wf-woocommerce-packing-list-public.php:139
+msgid "Please fill the `from address` in the plugin's general settings."
+msgstr "প্লাগইনের সাধারণ সেটিংসে অনুগ্রহ করে `ঠিকানা থেকে` পূরণ করুন।"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:141
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:72
+msgid "Code Copied"
+msgstr "কোড কপি করা হয়েছে"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:142
+#: admin/partials/form_wizard/form_wizard.php:425
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:73
+msgid "Close"
+msgstr "বন্ধ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:143
+#: admin/modules/customizer/views/customize.php:123
+#: admin/modules/customizer/views/customize.php:141
+#: admin/modules/customizer/views/customize.php:190
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:74
+msgid "Save"
+msgstr "সংরক্ষণ করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:144
+#: admin/class-wf-woocommerce-packing-list-admin.php:2160
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:75
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:86
+msgid "Please enter mandatory fields"
+msgstr "বাধ্যতামূলক ক্ষেত্র লিখুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:145
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:76
+msgid "You can add more than 1 order meta in"
+msgstr "আপনি 1টির বেশি অর্ডার মেটা যোগ করতে পারেন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:146
+#: admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:24
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:77
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:147
+#: admin/views/_custom_field_editor_form.php:42
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:78
+msgid "You can edit an existing item by using its key."
+msgstr "আপনি একটি বিদ্যমান আইটেম এর কী ব্যবহার করে সম্পাদনা করতে পারেন।"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:149
+msgid "Add"
+msgstr "যোগ করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:247
+msgctxt "placeholder"
+msgid "Enter "
+msgstr "প্রবেশ করুন "
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:403
+#: admin/class-wf-woocommerce-packing-list-admin.php:693
+msgid "Invoice/Packing"
+msgstr "চালান/প্যাকিং"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:405
+msgid "WT PDF Invoice Debug"
+msgstr "WT PDF চালান ডিবাগ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:416
+#: admin/partials/admin-settings.php:40
+#: public/modules/deliverynote/views/admin-settings.php:37
+#: public/modules/dispatchlabel/views/admin-settings.php:36
+#: public/modules/invoice/views/invoice-admin-settings.php:44
+#: public/modules/packinglist/views/admin-settings.php:39
+#: public/modules/shippinglabel/views/admin-settings.php:30
+msgid "Settings"
+msgstr "বিন্যাস সমূহ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:417
+msgid "Support"
+msgstr "সমর্থন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:418
+msgid "Review"
+msgstr "পর্যালোচনা করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:419 admin/views/help.php:46
+#: admin/views/help.php:49
+msgid "Documentation"
+msgstr "ব্যবহার বিধি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:425
+msgid "PDF Invoices"
+msgstr "পিডিএফ চালান"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:429
+msgid "Shipping labels"
+msgstr "শিপিং লেবেল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:433
+msgid "Pick lists"
+msgstr "তালিকা বাছাই করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:437
+msgid "Proforma invoices"
+msgstr "প্রফর্মা চালান"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:441 admin/views/documents.php:73
+msgid "Address labels"
+msgstr "ঠিকানা লেবেল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:444
+msgid "Premium Extensions"
+msgstr "প্রিমিয়াম এক্সটেনশন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:482
+msgid "Document details"
+msgstr "নথির বিবরণ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:504
+msgid "Print/Download"
+msgstr "প্রিন্ট/ডাউনলোড করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:692
+#: admin/class-wf-woocommerce-packing-list-admin.php:720
+msgid "General Settings"
+msgstr "সাধারণ সেটিংস"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:708
+#: admin/class-wf-woocommerce-packing-list-admin.php:709
+msgid "Extensions"
+msgstr "এক্সটেনশানগুলি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:806
+#: admin/class-wf-woocommerce-packing-list-admin.php:816
+msgid "You are not allowed to access this page"
+msgstr "আপনি এই পৃষ্ঠা অ্যাক্সেস করার অনুমতি দেওয়া হয় না"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:834
+#: admin/class-wf-woocommerce-packing-list-admin.php:964
+msgid "You are not allowed to view this page."
+msgstr "আপনাকে এই পৃষ্ঠাটি দেখার অনুমতি নেই।"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:835
+msgid "Access denied !!!."
+msgstr "অ্যাক্সেস অস্বীকার করা হয়েছে !!!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:853
+#: admin/class-wf-woocommerce-packing-list-admin.php:903
+#: admin/class-wf-woocommerce-packing-list-admin.php:983
+#: admin/class-wf-woocommerce-packing-list-admin.php:2521
+#: admin/class-wf-woocommerce-packing-list-admin.php:3974
+#: admin/class-wf-woocommerce-packing-list-admin.php:4085
+#: admin/class-wf-woocommerce-packing-list-admin.php:4137
+#: admin/class-wf-woocommerce-packing-list-admin.php:4257
+msgid "You are not allowed to do this action"
+msgstr "আপনাকে এই কাজটি করার অনুমতি নেই"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:861
+#: admin/class-wf-woocommerce-packing-list-admin.php:991
+msgid "There is no order with this id"
+msgstr "এই আইডি দিয়ে কোন অর্ডার নেই"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:881
+#: admin/class-wf-woocommerce-packing-list-admin.php:1011
+msgid "It seems this order is not yours"
+msgstr "মনে হচ্ছে এই আদেশ আপনার নয়"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:896
+#: admin/class-wf-woocommerce-packing-list-admin.php:1026
+msgid ""
+"It seems the products in this order were removed, we cannot proceed this actoin now."
+msgstr ""
+"মনে হচ্ছে এই অর্ডারের পণ্যগুলি সরানো হয়েছে, আমরা এখন এই অ্যাক্টোইনকে এগিয়ে নিতে পারি না।"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:900
+#: admin/class-wf-woocommerce-packing-list-admin.php:1030
+msgid "There is no items in this order."
+msgstr "এই ক্রম কোন আইটেম নেই."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:950
+msgid "Invalid order id"
+msgstr "অবৈধ অর্ডার আইডি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:955
+msgid "Invalid access key and mail id"
+msgstr "অবৈধ অ্যাক্সেস কী এবং মেইল আইডি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:963
+msgid "Empty order"
+msgstr "খালি অর্ডার"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:973
+msgid "It seems this order is not yours."
+msgstr "মনে হচ্ছে এই আদেশ আপনার নয়।"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:1656
+#: admin/class-wf-woocommerce-packing-list-admin.php:4760
+msgid "Settings Updated"
+msgstr "সেটিংস আপডেট"
+
+#. translators: %s: method
+#: admin/class-wf-woocommerce-packing-list-admin.php:2087
+#: public/modules/invoice/invoice.php:990
+#, php-format
+msgid "via %s"
+msgstr "%s এর মাধ্যমে"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2092
+msgid "Free!"
+msgstr "ফ্রি!"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2244
+#: includes/class-wf-woocommerce-packing-list-basic-func.php:170
+msgid "Item with same meta key already exists"
+msgstr "একই মেটা কী সহ আইটেম ইতিমধ্যেই বিদ্যমান"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2302
+msgid ""
+"This will remove all invoice numbers created by WooCommerce PDF Invoices, Packing "
+"Slips, Delivery Notes & Shipping Labels by WebToffee."
+msgstr ""
+"এটি ওয়েবটফির দ্বারা WooCommerce PDF ইনভয়েস, প্যাকিং স্লিপ, ডেলিভারি নোট এবং শিপিং লেবেল "
+"দ্বারা তৈরি সমস্ত চালান নম্বর মুছে ফেলবে৷"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2302
+msgid "Note:"
+msgstr "বিঃদ্রঃ:"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2302
+#, php-format
+msgid ""
+"Before using this tool, please make sure you followed the steps described in this "
+"article %1$s how to reset/delete existing invoice numbers%2$s."
+msgstr ""
+"এই টুলটি ব্যবহার করার আগে, অনুগ্রহ করে নিশ্চিত করুন যে আপনি এই নিবন্ধে বর্ণিত ধাপগুলি অনুসরণ "
+"করেছেন %1$s কীভাবে বিদ্যমান চালান নম্বরগুলি পুনরায় সেট/মুছবেন%2$s৷"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2305
+msgid "Delete all generated invoice numbers"
+msgstr "সমস্ত তৈরি করা চালান নম্বর মুছুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2306
+#: admin/modules/customizer/views/customize.php:207
+msgid "Delete"
+msgstr "মুছে ফেলুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2536
+msgid "Updated"
+msgstr "আপডেট করা হয়েছে"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:2543
+msgid "No modules"
+msgstr "কোনো মডিউল নেই"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3928
+msgid "Do not show again"
+msgstr "আবার প্রদর্শন করো না"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3933
+#: admin/modules/customizer/views/customize.php:120
+#: admin/modules/customizer/views/customize.php:197
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:169
+#: admin/views/admin-settings-debug.php:180 admin/views/admin-settings-debug.php:233
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3936
+msgid "Generate"
+msgstr "তৈরি করুন"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3991
+#: admin/modules/customizer/customizer.php:265
+msgid "Success"
+msgstr "সফল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:3993
+msgid "Cannot close this banner"
+msgstr "এই ব্যানার বন্ধ করা যাবে না"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4163
+msgid "Settings are empty"
+msgstr "সেটিংস খালি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4203
+msgid "Imported successfully"
+msgstr "সফলভাবে আমদানি করা হয়েছে৷"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4207
+msgid "Incorrect file"
+msgstr "ভুল ফাইল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4211
+msgid "Error: Empty JSON file"
+msgstr "ত্রুটি: খালি JSON ফাইল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4215
+msgid "Error: Invalid JSON data"
+msgstr "ত্রুটি: অবৈধ JSON ডেটা"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4219
+msgid "Error uploading the file"
+msgstr "ফাইল আপলোড করার সময় ত্রুটি৷"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4290
+msgid "Error:"
+msgstr "ত্রুটিঃ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4290
+msgid "Truncation did not complete as expected."
+msgstr "প্রত্যাশিত হিসাবে ছেদন সম্পূর্ণ হয়নি."
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4344 admin/views/general.php:333
+msgid "Total files"
+msgstr "মোট ফাইল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4346 admin/views/documents.php:22
+#: admin/views/freevspro.php:7 public/modules/packinglist/packinglist.php:26
+#: public/modules/packinglist/packinglist.php:79
+#: public/modules/packinglist/packinglist.php:80
+#: public/modules/packinglist/packinglist.php:254
+#: public/modules/packinglist/packinglist.php:399
+#: public/modules/packinglist/views/admin-settings.php:39
+msgid "Packing slip"
+msgstr "প্যাকিং স্লিপ"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4347 admin/views/documents.php:39
+#: admin/views/freevspro.php:9 public/modules/shippinglabel/shippinglabel.php:25
+#: public/modules/shippinglabel/shippinglabel.php:233
+#: public/modules/shippinglabel/shippinglabel.php:234
+#: public/modules/shippinglabel/shippinglabel.php:551
+#: public/modules/shippinglabel/views/admin-settings.php:30
+msgid "Shipping label"
+msgstr "প্রেরণ বার্তা"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4348 admin/views/documents.php:47
+#: admin/views/freevspro.php:11 public/modules/deliverynote/deliverynote.php:24
+#: public/modules/deliverynote/deliverynote.php:76
+#: public/modules/deliverynote/deliverynote.php:77
+#: public/modules/deliverynote/deliverynote.php:244
+#: public/modules/deliverynote/deliverynote.php:368
+#: public/modules/deliverynote/views/admin-settings.php:37
+msgid "Delivery note"
+msgstr "চালান পত্র"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4349 admin/views/documents.php:43
+#: admin/views/freevspro.php:10 public/modules/dispatchlabel/dispatchlabel.php:25
+#: public/modules/dispatchlabel/dispatchlabel.php:74
+#: public/modules/dispatchlabel/dispatchlabel.php:75
+#: public/modules/dispatchlabel/dispatchlabel.php:349
+#: public/modules/dispatchlabel/views/admin-settings.php:36
+msgid "Dispatch label"
+msgstr "প্রেরণ লেবেল"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4350 admin/views/documents.php:61
+msgid "Picklist"
+msgstr "তালিকা বাছাই"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4351 admin/views/documents.php:85
+#: admin/views/freevspro.php:12
+msgid "Proforma invoice"
+msgstr "প্রফর্মা চালান"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4352 admin/views/documents.php:26
+#: admin/views/freevspro.php:8
+msgid "Credit note"
+msgstr "ক্রেডিট নোট"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4540
+#: admin/views/_form_field_generator_new.php:565
+msgid "No temporary file found"
+msgstr "কোন অস্থায়ী ফাইল পাওয়া যায়নি"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4545
+msgid "Successfully cleared all temp files."
+msgstr "সফলভাবে সমস্ত টেম্প ফাইল সাফ করা হয়েছে৷"
+
+#: admin/class-wf-woocommerce-packing-list-admin.php:4546
+msgid "No files found."
+msgstr "কোন ফাইল পাওয়া যায়নি."
+
+#: admin/data/data.filters-help.php:3
+msgid "Order Details"
+msgstr "আদেশ বিবরণী"
+
+#: admin/data/data.filters-help.php:4 public/modules/invoice/invoice.php:1172
+msgid "Product Table"
+msgstr "পণ্য টেবিল"
+
+#: admin/data/data.filters-help.php:5
+msgid "Summary Table"
+msgstr "সারমর্ম সারনি"
+
+#: admin/data/data.filters-help.php:6 public/modules/invoice/views/general.php:211
+msgid "Others"
+msgstr "অন্যান্য"
+
+#: admin/data/data.filters-help.php:11
+msgid "Alter order date"
+msgstr "অর্ডারের তারিখ পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:12
+#, fuzzy
+msgid "This filter is used to alter the order date in all the document templates"
+msgstr "এই ফিল্টারটি সমস্ত নথি টেমপ্লেটের অর্ডার তারিখ পরিবর্তন করতে ব্যবহৃত হয়"
+
+#: admin/data/data.filters-help.php:25
+#, fuzzy
+msgid "Alter invoice date"
+msgstr "চালানের তারিখ পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:26
+#, fuzzy
+msgid "This filter is used to alter the invoice date in all the document templates"
+msgstr "এই ফিল্টারটি সমস্ত নথির টেমপ্লেটে চালানের তারিখ পরিবর্তন করতে ব্যবহৃত হয়"
+
+#: admin/data/data.filters-help.php:39 admin/data/data.filters-help.php:40
+#, fuzzy
+msgid "Alter dispatch date"
+msgstr "প্রেরণের তারিখ পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:53
+#, fuzzy
+msgid "Alter barcode information"
+msgstr "বারকোড তথ্য পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:54
+#, fuzzy
+msgid ""
+"This filter is used to alter the barcode information for all the document templates"
+msgstr "এই ফিল্টারটি সমস্ত নথি টেমপ্লেটের জন্য বারকোড তথ্য পরিবর্তন করতে ব্যবহৃত হয়"
+
+#: admin/data/data.filters-help.php:63 admin/data/data.filters-help.php:64
+#, fuzzy
+msgid "Alter shipping address"
+msgstr "শিপিং ঠিকানা পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:79 admin/data/data.filters-help.php:80
+#, fuzzy
+msgid "Alter billing address"
+msgstr "বিলিং ঠিকানা পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:95 admin/data/data.filters-help.php:96
+#, fuzzy
+msgid "Alter shipping from address"
+msgstr "ঠিকানা থেকে শিপিং পরিবর্তন"
+
+#: admin/data/data.filters-help.php:111
+#, fuzzy
+msgid "Add additional information"
+msgstr "অতিরিক্ত তথ্য যোগ করুন"
+
+#: admin/data/data.filters-help.php:112
+#, fuzzy
+msgid "Add additional info"
+msgstr "অতিরিক্ত তথ্য যোগ করুন"
+
+#: admin/data/data.filters-help.php:124
+#, fuzzy
+msgid "Alter product table head.(Add,remove, change the order)"
+msgstr "পণ্য টেবিলের মাথা পরিবর্তন করুন। (যোগ করুন, সরান, অর্ডার পরিবর্তন করুন)"
+
+#: admin/data/data.filters-help.php:125
+#, fuzzy
+msgid "Alter product table head.(Add, remove, change order)"
+msgstr "পণ্য টেবিলের মাথা পরিবর্তন করুন। (যোগ করুন, সরান, অর্ডার পরিবর্তন করুন)"
+
+#: admin/data/data.filters-help.php:140
+#, fuzzy
+msgid "Alter the product name in package documents"
+msgstr "প্যাকেজ নথিতে পণ্যের নাম পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:141
+#, fuzzy
+msgid ""
+"Alter product name in product (Works with Packing List, Shipping Label and Delivery "
+"note only)"
+msgstr ""
+"পণ্যে পণ্যের নাম পরিবর্তন করুন (শুধুমাত্র প্যাকিং তালিকা, শিপিং লেবেল এবং ডেলিভারি নোটের সাথে "
+"কাজ করে)"
+
+#: admin/data/data.filters-help.php:150
+#, fuzzy
+msgid "Add product variation in package documents"
+msgstr "প্যাকেজ নথিতে পণ্যের বৈচিত্র যোগ করুন"
+
+#: admin/data/data.filters-help.php:151
+#, fuzzy
+msgid ""
+"Add product variation in product (Works with Packing List, Shipping Label and Delivery "
+"note only)"
+msgstr ""
+"পণ্যে পণ্যের বৈচিত্র যোগ করুন (শুধুমাত্র প্যাকিং তালিকা, শিপিং লেবেল এবং ডেলিভারি নোটের সাথে "
+"কাজ করে)"
+
+#: admin/data/data.filters-help.php:159
+#, fuzzy
+msgid "Alter item quantity in package documents"
+msgstr "প্যাকেজ নথিতে আইটেমের পরিমাণ পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:160
+#, fuzzy
+msgid ""
+"Alter item quantity in product table (Works with Packing List, Shipping Label and "
+"Delivery note only)"
+msgstr ""
+"পণ্যের টেবিলে আইটেমের পরিমাণ পরিবর্তন করুন (শুধুমাত্র প্যাকিং তালিকা, শিপিং লেবেল এবং ডেলিভারি "
+"নোটের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:168
+#, fuzzy
+msgid "Alter item total in package documents"
+msgstr "প্যাকেজ নথিতে মোট আইটেম পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:169
+#, fuzzy
+msgid ""
+"Alter item total in product table (Works with Packing List, Shipping Label and Delivery "
+"note only)"
+msgstr ""
+"পণ্যের টেবিলে মোট আইটেম পরিবর্তন করুন (শুধুমাত্র প্যাকিং তালিকা, শিপিং লেবেল এবং ডেলিভারি "
+"নোটের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:177
+#, fuzzy
+msgid "Add additional column in product table of package documents"
+msgstr "প্যাকেজ নথির পণ্য টেবিলে অতিরিক্ত কলাম যোগ করুন"
+
+#: admin/data/data.filters-help.php:178
+#, fuzzy
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` filter. You "
+"need to add column data via this filter. (Works with Packing List, Shipping Label and "
+"Delivery note only)"
+msgstr ""
+"আপনি `wf_pklist_alter_product_table_head` ফিল্টারের মাধ্যমে অতিরিক্ত কলাম হেড যোগ করতে "
+"পারেন। আপনাকে এই ফিল্টারের মাধ্যমে কলাম ডেটা যোগ করতে হবে। (শুধুমাত্র প্যাকিং তালিকা, শিপিং "
+"লেবেল এবং ডেলিভারি নোটের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:190
+#, fuzzy
+msgid "Alter product table column in package documents"
+msgstr "প্যাকেজ নথিতে পণ্য টেবিল কলাম পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:191
+#, fuzzy
+msgid ""
+"Alter product table column. (Works with Packing List, Shipping Label and Delivery note "
+"only)"
+msgstr ""
+"পণ্য টেবিল কলাম পরিবর্তন করুন. (শুধুমাত্র প্যাকিং তালিকা, শিপিং লেবেল এবং ডেলিভারি নোটের সাথে "
+"কাজ করে)"
+
+#: admin/data/data.filters-help.php:200
+#, fuzzy
+msgid "Alter product name"
+msgstr "পণ্যের নাম পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:201
+#, fuzzy
+msgid "Alter product name. (Works with Invoice and Dispatch label only)"
+msgstr "পণ্যের নাম পরিবর্তন করুন। (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:210
+#, fuzzy
+msgid "Add product variation"
+msgstr "পণ্য বৈচিত্র যোগ করুন"
+
+#: admin/data/data.filters-help.php:211
+#, fuzzy
+msgid "Add product variation. (Works with Invoice and Dispatch label only)"
+msgstr "পণ্য বৈচিত্র যোগ করুন. (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:220
+#, fuzzy
+msgid "Alter item quantity"
+msgstr "আইটেম পরিমাণ পরিবর্তন"
+
+#: admin/data/data.filters-help.php:221
+#, fuzzy
+msgid "Alter item quantity. (Works with Invoice and Dispatch label only)"
+msgstr "আইটেম পরিমাণ পরিবর্তন. (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:229
+#, fuzzy
+msgid "Alter item price"
+msgstr "আইটেম মূল্য পরিবর্তন"
+
+#: admin/data/data.filters-help.php:230
+#, fuzzy
+msgid "Alter item price. (Works with Invoice and Dispatch label only)"
+msgstr "আইটেম মূল্য পরিবর্তন. (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:238
+#, fuzzy
+msgid "Alter item price format"
+msgstr "আইটেম মূল্য বিন্যাস পরিবর্তন"
+
+#: admin/data/data.filters-help.php:239
+#, fuzzy
+msgid "Alter formated item price. (Works with Invoice and Dispatch label only)"
+msgstr "ফর্মেড আইটেম মূল্য পরিবর্তন. (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:247
+#, fuzzy
+msgid "Alter item total"
+msgstr "মোট আইটেম পরিবর্তন"
+
+#: admin/data/data.filters-help.php:248
+#, fuzzy
+msgid "Alter item total. (Works with Invoice and Dispatch label only)"
+msgstr "মোট আইটেম পরিবর্তন. (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:256
+#, fuzzy
+msgid "Alter item total format"
+msgstr "আইটেম মোট বিন্যাস পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:257
+#, fuzzy
+msgid "Alter formated item total. (Works with Invoice and Dispatch label only)"
+msgstr "মোট গঠন করা আইটেম পরিবর্তন করুন। (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:265
+#, fuzzy
+msgid "Add additional column in product table"
+msgstr "পণ্য টেবিলে অতিরিক্ত কলাম যোগ করুন"
+
+#: admin/data/data.filters-help.php:266
+#, fuzzy
+msgid ""
+"You can add additional column head via `wf_pklist_alter_product_table_head` filter. You "
+"need to add column data via this filter. (Works with Invoice and Dispatch label only)"
+msgstr ""
+"আপনি `wf_pklist_alter_product_table_head` ফিল্টারের মাধ্যমে অতিরিক্ত কলাম হেড যোগ করতে "
+"পারেন। আপনাকে এই ফিল্টারের মাধ্যমে কলাম ডেটা যোগ করতে হবে। (শুধুমাত্র চালান এবং ডিসপ্যাচ "
+"লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:278
+#, fuzzy
+msgid "Alter product table column"
+msgstr "পণ্য টেবিল কলাম পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:279
+#, fuzzy
+msgid "Alter product table column. (Works with Invoice and Dispatch label only)"
+msgstr "পণ্য টেবিল কলাম পরিবর্তন করুন. (শুধুমাত্র চালান এবং ডিসপ্যাচ লেবেলের সাথে কাজ করে)"
+
+#: admin/data/data.filters-help.php:290 admin/data/data.filters-help.php:291
+#, fuzzy
+msgid "Alter subtotal"
+msgstr "সাবটোটাল পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:300
+#, fuzzy
+msgid "Alter subtotal format"
+msgstr "সাবটোটাল বিন্যাস পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:301
+#, fuzzy
+msgid "Alter formated subtotal"
+msgstr "গঠন করা সাবটোটাল পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:310 admin/data/data.filters-help.php:311
+#, fuzzy
+msgid "Alter shipping method"
+msgstr "শিপিং পদ্ধতি পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:319 admin/data/data.filters-help.php:320
+#, fuzzy
+msgid "Alter fee"
+msgstr "পরিবর্তন ফি"
+
+#: admin/data/data.filters-help.php:328 admin/data/data.filters-help.php:329
+#, fuzzy
+msgid "Alter total fee"
+msgstr "মোট ফি পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:337 admin/data/data.filters-help.php:338
+#, fuzzy
+msgid "Alter total price"
+msgstr "মোট মূল্য পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:347 admin/data/data.filters-help.php:348
+#, fuzzy
+msgid "Alter total price in words"
+msgstr "কথায় মোট দাম পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:359 admin/data/data.filters-help.php:360
+#, fuzzy
+msgid "Alter additional item meta"
+msgstr "অতিরিক্ত আইটেম মেটা পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:371
+#, fuzzy
+msgid "Hide/Show received seal in invoice"
+msgstr "চালানে প্রাপ্ত সিল লুকান/দেখান"
+
+#: admin/data/data.filters-help.php:372
+#, fuzzy
+msgid "Hide/Show received seal in invoice."
+msgstr "চালানে প্রাপ্ত সিল লুকান/দেখান।"
+
+#: admin/data/data.filters-help.php:385
+#, fuzzy
+msgid "Add extra text in received seal"
+msgstr "প্রাপ্ত সীল অতিরিক্ত টেক্সট যোগ করুন"
+
+#: admin/data/data.filters-help.php:386
+#, fuzzy
+msgid "Add extra text in received seal."
+msgstr "প্রাপ্ত সীল অতিরিক্ত টেক্সট যোগ করুন."
+
+#: admin/data/data.filters-help.php:401
+#, fuzzy
+msgid "Alter template HTML before printing"
+msgstr "প্রিন্ট করার আগে টেমপ্লেট HTML পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:402
+#, fuzzy
+msgid "Alter template HTML before printing."
+msgstr "প্রিন্ট করার আগে টেমপ্লেট HTML পরিবর্তন করুন।"
+
+#: admin/data/data.filters-help.php:415
+#, fuzzy
+msgid "Alter the variation data."
+msgstr "পরিবর্তন তথ্য পরিবর্তন."
+
+#: admin/data/data.filters-help.php:419
+#, fuzzy
+msgid "Alter the settings array"
+msgstr "সেটিংস অ্যারে পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:433
+#, fuzzy
+msgid "Alter the footer data"
+msgstr "ফুটার ডেটা পরিবর্তন করুন"
+
+#: admin/data/data.filters-help.php:434
+#, fuzzy
+msgid "Alter the footer data."
+msgstr "ফুটার ডেটা পরিবর্তন করুন।"
+
+#: admin/data/data.tooltip.php:3
+#, fuzzy
+msgid "Key in your company name."
+msgstr "আপনার কোম্পানির নামে কী।"
+
+#: admin/data/data.tooltip.php:4
+msgid ""
+"When enabled, replaces state code with state name in the from, return, billing and "
+"shipping addresses"
+msgstr ""
+"সক্রিয় করা হলে, থেকে, ফেরত, বিলিং এবং শিপিং ঠিকানাগুলিতে রাজ্যের নামের সাথে রাজ্য কোড "
+"প্রতিস্থাপন করে৷"
+
+#: admin/data/data.tooltip.php:5
+msgid "Enable to have a preview of the document before the print is initiated"
+msgstr "মুদ্রণ শুরু করার আগে নথির একটি পূর্বরূপ সক্ষম করুন৷"
+
+#: admin/data/data.tooltip.php:6
+msgid "The default library to be used PDF generation"
+msgstr "PDF জেনারেশন ব্যবহার করার জন্য ডিফল্ট লাইব্রেরি"
+
+#: admin/modules/customizer/classes/class-customizer.php:423
+msgid "Refund"
+msgstr "ফেরত"
+
+#: admin/modules/customizer/classes/class-customizer.php:449
+msgid "incl. tax"
+msgstr "সহ ট্যাক্স"
+
+#: admin/modules/customizer/classes/class-customizer.php:721
+#: admin/modules/customizer/classes/class-customizer.php:1292
+msgid "n/a"
+msgstr "n/a"
+
+#: admin/modules/customizer/classes/class-customizer.php:2004
+msgid ""
+"Mauris dignissim neque ut sapien vulputate, eu semper tellus porttitor. Cras porta "
+"lectus id augue interdum egestas."
+msgstr ""
+"Mauris dignissim neque ut sapien vulputate, eu sempre tellus porttitor. Cras porta "
+"lectus id augue interdum egestas."
+
+#: admin/modules/customizer/classes/class-customizer.php:2022
+msgid ""
+"Mauris dignissim neque ut sapien vulputate, eu semper tellus porttitor. Cras porta "
+"lectus id augue interdum egestas. Suspendisse potenti. Phasellus mollis porttitor enim "
+"sit amet fringilla. Nulla sed ligula venenatis, rutrum lectus vel"
+msgstr ""
+"Mauris dignissim neque ut sapien vulputate, eu sempre tellus porttitor. Cras porta "
+"lectus id augue interdum egestas. সাসপেন্ডিস ক্ষমতা. Phasellus mollis porttitor enim sit "
+"amet fringilla. Nulla sed ligula venenatis, rutrum lectus vel"
+
+#: admin/modules/customizer/classes/class-customizer.php:2027
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec vehicula purus. "
+"Mauris tempor nec ipsum ac tempus. Aenean vehicula porttitor tortor, et interdum tellus "
+"fermentum at. Fusce pellentesque justo rhoncus"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc NEC যানবাহন purus. Mauris "
+"tempor nec ipsum ac tempus. Aenean vehicula porttitor tortor, et interdum telus "
+"fermentum at. ফুসে পেলেনটেস্ক জাস্টো রোনকাস"
+
+#: admin/modules/customizer/customizer.php:90
+msgid "Unable to generate PDF."
+msgstr "PDF তৈরি করতে অক্ষম৷"
+
+#: admin/modules/customizer/customizer.php:95
+msgid "There is no order with this given id"
+msgstr "এই প্রদত্ত আইডি দিয়ে কোন অর্ডার নেই"
+
+#: admin/modules/customizer/customizer.php:206 admin/modules/customizer/customizer.php:211
+#: public/modules/packinglist/views/admin-settings.php:51
+msgid "Customize"
+msgstr "কাস্টমাইজ করুন"
+
+#: admin/modules/customizer/customizer.php:266
+msgid "You can't undo this action. Are you sure?"
+msgstr "আপনি এই ক্রিয়াটিকে পূর্বাবস্থায় ফেরাতে পারবেন না৷ তুমি কি নিশ্চিত?"
+
+#: admin/modules/customizer/customizer.php:267
+msgid "Click here to add Company logo"
+msgstr "কোম্পানির লোগো যোগ করতে এখানে ক্লিক করুন"
+
+#: admin/modules/customizer/customizer.php:268
+msgid "Click here to add Company name"
+msgstr "কোম্পানির নাম যোগ করতে এখানে ক্লিক করুন"
+
+#: admin/modules/customizer/customizer.php:269
+msgid "Click here to add From address"
+msgstr "ঠিকানা থেকে যোগ করতে এখানে ক্লিক করুন"
+
+#: admin/modules/customizer/customizer.php:270
+msgid "Click here to add Signature"
+msgstr "স্বাক্ষর যোগ করতে এখানে ক্লিক করুন"
+
+#: admin/modules/customizer/customizer.php:271
+msgid ""
+"Please save all data before leaving this page. All unsaved data will be lost. Are you "
+"sure?"
+msgstr ""
+"এই পৃষ্ঠাটি ছেড়ে যাওয়ার আগে অনুগ্রহ করে সমস্ত ডেটা সংরক্ষণ করুন। সমস্ত অসংরক্ষিত ডেটা হারিয়ে "
+"যাবে। তুমি কি নিশ্চিত?"
+
+#: admin/modules/customizer/customizer.php:272
+#: admin/modules/customizer/views/customize.php:186
+msgid "Create new template"
+msgstr "নতুন টেমপ্লেট তৈরি করুন"
+
+#: admin/modules/customizer/customizer.php:273
+msgid "Change layout"
+msgstr "লেআউট পরিবর্তন করুন"
+
+#: admin/modules/customizer/customizer.php:274
+msgid "Saving"
+msgstr "সংরক্ষণ করা হচ্ছে"
+
+#: admin/modules/customizer/customizer.php:275 public/modules/invoice/invoice.php:162
+#: public/modules/shippinglabel/shippinglabel.php:260
+msgid "Please enter order number"
+msgstr "অর্ডার নম্বর লিখুন"
+
+#: admin/modules/customizer/customizer.php:276 public/modules/invoice/invoice.php:163
+#: public/modules/shippinglabel/shippinglabel.php:261
+msgid "Generating"
+msgstr "উৎপন্ন হচ্ছে"
+
+#: admin/modules/customizer/customizer.php:277
+msgid "This is premium template which is not compatible with the basic plugin"
+msgstr "এটি প্রিমিয়াম টেমপ্লেট যা মৌলিক প্লাগইনের সাথে সামঞ্জস্যপূর্ণ নয়"
+
+#: admin/modules/customizer/customizer.php:278
+msgid ""
+"This is basic template. In order to use premium feature, you need to switch and "
+"activate the premium template"
+msgstr ""
+"এটি মৌলিক টেমপ্লেট। প্রিমিয়াম বৈশিষ্ট্য ব্যবহার করার জন্য, আপনাকে প্রিমিয়াম টেমপ্লেটটি স্যুইচ এবং "
+"সক্রিয় করতে হবে"
+
+#: admin/modules/customizer/customizer.php:324 admin/modules/customizer/customizer.php:725
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: admin/modules/customizer/customizer.php:697
+msgid "Error."
+msgstr "ত্রুটি।"
+
+#: admin/modules/customizer/customizer.php:728
+#: admin/modules/customizer/views/customize.php:206
+msgid "Activate"
+msgstr "সক্রিয় করা"
+
+#: admin/modules/customizer/customizer.php:755
+msgid "No template found."
+msgstr "কোন টেমপ্লেট পাওয়া যায়নি."
+
+#: admin/modules/customizer/customizer.php:772
+msgid "Unable to save theme."
+msgstr "থিম সংরক্ষণ করতে অক্ষম."
+
+#: admin/modules/customizer/customizer.php:791
+msgid "Template with same name already exists."
+msgstr "একই নামের টেমপ্লেট ইতিমধ্যেই বিদ্যমান।"
+
+#: admin/modules/customizer/customizer.php:829
+msgid "Template created."
+msgstr "টেমপ্লেট তৈরি করা হয়েছে।"
+
+#: admin/modules/customizer/customizer.php:835
+msgid "Template created and activated."
+msgstr "টেমপ্লেট তৈরি এবং সক্রিয়."
+
+#: admin/modules/customizer/customizer.php:872
+msgid "Template updated."
+msgstr "টেমপ্লেট আপডেট করা হয়েছে।"
+
+#: admin/modules/customizer/customizer.php:875
+msgid "Template updated and activated."
+msgstr "টেমপ্লেট আপডেট এবং সক্রিয়."
+
+#: admin/modules/customizer/customizer.php:921
+msgid "Unable to switch view."
+msgstr "ভিউ স্যুইচ করতে অক্ষম।"
+
+#: admin/modules/customizer/customizer.php:1317
+msgid "Unable to load template."
+msgstr "টেমপ্লেট লোড করতে অক্ষম৷"
+
+#: admin/modules/customizer/customizer.php:1369
+msgid "Untitled template"
+msgstr "শিরোনামহীন টেমপ্লেট"
+
+#: admin/modules/customizer/customizer.php:1513
+msgid "Lighter"
+msgstr "লাইটার"
+
+#: admin/modules/customizer/customizer.php:1514
+msgid "Normal"
+msgstr "স্বাভাবিক"
+
+#: admin/modules/customizer/customizer.php:1515
+msgid "Bold"
+msgstr "সাহসী"
+
+#: admin/modules/customizer/customizer.php:1516
+msgid "Bolder"
+msgstr "সাহসী"
+
+#: admin/modules/customizer/customizer.php:1530
+msgid "Select One"
+msgstr "একটা নির্বাচন করুন"
+
+#: admin/modules/customizer/customizer.php:1548
+msgid "Left"
+msgstr "বাম"
+
+#: admin/modules/customizer/customizer.php:1549
+msgid "Right"
+msgstr "ডান "
+
+#: admin/modules/customizer/customizer.php:1550
+msgid "Center"
+msgstr "মাঝখান"
+
+#: admin/modules/customizer/customizer.php:1551
+msgid "Start"
+msgstr "শুরু"
+
+#: admin/modules/customizer/customizer.php:1552
+msgid "End"
+msgstr "শেষ"
+
+#: admin/modules/customizer/customizer.php:1560
+msgid "None"
+msgstr "কোনোটিই নয়"
+
+#: admin/modules/customizer/customizer.php:1573
+msgid "Solid"
+msgstr "কঠিন"
+
+#: admin/modules/customizer/customizer.php:1574
+msgid "Dotted"
+msgstr "বিন্দুযুক্ত"
+
+#: admin/modules/customizer/customizer.php:1575
+msgid "Dashed"
+msgstr "ড্যাশড"
+
+#: admin/modules/customizer/data/data.tooltip.php:3
+msgid "Click to view predefined templates."
+msgstr "পূর্বনির্ধারিত টেমপ্লেট দেখতে ক্লিক করুন."
+
+#: admin/modules/customizer/data/data.tooltip.php:4
+msgid "Create a new template or edit an existing template."
+msgstr "একটি নতুন টেমপ্লেট তৈরি করুন বা একটি বিদ্যমান টেমপ্লেট সম্পাদনা করুন৷"
+
+#: admin/modules/customizer/data/data.tooltip.php:5
+msgid "Displays the currently chosen document template with provisions to modify."
+msgstr "পরিবর্তন করার বিধান সহ বর্তমানে নির্বাচিত নথি টেমপ্লেট প্রদর্শন করে।"
+
+#: admin/modules/customizer/data/data.tooltip.php:6
+msgid ""
+"Shows a preview of the template on an actual order. Key in an order number to view the "
+"same."
+msgstr "একটি প্রকৃত অর্ডারে টেমপ্লেটের একটি পূর্বরূপ দেখায়। একই দেখতে একটি অর্ডার নম্বরে কী।"
+
+#: admin/modules/customizer/data/data.translation_strings.php:1
+msgid "Invoice No:"
+msgstr "চালান নং:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:2
+msgid "Order Date:"
+msgstr "অর্ডারের তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:3
+msgid "Dispatch Date:"
+msgstr "প্রাণবোধ তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:4
+msgid "From Address:"
+msgstr "ঠিকানা থেকে:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:5
+msgid "Billing Address:"
+msgstr "বিলিং ঠিকানা:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:6
+#: admin/modules/customizer/data/data.translation_strings.php:45
+msgid "Email:"
+msgstr "ইমেইল:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:7
+msgid "Tel:"
+msgstr "টেলিফোন:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:8
+msgid "Shipping Address:"
+msgstr "প্রেরণের ঠিকানা:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:9
+msgid "Tracking number:"
+msgstr "ট্র্যাকিং নম্বর:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:10
+msgid "SSN:"
+msgstr "SSN:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:11
+msgid "SKU"
+msgstr "এসকেইউ"
+
+#: admin/modules/customizer/data/data.translation_strings.php:12
+msgid "Product"
+msgstr "পণ্য"
+
+#: admin/modules/customizer/data/data.translation_strings.php:13
+msgid "Quantity"
+msgstr "পরিমান"
+
+#: admin/modules/customizer/data/data.translation_strings.php:14
+msgid "Price"
+msgstr "মূল্য"
+
+#: admin/modules/customizer/data/data.translation_strings.php:15
+msgid "Total Price"
+msgstr "মোট দাম"
+
+#: admin/modules/customizer/data/data.translation_strings.php:16
+#: admin/modules/customizer/views/_customize_properties.php:622
+#: admin/views/wt_ipc_free_pro.php:752 admin/views/wt_ipc_free_pro.php:794
+#: public/modules/invoice/invoice.php:1199
+msgid "Subtotal"
+msgstr "মোট"
+
+#: admin/modules/customizer/data/data.translation_strings.php:17
+#: admin/modules/customizer/views/_customize_properties.php:628
+#: admin/views/wt_ipc_free_pro.php:756 admin/views/wt_ipc_free_pro.php:798
+#: public/modules/invoice/invoice.php:1200
+msgid "Shipping"
+msgstr "পাঠানো"
+
+#: admin/modules/customizer/data/data.translation_strings.php:18
+#: admin/modules/customizer/views/_customize_properties.php:635
+#: public/modules/invoice/invoice.php:1201
+msgid "Cart Discount"
+msgstr "কার্ট ডিসকাউন্ট"
+
+#: admin/modules/customizer/data/data.translation_strings.php:19
+#: admin/modules/customizer/views/_customize_properties.php:641
+#: public/modules/invoice/invoice.php:1202
+msgid "Order Discount"
+msgstr "ছাড়"
+
+#: admin/modules/customizer/data/data.translation_strings.php:20
+#: admin/modules/customizer/views/_customize_properties.php:648
+#: public/modules/invoice/invoice.php:1203
+msgid "Total Tax"
+msgstr "মোট ট্যাক্স"
+
+#: admin/modules/customizer/data/data.translation_strings.php:21
+#: admin/modules/customizer/views/_customize_properties.php:654
+#: admin/views/wt_ipc_free_pro.php:768 admin/views/wt_ipc_free_pro.php:810
+#: public/modules/invoice/invoice.php:1204
+msgid "Fee"
+msgstr "ফি"
+
+#: admin/modules/customizer/data/data.translation_strings.php:22
+msgid "Coupon Used"
+msgstr "কুপন ব্যবহার করা হয়েছে"
+
+#: admin/modules/customizer/data/data.translation_strings.php:23
+#: admin/modules/customizer/views/_customize_properties.php:667
+#: admin/views/wt_ipc_free_pro.php:780 admin/views/wt_ipc_free_pro.php:822
+#: public/modules/invoice/invoice.php:1207
+msgid "Total"
+msgstr "মোট"
+
+#: admin/modules/customizer/data/data.translation_strings.php:24
+msgid "INVOICE"
+msgstr "চালান"
+
+#: admin/modules/customizer/data/data.translation_strings.php:25
+msgid "Invoice Date:"
+msgstr "চালান তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:26
+msgid "Invoice No.:"
+msgstr "চালান নং.:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:27
+msgid "Order No.:"
+msgstr "আদেশ নং.:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:28
+msgid "Order date:"
+msgstr "অর্ডারের তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:29
+msgid "Image"
+msgstr "ছবি"
+
+#: admin/modules/customizer/data/data.translation_strings.php:30
+#, fuzzy
+msgid "Jumbing LED Light Wall Ball"
+msgstr "জাম্বিং LED লাইট ওয়াল বল"
+
+#: admin/modules/customizer/data/data.translation_strings.php:31
+msgid "Payment method:"
+msgstr "মূল্য পরিশোধ পদ্ধতি:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:32
+msgid "Payment method: "
+msgstr "মূল্যপরিশোধ পদ্ধতি: "
+
+#: admin/modules/customizer/data/data.translation_strings.php:33
+#: admin/views/wt_ipc_free_pro.php:776 admin/views/wt_ipc_free_pro.php:818
+msgid "Payment method"
+msgstr "মূল্যপরিশোধ পদ্ধতি"
+
+#: admin/modules/customizer/data/data.translation_strings.php:34
+msgid "Payment Method:"
+msgstr "মূল্যপরিশোধ পদ্ধতি:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:35
+#: admin/modules/customizer/views/_customize_properties.php:661
+#: public/modules/invoice/invoice.php:1206
+msgid "Payment Method"
+msgstr "মূল্যপরিশোধ পদ্ধতি"
+
+#: admin/modules/customizer/data/data.translation_strings.php:36
+msgid "Order No:"
+msgstr "আদেশ নং:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:37
+msgid "Date:"
+msgstr "তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:38
+msgid "From:"
+msgstr "হতে:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:39
+msgid "From"
+msgstr "থেকে"
+
+#: admin/modules/customizer/data/data.translation_strings.php:40
+msgid "To:"
+msgstr "প্রতি:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:41
+msgid "Weight:"
+msgstr "Kilo:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:42
+msgid "Ship Date:"
+msgstr "জাহাজের তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:43
+msgid "Phone No:"
+msgstr "ফোন নম্বর:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:44
+msgid "Ph No:"
+msgstr "ফোন নম্বর:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:46
+msgid "Tracking Number:"
+msgstr "ট্র্যাকিং নম্বর:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:47
+msgid "Order no:"
+msgstr "আদেশ নং:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:48
+msgid "Total Weight"
+msgstr "সম্পূর্ণ ওজন"
+
+#: admin/modules/customizer/data/data.translation_strings.php:49
+msgid "Contact Number"
+msgstr "যোগাযোগ নাম্বার"
+
+#: admin/modules/customizer/data/data.translation_strings.php:50
+msgid "Email"
+msgstr "ইমেইল"
+
+#: admin/modules/customizer/data/data.translation_strings.php:51
+msgid "SSN"
+msgstr "এসএসএন"
+
+#: admin/modules/customizer/data/data.translation_strings.php:52
+msgid "VAT"
+msgstr "ভ্যাট"
+
+#: admin/modules/customizer/data/data.translation_strings.php:53
+msgid "Customer Note"
+msgstr "গ্রাহক নোট"
+
+#: admin/modules/customizer/data/data.translation_strings.php:54
+msgid "Customer Note:"
+msgstr "গ্রাহক নোট:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:55
+msgid "Bill to"
+msgstr "বিল করতে"
+
+#: admin/modules/customizer/data/data.translation_strings.php:56
+msgid "Ship to"
+msgstr "প্রেরণ"
+
+#: admin/modules/customizer/data/data.translation_strings.php:57
+msgid "Invoice no:"
+msgstr "চালান নং:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:58
+#, fuzzy
+msgid "Invoice date:"
+msgstr "চালান তারিখ:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:59
+msgid "VAT:"
+msgstr "ভ্যাট:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:60
+msgid "Customer note:"
+msgstr "গ্রাহক নোট:"
+
+#: admin/modules/customizer/data/data.translation_strings.php:61
+#: public/modules/invoice/invoice.php:1178
+#: public/modules/shippinglabel/shippinglabel.php:172
+msgid "Customer note"
+msgstr "ক্রেতা নোট"
+
+#: admin/modules/customizer/data/data.translation_strings.php:62
+msgid "Unit Price"
+msgstr "একক দাম"
+
+#: admin/modules/customizer/data/data.translation_strings.php:63
+msgid "Unit price"
+msgstr "একক দাম"
+
+#: admin/modules/customizer/data/data.translation_strings.php:64
+msgid "Total price"
+msgstr "মোট দাম"
+
+#: admin/modules/customizer/data/data.translation_strings.php:65
+msgid "S.no"
+msgstr "S.no"
+
+#: admin/modules/customizer/data/data.translation_strings.php:66
+msgid "S.No"
+msgstr "S.No"
+
+#: admin/modules/customizer/data/data.translation_strings.php:67
+msgid "Phone no:"
+msgstr "ফোন নম্বর:"
+
+#: admin/modules/customizer/views/_customize_properties.php:119
+#: admin/modules/customizer/views/_customize_properties.php:293
+#: admin/modules/customizer/views/_customize_properties.php:317
+#: admin/modules/customizer/views/_customize_properties.php:581
+#: admin/views/wt_ipc_free_pro.php:478 admin/views/wt_ipc_free_pro.php:492
+#: public/modules/shippinglabel/shippinglabel.php:109
+#: public/modules/shippinglabel/shippinglabel.php:134
+msgid "Title"
+msgstr "খেতাব"
+
+#: admin/modules/customizer/views/_customize_properties.php:125
+#: admin/modules/customizer/views/_customize_properties.php:212
+#: admin/modules/customizer/views/_customize_properties.php:264
+#: admin/modules/customizer/views/_customize_properties.php:322
+#: admin/modules/customizer/views/_customize_properties.php:586
+#: public/modules/invoice/invoice.php:343
+msgid "Font size"
+msgstr "অক্ষরের আকার"
+
+#: admin/modules/customizer/views/_customize_properties.php:132
+#: admin/modules/customizer/views/_customize_properties.php:298
+msgid "Text align"
+msgstr "পাঠ্য সারিবদ্ধ করুন"
+
+#: admin/modules/customizer/views/_customize_properties.php:142
+msgid "Text Color"
+msgstr "লেখার রঙ"
+
+#: admin/modules/customizer/views/_customize_properties.php:154
+msgid "Display"
+msgstr "প্রদর্শন"
+
+#: admin/modules/customizer/views/_customize_properties.php:158
+#: public/modules/shippinglabel/shippinglabel.php:161
+msgid "Company Logo"
+msgstr "কোম্পানী লোগো"
+
+#: admin/modules/customizer/views/_customize_properties.php:159
+msgid "Company Name"
+msgstr "কোমপানির নাম"
+
+#: admin/modules/customizer/views/_customize_properties.php:163
+msgid "Logo Width"
+msgstr "লোগোর প্রস্থ"
+
+#: admin/modules/customizer/views/_customize_properties.php:170
+msgid "Logo Height"
+msgstr "লোগোর উচ্চতা"
+
+#: admin/modules/customizer/views/_customize_properties.php:178
+msgid "Company name font size"
+msgstr "কোম্পানির নামের ফন্ট সাইজ"
+
+#: admin/modules/customizer/views/_customize_properties.php:184
+msgid "Extra Details"
+msgstr "অতিরিক্ত বিবরণ"
+
+#: admin/modules/customizer/views/_customize_properties.php:190
+msgid "Extra detail font size"
+msgstr "অতিরিক্ত বিস্তারিত ফন্ট আকার"
+
+#: admin/modules/customizer/views/_customize_properties.php:196
+msgid "Header Color"
+msgstr "হেডারের রঙ"
+
+#: admin/modules/customizer/views/_customize_properties.php:207
+#: admin/modules/customizer/views/_customize_properties.php:241
+#: public/modules/invoice/invoice.php:337
+msgid "Text"
+msgstr "লেখা"
+
+#: admin/modules/customizer/views/_customize_properties.php:220
+#: admin/modules/customizer/views/_customize_properties.php:272
+msgid "Style"
+msgstr "স্টাইল"
+
+#: admin/modules/customizer/views/_customize_properties.php:230
+#: admin/modules/customizer/views/_customize_properties.php:282
+#: admin/modules/customizer/views/_customize_properties.php:306
+#: admin/modules/customizer/views/_customize_properties.php:329
+msgid "Text color"
+msgstr "লেখার রঙ"
+
+#: admin/modules/customizer/views/_customize_properties.php:246
+#: public/modules/invoice/views/general.php:319
+msgid "Format"
+msgstr "বিন্যাস"
+
+#: admin/modules/customizer/views/_customize_properties.php:340
+msgid "Table head background"
+msgstr "টেবিল হেড ব্যাকগ্রাউন্ড"
+
+#: admin/modules/customizer/views/_customize_properties.php:347
+msgid "Table head text color"
+msgstr "টেবিল হেড টেক্সট রঙ"
+
+#: admin/modules/customizer/views/_customize_properties.php:354
+msgid "Table body text color"
+msgstr "টেবিলের বডি টেক্সটের রঙ"
+
+#: admin/modules/customizer/views/_customize_properties.php:368
+msgid "Serial No label"
+msgstr "সিরিয়াল কোন লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:374
+msgid "Serial no text align"
+msgstr "সিরিয়াল কোন টেক্সট সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:391
+msgid "Image label"
+msgstr "ছবির লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:397
+msgid "Image text align"
+msgstr "ইমেজ টেক্সট সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:414
+msgid "SKU label"
+msgstr "SKU লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:420
+msgid "SKU text align"
+msgstr "SKU পাঠ্য সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:437
+msgid "Product label"
+msgstr "পণ্য লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:443
+msgid "Product text align"
+msgstr "পণ্য টেক্সট সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:460
+msgid "Qty label"
+msgstr "পরিমাণ লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:466
+msgid "Qty text align"
+msgstr "পরিমাণ পাঠ্য সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:483
+msgid "Price label"
+msgstr "মূল্য লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:489
+msgid "Price text align"
+msgstr "মূল্য টেক্সট সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:506
+msgid "Tax label"
+msgstr "ট্যাক্স লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:512
+msgid "Tax text align"
+msgstr "ট্যাক্স টেক্সট সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:529
+msgid "Total weight label"
+msgstr "মোট ওজন লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:535
+msgid "Total weight text align"
+msgstr "মোট ওজন টেক্সট সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:552
+msgid "Total label"
+msgstr "মোট লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:558
+msgid "Total text align"
+msgstr "মোট পাঠ্য সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:572
+msgid "Signature type"
+msgstr "স্বাক্ষরের ধরন"
+
+#: admin/modules/customizer/views/_customize_properties.php:576
+msgid "Manual Signature"
+msgstr "ম্যানুয়াল স্বাক্ষর"
+
+#: admin/modules/customizer/views/_customize_properties.php:577
+msgid "Image Signature"
+msgstr "ছবি স্বাক্ষর"
+
+#: admin/modules/customizer/views/_customize_properties.php:594
+msgid "Align"
+msgstr "সারিবদ্ধ"
+
+#: admin/modules/customizer/views/_customize_properties.php:611
+msgid "Label"
+msgstr "লেবেল"
+
+#: admin/modules/customizer/views/_customize_properties.php:690
+msgid "Note"
+msgstr "বিঃদ্রঃ"
+
+#: admin/modules/customizer/views/_customize_properties.php:691
+msgid ""
+"Displays customer`s VAT number saved in the order details by third-party plugins in "
+"this document. Supported meta keys are"
+msgstr ""
+"এই নথিতে তৃতীয় পক্ষের প্লাগইন দ্বারা অর্ডারের বিবরণে সংরক্ষিত গ্রাহকের ভ্যাট নম্বর প্রদর্শন করে। "
+"সমর্থিত মেটা কী হয়"
+
+#: admin/modules/customizer/views/_customize_properties.php:693
+msgid "To add a different meta key"
+msgstr "একটি ভিন্ন মেটা কী যোগ করতে"
+
+#: admin/modules/customizer/views/_customize_properties.php:694
+msgid "Upgrade to premium"
+msgstr "প্রিমিয়ামে আপগ্রেড করুন"
+
+#: admin/modules/customizer/views/_customize_properties.php:753
+#: admin/views/premium_extension_page.php:141
+#: public/modules/deliverynote/views/admin-settings.php:103
+#: public/modules/dispatchlabel/views/admin-settings.php:101
+#: public/modules/invoice/views/invoice-admin-settings.php:81
+#: public/modules/packinglist/views/general.php:147
+#: public/modules/shippinglabel/views/admin-settings.php:98
+msgid "Show More"
+msgstr "আরো দেখুন"
+
+#: admin/modules/customizer/views/_customize_properties.php:754
+#: admin/views/premium_extension_page.php:142
+#: public/modules/deliverynote/views/admin-settings.php:104
+#: public/modules/dispatchlabel/views/admin-settings.php:102
+#: public/modules/invoice/views/invoice-admin-settings.php:82
+#: public/modules/packinglist/views/general.php:148
+#: public/modules/shippinglabel/views/admin-settings.php:99
+msgid "Show Less"
+msgstr "প্রদর্শন কম"
+
+#: admin/modules/customizer/views/_customize_properties.php:758
+#: admin/views/premium_extension_page.php:146
+msgid "Checkout Premium"
+msgstr "চেকআউট প্রিমিয়াম"
+
+#: admin/modules/customizer/views/_pdf_preview.php:22
+msgid "View sample customization demo"
+msgstr "নমুনা কাস্টমাইজেশন ডেমো দেখুন"
+
+#: admin/modules/customizer/views/_pdf_preview.php:28
+msgid "Preview sample PDF"
+msgstr "প্রিভিউ নমুনা PDF"
+
+#: admin/modules/customizer/views/_pdf_preview.php:29
+msgid "Order"
+msgstr "অর্ডার"
+
+#: admin/modules/customizer/views/_pdf_preview.php:34
+#: admin/modules/customizer/views/_pdf_preview.php:35
+#: admin/partials/form_wizard/form_wizard.php:267
+#: admin/views/_form_field_generator_new.php:675
+#: public/modules/invoice/views/qrcode_promote.php:37
+msgid "Order number"
+msgstr "অর্ডার নম্বর"
+
+#: admin/modules/customizer/views/customize.php:93
+#: admin/views/admin-settings-debug.php:158
+msgid "Templates"
+msgstr "টেমপ্লেট"
+
+#: admin/modules/customizer/views/customize.php:98
+msgid "Type template name to search"
+msgstr "অনুসন্ধান করতে টেমপ্লেটের নাম টাইপ করুন"
+
+#: admin/modules/customizer/views/customize.php:108
+msgid "Enter a name for your template"
+msgstr "আপনার টেমপ্লেটের জন্য একটি নাম লিখুন"
+
+#: admin/modules/customizer/views/customize.php:113
+msgid "Please enter name"
+msgstr "নাম লিখুন দয়া করে"
+
+#: admin/modules/customizer/views/customize.php:131
+msgid "Choose a layout."
+msgstr "একটি লেআউট চয়ন করুন."
+
+#: admin/modules/customizer/views/customize.php:137
+msgid "All unsaved changes will be lost upon switching to a new layout."
+msgstr "একটি নতুন লেআউটে স্যুইচ করার পরে সমস্ত অসংরক্ষিত পরিবর্তনগুলি হারিয়ে যাবে৷"
+
+#: admin/modules/customizer/views/customize.php:139
+msgid "Save before you proceed."
+msgstr "আপনি এগিয়ে যাওয়ার আগে সংরক্ষণ করুন."
+
+#: admin/modules/customizer/views/customize.php:140
+msgid "Saving..."
+msgstr "সংরক্ষণ করা হচ্ছে..."
+
+#: admin/modules/customizer/views/customize.php:193
+msgid "Save and activate"
+msgstr "সংরক্ষণ করুন এবং সক্রিয় করুন"
+
+#: admin/modules/customizer/views/customize.php:208
+msgid "Create new"
+msgstr "নতুন তৈরী করা"
+
+#: admin/modules/customizer/views/customize.php:209
+msgid "My templates"
+msgstr "আমার টেমপ্লেট"
+
+#: admin/modules/customizer/views/customize.php:216
+msgid "This template is not comaptible with QR Code addon plugin"
+msgstr "এই টেমপ্লেটটি QR কোড অ্যাডঅন প্লাগইনের সাথে সামঞ্জস্যপূর্ণ নয়"
+
+#: admin/modules/customizer/views/customize.php:252
+msgid "Unlock limitless possibilities of invoice customization with the addon -"
+msgstr "অ্যাডন দিয়ে চালান কাস্টমাইজেশনের সীমাহীন সম্ভাবনা আনলক করুন -"
+
+#: admin/modules/customizer/views/customize.php:253
+msgid "Customizer for WooCommerce PDF Invoices Plugin"
+msgstr "WooCommerce পিডিএফ ইনভয়েস প্লাগইনের জন্য কাস্টমাইজার"
+
+#: admin/modules/customizer/views/customize.php:260
+#: admin/modules/customizer/views/customize.php:272
+msgid "Visual"
+msgstr "ভিজ্যুয়াল"
+
+#: admin/modules/customizer/views/customize.php:261
+#: admin/modules/customizer/views/customize.php:275
+msgid "Code"
+msgstr "Code"
+
+#: admin/modules/customizer/views/customize.php:275
+#: public/modules/invoice/invoice.php:1160
+#: public/modules/shippinglabel/shippinglabel.php:158
+msgid "Pro version"
+msgstr "প্রো সংস্করণ"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:38
+msgid "I couldn't understand how to make it work"
+msgstr "আমি বুঝতে পারছিলাম না কিভাবে এটা কাজ করতে হবে"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:40
+msgid "Would you like us to assist you?"
+msgstr "আপনি কি আমাদের সাহায্য করতে চান?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:44
+msgid "Language support issues"
+msgstr "ভাষা সমর্থন সমস্যা"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:49
+msgid "Plugin settings not available in my language"
+msgstr "প্লাগইন সেটিংস আমার ভাষায় উপলব্ধ নয়"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:51
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:57
+msgid "Which language?"
+msgstr "কোন ভাষা?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+msgid "Missing RTL/Unicode language(e.g Chinese, Arabic etc) support for PDF document."
+msgstr "পিডিএফ ডকুমেন্টের জন্য আরটিএল/ইউনিকোড ভাষা (যেমন চাইনিজ, আরবি ইত্যাদি) অনুপস্থিত।"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+#, php-format
+msgid "Already tried the free %s WebToffee mPDF addon %s."
+msgstr "ইতিমধ্যেই বিনামূল্যের %s WebToffee mPDF অ্যাডঅন %s চেষ্টা করেছে৷"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:63
+msgid "I am unable to add customer VAT(or GSTIN or ABN or any other tax id etc)"
+msgstr "আমি গ্রাহক ভ্যাট যোগ করতে অক্ষম (বা GSTIN বা ABN বা অন্য কোন ট্যাক্স আইডি ইত্যাদি)"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:68
+msgid ""
+"Unable to add from third party plugin that collects customer VAT(or GSTIN or ABN etc)"
+msgstr ""
+"গ্রাহক ভ্যাট (বা GSTIN বা ABN ইত্যাদি) সংগ্রহ করে এমন তৃতীয় পক্ষের প্লাগইন থেকে যোগ করতে অক্ষম"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:70
+msgid "Mention the name of the plugin or meta key if any"
+msgstr "প্লাগইন বা মেটা কী এর নাম উল্লেখ করুন যদি থাকে"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:74
+msgid "Need a field to add the tax id on checkout page"
+msgstr "চেকআউট পৃষ্ঠায় ট্যাক্স আইডি যোগ করার জন্য একটি ক্ষেত্র প্রয়োজন"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:82
+msgid "I found a better plugin"
+msgstr "আমি একটি ভাল প্লাগইন খুঁজে পেয়েছি"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:84
+msgid "Which plugin?"
+msgstr "কোন প্লাগইন?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "প্লাগইনটি দুর্দান্ত, তবে আমার নির্দিষ্ট বৈশিষ্ট্য দরকার যা আপনি সমর্থন করেন না"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:90
+msgid "Could you tell us more about that feature?"
+msgstr "আপনি আমাদের যে বৈশিষ্ট্য সম্পর্কে আরও বলতে পারেন?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:94
+msgid "The plugin didn't work as expected"
+msgstr "প্লাগইনটি আশানুরূপ কাজ করেনি"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:96
+msgid "What did you expect?"
+msgstr "তুমি কি আশা কর?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:100
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:102
+msgid "Could you tell us a bit more?"
+msgstr "আপনি আমাদের একটু বেশি বলতে পারেন?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:121
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "যদি আপনার কাছে একটি মুহূর্ত থাকে তবে দয়া করে আমাদের জানান কেন আপনি নিষ্ক্রিয় করছেন:"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:158
+msgid ""
+"We do not collect any personal data when you submit this form. It's your feedback that "
+"we value."
+msgstr ""
+"আপনি এই ফর্ম জমা দেওয়ার সময় আমরা কোনো ব্যক্তিগত তথ্য সংগ্রহ করি না। এটা আপনার মতামত যে আমরা "
+"মূল্য."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:159
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:162
+msgid "Delete all the settings made by this plugin"
+msgstr "এই প্লাগইন দ্বারা তৈরি সমস্ত সেটিংস মুছুন"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:167
+msgid "Go to support"
+msgstr "সমর্থন যান"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:168
+msgid "Submit & Deactivate"
+msgstr "জমা দিন এবং নিষ্ক্রিয় করুন"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:170
+msgid "I rather wouldn't say"
+msgstr "আমি বরং বলবো না"
+
+#: admin/partials/admin-settings.php:19
+msgid "Documents"
+msgstr "নথিপত্র"
+
+#: admin/partials/admin-settings.php:20
+#: public/modules/deliverynote/views/admin-settings.php:7
+#: public/modules/dispatchlabel/views/admin-settings.php:6
+#: public/modules/invoice/views/general.php:69
+#: public/modules/invoice/views/invoice-admin-settings.php:7
+#: public/modules/packinglist/views/admin-settings.php:7
+#: public/modules/shippinglabel/views/admin-settings.php:6
+msgid "General"
+msgstr "সাধারণ"
+
+#: admin/partials/admin-settings.php:21
+msgid "Help Guide"
+msgstr "হেল্প গাইড"
+
+#: admin/partials/admin-settings.php:24
+msgid "Free vs Premium"
+msgstr "ফ্রি বনাম প্রিমিয়াম"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/admin-settings.php:41
+msgid "WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels"
+msgstr "WooCommerce PDF চালান, প্যাকিং স্লিপ, ডেলিভারি নোট এবং শিপিং লেবেল"
+
+#: admin/partials/form_wizard/form_wizard.php:38
+#: admin/views/_form_field_generator_new.php:624
+#: public/modules/invoice/views/general.php:25
+#: public/modules/invoice/views/invoice_number_preview.php:23
+msgid "Click to append with existing data"
+msgstr "বিদ্যমান ডেটার সাথে যুক্ত করতে ক্লিক করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:147
+msgid "Hello there! Let’s begin with the basics"
+msgstr "হ্যালো সেখানে! বেসিক দিয়ে শুরু করা যাক"
+
+#: admin/partials/form_wizard/form_wizard.php:152
+msgid "Step 1"
+msgstr "ধাপ 1"
+
+#: admin/partials/form_wizard/form_wizard.php:153
+msgid "Step 2"
+msgstr "ধাপ ২"
+
+#: admin/partials/form_wizard/form_wizard.php:154
+msgid "Step 3"
+msgstr "ধাপ 3"
+
+#: admin/partials/form_wizard/form_wizard.php:158
+msgid "Add shop details"
+msgstr "দোকান বিবরণ যোগ করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:161
+msgid "Shop name"
+msgstr "দোকানের নাম"
+
+#: admin/partials/form_wizard/form_wizard.php:167 admin/views/general.php:106
+msgid "Address line 1"
+msgstr "ঠিকানা লাইন 1"
+
+#: admin/partials/form_wizard/form_wizard.php:171 admin/views/general.php:114
+msgid "Address line 2"
+msgstr "ঠিকানা লাইন ২"
+
+#: admin/partials/form_wizard/form_wizard.php:178 admin/views/general.php:122
+msgid "City"
+msgstr "শহর"
+
+#: admin/partials/form_wizard/form_wizard.php:182 admin/views/general.php:130
+msgid "Country/State"
+msgstr "দেশের প্রদেশ"
+
+#: admin/partials/form_wizard/form_wizard.php:184
+#: admin/views/_form_field_generator_new.php:515
+msgid "Select country"
+msgstr "দেশ নির্বাচন করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:196 admin/views/general.php:138
+msgid "Postal code"
+msgstr "পোস্টাল কোড"
+
+#: admin/partials/form_wizard/form_wizard.php:200
+msgid "Phone number"
+msgstr "ফোন নম্বর"
+
+#: admin/partials/form_wizard/form_wizard.php:206
+msgid "Tax ID"
+msgstr "ট্যাক্স আইডি"
+
+#: admin/partials/form_wizard/form_wizard.php:212
+msgid "Upload logo"
+msgstr "লোগো আপলোড"
+
+#: admin/partials/form_wizard/form_wizard.php:219
+#: admin/views/_form_field_generator_new.php:457
+msgid "Recommended size is 150x50px."
+msgstr "প্রস্তাবিত আকার হল 150x50px।"
+
+#: admin/partials/form_wizard/form_wizard.php:226
+#: admin/partials/form_wizard/form_wizard.php:247
+msgid "Next"
+msgstr "পরবর্তী"
+
+#: admin/partials/form_wizard/form_wizard.php:227
+msgid "Skip invoice setup"
+msgstr "চালান সেটআপ এড়িয়ে যান"
+
+#: admin/partials/form_wizard/form_wizard.php:231
+msgid "Choose emails for invoice attachment"
+msgstr "চালান সংযুক্তির জন্য ইমেল নির্বাচন করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:232
+msgid "Choose the order emails to which you'd like to attach invoices for your customers"
+msgstr "আপনি আপনার গ্রাহকদের জন্য চালান সংযুক্ত করতে চান যে অর্ডার ইমেল চয়ন করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:248
+#: admin/partials/form_wizard/form_wizard.php:340
+msgid "Back"
+msgstr "পেছনে"
+
+#: admin/partials/form_wizard/form_wizard.php:252
+msgid "Create your unique invoice numbering system"
+msgstr "আপনার অনন্য চালান নম্বর সিস্টেম তৈরি করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:255
+msgid "Complete the invoice number format to suit your requirements"
+msgstr "আপনার প্রয়োজনীয়তা অনুসারে চালান নম্বর বিন্যাসটি সম্পূর্ণ করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:260
+#: admin/views/_form_field_generator_new.php:668
+msgid "Prefix"
+msgstr "উপসর্গ"
+
+#: admin/partials/form_wizard/form_wizard.php:262
+#: admin/partials/form_wizard/form_wizard.php:275
+#: admin/views/_form_field_generator_new.php:670
+#: admin/views/_form_field_generator_new.php:683
+msgid "Choose date"
+msgstr "তারিখ চয়ন করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:268
+#: admin/views/_form_field_generator_new.php:676
+msgid "Custom number"
+msgstr "কাস্টম নম্বর"
+
+#: admin/partials/form_wizard/form_wizard.php:273
+#: admin/views/_form_field_generator_new.php:681
+msgid "Suffix"
+msgstr "প্রত্যয়"
+
+#: admin/partials/form_wizard/form_wizard.php:281
+#: admin/views/_form_field_generator_new.php:628
+msgid "What should be the starting number for your invoices?"
+msgstr "আপনার চালানের জন্য শুরু নম্বর কি হওয়া উচিত?"
+
+#: admin/partials/form_wizard/form_wizard.php:291
+msgid "What length would you prefer for your invoice number"
+msgstr "আপনার চালান নম্বরের জন্য আপনি কত দৈর্ঘ্য পছন্দ করবেন"
+
+#: admin/partials/form_wizard/form_wizard.php:324
+#: admin/views/_form_field_generator_new.php:715
+#: public/modules/invoice/views/invoice_number_preview.php:30
+msgid "PREVIEW"
+msgstr "পূর্বরূপ"
+
+#: admin/partials/form_wizard/form_wizard.php:327
+#: admin/views/_form_field_generator_new.php:718
+#: public/modules/invoice/views/invoice_number_preview.php:33
+msgid "If the order number is"
+msgstr "যদি অর্ডার নম্বর হয়"
+
+#: admin/partials/form_wizard/form_wizard.php:329
+#: admin/views/_form_field_generator_new.php:720
+#: public/modules/invoice/views/invoice_number_preview.php:35
+#, php-format
+msgid "the %s number would be"
+msgstr "%s নম্বর হবে"
+
+#: admin/partials/form_wizard/form_wizard.php:332
+#: admin/views/_form_field_generator_new.php:723
+#: public/modules/invoice/views/invoice_number_preview.php:38
+#, php-format
+msgid "Your next %s number would be"
+msgstr "আপনার পরবর্তী %s নম্বর হবে"
+
+#: admin/partials/form_wizard/form_wizard.php:339
+msgid "Finish setup"
+msgstr "সেটআপ শেষ করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:351
+#: admin/views/_form_field_generator_new.php:626
+msgid "Add date to invoice number"
+msgstr "চালান নম্বরে তারিখ যোগ করুন"
+
+#: admin/partials/form_wizard/form_wizard.php:358
+#: admin/views/_form_field_generator_new.php:747
+msgid "Date format strings"
+msgstr "তারিখ বিন্যাস স্ট্রিং"
+
+#: admin/partials/form_wizard/form_wizard.php:358
+#: admin/views/_form_field_generator_new.php:747
+#: public/modules/invoice/views/general.php:319
+msgid "Output"
+msgstr "আউটপুট"
+
+#: admin/partials/form_wizard/form_wizard.php:422
+msgid "Invoice setup successfully"
+msgstr "চালান সেটআপ সফলভাবে"
+
+#: admin/views/_custom_field_editor_form.php:19
+#: admin/views/_custom_field_editor_form.php:22
+#: admin/views/_custom_field_editor_form.php:31
+msgid "Add new"
+msgstr "নতুন আরেকটি"
+
+#: admin/views/_custom_field_editor_form.php:40
+msgid "You can add custom/predefined order meta using its key"
+msgstr "আপনি এর কী ব্যবহার করে কাস্টম/পূর্বনির্ধারিত অর্ডার মেটা যোগ করতে পারেন"
+
+#: admin/views/_custom_field_editor_form.php:47
+msgid "Field Name"
+msgstr "ক্ষেত্র নাম"
+
+#: admin/views/_custom_field_editor_form.php:48
+msgid "Meta Key"
+msgstr "মেটা কী"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "To add more than one custom order meta,"
+msgstr "একাধিক কাস্টম অর্ডার মেটা যোগ করতে,"
+
+#: admin/views/_custom_field_editor_form.php:53
+msgid "upgrade to premium version"
+msgstr "প্রিমিয়াম সংস্করণে আপগ্রেড করুন"
+
+#: admin/views/_form_field_generator_new.php:428
+msgid "Order Meta"
+msgstr "অর্ডার মেটা"
+
+#: admin/views/_form_field_generator_new.php:430
+msgid "Add/Edit Order Meta Field"
+msgstr "অর্ডার মেটা ফিল্ড যোগ/সম্পাদনা করুন"
+
+#: admin/views/_form_field_generator_new.php:456
+msgid "Upload your image"
+msgstr "আপনার ছবি আপলোড করুন"
+
+#: admin/views/_form_field_generator_new.php:491 admin/views/admin-settings-debug.php:196
+#: admin/views/admin-settings-debug.php:236
+msgid "Reset"
+msgstr "রিসেট"
+
+#: admin/views/_form_field_generator_new.php:557
+msgid "Document"
+msgstr "দলিল"
+
+#: admin/views/_form_field_generator_new.php:558
+msgid "PDF"
+msgstr "PDF"
+
+#: admin/views/_form_field_generator_new.php:559
+msgid "HTML"
+msgstr "এইচটিএমএল"
+
+#: admin/views/_form_field_generator_new.php:560
+msgid "Action"
+msgstr "অ্যাকশন"
+
+#: admin/views/_form_field_generator_new.php:627
+msgid "Invoice number format"
+msgstr "চালান নম্বর বিন্যাস"
+
+#: admin/views/_form_field_generator_new.php:629
+msgid "What length would you prefer for your invoice"
+msgstr "আপনার চালানের জন্য আপনি কত দৈর্ঘ্য পছন্দ করবেন"
+
+#: admin/views/_form_field_generator_new.php:634
+#: admin/views/_form_field_generator_new.php:650
+msgid "Use order date as input instead."
+msgstr "পরিবর্তে ইনপুট হিসাবে অর্ডার তারিখ ব্যবহার করুন."
+
+#: admin/views/_form_field_generator_new.php:640
+msgid "Add date to credit note number"
+msgstr "ক্রেডিট নোট নম্বরে তারিখ যোগ করুন"
+
+#: admin/views/_form_field_generator_new.php:641
+msgid "Creditnote number format"
+msgstr "ক্রেডিটনোট নম্বর বিন্যাস"
+
+#: admin/views/_form_field_generator_new.php:642
+msgid "What should be the starting number for your credit notes?"
+msgstr "আপনার ক্রেডিট নোটের জন্য প্রারম্ভিক সংখ্যা কি হওয়া উচিত?"
+
+#: admin/views/_form_field_generator_new.php:643
+msgid "What length would you prefer for your credit note"
+msgstr "আপনার ক্রেডিট নোটের জন্য আপনি কত দৈর্ঘ্য পছন্দ করবেন"
+
+#: admin/views/_form_field_generator_new.php:653
+msgid "Add date to proforma invoice number"
+msgstr "প্রফর্মা চালান নম্বরে তারিখ যোগ করুন"
+
+#: admin/views/_form_field_generator_new.php:654
+msgid "Proforma invoice number format"
+msgstr "প্রফর্মা চালান নম্বর বিন্যাস"
+
+#: admin/views/_form_field_generator_new.php:655
+msgid "What should be the starting number for your proforma invoices?"
+msgstr "আপনার প্রোফর্মা চালানগুলির জন্য শুরুর নম্বরটি কী হওয়া উচিত?"
+
+#: admin/views/_form_field_generator_new.php:656
+msgid "What length would you prefer for your proforma invoice"
+msgstr "আপনার প্রোফরমা চালানের জন্য আপনি কত দৈর্ঘ্য পছন্দ করবেন"
+
+#: admin/views/_form_field_generator_new.php:668
+msgid "Removing year [Y] from the prefix will disable the annual reset functionality"
+msgstr "উপসর্গ থেকে বছর [Y] সরিয়ে দিলে বার্ষিক রিসেট কার্যকারিতা অক্ষম হবে"
+
+#: admin/views/_form_field_generator_new.php:674
+msgid "Switching to order number will disable the annual reset functionality"
+msgstr "অর্ডার নম্বরে স্যুইচ করলে বার্ষিক রিসেট কার্যকারিতা অক্ষম হবে"
+
+#: admin/views/_form_field_generator_new.php:681
+msgid "Removing year [Y] from the suffix will disable the annual reset functionality"
+msgstr "প্রত্যয় থেকে বছর [Y] সরানো বার্ষিক রিসেট কার্যকারিতা অক্ষম করবে"
+
+#: admin/views/_form_field_generator_new.php:694
+msgid "The latest specified starting number will be used after reset"
+msgstr "রিসেট করার পরে সর্বশেষ নির্দিষ্ট সূচনা নম্বর ব্যবহার করা হবে"
+
+#: admin/views/admin-settings-branding.php:6
+msgid "Developed by"
+msgstr "নির্মাণে"
+
+#: admin/views/admin-settings-debug.php:39
+msgid "Reset successfully"
+msgstr "সফলভাবে রিসেট"
+
+#: admin/views/admin-settings-debug.php:48
+msgid "Debug"
+msgstr "ডিবাগ"
+
+#: admin/views/admin-settings-debug.php:49
+msgid "Caution: Settings here are only for advanced users."
+msgstr "সতর্কতা: এখানে সেটিংস শুধুমাত্র উন্নত ব্যবহারকারীদের জন্য।"
+
+#: admin/views/admin-settings-debug.php:118
+msgid "Export settings (JSON)"
+msgstr "রপ্তানি সেটিংস (JSON)"
+
+#: admin/views/admin-settings-debug.php:120
+msgid "Export"
+msgstr "রপ্তানি"
+
+#: admin/views/admin-settings-debug.php:130
+msgid "Import settings (JSON)"
+msgstr "আমদানি সেটিংস (JSON)"
+
+#: admin/views/admin-settings-debug.php:134 admin/views/admin-settings-debug.php:183
+msgid "Import"
+msgstr "আমদানি"
+
+#: admin/views/admin-settings-debug.php:134
+msgid "Please select json file"
+msgstr "json ফাইল নির্বাচন করুন"
+
+#: admin/views/admin-settings-debug.php:139
+msgid "Last imported on:"
+msgstr "শেষবার আমদানি করা হয়েছে:"
+
+#: admin/views/admin-settings-debug.php:151
+msgid ""
+"Importing the file will delete all the settings and replace with data from chosen file"
+msgstr ""
+"ফাইলটি আমদানি করলে সমস্ত সেটিংস মুছে যাবে এবং নির্বাচিত ফাইল থেকে ডেটা দিয়ে প্রতিস্থাপন করা "
+"হবে"
+
+#: admin/views/admin-settings-debug.php:163
+msgid "Combine with the existing templates"
+msgstr "বিদ্যমান টেমপ্লেটগুলির সাথে একত্রিত করুন"
+
+#: admin/views/admin-settings-debug.php:168
+msgid "Replace the existing templates"
+msgstr "বিদ্যমান টেমপ্লেটগুলি প্রতিস্থাপন করুন"
+
+#: admin/views/admin-settings-debug.php:173
+#, php-format
+msgid "To proceed with the import, please type %1$s in the field below"
+msgstr "আমদানির সাথে এগিয়ে যেতে, দয়া করে নীচের ক্ষেত্রে %1$s টাইপ করুন৷"
+
+#: admin/views/admin-settings-debug.php:194
+msgid "Reset all settings to default"
+msgstr "সমস্ত সেটিংস ডিফল্টে রিসেট করুন"
+
+#: admin/views/admin-settings-debug.php:202
+msgid "Last updated on:"
+msgstr "সর্বশেষ আপডেট:"
+
+#: admin/views/admin-settings-debug.php:214
+msgid ""
+"Reset will delete all the settings, saved templates and reset to the default settings"
+msgstr "রিসেট সব সেটিংস, সংরক্ষিত টেমপ্লেট মুছে ফেলবে এবং ডিফল্ট সেটিংসে রিসেট করবে"
+
+#: admin/views/admin-settings-debug.php:221
+msgid "Do not reset the templates"
+msgstr "টেমপ্লেট রিসেট করবেন না"
+
+#: admin/views/admin-settings-debug.php:225
+#, php-format
+msgid "To proceed with the reset, please type %1$s in the field below"
+msgstr "রিসেটের সাথে এগিয়ে যেতে, অনুগ্রহ করে নিচের ক্ষেত্রে %1$s টাইপ করুন"
+
+#: admin/views/admin-settings-help-filters.php:28 admin/views/help.php:36
+msgid "Filters"
+msgstr "ফিল্টার"
+
+#: admin/views/admin-settings-help-filters.php:30
+msgid "Some useful `filters` to extend plugin's functionality"
+msgstr "প্লাগইনের কার্যকারিতা বাড়ানোর জন্য কিছু দরকারী `ফিল্টার`"
+
+#: admin/views/admin-settings-help-filters.php:32
+msgid "search filter"
+msgstr "অনুসন্ধান ফিল্টার"
+
+#: admin/views/admin-settings-help-filters.php:61
+msgid "Example Code"
+msgstr "উদাহরণ কোড"
+
+#: admin/views/admin-settings-help-filters.php:83
+msgid "Copy Code"
+msgstr "কোড কপি করুন"
+
+#: admin/views/admin-settings-save-button-form-wizard.php:6
+#: admin/views/admin-settings-save-button.php:6
+#: public/modules/deliverynote/views/general.php:91
+#: public/modules/dispatchlabel/views/general.php:77
+#: public/modules/packinglist/views/general.php:93
+#: public/modules/shippinglabel/views/general.php:63
+msgid "Update Settings"
+msgstr "সেটিংস আপডেট করুন"
+
+#: admin/views/admin-settings-system-info.php:5
+msgid "System Configuration"
+msgstr "সিস্টেম কনফিগারেশন"
+
+#: admin/views/admin-settings-system-info.php:6
+msgid "Copy"
+msgstr "কপি"
+
+#: admin/views/admin-settings-system-info.php:7
+msgid "Copied"
+msgstr "কপি করা হয়েছে"
+
+#: admin/views/admin-settings-system-info.php:14
+msgid "5.6 or higher recommended"
+msgstr "5.6 বা উচ্চতর প্রস্তাবিত"
+
+#: admin/views/admin-settings-system-info.php:27
+msgid "Recommended, will use fallback functions"
+msgstr "প্রস্তাবিত, ফলব্যাক ফাংশন ব্যবহার করবে"
+
+#: admin/views/admin-settings-system-info.php:33
+msgid "Required if you have images in your documents"
+msgstr "আপনার নথিতে ছবি থাকলে প্রয়োজন"
+
+#: admin/views/admin-settings-system-info.php:36
+msgid "Better with transparent PNG images"
+msgstr "স্বচ্ছ পিএনজি চিত্রগুলির সাথে আরও ভাল"
+
+#: admin/views/admin-settings-system-info.php:39
+#: admin/views/admin-settings-system-info.php:57
+msgid "Recommended for better performances"
+msgstr "ভাল পারফরম্যান্সের জন্য সুপারিশ করা হয়"
+
+#: admin/views/admin-settings-system-info.php:48
+msgid "To compress PDF documents"
+msgstr "পিডিএফ ডকুমেন্ট কম্প্রেস করতে"
+
+#: admin/views/admin-settings-system-info.php:51
+msgid "Recommended to compress PDF documents"
+msgstr "পিডিএফ ডকুমেন্ট কম্প্রেস করার জন্য প্রস্তাবিত"
+
+#: admin/views/admin-settings-system-info.php:54
+msgid "For better performances"
+msgstr "আরও ভালো পারফরম্যান্সের জন্য"
+
+#. translators: <a> tags
+#. 'required' => sprintf( __( 'Recommended: 128MB (more for plugin-heavy setups<br/>See: %1$sIncreasing the WordPress Memory Limit%2$s', 'print-invoices-packing-slip-labels-for-woocommerce' ), '<a href="https://docs.woocommerce.com/document/increasing-the-wordpress-memory-limit/" target="_blank">', '</a>' ),
+#: admin/views/admin-settings-system-info.php:68
+msgid "Recommended 128MB or more"
+msgstr "প্রস্তাবিত 128MB বা তার বেশি"
+
+#: admin/views/admin-settings-system-info.php:73
+msgid "Allow remote stylesheets and images"
+msgstr "দূরবর্তী স্টাইলশীট এবং ছবি অনুমতি দিন"
+
+#: admin/views/admin-settings-system-info.php:76
+msgid "allow_url_fopen disabled"
+msgstr "allow_url_fopen নিষ্ক্রিয়"
+
+#: admin/views/admin-settings-system-info.php:80
+msgid "Writtable"
+msgstr "লিখনযোগ্য"
+
+#: admin/views/admin-settings-system-info.php:120
+msgid "Required"
+msgstr "প্রয়োজনীয়"
+
+#: admin/views/admin-settings-system-info.php:121
+msgid "Present"
+msgstr "বর্তমান"
+
+#: admin/views/customizer-promotion-popup.php:37
+#: admin/views/customizer-promotion-popup.php:60
+msgid "Get advanced customization options for"
+msgstr "জন্য উন্নত কাস্টমাইজেশন বিকল্প পান"
+
+#: admin/views/customizer-promotion-popup.php:37
+msgid "invoices, packing slips, and credit notes."
+msgstr "চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট।"
+
+#: admin/views/customizer-promotion-popup.php:39
+msgid "Add additional fields to invoices"
+msgstr "ইনভয়েসে অতিরিক্ত ক্ষেত্র যোগ করুন"
+
+#: admin/views/customizer-promotion-popup.php:40
+#: admin/views/customizer-promotion-popup.php:63
+msgid "Multiple pre-built templates"
+msgstr "একাধিক পূর্ব-নির্মিত টেমপ্লেট"
+
+#: admin/views/customizer-promotion-popup.php:41
+#: admin/views/customizer-promotion-popup.php:64
+msgid "Customize using Code Editor"
+msgstr "কোড এডিটর ব্যবহার করে কাস্টমাইজ করুন"
+
+#: admin/views/customizer-promotion-popup.php:42
+#: admin/views/customizer-promotion-popup.php:65
+msgid "More customization options"
+msgstr "আরও কাস্টমাইজেশন বিকল্প"
+
+#: admin/views/customizer-promotion-popup.php:48
+msgid "Upgrade for more customization on packing slip"
+msgstr "প্যাকিং স্লিপে আরও কাস্টমাইজেশনের জন্য আপগ্রেড করুন"
+
+#: admin/views/customizer-promotion-popup.php:50
+msgid "Advanced customization option for packing slip templates"
+msgstr "স্লিপ টেমপ্লেট প্যাক করার জন্য উন্নত কাস্টমাইজেশন বিকল্প"
+
+#: admin/views/customizer-promotion-popup.php:51
+msgid "Show/hide fields like billing address, weight, product image etc"
+msgstr "বিলিং ঠিকানা, ওজন, পণ্যের ছবি ইত্যাদির মতো ক্ষেত্রগুলি দেখান/লুকান"
+
+#: admin/views/customizer-promotion-popup.php:52
+#, fuzzy
+msgid "Add additional data such as product meta, order meta, product attributes etc"
+msgstr "অতিরিক্ত ডেটা যোগ করুন যেমন প্রোডাক্ট মেটা, অর্ডার মেটা, প্রোডাক্ট অ্যাট্রিবিউট ইত্যাদি"
+
+#: admin/views/customizer-promotion-popup.php:53
+#, fuzzy
+msgid "Group and sort product table based on different conditions"
+msgstr "বিভিন্ন অবস্থার উপর ভিত্তি করে পণ্য টেবিল গ্রুপ এবং সাজান"
+
+#: admin/views/customizer-promotion-popup.php:54
+#, fuzzy
+msgid "Many more customization options"
+msgstr "আরও অনেক কাস্টমাইজেশন বিকল্প"
+
+#: admin/views/customizer-promotion-popup.php:60
+#, fuzzy
+msgid "shipping labels, dispatch labels, and delivery notes."
+msgstr "শিপিং লেবেল, প্রেরণ লেবেল, এবং বিতরণ নোট."
+
+#: admin/views/customizer-promotion-popup.php:62
+#, fuzzy
+msgid "Add additional fields to shipping labels"
+msgstr "শিপিং লেবেলে অতিরিক্ত ক্ষেত্র যোগ করুন"
+
+#: admin/views/customizer-promotion-popup.php:124 admin/views/freevspro.php:146
+#, fuzzy
+msgid "Upgrade To Premium"
+msgstr "প্রিমিয়ামে আপগ্রেড করুন"
+
+#: admin/views/documents.php:15
+#, fuzzy
+msgid "Invoices, Packing Slips and Credit Notes Module"
+msgstr "চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট মডিউল"
+
+#: admin/views/documents.php:36
+#, fuzzy
+msgid "Shipping labels, Dispatch labels and Delivery Notes Module"
+msgstr "শিপিং লেবেল, ডিসপ্যাচ লেবেল এবং ডেলিভারি নোট মডিউল"
+
+#: admin/views/documents.php:58
+#, fuzzy
+msgid "Picklists Add-on"
+msgstr "পিকলিস্ট অ্যাড-অন"
+
+#: admin/views/documents.php:70
+#, fuzzy
+msgid "Address Label Add-on"
+msgstr "ঠিকানা লেবেল অ্যাড-অন"
+
+#: admin/views/documents.php:82
+#, fuzzy
+msgid "Proforma Invoices Add-on"
+msgstr "প্রোফর্মা ইনভয়েস অ্যাড-অন"
+
+#: admin/views/documents.php:134
+#, fuzzy
+msgid "Free version"
+msgstr "বিনামূল্যে সংস্করণ"
+
+#: admin/views/documents.php:138
+#, fuzzy
+msgid "Premium version"
+msgstr "প্রিমিয়াম সংস্করণ"
+
+#: admin/views/documents.php:147
+#, fuzzy, php-format
+msgid "You are using free version of %1$s. %2$s Checkout premium here %3$s."
+msgstr "আপনি %1$s এর বিনামূল্যের সংস্করণ ব্যবহার করছেন৷ %2$s এখানে প্রিমিয়াম চেকআউট করুন %3$s।"
+
+#: admin/views/documents.php:182
+#, fuzzy
+msgid "Get Add-on"
+msgstr "অ্যাড-অন পান"
+
+#: admin/views/freevspro.php:13
+#, fuzzy
+msgid "Pick list"
+msgstr "তালিকা বাছাই"
+
+#: admin/views/freevspro.php:14
+#, fuzzy
+msgid "Address label"
+msgstr "ঠিকানা লেবেল"
+
+#: admin/views/freevspro.php:15 public/modules/invoice/views/general.php:140
+msgid "My account - Order lists page"
+msgstr "আমার অ্যাকাউন্ট - অর্ডার তালিকা পৃষ্ঠা"
+
+#: admin/views/freevspro.php:16 public/modules/invoice/views/general.php:141
+msgid "My account - Order details page"
+msgstr "আমার অ্যাকাউন্ট - অর্ডার বিবরণ পৃষ্ঠা"
+
+#: admin/views/freevspro.php:17 public/modules/invoice/views/general.php:142
+msgid "Order email"
+msgstr "অর্ডার ইমেল"
+
+#: admin/views/freevspro.php:87
+msgid "Features"
+msgstr "বৈশিষ্ট্য"
+
+#: admin/views/freevspro.php:88
+msgid "Free"
+msgstr "বিনামূল্যে"
+
+#: admin/views/freevspro.php:89
+#, fuzzy
+msgid "Premium"
+msgstr "প্রিমিয়াম"
+
+#: admin/views/freevspro.php:138
+#, fuzzy
+msgid "30 Day Money Back Guarantee"
+msgstr "30 দিনের মানি ব্যাক গ্যারান্টি"
+
+#: admin/views/freevspro.php:139
+#, fuzzy
+msgid "Fast and Superior Support"
+msgstr "দ্রুত এবং উচ্চতর সমর্থন"
+
+#: admin/views/general.php:13
+msgid ""
+"The company name and the address details from this section will be used as the sender "
+"address in the invoice and other related documents."
+msgstr ""
+"এই বিভাগ থেকে কোম্পানির নাম এবং ঠিকানার বিবরণ চালান এবং অন্যান্য সম্পর্কিত নথিতে প্রেরকের "
+"ঠিকানা হিসাবে ব্যবহার করা হবে।"
+
+#: admin/views/general.php:26
+msgid "Load from WooCommerce"
+msgstr "WooCommerce থেকে লোড করুন"
+
+#: admin/views/general.php:36
+msgid "Company details"
+msgstr "কোম্পানি বিবরণ"
+
+#: admin/views/general.php:41
+msgid "Name"
+msgstr "নাম"
+
+#: admin/views/general.php:46
+msgid "To include the keyed in name to the Invoice, ensure to select"
+msgstr "ইনভয়েসে নামের কীড অন্তর্ভুক্ত করতে, নির্বাচন নিশ্চিত করুন"
+
+#: admin/views/general.php:47
+msgid "Company name"
+msgstr "কোমপানির নাম"
+
+#: admin/views/general.php:48
+msgid "from"
+msgstr "থেকে"
+
+#: admin/views/general.php:49 admin/views/general.php:59
+msgid "Invoice > Customize > Company Logo / Name"
+msgstr "চালান > কাস্টমাইজ > কোম্পানির লোগো / নাম"
+
+#: admin/views/general.php:54
+msgid "Logo"
+msgstr "লোগো"
+
+#: admin/views/general.php:58
+msgid ""
+"To include the uploaded image as logo to the invoice, ensure to select Company logo from"
+msgstr ""
+"আপলোড করা ছবিকে চালানে লোগো হিসেবে অন্তর্ভুক্ত করতে, থেকে কোম্পানির লোগো নির্বাচন করতে ভুলবেন "
+"না"
+
+#: admin/views/general.php:60
+msgid "Recommended size is 150×50px"
+msgstr "প্রস্তাবিত আকার হল 150×50px"
+
+#: admin/views/general.php:67
+msgid "Company Tax ID"
+msgstr "কোম্পানির ট্যাক্স আইডি"
+
+#: admin/views/general.php:71
+msgid ""
+"Specify your company tax ID. For e.g., you may enter as VAT: GB123456789, GSTIN:0948745 "
+"or ABN:51 824 753 556"
+msgstr ""
+"আপনার কোম্পানির ট্যাক্স আইডি উল্লেখ করুন। যেমন, আপনি VAT হিসেবে লিখতে পারেন: GB123456789, "
+"GSTIN:0948745 বা ABN:51 824 753 556"
+
+#: admin/views/general.php:75 public/modules/invoice/invoice.php:1189
+#: public/modules/invoice/invoice.php:1193
+#: public/modules/shippinglabel/shippinglabel.php:173
+msgid "Footer"
+msgstr "ফুটার"
+
+#: admin/views/general.php:90
+msgid "Address details"
+msgstr "বিস্তারিত ঠিকানা"
+
+#: admin/views/general.php:98
+msgid "Department/Business unit/Sender name"
+msgstr "বিভাগ/ব্যবসায়িক ইউনিট/প্রেরকের নাম"
+
+#: admin/views/general.php:132
+msgid "Choose a country&hellip;"
+msgstr "একটা দেশ নির্বাচন করুন…"
+
+#: admin/views/general.php:147
+msgid "Contact number"
+msgstr "যোগাযোগের নম্বর"
+
+#: admin/views/general.php:162
+msgid "Advanced options"
+msgstr "উন্নত বিকল্প"
+
+#: admin/views/general.php:169
+msgid "Display state name"
+msgstr "রাজ্যের নাম প্রদর্শন করুন"
+
+#: admin/views/general.php:173
+msgid "Enable to show state name in addresses"
+msgstr "ঠিকানাগুলিতে রাজ্যের নাম দেখাতে সক্ষম করুন৷"
+
+#: admin/views/general.php:181
+msgid "Display currency code"
+msgstr "মুদ্রা কোড প্রদর্শন করুন"
+
+#: admin/views/general.php:185
+msgid "Enable to show currency code instead of currency symbol"
+msgstr "মুদ্রা প্রতীকের পরিবর্তে মুদ্রা কোড দেখাতে সক্ষম করুন"
+
+#: admin/views/general.php:193
+msgid "Preview before printing"
+msgstr "প্রিন্ট করার আগে পূর্বরূপ দেখুন"
+
+#: admin/views/general.php:197
+msgid "Preview documents before printing"
+msgstr "প্রিন্ট করার আগে নথিগুলির পূর্বরূপ দেখুন"
+
+#: admin/views/general.php:205
+msgid "Enable RTL support"
+msgstr "RTL সমর্থন সক্ষম করুন৷"
+
+#: admin/views/general.php:209
+msgid "RTL support for documents"
+msgstr "নথির জন্য RTL সমর্থন"
+
+#: admin/views/general.php:213
+msgid "For better RTL integration in PDF documents, please use our"
+msgstr "পিডিএফ ডকুমেন্টে আরও ভালো RTL ইন্টিগ্রেশনের জন্য, অনুগ্রহ করে আমাদের ব্যবহার করুন"
+
+#: admin/views/general.php:214
+msgid "mPDF add-on"
+msgstr "mPDF অ্যাড-অন"
+
+#: admin/views/general.php:226
+msgid "PDF library"
+msgstr "পিডিএফ লাইব্রেরি"
+
+#: admin/views/general.php:239 admin/views/general.php:259
+msgid "Enable additional currency font support"
+msgstr "অতিরিক্ত মুদ্রা ফন্ট সমর্থন সক্ষম করুন"
+
+#: admin/views/general.php:244 admin/views/general.php:264
+msgid "Enable to use additional font library to support the currency symbol in pdf"
+msgstr "পিডিএফ-এ মুদ্রা প্রতীক সমর্থন করতে অতিরিক্ত ফন্ট লাইব্রেরি ব্যবহার করতে সক্ষম করুন"
+
+#: admin/views/general.php:275
+msgid "Enable a common print button for"
+msgstr "এর জন্য একটি সাধারণ মুদ্রণ বোতাম সক্ষম করুন৷"
+
+#: admin/views/general.php:276 admin/views/general.php:291
+msgid "orders listing page"
+msgstr "অর্ডার তালিকা পাতা"
+
+#: admin/views/general.php:281
+msgid "All document types"
+msgstr "সব ধরনের নথি"
+
+#: admin/views/general.php:290
+msgid "Enable dedicated print buttons for"
+msgstr "এর জন্য ডেডিকেটেড প্রিন্ট বোতাম সক্রিয় করুন"
+
+#: admin/views/general.php:305
+msgid "Print button access for"
+msgstr "জন্য প্রিন্ট বোতাম অ্যাক্সেস"
+
+#: admin/views/general.php:312
+msgid "Logged in users"
+msgstr "ব্যবহারকারী লগ ইন"
+
+#: admin/views/general.php:313
+msgid "Users will be redirected to login page if not logged in"
+msgstr "লগ ইন না করলে ব্যবহারকারীদের লগইন পৃষ্ঠায় পুনঃনির্দেশিত করা হবে"
+
+#: admin/views/general.php:314
+msgid "Secure"
+msgstr "নিরাপদ"
+
+#: admin/views/general.php:318
+msgid "All users"
+msgstr "সকল ব্যবহারকারী"
+
+#: admin/views/general.php:319
+msgid "Users who haven`t logged will also be allowed to print"
+msgstr "যে ব্যবহারকারীরা লগইন করেননি তাদেরও প্রিন্ট করার অনুমতি দেওয়া হবে"
+
+#: admin/views/general.php:329
+msgid "File path"
+msgstr "ফাইল পাথ"
+
+#: admin/views/general.php:337
+msgid "Automatic cleanup"
+msgstr "স্বয়ংক্রিয় পরিস্কার"
+
+#: admin/views/general.php:342 public/modules/deliverynote/views/general.php:29
+#: public/modules/deliverynote/views/general.php:44
+#: public/modules/deliverynote/views/general.php:59
+#: public/modules/dispatchlabel/views/general.php:30
+#: public/modules/dispatchlabel/views/general.php:45
+#: public/modules/packinglist/views/general.php:31
+#: public/modules/packinglist/views/general.php:46
+#: public/modules/packinglist/views/general.php:61
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: admin/views/general.php:343 public/modules/deliverynote/views/general.php:30
+#: public/modules/deliverynote/views/general.php:45
+#: public/modules/deliverynote/views/general.php:60
+#: public/modules/dispatchlabel/views/general.php:31
+#: public/modules/dispatchlabel/views/general.php:46
+#: public/modules/packinglist/views/general.php:32
+#: public/modules/packinglist/views/general.php:47
+#: public/modules/packinglist/views/general.php:62
+msgid "No"
+msgstr "না"
+
+#: admin/views/general.php:352
+msgid "Interval"
+msgstr "অন্তর"
+
+#: admin/views/general.php:362
+msgid "In minutes. Eg: 1440 for 1 day. Minimum value is 1440"
+msgstr "মিনিটে। যেমন: 1440 1 দিনের জন্য। সর্বনিম্ন মান 1440"
+
+#: admin/views/help.php:37 admin/views/help.php:42
+msgid "Help Links"
+msgstr "সাহায্য লিঙ্ক"
+
+#: admin/views/help.php:38
+msgid "System Info"
+msgstr "সিস্টেমের তথ্য"
+
+#: admin/views/help.php:47
+msgid "Refer to our documentation to setup and get started"
+msgstr "সেটআপ এবং শুরু করতে আমাদের ডকুমেন্টেশন পড়ুন"
+
+#: admin/views/help.php:54
+msgid "Help and Support"
+msgstr "সাহায্য এবং সহযোগিতা"
+
+#: admin/views/help.php:55
+msgid "We would love to help you on any queries or issues."
+msgstr "আমরা যেকোন প্রশ্ন বা সমস্যায় আপনাকে সাহায্য করতে চাই।"
+
+#: admin/views/help.php:57
+msgid "Contact Us"
+msgstr "আমাদের সাথে যোগাযোগ করুন"
+
+#: admin/views/premium_extension_listing.php:8
+msgid "Premium extensions"
+msgstr "প্রিমিয়াম এক্সটেনশন"
+
+#: admin/views/premium_extension_listing.php:9
+msgid ""
+"Automatically generate professional WooCommerce order-related documents for all your "
+"orders"
+msgstr ""
+"আপনার সমস্ত অর্ডারের জন্য পেশাদার WooCommerce অর্ডার-সম্পর্কিত নথি স্বয়ংক্রিয়ভাবে তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:15 admin/views/wt_ipc_free_pro.php:6
+#: admin/views/wt_pro_addons_list.php:9
+#, fuzzy
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes plugin"
+msgstr "WooCommerce PDF চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট প্লাগইন"
+
+#: admin/views/premium_extension_listing.php:18 admin/views/wt_pro_addons_list.php:14
+#, fuzzy
+msgid "Auto-generate invoices, packing slips, and credit notes"
+msgstr "স্বয়ংক্রিয়ভাবে চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:19 admin/views/wt_pro_addons_list.php:15
+#, fuzzy
+msgid "Show payment link on invoice"
+msgstr "চালানে পেমেন্ট লিঙ্ক দেখান"
+
+#: admin/views/premium_extension_listing.php:20 admin/views/wt_pro_addons_list.php:16
+#, fuzzy
+msgid "Add ‘Pay Later’ option at checkout"
+msgstr "চেকআউটে 'পরে অর্থপ্রদান করুন' বিকল্প যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:21 admin/views/wt_pro_addons_list.php:17
+#, fuzzy
+msgid "Attach documents to selected order status emails"
+msgstr "নির্বাচিত অর্ডার স্থিতি ইমেল নথি সংযুক্ত করুন"
+
+#: admin/views/premium_extension_listing.php:22 admin/views/wt_pro_addons_list.php:18
+#, fuzzy
+msgid "Enable customers to print invoices & packing slips"
+msgstr "গ্রাহকদের চালান এবং প্যাকিং স্লিপ প্রিন্ট করতে সক্ষম করুন"
+
+#: admin/views/premium_extension_listing.php:23 admin/views/wt_pro_addons_list.php:19
+#, fuzzy
+msgid "Customize document layout & properties"
+msgstr "নথি বিন্যাস এবং বৈশিষ্ট্য কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:24
+#: admin/views/premium_extension_listing.php:42
+#: admin/views/premium_extension_listing.php:59 admin/views/wt_ipc_free_pro.php:285
+#: admin/views/wt_pl_free_pro.php:66 admin/views/wt_pro_addons_list.php:20
+#: admin/views/wt_pro_addons_list.php:40 admin/views/wt_pro_addons_list.php:59
+#: admin/views/wt_sdd_free_pro.php:120
+#, fuzzy
+msgid "Show product variation data"
+msgstr "পণ্য বৈচিত্র তথ্য দেখান"
+
+#: admin/views/premium_extension_listing.php:25 admin/views/wt_pro_addons_list.php:21
+#, fuzzy
+msgid "Add custom data to documents"
+msgstr "নথিতে কাস্টম ডেটা যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:26 admin/views/wt_pro_addons_list.php:22
+#, fuzzy
+msgid "Multiple display options for bundle products"
+msgstr "বান্ডিল পণ্যের জন্য একাধিক প্রদর্শন বিকল্প"
+
+#: admin/views/premium_extension_listing.php:27
+#: admin/views/premium_extension_listing.php:45 admin/views/wt_ipc_free_pro.php:231
+#: admin/views/wt_pl_free_pro.php:38 admin/views/wt_pro_addons_list.php:23
+#: admin/views/wt_pro_addons_list.php:43 admin/views/wt_sdd_free_pro.php:104
+#, fuzzy
+msgid "Group products by ‘Category’"
+msgstr "'বিভাগ' অনুসারে পণ্যগুলিকে গ্রুপ করুন"
+
+#: admin/views/premium_extension_listing.php:28 admin/views/wt_pro_addons_list.php:24
+#, fuzzy
+msgid "Verified compatibility with major plugins"
+msgstr "প্রধান প্লাগইনগুলির সাথে যাচাইকৃত সামঞ্জস্যতা"
+
+#: admin/views/premium_extension_listing.php:29
+#: admin/views/premium_extension_listing.php:47
+#: admin/views/premium_extension_listing.php:63
+#: admin/views/premium_extension_listing.php:77
+#: admin/views/premium_extension_listing.php:95 admin/views/wt_pi_free_pro.php:393
+#: admin/views/wt_pro_addons_list.php:25 admin/views/wt_pro_addons_list.php:45
+#: admin/views/wt_pro_addons_list.php:63 admin/views/wt_pro_addons_list.php:83
+#: admin/views/wt_pro_addons_list.php:103
+#, fuzzy
+msgid "Multilingual support"
+msgstr "বহুভাষিক সমর্থন"
+
+#: admin/views/premium_extension_listing.php:35 admin/views/wt_pro_addons_list.php:31
+#: admin/views/wt_sdd_free_pro.php:6
+#, fuzzy
+msgid "WooCommerce Shipping labels, Dispatch labels and Delivery Notes plugin"
+msgstr "WooCommerce শিপিং লেবেল, ডিসপ্যাচ লেবেল এবং ডেলিভারি নোট প্লাগইন"
+
+#: admin/views/premium_extension_listing.php:38 admin/views/wt_pro_addons_list.php:36
+#, fuzzy
+msgid "Create delivery notes, shipping & dispatch labels"
+msgstr "ডেলিভারি নোট, শিপিং এবং ডিসপ্যাচ লেবেল তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:39 admin/views/wt_pro_addons_list.php:37
+#, fuzzy
+msgid "Enable customers to print the documents from order emails"
+msgstr "অর্ডার ইমেল থেকে নথি প্রিন্ট করতে গ্রাহকদের সক্ষম করুন"
+
+#: admin/views/premium_extension_listing.php:40 admin/views/wt_pro_addons_list.php:38
+#, fuzzy
+msgid "Customize shipping label size"
+msgstr "শিপিং লেবেল আকার কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:41 admin/views/wt_pro_addons_list.php:39
+#, fuzzy
+msgid "Add multiple shipping labels on one page"
+msgstr "এক পৃষ্ঠায় একাধিক শিপিং লেবেল যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:43 admin/views/wt_pro_addons_list.php:41
+#, fuzzy
+msgid "Add extra product & order data fields"
+msgstr "অতিরিক্ত পণ্য এবং অর্ডার ডেটা ক্ষেত্র যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:44 admin/views/wt_pro_addons_list.php:42
+#, fuzzy
+msgid "Pre-built layouts & customizable templates"
+msgstr "পূর্ব-নির্মিত লেআউট এবং কাস্টমাইজযোগ্য টেমপ্লেট"
+
+#: admin/views/premium_extension_listing.php:46 admin/views/wt_pro_addons_list.php:44
+#, fuzzy
+msgid "Sort products based on Name or SKU"
+msgstr "নাম বা SKU এর উপর ভিত্তি করে পণ্য সাজান"
+
+#: admin/views/premium_extension_listing.php:53 admin/views/wt_pro_addons_list.php:51
+#, fuzzy
+msgid "WooCommerce Picklists plugin"
+msgstr "WooCommerce পিকলিস্ট প্লাগইন"
+
+#: admin/views/premium_extension_listing.php:56 admin/views/wt_pro_addons_list.php:56
+#, fuzzy
+msgid "Bulk print picklists from the admin order page"
+msgstr "অ্যাডমিন অর্ডার পৃষ্ঠা থেকে বাল্ক প্রিন্ট পিকলিস্ট"
+
+#: admin/views/premium_extension_listing.php:57 admin/views/wt_pl_free_pro.php:24
+#: admin/views/wt_pro_addons_list.php:57
+#, fuzzy
+msgid "Automatically email picklists based on order status"
+msgstr "অর্ডার স্থিতির উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে পিকলিস্ট ইমেল করুন"
+
+#: admin/views/premium_extension_listing.php:58 admin/views/wt_pro_addons_list.php:58
+#, fuzzy
+msgid "Create or customize picklist templates"
+msgstr "পিকলিস্ট টেমপ্লেট তৈরি বা কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:60 admin/views/wt_pro_addons_list.php:60
+#, fuzzy
+msgid "Group products in picklist by order/category"
+msgstr "অর্ডার/ক্যাটাগরি অনুসারে পিকলিস্টে পণ্য গ্রুপ করুন"
+
+#: admin/views/premium_extension_listing.php:61 admin/views/wt_pro_addons_list.php:61
+#, fuzzy
+msgid "Add product meta fields & attributes"
+msgstr "পণ্য মেটা ক্ষেত্র এবং বৈশিষ্ট্য যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:62 admin/views/wt_pro_addons_list.php:62
+#, fuzzy
+msgid "Exclude virtual products from picklists"
+msgstr "পিকলিস্ট থেকে ভার্চুয়াল পণ্য বাদ দিন"
+
+#: admin/views/premium_extension_listing.php:69 admin/views/wt_pi_free_pro.php:292
+#: admin/views/wt_pro_addons_list.php:89
+#, fuzzy
+msgid "WooCommerce Address Labels plugin"
+msgstr "WooCommerce ঠিকানা লেবেল প্লাগইন"
+
+#: admin/views/premium_extension_listing.php:72
+#, fuzzy
+msgid ""
+"Generate ‘Shipping Address’, ‘Billing Address’, ‘From Address’, and ‘Return Address’ "
+"labels"
+msgstr "'শিপিং ঠিকানা', 'বিলিং ঠিকানা', 'ঠিকানা থেকে', এবং 'রিটার্ন ঠিকানা' লেবেল তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:73 admin/views/wt_pro_addons_list.php:98
+#, fuzzy
+msgid "Customize label sizes"
+msgstr "লেবেলের মাপ কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:74 admin/views/wt_pro_addons_list.php:99
+#, fuzzy
+msgid "Bulk print address labels"
+msgstr "বাল্ক প্রিন্ট ঠিকানা লেবেল"
+
+#: admin/views/premium_extension_listing.php:75
+#, fuzzy
+msgid "Offers built-in label templates"
+msgstr "বিল্ট-ইন লেবেল টেমপ্লেট অফার করে"
+
+#: admin/views/premium_extension_listing.php:76 admin/views/wt_pro_addons_list.php:101
+#, fuzzy
+msgid "Change address label layout"
+msgstr "ঠিকানা লেবেল লেআউট পরিবর্তন করুন"
+
+#: admin/views/premium_extension_listing.php:83
+#, fuzzy
+msgid "WooCommerce Proforma Invoices"
+msgstr "WooCommerce Proforma চালান"
+
+#: admin/views/premium_extension_listing.php:86 admin/views/wt_pro_addons_list.php:74
+#, fuzzy
+msgid "Create proforma invoices automatically"
+msgstr "স্বয়ংক্রিয়ভাবে প্রোফর্মা চালান তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:87 admin/views/wt_pro_addons_list.php:75
+#, fuzzy
+msgid "Pre-built proforma invoice layouts"
+msgstr "প্রাক-নির্মিত প্রোফর্মা চালান লেআউট"
+
+#: admin/views/premium_extension_listing.php:88
+#: admin/views/premium_extension_listing.php:106 admin/views/wt_pro_addons_list.php:76
+#, fuzzy
+msgid "Easy invoice layout customization"
+msgstr "সহজ চালান বিন্যাস কাস্টমাইজেশন"
+
+#: admin/views/premium_extension_listing.php:89 admin/views/wt_pro_addons_list.php:77
+#, fuzzy
+msgid "Attach proforma invoice PDF to order emails"
+msgstr "ইমেল অর্ডার করতে প্রোফর্মা চালান PDF সংযুক্ত করুন"
+
+#: admin/views/premium_extension_listing.php:90 admin/views/wt_pro_addons_list.php:78
+#, fuzzy
+msgid "Allow customers to print invoices"
+msgstr "গ্রাহকদের চালান প্রিন্ট করার অনুমতি দিন"
+
+#: admin/views/premium_extension_listing.php:91 admin/views/wt_pi_free_pro.php:61
+#: admin/views/wt_pro_addons_list.php:79
+#, fuzzy
+msgid "Set custom proforma invoice number"
+msgstr "কাস্টম প্রফর্মা চালান নম্বর সেট করুন"
+
+#: admin/views/premium_extension_listing.php:92 admin/views/wt_pro_addons_list.php:80
+#, fuzzy
+msgid "Add additional product & order data fields"
+msgstr "অতিরিক্ত পণ্য এবং অর্ডার ডেটা ক্ষেত্র যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:93 admin/views/wt_pi_free_pro.php:206
+#: admin/views/wt_pro_addons_list.php:81
+#, fuzzy
+msgid "Attach special notes with proforma invoices"
+msgstr "প্রোফর্মা চালানের সাথে বিশেষ নোট সংযুক্ত করুন"
+
+#: admin/views/premium_extension_listing.php:94 admin/views/wt_pro_addons_list.php:82
+#, fuzzy
+msgid "Attach transport & sales terms"
+msgstr "পরিবহন এবং বিক্রয় শর্তাবলী সংযুক্ত করুন"
+
+#: admin/views/premium_extension_listing.php:101
+#, fuzzy
+msgid "Customizer for WooCommerce PDF Invoices"
+msgstr "WooCommerce পিডিএফ ইনভয়েসের জন্য কাস্টমাইজার"
+
+#: admin/views/premium_extension_listing.php:104
+#, fuzzy
+msgid "Drag-and-drop easy customization"
+msgstr "টেনে আনুন সহজ কাস্টমাইজেশন"
+
+#: admin/views/premium_extension_listing.php:105
+#, fuzzy
+msgid "Advanced visual and code editor"
+msgstr "উন্নত ভিজ্যুয়াল এবং কোড এডিটর"
+
+#: admin/views/premium_extension_listing.php:107
+#, fuzzy
+msgid "Customize individual elements using block editors"
+msgstr "ব্লক সম্পাদক ব্যবহার করে পৃথক উপাদান কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:108
+#, fuzzy
+msgid "View live preview of customization"
+msgstr "কাস্টমাইজেশনের লাইভ প্রিভিউ দেখুন"
+
+#: admin/views/premium_extension_listing.php:109
+#, fuzzy
+msgid "Change color, text, background, border & more"
+msgstr "রঙ, পাঠ্য, পটভূমি, সীমানা এবং আরও অনেক কিছু পরিবর্তন করুন"
+
+#: admin/views/premium_extension_listing.php:115 admin/views/wt_pro_addons_list.php:109
+#: public/modules/invoice/views/qrcode_promote.php:25
+#, fuzzy
+msgid "QR Code Addon for WooCommerce PDF Invoices"
+msgstr "WooCommerce পিডিএফ ইনভয়েসের জন্য QR কোড অ্যাডন"
+
+#: admin/views/premium_extension_listing.php:118 admin/views/wt_pro_addons_list.php:114
+#, fuzzy
+msgid "Assign QR codes to all generated invoices"
+msgstr "সমস্ত জেনারেট করা চালানে QR কোড বরাদ্দ করুন"
+
+#: admin/views/premium_extension_listing.php:119 admin/views/wt_pro_addons_list.php:115
+#, fuzzy
+msgid "Create QR code that reads order or invoice number"
+msgstr "অর্ডার বা চালান নম্বর পড়া QR কোড তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:120 admin/views/wt_pro_addons_list.php:116
+#, fuzzy
+msgid "Add custom data to invoices"
+msgstr "চালানে কাস্টম ডেটা যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:121
+#, fuzzy
+msgid "Compatible with WooCommerce PDF Invoice, Packing Slip & Credit Note (Premium)"
+msgstr "WooCommerce PDF চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট (প্রিমিয়াম) এর সাথে সামঞ্জস্যপূর্ণ"
+
+#: admin/views/premium_extension_listing.php:122 admin/views/wt_pro_addons_list.php:118
+#, fuzzy
+msgid ""
+"Compatible with WooCommerce PDF Invoices, Packing Slips, Delivery Notes, and Shipping "
+"Labels (Free)"
+msgstr ""
+"WooCommerce PDF ইনভয়েস, প্যাকিং স্লিপ, ডেলিভারি নোট এবং শিপিং লেবেলের সাথে সামঞ্জস্যপূর্ণ "
+"(ফ্রি)"
+
+#: admin/views/premium_extension_listing.php:128
+#, fuzzy
+msgid "Remote Print add-on for WooCommerce PDF Invoices - PrintNode"
+msgstr "WooCommerce PDF ইনভয়েসের জন্য রিমোট প্রিন্ট অ্যাড-অন - PrintNode"
+
+#: admin/views/premium_extension_listing.php:131
+#, fuzzy
+msgid "Offers cloud printing of invoice PDFs using PrintNode"
+msgstr "PrintNode ব্যবহার করে চালান PDF এর ক্লাউড প্রিন্টিং অফার করে"
+
+#: admin/views/premium_extension_listing.php:132
+#, fuzzy
+msgid "Print PDF invoices for WooCommerce"
+msgstr "WooCommerce এর জন্য PDF চালান প্রিন্ট করুন"
+
+#: admin/views/premium_extension_listing.php:133
+#, fuzzy
+msgid "Lightning-fast printing"
+msgstr "বাজ-দ্রুত মুদ্রণ"
+
+#: admin/views/premium_extension_listing.php:134
+#, fuzzy
+msgid "Supports automatic & manual printing"
+msgstr "স্বয়ংক্রিয় এবং ম্যানুয়াল প্রিন্টিং সমর্থন করে"
+
+#: admin/views/premium_extension_listing.php:135
+#, fuzzy
+msgid "Support for serial and USB scales"
+msgstr "সিরিয়াল এবং ইউএসবি স্কেল জন্য সমর্থন"
+
+#: admin/views/premium_extension_listing.php:136
+#, fuzzy
+msgid "Ensure security with base64 & URI printing"
+msgstr "বেস64 এবং ইউআরআই প্রিন্টিং সহ নিরাপত্তা নিশ্চিত করুন"
+
+#: admin/views/premium_extension_listing.php:137
+#, fuzzy
+msgid "Cross-platform compatibility"
+msgstr "ক্রস-প্ল্যাটফর্ম সামঞ্জস্য"
+
+#: admin/views/premium_extension_listing.php:143
+#, fuzzy
+msgid "WebToffee WooCommerce Request A Quote"
+msgstr "WebToffe WooCommerce একটি উদ্ধৃতি অনুরোধ"
+
+#: admin/views/premium_extension_listing.php:146
+#, fuzzy
+msgid "Add quote button to the product & shop pages"
+msgstr "পণ্য এবং দোকান পৃষ্ঠায় উদ্ধৃতি বোতাম যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:147
+#, fuzzy
+msgid "Enable quotation request for selected products"
+msgstr "নির্বাচিত পণ্যের জন্য উদ্ধৃতি অনুরোধ সক্রিয় করুন"
+
+#: admin/views/premium_extension_listing.php:148
+#, fuzzy
+msgid "Automatically send quotes to users"
+msgstr "স্বয়ংক্রিয়ভাবে ব্যবহারকারীদের উদ্ধৃতি পাঠান"
+
+#: admin/views/premium_extension_listing.php:149
+#, fuzzy
+msgid "Disable guest users from asking for quote"
+msgstr "অতিথি ব্যবহারকারীদের উদ্ধৃতি চাওয়া থেকে অক্ষম করুন৷"
+
+#: admin/views/premium_extension_listing.php:150
+#, fuzzy
+msgid "Hide prices and ‘add to cart’ button"
+msgstr "দাম লুকান এবং 'কার্টে যোগ করুন' বোতাম"
+
+#: admin/views/premium_extension_listing.php:151
+#, fuzzy
+msgid "Automatic email alerts for admin & users"
+msgstr "অ্যাডমিন এবং ব্যবহারকারীদের জন্য স্বয়ংক্রিয় ইমেল সতর্কতা"
+
+#: admin/views/premium_extension_listing.php:152
+#, fuzzy
+msgid "Easy button and form customization"
+msgstr "সহজ বোতাম এবং ফর্ম কাস্টমাইজেশন"
+
+#: admin/views/premium_extension_listing.php:153
+#, fuzzy
+msgid "Set quote expiry period"
+msgstr "উদ্ধৃতি মেয়াদ শেষ হওয়ার সময় নির্ধারণ করুন"
+
+#: admin/views/premium_extension_listing.php:154
+#, fuzzy
+msgid "Limit spams with reCAPTCHA"
+msgstr "reCAPTCHA দিয়ে স্প্যাম সীমিত করুন"
+
+#: admin/views/premium_extension_listing.php:160
+#, fuzzy
+msgid "Sequential Order Number for WooCommerce"
+msgstr "WooCommerce-এর জন্য অনুক্রমিক অর্ডার নম্বর"
+
+#: admin/views/premium_extension_listing.php:163
+#, fuzzy
+msgid "Auto reset sequence per month/year etc"
+msgstr "প্রতি মাসে/বছরে অটো রিসেট ক্রম ইত্যাদি"
+
+#: admin/views/premium_extension_listing.php:164
+#, fuzzy
+msgid "Add a custom suffix for order numbers"
+msgstr "অর্ডার নম্বরের জন্য একটি কাস্টম প্রত্যয় যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:165
+#, fuzzy
+msgid "Date suffix in order numbers"
+msgstr "ক্রম সংখ্যায় তারিখ প্রত্যয়"
+
+#: admin/views/premium_extension_listing.php:166
+#, fuzzy
+msgid "Custom sequence for free orders"
+msgstr "বিনামূল্যে আদেশের জন্য কাস্টম ক্রম"
+
+#: admin/views/premium_extension_listing.php:167
+#, fuzzy
+msgid "Increment sequence in custom series"
+msgstr "কাস্টম সিরিজে ক্রম বৃদ্ধি"
+
+#: admin/views/premium_extension_listing.php:168
+#, fuzzy
+msgid "More order number templates"
+msgstr "আরো অর্ডার নম্বর টেমপ্লেট"
+
+#: admin/views/premium_extension_listing.php:174
+#, fuzzy
+msgid "Data Import & Export"
+msgstr "ডেটা আমদানি ও রপ্তানি"
+
+#: admin/views/premium_extension_listing.php:175
+#, fuzzy
+msgid ""
+"The best-in-the-class import, export, and migration solutions for your WooCommerce data"
+msgstr "আপনার WooCommerce ডেটার জন্য সেরা-ইন-দ্য-ক্লাস আমদানি, রপ্তানি এবং স্থানান্তর সমাধান"
+
+#: admin/views/premium_extension_listing.php:181
+#, fuzzy
+msgid "Import Export Suite for WooCommerce"
+msgstr "WooCommerce এর জন্য আমদানি রপ্তানি স্যুট"
+
+#: admin/views/premium_extension_listing.php:184
+#, fuzzy
+msgid ""
+"Import/export Products, Orders, Subscriptions, Coupons, Customers, WordPress Users, "
+"Categories & Tags, Reviews"
+msgstr ""
+"পণ্য আমদানি/রপ্তানি, অর্ডার, সদস্যতা, কুপন, গ্রাহক, ওয়ার্ডপ্রেস ব্যবহারকারী, বিভাগ এবং ট্যাগ, "
+"পর্যালোচনা"
+
+#: admin/views/premium_extension_listing.php:185
+#: admin/views/premium_extension_listing.php:202
+#: admin/views/premium_extension_listing.php:220
+#: admin/views/premium_extension_listing.php:239
+#, fuzzy
+msgid "Supports Excel, XML, CSV, and TSV file formats"
+msgstr "এক্সেল, এক্সএমএল, সিএসভি এবং টিএসভি ফাইল ফর্ম্যাট সমর্থন করে"
+
+#: admin/views/premium_extension_listing.php:186
+#: admin/views/premium_extension_listing.php:221
+#, fuzzy
+msgid "Schedule automated import & export"
+msgstr "স্বয়ংক্রিয় আমদানি ও রপ্তানির সময়সূচী"
+
+#: admin/views/premium_extension_listing.php:187
+#: admin/views/premium_extension_listing.php:206
+#: admin/views/premium_extension_listing.php:225
+#: admin/views/premium_extension_listing.php:245
+#, fuzzy
+msgid "Import from URL, Google Sheets, FTP/SFTP"
+msgstr "URL, Google Sheets, FTP/SFTP থেকে আমদানি করুন"
+
+#: admin/views/premium_extension_listing.php:188
+#: admin/views/premium_extension_listing.php:207
+#: admin/views/premium_extension_listing.php:226
+#: admin/views/premium_extension_listing.php:246
+#, fuzzy
+msgid "Export to FTP/SFTP"
+msgstr "FTP/SFTP-এ রপ্তানি করুন"
+
+#: admin/views/premium_extension_listing.php:189
+#, fuzzy
+msgid "Import & export custom fields and values"
+msgstr "কাস্টম ক্ষেত্র এবং মান আমদানি ও রপ্তানি করুন"
+
+#: admin/views/premium_extension_listing.php:190
+#: admin/views/premium_extension_listing.php:227
+#: admin/views/premium_extension_listing.php:247
+#, fuzzy
+msgid "Advanced filters and customizations for import & export"
+msgstr "আমদানি ও রপ্তানির জন্য উন্নত ফিল্টার এবং কাস্টমাইজেশন"
+
+#: admin/views/premium_extension_listing.php:191
+#: admin/views/premium_extension_listing.php:209
+#, fuzzy
+msgid "Add and update data while importing"
+msgstr "আমদানি করার সময় ডেটা যোগ এবং আপডেট করুন"
+
+#: admin/views/premium_extension_listing.php:192
+#: admin/views/premium_extension_listing.php:210
+#: admin/views/premium_extension_listing.php:229
+#: admin/views/premium_extension_listing.php:249
+#, fuzzy
+msgid "Maintains action history and debug logs"
+msgstr "অ্যাকশন ইতিহাস এবং ডিবাগ লগ বজায় রাখে"
+
+#: admin/views/premium_extension_listing.php:193
+#: admin/views/premium_extension_listing.php:211
+#: admin/views/premium_extension_listing.php:230
+#: admin/views/premium_extension_listing.php:250
+#, fuzzy
+msgid "Compatible with major 3rd-party plugins"
+msgstr "প্রধান 3য় পক্ষের প্লাগইনগুলির সাথে সামঞ্জস্যপূর্ণ"
+
+#: admin/views/premium_extension_listing.php:199
+#, fuzzy
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "WooCommerce এর জন্য পণ্য আমদানি রপ্তানি প্লাগইন"
+
+#: admin/views/premium_extension_listing.php:203
+#: admin/views/premium_extension_listing.php:240
+#, fuzzy
+msgid "Schedule automated import and export"
+msgstr "স্বয়ংক্রিয় আমদানি ও রপ্তানির সময়সূচী"
+
+#: admin/views/premium_extension_listing.php:204
+#, fuzzy
+msgid "Support for multiple product types"
+msgstr "একাধিক পণ্য ধরনের জন্য সমর্থন"
+
+#: admin/views/premium_extension_listing.php:205
+#, fuzzy
+msgid "Export product images in a separate zip file"
+msgstr "একটি পৃথক জিপ ফাইলে পণ্যের ছবি রপ্তানি করুন"
+
+#: admin/views/premium_extension_listing.php:208
+#, fuzzy
+msgid "Advanced filters and customizations for import and export"
+msgstr "আমদানি এবং রপ্তানির জন্য উন্নত ফিল্টার এবং কাস্টমাইজেশন"
+
+#: admin/views/premium_extension_listing.php:217
+#, fuzzy
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "WooCommerce-এর জন্য অর্ডার, কুপন, সাবস্ক্রিপশন এক্সপোর্ট ইম্পোর্ট"
+
+#: admin/views/premium_extension_listing.php:222
+#, fuzzy
+msgid "Email customers on order status change"
+msgstr "অর্ডার স্থিতি পরিবর্তন ইমেল গ্রাহকদের"
+
+#: admin/views/premium_extension_listing.php:223
+#, fuzzy
+msgid "Create users on order import"
+msgstr "অর্ডার আমদানিতে ব্যবহারকারী তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:224
+#, fuzzy
+msgid "Filter export by products, order status, email, date, etc"
+msgstr "পণ্য, অর্ডার স্থিতি, ইমেল, তারিখ, ইত্যাদি দ্বারা রপ্তানি ফিল্টার করুন"
+
+#: admin/views/premium_extension_listing.php:228
+#: admin/views/premium_extension_listing.php:248
+#, fuzzy
+msgid "Add & update data while importing"
+msgstr "আমদানি করার সময় ডেটা যোগ এবং আপডেট করুন"
+
+#: admin/views/premium_extension_listing.php:236
+#, fuzzy
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "ওয়ার্ডপ্রেস ব্যবহারকারী এবং WooCommerce গ্রাহকদের আমদানি রপ্তানি"
+
+#: admin/views/premium_extension_listing.php:241
+#, fuzzy
+msgid "Customize and send emails to new users on import"
+msgstr "কাস্টমাইজ করুন এবং আমদানিতে নতুন ব্যবহারকারীদের ইমেল পাঠান"
+
+#: admin/views/premium_extension_listing.php:242
+#, fuzzy
+msgid "Retain user passwords on import/export"
+msgstr "আমদানি/রপ্তানিতে ব্যবহারকারীর পাসওয়ার্ড বজায় রাখুন"
+
+#: admin/views/premium_extension_listing.php:243
+#, fuzzy
+msgid "Export and import custom fields and third-party plugin fields"
+msgstr "কাস্টম ক্ষেত্র এবং তৃতীয় পক্ষের প্লাগইন ক্ষেত্রগুলি রপ্তানি এবং আমদানি করুন৷"
+
+#: admin/views/premium_extension_listing.php:244
+#, fuzzy
+msgid "Filter by user role, email, date, etc"
+msgstr "ব্যবহারকারীর ভূমিকা, ইমেল, তারিখ, ইত্যাদি দ্বারা ফিল্টার করুন"
+
+#: admin/views/premium_extension_listing.php:256
+#, fuzzy
+msgid "WebToffee WooCommerce Product Feed & Sync Manager"
+msgstr "WebToffee WooCommerce পণ্য ফিড এবং সিঙ্ক ম্যানেজার"
+
+#: admin/views/premium_extension_listing.php:259
+#, fuzzy
+msgid ""
+"Generate WooCommerce product feeds for Google Shopping, Facebook Shop, and Instagram "
+"Shop"
+msgstr "গুগল শপিং, ফেসবুক শপ এবং ইনস্টাগ্রাম শপের জন্য WooCommerce পণ্য ফিড তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:260
+#, fuzzy
+msgid "Sync WooCommerce products to Facebook catalog"
+msgstr "Facebook ক্যাটালগে WooCommerce পণ্য সিঙ্ক করুন"
+
+#: admin/views/premium_extension_listing.php:261
+#, fuzzy
+msgid "Additional feed intervals (30 minutes, 6 hours, 12 hours)"
+msgstr "অতিরিক্ত ফিড বিরতি (30 মিনিট, 6 ঘন্টা, 12 ঘন্টা)"
+
+#: admin/views/premium_extension_listing.php:262
+#, fuzzy
+msgid "Support for additional fields that can be added to the feed"
+msgstr "ফিডে যোগ করা যেতে পারে এমন অতিরিক্ত ক্ষেত্রগুলির জন্য সমর্থন"
+
+#: admin/views/premium_extension_listing.php:263
+#, fuzzy
+msgid "WPML multilingual and multicurrency support "
+msgstr "WPML বহুভাষিক এবং বহুমুদ্রা সমর্থন "
+
+#: admin/views/premium_extension_listing.php:264
+#, fuzzy
+msgid "Google local product inventory feed"
+msgstr "Google স্থানীয় পণ্য ইনভেন্টরি ফিড"
+
+#: admin/views/premium_extension_listing.php:265
+#, fuzzy
+msgid "Exclude specific products"
+msgstr "নির্দিষ্ট পণ্য বাদ"
+
+#: admin/views/premium_extension_listing.php:266
+#, fuzzy
+msgid "Include or exclude specific categories"
+msgstr "নির্দিষ্ট বিভাগ অন্তর্ভুক্ত বা বাদ দিন"
+
+#: admin/views/premium_extension_listing.php:267
+#, fuzzy
+msgid "Exclude out-of-stock products"
+msgstr "স্টক বহির্ভূত পণ্য বাদ"
+
+#: admin/views/premium_extension_listing.php:268
+#, fuzzy
+msgid "Filter products based on product type"
+msgstr "পণ্যের প্রকারের উপর ভিত্তি করে পণ্যগুলি ফিল্টার করুন"
+
+#: admin/views/premium_extension_listing.php:269
+#, fuzzy
+msgid "Map categories on product level"
+msgstr "পণ্য স্তরের মানচিত্র বিভাগ"
+
+#: admin/views/premium_extension_listing.php:276
+#, fuzzy
+msgid "E-commerce Promotions"
+msgstr "ই-কমার্স প্রচার"
+
+#: admin/views/premium_extension_listing.php:277
+#, fuzzy
+msgid ""
+"Create and run successful promotional campaigns with the best tools for WooCommerce"
+msgstr ""
+"WooCommerce-এর জন্য সেরা সরঞ্জামগুলির সাথে সফল প্রচারমূলক প্রচারাভিযান তৈরি করুন এবং চালান৷"
+
+#: admin/views/premium_extension_listing.php:283
+#, fuzzy
+msgid "WebToffee WooCommerce Gift Cards"
+msgstr "ওয়েবটফি WooCommerce উপহার কার্ড"
+
+#: admin/views/premium_extension_listing.php:286
+#, fuzzy
+msgid "Create unlimited gift cards"
+msgstr "সীমাহীন উপহার কার্ড তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:287
+#, fuzzy
+msgid "Email gift cards to customers"
+msgstr "গ্রাহকদের ইমেল উপহার কার্ড"
+
+#: admin/views/premium_extension_listing.php:288
+#, fuzzy
+msgid "Provide refunds to store credit"
+msgstr "ক্রেডিট সঞ্চয় ফেরত প্রদান"
+
+#: admin/views/premium_extension_listing.php:289
+#, fuzzy
+msgid "20+ predefined gift card templates"
+msgstr "20+ পূর্বনির্ধারিত উপহার কার্ড টেমপ্লেট"
+
+#: admin/views/premium_extension_listing.php:290
+#, fuzzy
+msgid "Category wise template listing"
+msgstr "বিভাগ অনুযায়ী টেমপ্লেট তালিকা"
+
+#: admin/views/premium_extension_listing.php:291
+#, fuzzy
+msgid "Add custom templates for gift cards"
+msgstr "উপহার কার্ডের জন্য কাস্টম টেমপ্লেট যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:292
+#, fuzzy
+msgid "Generate gift cards based on order status"
+msgstr "অর্ডার স্থিতির উপর ভিত্তি করে উপহার কার্ড তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:293
+#, fuzzy
+msgid "Manage user credit balance"
+msgstr "ব্যবহারকারীর ক্রেডিট ব্যালেন্স পরিচালনা করুন"
+
+#: admin/views/premium_extension_listing.php:294
+#, fuzzy
+msgid "Fixed and custom gift card amounts"
+msgstr "নির্দিষ্ট এবং কাস্টম উপহার কার্ড পরিমাণ"
+
+#: admin/views/premium_extension_listing.php:295
+#, fuzzy
+msgid "Add usage restrictions for gift cards"
+msgstr "উপহার কার্ডের জন্য ব্যবহার সীমাবদ্ধতা যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:301
+#, fuzzy
+msgid "Frequently Bought Together for WooCommerce"
+msgstr "প্রায়শই WooCommerce-এর জন্য একসাথে কেনা"
+
+#: admin/views/premium_extension_listing.php:304
+#, fuzzy
+msgid "Automatically generate suggestions based on order history"
+msgstr "অর্ডার ইতিহাসের উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে পরামর্শ তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:305
+#, fuzzy
+msgid "Display recommended products on the product pages"
+msgstr "পণ্যের পাতায় প্রস্তাবিত পণ্য প্রদর্শন করুন"
+
+#: admin/views/premium_extension_listing.php:306
+#, fuzzy
+msgid "Quick setup page to add & edit recommendations"
+msgstr "সুপারিশ যোগ এবং সম্পাদনা করতে দ্রুত সেটআপ পৃষ্ঠা"
+
+#: admin/views/premium_extension_listing.php:307
+#, fuzzy
+msgid "Multiple product recommendation layouts"
+msgstr "একাধিক পণ্য সুপারিশ লেআউট"
+
+#: admin/views/premium_extension_listing.php:308
+#, fuzzy
+msgid "Set up discounts on the recommended product bundle"
+msgstr "প্রস্তাবিত পণ্য বান্ডিল উপর ডিসকাউন্ট সেট আপ"
+
+#: admin/views/premium_extension_listing.php:309
+#, fuzzy
+msgid "Manually create a bought-together list"
+msgstr "ম্যানুয়ালি একটি কেনা-একসাথে তালিকা তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:310
+#, fuzzy
+msgid "Use upsells, cross-sells, & related products as frequently bought products"
+msgstr "প্রায়শই কেনা পণ্য হিসাবে আপসেল, ক্রস-সেল এবং সম্পর্কিত পণ্যগুলি ব্যবহার করুন"
+
+#: admin/views/premium_extension_listing.php:311
+#, fuzzy
+msgid "Customize the title, button, and label texts"
+msgstr "শিরোনাম, বোতাম এবং লেবেল পাঠ্য কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:312
+#, fuzzy
+msgid "Customize the display of the recommended products"
+msgstr "প্রস্তাবিত পণ্য প্রদর্শন কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:318
+#, fuzzy
+msgid "Smart Coupons for WooCommerce"
+msgstr "WooCommerce এর জন্য স্মার্ট কুপন"
+
+#: admin/views/premium_extension_listing.php:321
+#, fuzzy
+msgid "Advanced BOGO Coupons"
+msgstr "উন্নত BOGO কুপন"
+
+#: admin/views/premium_extension_listing.php:322
+#, fuzzy
+msgid "Offer store credits"
+msgstr "দোকান ক্রেডিট অফার"
+
+#: admin/views/premium_extension_listing.php:323
+#, fuzzy
+msgid "Create attractive gift cards "
+msgstr "আকর্ষণীয় উপহার কার্ড তৈরি করুন "
+
+#: admin/views/premium_extension_listing.php:324
+#, fuzzy
+msgid "Give away product coupons"
+msgstr "পণ্য কুপন দূরে দিন"
+
+#: admin/views/premium_extension_listing.php:325
+#, fuzzy
+msgid "Coupons based on past purchases"
+msgstr "অতীতের ক্রয়ের উপর ভিত্তি করে কুপন"
+
+#: admin/views/premium_extension_listing.php:326
+#, fuzzy
+msgid "Restrict coupons by country"
+msgstr "দেশ অনুযায়ী কুপন সীমাবদ্ধ করুন"
+
+#: admin/views/premium_extension_listing.php:327
+#, fuzzy
+msgid "Create and offer sign-up discount coupons"
+msgstr "সাইন-আপ ডিসকাউন্ট কুপন তৈরি করুন এবং অফার করুন"
+
+#: admin/views/premium_extension_listing.php:328
+#, fuzzy
+msgid "Cart abandonment coupons"
+msgstr "কার্ট পরিত্যাগ কুপন"
+
+#: admin/views/premium_extension_listing.php:329
+#, fuzzy
+msgid "Customizable countdown sales banner"
+msgstr "কাস্টমাইজযোগ্য কাউন্টডাউন বিক্রয় ব্যানার"
+
+#: admin/views/premium_extension_listing.php:330
+#, fuzzy
+msgid "Bulk generate coupons"
+msgstr "বাল্ক জেনারেট কুপন"
+
+#: admin/views/premium_extension_listing.php:331
+#, fuzzy
+msgid "Import and export coupons"
+msgstr "আমদানি এবং রপ্তানি কুপন"
+
+#: admin/views/premium_extension_listing.php:332
+#, fuzzy
+msgid "Coupon embeds"
+msgstr "কুপন এম্বেড"
+
+#: admin/views/premium_extension_listing.php:333
+#, fuzzy
+msgid "Allow coupon combinations"
+msgstr "কুপন সংমিশ্রণের অনুমতি দিন"
+
+#: admin/views/premium_extension_listing.php:339
+#, fuzzy
+msgid "URL Coupons for WooCommerce"
+msgstr "WooCommerce এর জন্য URL কুপন"
+
+#: admin/views/premium_extension_listing.php:342
+#, fuzzy
+msgid "Generate custom coupon URLs"
+msgstr "কাস্টম কুপন ইউআরএল তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:343
+#, fuzzy
+msgid "Set up a redirect page"
+msgstr "একটি পুনঃনির্দেশ পৃষ্ঠা সেট আপ করুন"
+
+#: admin/views/premium_extension_listing.php:344
+#, fuzzy
+msgid "Automatically add products"
+msgstr "স্বয়ংক্রিয়ভাবে পণ্য যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:345
+#, fuzzy
+msgid "Create QR code coupons"
+msgstr "QR কোড কুপন তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:351
+#, fuzzy
+msgid "Payment & subscription"
+msgstr "অর্থপ্রদান এবং সদস্যতা"
+
+#: admin/views/premium_extension_listing.php:352
+#, fuzzy
+msgid ""
+"The most popular payment gateways and subscription solutions to scale your business"
+msgstr "আপনার ব্যবসা স্কেল করার জন্য সবচেয়ে জনপ্রিয় পেমেন্ট গেটওয়ে এবং সাবস্ক্রিপশন সমাধান"
+
+#: admin/views/premium_extension_listing.php:357
+#, fuzzy
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr "WooCommerce স্ট্রাইপ পেমেন্ট গেটওয়ে"
+
+#: admin/views/premium_extension_listing.php:361
+#, fuzzy
+msgid "Add 20+ payment methods"
+msgstr "20+ পেমেন্ট পদ্ধতি যোগ করুন"
+
+#: admin/views/premium_extension_listing.php:362
+#, fuzzy
+msgid "Activates Stripe checkout"
+msgstr "স্ট্রাইপ চেকআউট সক্রিয় করে"
+
+#: admin/views/premium_extension_listing.php:363
+#, fuzzy
+msgid "Secured payments with SCA and 3D secure"
+msgstr "SCA এবং 3D সুরক্ষিত সহ নিরাপদ অর্থপ্রদান"
+
+#: admin/views/premium_extension_listing.php:364
+#, fuzzy
+msgid "Supports recurring payments"
+msgstr "পুনরাবৃত্ত পেমেন্ট সমর্থন করে"
+
+#: admin/views/premium_extension_listing.php:365
+#, fuzzy
+msgid "Compatible with WPML"
+msgstr "WPML এর সাথে সামঞ্জস্যপূর্ণ"
+
+#: admin/views/premium_extension_listing.php:366
+#, fuzzy
+msgid "Log all Stripe transactions"
+msgstr "সমস্ত স্ট্রাইপ লেনদেন লগ করুন"
+
+#: admin/views/premium_extension_listing.php:367
+#, fuzzy
+msgid "Monitor payments using Stripe dashboard"
+msgstr "স্ট্রাইপ ড্যাশবোর্ড ব্যবহার করে পেমেন্ট নিরীক্ষণ করুন"
+
+#: admin/views/premium_extension_listing.php:372
+#, fuzzy
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "WooCommerce এর জন্য পেপ্যাল এক্সপ্রেস চেকআউট পেমেন্ট গেটওয়ে"
+
+#: admin/views/premium_extension_listing.php:376
+#, fuzzy
+msgid "Adds PayPal Smart Button Checkout option"
+msgstr "পেপ্যাল স্মার্ট বোতাম চেকআউট বিকল্প যোগ করে"
+
+#: admin/views/premium_extension_listing.php:377
+#, fuzzy
+msgid "Accepts payment using multiple Alternative Payment Methods (APM)"
+msgstr "একাধিক বিকল্প অর্থপ্রদান পদ্ধতি (APM) ব্যবহার করে অর্থপ্রদান গ্রহণ করে"
+
+#: admin/views/premium_extension_listing.php:378
+#, fuzzy
+msgid ""
+"Adds Express PayPal Checkout Option on the product page and Mini-cart for faster "
+"checkout"
+msgstr "দ্রুত চেকআউটের জন্য পণ্য পৃষ্ঠা এবং মিনি-কার্টে এক্সপ্রেস পেপ্যাল চেকআউট বিকল্প যোগ করে"
+
+#: admin/views/premium_extension_listing.php:379
+#, fuzzy
+msgid "Capture the authorized payment later"
+msgstr "পরে অনুমোদিত পেমেন্ট ক্যাপচার করুন"
+
+#: admin/views/premium_extension_listing.php:380
+#, fuzzy
+msgid "Partial and Full Refund of the order amount"
+msgstr "অর্ডারের পরিমাণ আংশিক এবং সম্পূর্ণ ফেরত"
+
+#: admin/views/premium_extension_listing.php:381
+#, fuzzy
+msgid "Lots of customization options like button style, position, etc"
+msgstr "বোতাম শৈলী, অবস্থান, ইত্যাদির মতো প্রচুর কাস্টমাইজেশন বিকল্প"
+
+#: admin/views/premium_extension_listing.php:382
+#, fuzzy
+msgid "Option to enable in-context checkout"
+msgstr "ইন-প্রসঙ্গ চেকআউট সক্ষম করার বিকল্প"
+
+#: admin/views/premium_extension_listing.php:383
+#, fuzzy
+msgid "Supports WooCommerce Subscriptions for Express buttons"
+msgstr "এক্সপ্রেস বোতামগুলির জন্য WooCommerce সদস্যতা সমর্থন করে"
+
+#: admin/views/premium_extension_listing.php:384
+#, fuzzy
+msgid "Allows guest checkout"
+msgstr "গেস্ট চেকআউট করার অনুমতি দেয়"
+
+#: admin/views/premium_extension_listing.php:385
+#, fuzzy
+msgid "Option to set up a specific PayPal locale"
+msgstr "একটি নির্দিষ্ট পেপ্যাল লোকেল সেট আপ করার বিকল্প"
+
+#: admin/views/premium_extension_listing.php:386
+#, fuzzy
+msgid "Shortcode support for the Paypal Express button"
+msgstr "পেপ্যাল এক্সপ্রেস বোতামের জন্য শর্টকোড সমর্থন"
+
+#: admin/views/premium_extension_listing.php:387
+#, fuzzy
+msgid "Timely compatibility updates and bug fixes"
+msgstr "সময়মত সামঞ্জস্য আপডেট এবং বাগ সংশোধন"
+
+#: admin/views/premium_extension_listing.php:392
+#, fuzzy
+msgid "Subscriptions for WooCommerce"
+msgstr "WooCommerce এর জন্য সদস্যতা"
+
+#: admin/views/premium_extension_listing.php:396
+#, fuzzy
+msgid "Create simple & variable subscriptions"
+msgstr "সহজ এবং পরিবর্তনশীল সাবস্ক্রিপশন তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:397
+#, fuzzy
+msgid "Synchronize subscription renewal"
+msgstr "সাবস্ক্রিপশন পুনর্নবীকরণ সিঙ্ক্রোনাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:398
+#, fuzzy
+msgid "Pro-rate charges till first renewal"
+msgstr "প্রথম নবায়ন পর্যন্ত প্রো-রেট চার্জ"
+
+#: admin/views/premium_extension_listing.php:399
+#, fuzzy
+msgid "Set free trial and sign-up fee"
+msgstr "বিনামূল্যে ট্রায়াল এবং সাইন আপ ফি সেট করুন"
+
+#: admin/views/premium_extension_listing.php:400
+#, fuzzy
+msgid "Send automated emails notifications"
+msgstr "স্বয়ংক্রিয় ইমেল বিজ্ঞপ্তি পাঠান"
+
+#: admin/views/premium_extension_listing.php:401
+#, fuzzy
+msgid "Supports recurring discounts"
+msgstr "পুনরাবৃত্ত ডিসকাউন্ট সমর্থন করে"
+
+#: admin/views/premium_extension_listing.php:402
+#, fuzzy
+msgid "Renewal interval & expiry customizations"
+msgstr "পুনর্নবীকরণ ব্যবধান এবং মেয়াদ শেষ হওয়ার কাস্টমাইজেশন"
+
+#: admin/views/premium_extension_listing.php:408
+#, fuzzy
+msgid "Privacy compliance"
+msgstr "গোপনীয়তা সম্মতি"
+
+#: admin/views/premium_extension_listing.php:409
+#, fuzzy
+msgid ""
+"Get Help with Ensuring Compliance to Major Privacy Laws for Your WordPress Website - "
+"GDPR, CCPA, LGPD, CNIL, and More."
+msgstr ""
+"আপনার ওয়ার্ডপ্রেস ওয়েবসাইট - GDPR, CCPA, LGPD, CNIL এবং আরও অনেক কিছুর জন্য প্রধান গোপনীয়তা "
+"আইন মেনে চলা নিশ্চিত করতে সহায়তা পান।"
+
+#: admin/views/premium_extension_listing.php:415
+#, fuzzy
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "GDPR কুকি কনসেন্ট প্লাগইন (CCPA রেডি)"
+
+#: admin/views/premium_extension_listing.php:418
+#, fuzzy
+msgid "Assits in GDPR (RGPD, DSVGO), LGPD, CNIL, POPIA, and CCPA"
+msgstr "GDPR (RGPD, DSVGO), LGPD, CNIL, POPIA, এবং CCPA-তে সহায়তা"
+
+#: admin/views/premium_extension_listing.php:419
+#, fuzzy
+msgid "Create a cookie consent banner"
+msgstr "একটি কুকি সম্মতি ব্যানার তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:420
+#, fuzzy
+msgid "Scan and list cookies"
+msgstr "স্ক্যান এবং তালিকা কুকিজ"
+
+#: admin/views/premium_extension_listing.php:421
+#, fuzzy
+msgid "Automatically block cookies/script"
+msgstr "স্বয়ংক্রিয়ভাবে কুকি/স্ক্রিপ্ট ব্লক করুন"
+
+#: admin/views/premium_extension_listing.php:422
+#, fuzzy
+msgid "Customize cookie banner"
+msgstr "কুকি ব্যানার কাস্টমাইজ করুন"
+
+#: admin/views/premium_extension_listing.php:423
+#, fuzzy
+msgid "Create cookie policy"
+msgstr "কুকি নীতি তৈরি করুন"
+
+#: admin/views/premium_extension_listing.php:424
+#, fuzzy
+msgid "User consent logging"
+msgstr "ব্যবহারকারীর সম্মতি লগিং"
+
+#: admin/views/premium_extension_listing.php:425
+#, fuzzy
+msgid "Explicit/Implicit consent"
+msgstr "সুস্পষ্ট/অন্তর্নিহিত সম্মতি"
+
+#: admin/views/premium_extension_listing.php:426
+#, fuzzy
+msgid "Location based exclusion for banner"
+msgstr "ব্যানারের জন্য অবস্থান ভিত্তিক বর্জন"
+
+#: admin/views/premium_extension_listing.php:427
+#, fuzzy
+msgid "Granular consent based on cookie categories"
+msgstr "কুকি বিভাগের উপর ভিত্তি করে দানাদার সম্মতি"
+
+#: admin/views/premium_extension_page.php:81
+#, fuzzy
+msgid "You are covered by our 30-Day Money Back Guarantee"
+msgstr "আপনি আমাদের 30-দিনের মানি ব্যাক গ্যারান্টি দ্বারা আচ্ছাদিত"
+
+#: admin/views/premium_extension_page.php:91
+#, fuzzy
+msgid "Supported by a team with 99% Customer Satisfaction Score"
+msgstr "99% গ্রাহক সন্তুষ্টি স্কোর সহ একটি দল দ্বারা সমর্থিত"
+
+#: admin/views/wt_ipc_free_pro.php:10 admin/views/wt_sdd_free_pro.php:10
+#, fuzzy
+msgid "Supported documents"
+msgstr "সমর্থিত নথি"
+
+#: admin/views/wt_ipc_free_pro.php:41
+msgid "Automatically create invoice based on order status"
+msgstr "অর্ডার স্থিতির উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে চালান তৈরি করুন"
+
+#: admin/views/wt_ipc_free_pro.php:54
+msgid "Attach document to order email"
+msgstr "ইমেল অর্ডার করতে নথি সংযুক্ত করুন"
+
+#: admin/views/wt_ipc_free_pro.php:85
+msgid "Custom invoice date"
+msgstr "কাস্টম চালান তারিখ"
+
+#: admin/views/wt_ipc_free_pro.php:88 admin/views/wt_ipc_free_pro.php:98
+msgid "Use order date"
+msgstr "অর্ডার তারিখ ব্যবহার করুন"
+
+#: admin/views/wt_ipc_free_pro.php:92 admin/views/wt_ipc_free_pro.php:102
+msgid "Use invoice created date"
+msgstr "চালান তৈরির তারিখ ব্যবহার করুন"
+
+#: admin/views/wt_ipc_free_pro.php:108
+msgid "Show print invoice button to customers"
+msgstr "গ্রাহকদের প্রিন্ট চালান বোতাম দেখান"
+
+#: admin/views/wt_ipc_free_pro.php:139
+msgid "Show print packing slip button to customers"
+msgstr "গ্রাহকদের প্রিন্ট প্যাকিং স্লিপ বোতাম দেখান"
+
+#: admin/views/wt_ipc_free_pro.php:162
+msgid "Use order number as document number"
+msgstr "ডকুমেন্ট নম্বর হিসাবে অর্ডার নম্বর ব্যবহার করুন"
+
+#: admin/views/wt_ipc_free_pro.php:185
+msgid "Use custom number series to number documents"
+msgstr "নথি নম্বরের জন্য কাস্টম নম্বর সিরিজ ব্যবহার করুন"
+
+#: admin/views/wt_ipc_free_pro.php:208
+msgid "Change document number format & length"
+msgstr "নথি নম্বর বিন্যাস এবং দৈর্ঘ্য পরিবর্তন করুন"
+
+#: admin/views/wt_ipc_free_pro.php:254 admin/views/wt_pi_free_pro.php:122
+#: admin/views/wt_pl_free_pro.php:94 admin/views/wt_sdd_free_pro.php:80
+msgid "Sort order items in product table"
+msgstr "পণ্য টেবিলে অর্ডার আইটেম সাজান"
+
+#: admin/views/wt_ipc_free_pro.php:316
+msgid "Display options for bundled products"
+msgstr "বান্ডিল পণ্যের জন্য প্রদর্শন বিকল্প"
+
+#: admin/views/wt_ipc_free_pro.php:339
+msgid "Generate invoices for old orders"
+msgstr "পুরানো অর্ডারের জন্য চালান তৈরি করুন"
+
+#: admin/views/wt_ipc_free_pro.php:352 public/modules/invoice/views/general.php:229
+msgid "Generate invoices for free orders"
+msgstr "বিনামূল্যে অর্ডারের জন্য চালান তৈরি করুন"
+
+#: admin/views/wt_ipc_free_pro.php:365
+msgid "Option to include/exclude tax to Invoice"
+msgstr "ইনভয়েসে ট্যাক্স অন্তর্ভুক্ত/বাদ দেওয়ার বিকল্প"
+
+#: admin/views/wt_ipc_free_pro.php:378
+msgid "Separate tax column in the product table for multiple tax options in invoices"
+msgstr "ইনভয়েসে একাধিক ট্যাক্স বিকল্পের জন্য প্রোডাক্ট টেবিলে আলাদা ট্যাক্স কলাম"
+
+#: admin/views/wt_ipc_free_pro.php:391
+msgid "Customizable tax items, tax fields (SSN, VAT, etc.)"
+msgstr "কাস্টমাইজযোগ্য ট্যাক্স আইটেম, ট্যাক্স ক্ষেত্র (SSN, VAT, ইত্যাদি)"
+
+#: admin/views/wt_ipc_free_pro.php:422
+msgid "Display free line items on invoice"
+msgstr "চালানে বিনামূল্যে লাইন আইটেম প্রদর্শন করুন"
+
+#: admin/views/wt_ipc_free_pro.php:435
+msgid "Customize invoice PDF name format"
+msgstr "চালান পিডিএফ নামের বিন্যাস কাস্টমাইজ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:448
+msgid "Add a payment link to invoice"
+msgstr "চালানে একটি পেমেন্ট লিঙ্ক যোগ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:461
+#, fuzzy
+msgid "Show Pay Later option at checkout"
+msgstr "চেকআউটের সময় পে লেটার অপশন দেখান"
+
+#: admin/views/wt_ipc_free_pro.php:474
+#, fuzzy
+msgid "Customize Pay Later option display"
+msgstr "কাস্টমাইজ পে লেটার অপশন ডিসপ্লে"
+
+#: admin/views/wt_ipc_free_pro.php:482 admin/views/wt_ipc_free_pro.php:496
+msgid "Description"
+msgstr "বর্ণনা"
+
+#: admin/views/wt_ipc_free_pro.php:486 admin/views/wt_ipc_free_pro.php:500
+#, fuzzy
+msgid "Instruction"
+msgstr "নির্দেশ"
+
+#: admin/views/wt_ipc_free_pro.php:505 admin/views/wt_sdd_free_pro.php:144
+#, fuzzy
+msgid "Add order meta fields"
+msgstr "অর্ডার মেটা ক্ষেত্র যোগ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:513
+#, fuzzy
+msgid "(But customer notes can be added)"
+msgstr "(তবে গ্রাহক নোট যোগ করা যেতে পারে)"
+
+#: admin/views/wt_ipc_free_pro.php:536 admin/views/wt_pi_free_pro.php:164
+#: admin/views/wt_sdd_free_pro.php:176
+#, fuzzy
+msgid "Add product meta fields"
+msgstr "পণ্য মেটা ক্ষেত্র যোগ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:567 admin/views/wt_pi_free_pro.php:178
+#: admin/views/wt_sdd_free_pro.php:200
+#: public/modules/deliverynote/views/admin-settings.php:72
+#: public/modules/dispatchlabel/views/admin-settings.php:69
+#, fuzzy
+msgid "Add product attributes"
+msgstr "পণ্য বৈশিষ্ট্য যোগ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:598 public/modules/invoice/views/general.php:194
+#, fuzzy
+msgid "Custom logo for invoice"
+msgstr "চালানের জন্য কাস্টম লোগো"
+
+#: admin/views/wt_ipc_free_pro.php:611
+#, fuzzy
+msgid "Add product images to packing slips"
+msgstr "প্যাকিং স্লিপগুলিতে পণ্যের ছবি যোগ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:624
+#, fuzzy
+msgid "Custom footer"
+msgstr "কাস্টম ফুটার"
+
+#: admin/views/wt_ipc_free_pro.php:647 admin/views/wt_pi_free_pro.php:262
+#: admin/views/wt_pl_free_pro.php:150 admin/views/wt_sdd_free_pro.php:288
+#, fuzzy
+msgid "Document customizer"
+msgstr "ডকুমেন্ট কাস্টমাইজার"
+
+#: admin/views/wt_ipc_free_pro.php:651 admin/views/wt_sdd_free_pro.php:292
+#, fuzzy
+msgid "(Visual editor)"
+msgstr "(ভিজ্যুয়াল এডিটর)"
+
+#: admin/views/wt_ipc_free_pro.php:665 admin/views/wt_sdd_free_pro.php:306
+#, fuzzy
+msgid "(Visual and code editor)"
+msgstr "(ভিজ্যুয়াল এবং কোড এডিটর)"
+
+#: admin/views/wt_ipc_free_pro.php:678
+#, fuzzy
+msgid "Pre-built layouts for documents"
+msgstr "নথির জন্য পূর্ব-নির্মিত লেআউট"
+
+#: admin/views/wt_ipc_free_pro.php:709
+#, fuzzy
+msgid "Save document layout as template"
+msgstr "নথি বিন্যাস টেমপ্লেট হিসাবে সংরক্ষণ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:740
+#, fuzzy
+msgid "Add additional data to invoice layout"
+msgstr "চালান লেআউটে অতিরিক্ত ডেটা যোগ করুন"
+
+#: admin/views/wt_ipc_free_pro.php:744 admin/views/wt_ipc_free_pro.php:786
+#, fuzzy
+msgid "Total tax"
+msgstr "মোট ট্যাক্স"
+
+#: admin/views/wt_ipc_free_pro.php:748 admin/views/wt_ipc_free_pro.php:790
+#, fuzzy
+msgid "Tracking number"
+msgstr "ট্র্যাকিং নম্বর"
+
+#: admin/views/wt_ipc_free_pro.php:760 admin/views/wt_ipc_free_pro.php:802
+#, fuzzy
+msgid "Cart discount"
+msgstr "কার্ট ছাড়"
+
+#: admin/views/wt_ipc_free_pro.php:764 admin/views/wt_ipc_free_pro.php:806
+#, fuzzy
+msgid "Order discount"
+msgstr "ছাড়"
+
+#: admin/views/wt_ipc_free_pro.php:772 admin/views/wt_ipc_free_pro.php:814
+#: public/modules/invoice/invoice.php:1205
+#, fuzzy
+msgid "Coupon info"
+msgstr "কুপন তথ্য"
+
+#: admin/views/wt_ipc_free_pro.php:827 admin/views/wt_pi_free_pro.php:276
+#: admin/views/wt_pl_free_pro.php:164 admin/views/wt_sdd_free_pro.php:428
+#, fuzzy
+msgid "WPML compatibility"
+msgstr "WPML সামঞ্জস্যতা"
+
+#: admin/views/wt_pi_free_pro.php:6 admin/views/wt_pro_addons_list.php:69
+#, fuzzy
+msgid "WooCommerce Proforma Invoices plugin"
+msgstr "WooCommerce Proforma চালান প্লাগইন"
+
+#: admin/views/wt_pi_free_pro.php:10
+#, fuzzy
+msgid "Create proforma invoice automatically for selected order statuses"
+msgstr "নির্বাচিত অর্ডার অবস্থার জন্য স্বয়ংক্রিয়ভাবে প্রোফর্মা চালান তৈরি করুন"
+
+#: admin/views/wt_pi_free_pro.php:24
+#, fuzzy
+msgid "Attach invoice PDF to order emails"
+msgstr "ইমেল অর্ডার করতে চালান PDF সংযুক্ত করুন"
+
+#: admin/views/wt_pi_free_pro.php:38 public/modules/invoice/views/general.php:134
+#, fuzzy
+msgid "Show print invoice button for customers"
+msgstr "গ্রাহকদের জন্য প্রিন্ট চালান বোতাম দেখান"
+
+#: admin/views/wt_pi_free_pro.php:70
+#, fuzzy
+msgid "Based on order number"
+msgstr "অর্ডার নম্বরের উপর ভিত্তি করে"
+
+#: admin/views/wt_pi_free_pro.php:74
+#, fuzzy
+msgid "Custom number series"
+msgstr "কাস্টম নম্বর সিরিজ"
+
+#: admin/views/wt_pi_free_pro.php:80
+#, fuzzy
+msgid "Separate tax column in product table for multiple tax options in proforma invoices"
+msgstr "প্রোফর্মা ইনভয়েসে একাধিক ট্যাক্স বিকল্পের জন্য পণ্য টেবিলে আলাদা ট্যাক্স কলাম"
+
+#: admin/views/wt_pi_free_pro.php:94
+#, fuzzy
+msgid "Use custom number format & length"
+msgstr "কাস্টম নম্বর বিন্যাস এবং দৈর্ঘ্য ব্যবহার করুন"
+
+#: admin/views/wt_pi_free_pro.php:108
+#, fuzzy
+msgid "Group products by 'Category'"
+msgstr "'ক্যাটাগরি' অনুসারে পণ্য গ্রুপ করুন"
+
+#: admin/views/wt_pi_free_pro.php:136
+#, fuzzy
+msgid "Show variation data of products"
+msgstr "পণ্যের বৈচিত্র্যের তথ্য দেখান"
+
+#: admin/views/wt_pi_free_pro.php:150
+#, fuzzy
+msgid "Add order meta fields "
+msgstr "অর্ডার মেটা ক্ষেত্র যোগ করুন "
+
+#: admin/views/wt_pi_free_pro.php:192
+#, fuzzy
+msgid "Add custom footer"
+msgstr "কাস্টম ফুটার যোগ করুন"
+
+#: admin/views/wt_pi_free_pro.php:220
+#, fuzzy
+msgid "Attach transport terms"
+msgstr "পরিবহন শর্তাবলী সংযুক্ত করুন"
+
+#: admin/views/wt_pi_free_pro.php:234
+#, fuzzy
+msgid "Attach sales terms"
+msgstr "বিক্রয় শর্তাবলী সংযুক্ত করুন"
+
+#: admin/views/wt_pi_free_pro.php:248
+#, fuzzy
+msgid "Multiple pre-built layouts"
+msgstr "একাধিক প্রি-বিল্ট লেআউট"
+
+#: admin/views/wt_pi_free_pro.php:296
+#, fuzzy
+msgid "Generate address labels"
+msgstr "ঠিকানা লেবেল তৈরি করুন"
+
+#: admin/views/wt_pi_free_pro.php:310
+#, fuzzy
+msgid "Supported address types"
+msgstr "সমর্থিত ঠিকানা প্রকার"
+
+#: admin/views/wt_pi_free_pro.php:319
+msgid "Shipping address"
+msgstr "পাঠানোর ঠিকানা"
+
+#: admin/views/wt_pi_free_pro.php:323
+msgid "Billing address"
+msgstr "বিলিং ঠিকানা"
+
+#: admin/views/wt_pi_free_pro.php:327
+#, fuzzy
+msgid "From address"
+msgstr "ঠিকানা থেকে"
+
+#: admin/views/wt_pi_free_pro.php:331
+#, fuzzy
+msgid "Return address"
+msgstr "ফেরত ঠিকানা"
+
+#: admin/views/wt_pi_free_pro.php:337
+#, fuzzy
+msgid "Multiple address label layouts"
+msgstr "একাধিক ঠিকানা লেবেল লেআউট"
+
+#: admin/views/wt_pi_free_pro.php:351
+#, fuzzy
+msgid "Customize layout properties"
+msgstr "লেআউট বৈশিষ্ট্য কাস্টমাইজ করুন"
+
+#: admin/views/wt_pi_free_pro.php:365
+#, fuzzy
+msgid "WPML compatibilityCustomize label sizes"
+msgstr "WPML সামঞ্জস্যতা লেবেল আকার কাস্টমাইজ করুন"
+
+#: admin/views/wt_pi_free_pro.php:379
+#, fuzzy
+msgid "Bulk print shipping labels"
+msgstr "বাল্ক প্রিন্ট শিপিং লেবেল"
+
+#: admin/views/wt_pl_free_pro.php:6
+#, fuzzy
+msgid "WooCommerce Pick lists plugin"
+msgstr "WooCommerce পিক তালিকা প্লাগইন"
+
+#: admin/views/wt_pl_free_pro.php:10
+#, fuzzy
+msgid "Generate picklists"
+msgstr "পিকলিস্ট তৈরি করুন"
+
+#: admin/views/wt_pl_free_pro.php:52
+#, fuzzy
+msgid "Group products by ‘Order’"
+msgstr "'অর্ডার' দ্বারা পণ্য গ্রুপ করুন"
+
+#: admin/views/wt_pl_free_pro.php:80
+#, fuzzy
+msgid "Exclude virtual items from picklists"
+msgstr "পিকলিস্ট থেকে ভার্চুয়াল আইটেমগুলি বাদ দিন"
+
+#: admin/views/wt_pl_free_pro.php:108
+#, fuzzy
+msgid "Product meta fields"
+msgstr "পণ্য মেটা ক্ষেত্র"
+
+#: admin/views/wt_pl_free_pro.php:122
+#, fuzzy
+msgid "Product attributes"
+msgstr "পণ্য বৈশিষ্ট্য"
+
+#: admin/views/wt_pl_free_pro.php:136
+#, fuzzy
+msgid "Pre-built layouts"
+msgstr "প্রাক-নির্মিত লেআউট"
+
+#: admin/views/wt_pro_addons_list.php:94
+#, fuzzy
+msgid "Generate Shipping Address labels"
+msgstr "শিপিং ঠিকানা লেবেল তৈরি করুন"
+
+#: admin/views/wt_pro_addons_list.php:95
+#, fuzzy
+msgid "Generate Billing Address labels"
+msgstr "বিলিং ঠিকানা লেবেল তৈরি করুন"
+
+#: admin/views/wt_pro_addons_list.php:96
+#, fuzzy
+msgid "Generate From Address labels"
+msgstr "ঠিকানা লেবেল থেকে তৈরি করুন"
+
+#: admin/views/wt_pro_addons_list.php:97
+#, fuzzy
+msgid "Generate Return Address labels"
+msgstr "রিটার্ন অ্যাড্রেস লেবেল তৈরি করুন"
+
+#: admin/views/wt_pro_addons_list.php:100
+#, fuzzy
+msgid "Built-in label templates"
+msgstr "অন্তর্নির্মিত লেবেল টেমপ্লেট"
+
+#: admin/views/wt_pro_addons_list.php:102
+#, fuzzy
+msgid "Customize layout elements & properties"
+msgstr "লেআউট উপাদান এবং বৈশিষ্ট্য কাস্টমাইজ করুন"
+
+#: admin/views/wt_pro_addons_list.php:117
+#, fuzzy
+msgid "Compatible with WooCommerce PDF Invoice, Packing Slip & Credit Note (Pro)"
+msgstr "WooCommerce PDF চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট (প্রো) এর সাথে সামঞ্জস্যপূর্ণ"
+
+#: admin/views/wt_sdd_free_pro.php:42 public/modules/shippinglabel/views/general.php:26
+msgid "Shipping label size"
+msgstr "শিপিং লেবেল আকার"
+
+#: admin/views/wt_sdd_free_pro.php:46 admin/views/wt_sdd_free_pro.php:56
+msgid "Full page"
+msgstr "পুরো পাতা"
+
+#: admin/views/wt_sdd_free_pro.php:50 admin/views/wt_sdd_free_pro.php:60
+msgid "Custom"
+msgstr "কাস্টম নির্বাচন করুন"
+
+#: admin/views/wt_sdd_free_pro.php:66
+#, fuzzy
+msgid "Add multiple shipping labels in one page"
+msgstr "এক পৃষ্ঠায় একাধিক শিপিং লেবেল যোগ করুন"
+
+#: admin/views/wt_sdd_free_pro.php:224
+#, fuzzy
+msgid "Add print document button to selected order emails"
+msgstr "নির্বাচিত অর্ডার ইমেল মুদ্রণ নথি বোতাম যোগ করুন"
+
+#: admin/views/wt_sdd_free_pro.php:256
+#, fuzzy
+msgid "Pre-built layout for documents"
+msgstr "নথিগুলির জন্য পূর্ব-নির্মিত বিন্যাস"
+
+#: admin/views/wt_sdd_free_pro.php:320
+#, fuzzy
+msgid "Add custom fields to shipping label layout"
+msgstr "শিপিং লেবেল লেআউটে কাস্টম ক্ষেত্র যোগ করুন"
+
+#: admin/views/wt_sdd_free_pro.php:324 admin/views/wt_sdd_free_pro.php:334
+#, fuzzy
+msgid "Company logo"
+msgstr "কোম্পানী লোগো"
+
+#: admin/views/wt_sdd_free_pro.php:328 admin/views/wt_sdd_free_pro.php:338
+#, fuzzy
+msgid "Return policy"
+msgstr "প্রত্যাবর্তন নীতিমালা"
+
+#: admin/views/wt_sdd_free_pro.php:344
+#, fuzzy
+msgid "Include product image in delivery note"
+msgstr "ডেলিভারি নোটে পণ্যের ছবি অন্তর্ভুক্ত করুন"
+
+#: admin/views/wt_sdd_free_pro.php:358 public/modules/deliverynote/views/general.php:38
+#: public/modules/dispatchlabel/views/general.php:24
+#: public/modules/packinglist/views/general.php:40
+#, fuzzy
+msgid "Add customer note"
+msgstr "গ্রাহক নোট যোগ করুন"
+
+#: admin/views/wt_sdd_free_pro.php:382 public/modules/deliverynote/views/general.php:53
+#: public/modules/dispatchlabel/views/general.php:39
+#: public/modules/packinglist/views/general.php:55
+#, fuzzy
+msgid "Add footer"
+msgstr "ফুটার যোগ করুন"
+
+#: admin/views/wt_sdd_free_pro.php:414
+#, fuzzy
+msgid "Separate tax column in product table for multiple tax options in dispatch labels"
+msgstr "ডিসপ্যাচ লেবেলে একাধিক ট্যাক্স বিকল্পের জন্য পণ্য সারণিতে আলাদা ট্যাক্স কলাম"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:29
+msgid "Invoice Generation In Progress"
+msgstr "চালান তৈরির কাজ চলছে"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:30
+msgid ""
+"Invoice numbers are getting generated in the background. This process may take a little "
+"while, so please be patient."
+msgstr "ব্যাকগ্রাউন্ডে ইনভয়েস নম্বর তৈরি হচ্ছে। এই প্রক্রিয়াটি একটু সময় নিতে পারে, তাই ধৈর্য ধরুন।"
+
+#: includes/admin/class-wf-woocommerce-packing-list-admin_notices.php:31
+msgid "View progress"
+msgstr "অগ্রগতি দেখুন"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:54
+#, php-format
+msgid ""
+"Hey, we at %1$s WebToffee %2$s would like to thank you for using %3$s %4$s %5$s. %6$s "
+"Less than a minute of your time will motivate us to keep doing what we do. We would "
+"really appreciate if you could take a moment to drop a quick review that motivate us to "
+"keep going."
+msgstr ""
+"আরে, আমরা %1$s WebToffee %2$s-এ %3$s %4$s %5$s ব্যবহার করার জন্য আপনাকে ধন্যবাদ জানাতে "
+"চাই৷ %6$s আপনার এক মিনিটেরও কম সময় আমাদেরকে আমরা যা করি তা করতে অনুপ্রাণিত করবে৷ আপনি যদি "
+"একটি দ্রুত পর্যালোচনা ড্রপ করার জন্য কিছু সময় নিতে পারেন যা আমাদের চালিয়ে যেতে অনুপ্রাণিত করে "
+"তবে আমরা সত্যিই কৃতজ্ঞ।"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:57
+msgid "Remind me later"
+msgstr "আমাকে পরে মনে করিয়ে দিবেন"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:58
+msgid "Not interested"
+msgstr "আগ্রহী নই"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:59
+msgid "Review now"
+msgstr "এখন পর্যালোচনা করুন"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:65
+msgid "Knock, Knock!"
+msgstr "খট খট!"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:66
+msgid "You`ve just created"
+msgstr "আপনি এইমাত্র তৈরি করেছেন"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:68
+msgid "commercial documents using"
+msgstr "বাণিজ্যিক নথি ব্যবহার করে"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:69
+msgid "Woocommerce PDF invoices, packing slips, delivery notes, and shipping labels"
+msgstr "Woocommerce PDF চালান, প্যাকিং স্লিপ, ডেলিভারি নোট, এবং শিপিং লেবেল"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:70
+msgid ""
+"That’s awesome! We’d love it if you take a moment to share what you think and help "
+"spread the word."
+msgstr ""
+"সেটা খুবই ভালো! আপনি যা ভাবছেন তা ভাগ করে নিতে এবং শব্দটি ছড়িয়ে দিতে সাহায্য করলে আমরা এটি "
+"পছন্দ করব।"
+
+#: includes/class-wf-woocommerce-packing-list-review_request.php:72
+msgid "Rate us now"
+msgstr "এখন আমাদের রেট"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+#, php-format
+msgid ""
+"The plugins %s and %s cannot be active in your store at the same time. Kindly "
+"deactivate one of these prior to activating the other."
+msgstr ""
+"প্লাগইনগুলি %s এবং %s একই সময়ে আপনার দোকানে সক্রিয় হতে পারে না৷ অন্যটিকে সক্রিয় করার আগে দয়া "
+"করে এর মধ্যে একটি নিষ্ক্রিয় করুন৷"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:52
+msgid "Go to plugins page"
+msgstr "প্লাগইন পৃষ্ঠায় যান"
+
+#: print-invoices-packing-slip-labels-for-woocommerce.php:176
+#, php-format
+msgid ""
+"%s WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels (Basic) %s "
+"is enabled but not effective. It requires %s WooCommerce %s in order to work."
+msgstr ""
+"%s WooCommerce PDF চালান, প্যাকিং স্লিপ, ডেলিভারি নোট এবং শিপিং লেবেল (বেসিক) %s সক্ষম "
+"কিন্তু কার্যকর নয়৷ এটি কাজ করার জন্য %s WooCommerce %s প্রয়োজন৷"
+
+#: public/modules/deliverynote/data/data.templates.php:5
+msgid "Classic"
+msgstr "ক্লাসিক"
+
+#: public/modules/deliverynote/data/data.tooltip.php:3
+#: public/modules/packinglist/data/data.tooltip.php:3
+#, fuzzy
+msgid "Adds product image to the line items in the product table"
+msgstr "পণ্য টেবিলের লাইন আইটেমগুলিতে পণ্যের চিত্র যোগ করে"
+
+#: public/modules/deliverynote/data/data.tooltip.php:4
+#, fuzzy
+msgid "Adds customer note to the delivery note"
+msgstr "ডেলিভারি নোটে গ্রাহক নোট যোগ করে"
+
+#: public/modules/deliverynote/data/data.tooltip.php:5
+#, fuzzy
+msgid "Adds Footer to the delivery note"
+msgstr "ডেলিভারি নোটে ফুটার যোগ করে"
+
+#: public/modules/deliverynote/deliverynote.php:231
+#: public/modules/deliverynote/deliverynote.php:251
+#: public/modules/deliverynote/deliverynote.php:262
+#: public/modules/deliverynote/deliverynote.php:263
+#, fuzzy
+msgid "Print Delivery note"
+msgstr "প্রিন্ট ডেলিভারি নোট"
+
+#: public/modules/deliverynote/deliverynote.php:245
+#, fuzzy
+msgid "Print/Download Delivery note"
+msgstr "প্রিন্ট/ডাউনলোড ডেলিভারি নোট"
+
+#: public/modules/deliverynote/deliverynote.php:250
+#: public/modules/deliverynote/deliverynote.php:399
+#: public/modules/dispatchlabel/dispatchlabel.php:243
+#: public/modules/dispatchlabel/dispatchlabel.php:390
+#: public/modules/invoice/invoice.php:1406 public/modules/invoice/invoice.php:1974
+#: public/modules/packinglist/packinglist.php:260
+#: public/modules/packinglist/packinglist.php:430
+#: public/modules/shippinglabel/shippinglabel.php:375
+#: public/modules/shippinglabel/shippinglabel.php:582
+msgid "Print"
+msgstr "প্রিন্ট"
+
+#: public/modules/deliverynote/deliverynote.php:343
+msgid "Unable to print Delivery note. Please check the items in the order."
+msgstr "ডেলিভারি নোট প্রিন্ট করতে অক্ষম। অর্ডার আইটেম চেক করুন."
+
+#: public/modules/deliverynote/views/admin-settings.php:66
+msgid "Multiple templates to personalize the document"
+msgstr "নথি ব্যক্তিগতকৃত করতে একাধিক টেমপ্লেট"
+
+#: public/modules/deliverynote/views/admin-settings.php:67
+#, fuzzy
+msgid "Add a print delivery note button to the order email"
+msgstr "অর্ডার ইমেলে একটি প্রিন্ট ডেলিভারি নোট বোতাম যোগ করুন"
+
+#: public/modules/deliverynote/views/admin-settings.php:68
+#: public/modules/dispatchlabel/views/admin-settings.php:71
+#: public/modules/packinglist/views/general.php:112
+#, fuzzy
+msgid "Sort order items in the product table"
+msgstr "পণ্য টেবিলে অর্ডার আইটেম সাজান"
+
+#: public/modules/deliverynote/views/admin-settings.php:69
+#: public/modules/invoice/views/invoice-admin-settings.php:24
+#: public/modules/packinglist/views/general.php:111
+#, fuzzy
+msgid "Group products by category"
+msgstr "বিভাগ অনুসারে পণ্য গ্রুপ করুন"
+
+#: public/modules/deliverynote/views/admin-settings.php:70
+#: public/modules/dispatchlabel/views/admin-settings.php:70
+#: public/modules/invoice/views/invoice-admin-settings.php:26
+#: public/modules/packinglist/views/general.php:113
+#, fuzzy
+msgid "Show variation data for variable products"
+msgstr "পরিবর্তনশীল পণ্যের জন্য বৈচিত্র তথ্য দেখান"
+
+#: public/modules/deliverynote/views/admin-settings.php:71
+#, fuzzy
+msgid "Add product & order meta fields"
+msgstr "পণ্য যোগ করুন এবং মেটা ক্ষেত্র অর্ডার করুন"
+
+#: public/modules/deliverynote/views/admin-settings.php:73
+#, fuzzy
+msgid "Generate shipping labels and dispatch labels"
+msgstr "শিপিং লেবেল তৈরি করুন এবং লেবেল প্রেরণ করুন"
+
+#: public/modules/deliverynote/views/admin-settings.php:81
+#: public/modules/dispatchlabel/views/admin-settings.php:79
+#: public/modules/invoice/views/invoice-admin-settings.php:59
+#: public/modules/packinglist/views/general.php:125
+#: public/modules/shippinglabel/views/admin-settings.php:76
+#, fuzzy
+msgid "Get advanced features for your"
+msgstr "আপনার জন্য উন্নত বৈশিষ্ট্য পান"
+
+#: public/modules/deliverynote/views/admin-settings.php:87
+#: public/modules/dispatchlabel/views/admin-settings.php:85
+#: public/modules/shippinglabel/views/admin-settings.php:82
+#, fuzzy
+msgid "Shipping labels, Dispatch labels and Delivery notes"
+msgstr "শিপিং লেবেল, ডিসপ্যাচ লেবেল এবং ডেলিভারি নোট"
+
+#: public/modules/deliverynote/views/admin-settings.php:107
+#: public/modules/dispatchlabel/views/admin-settings.php:105
+#: public/modules/invoice/views/invoice-admin-settings.php:85
+#: public/modules/packinglist/views/general.php:151
+#: public/modules/shippinglabel/views/admin-settings.php:102
+#, fuzzy
+msgid "View add-on"
+msgstr "অ্যাড-অন দেখুন"
+
+#: public/modules/deliverynote/views/general.php:11
+msgid "Configure the general settings required for the delivery note."
+msgstr "ডেলিভারি নোটের জন্য প্রয়োজনীয় সাধারণ সেটিংস কনফিগার করুন।"
+
+#: public/modules/deliverynote/views/general.php:23
+#: public/modules/packinglist/views/general.php:25
+msgid "Include product image"
+msgstr "পণ্য ইমেজ অন্তর্ভুক্ত"
+
+#: public/modules/dispatchlabel/data/data.templates.php:5
+msgid "Dispatch Label 1"
+msgstr "প্রেরণ লেবেল 1"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:3
+msgid "Adds customer note in the dispatch label"
+msgstr "ডিসপ্যাচ লেবেলে গ্রাহক নোট যোগ করে"
+
+#: public/modules/dispatchlabel/data/data.tooltip.php:4
+msgid "Adds footer in dispatch label"
+msgstr "ডিসপ্যাচ লেবেলে ফুটার যোগ করে"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:210
+#: public/modules/dispatchlabel/dispatchlabel.php:244
+#: public/modules/dispatchlabel/dispatchlabel.php:255
+#: public/modules/dispatchlabel/dispatchlabel.php:256
+msgid "Print Dispatch Label"
+msgstr "প্রিন্ট ডিসপ্যাচ লেবেল"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:237
+msgid "Dispatch Label"
+msgstr "প্রেরণ লেবেল"
+
+#: public/modules/dispatchlabel/dispatchlabel.php:238
+msgid "Print/Download Dispatch Label"
+msgstr "প্রিন্ট/ডাউনলোড ডিসপ্যাচ লেবেল"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:65
+#: public/modules/shippinglabel/views/admin-settings.php:60
+#, fuzzy
+msgid "Multiple templates to personalize the label"
+msgstr "লেবেল ব্যক্তিগতকৃত করতে একাধিক টেমপ্লেট"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:66
+#: public/modules/shippinglabel/views/admin-settings.php:61
+#, fuzzy
+msgid "Add a print label button to the order email"
+msgstr "অর্ডার ইমেলে একটি প্রিন্ট লেবেল বোতাম যোগ করুন"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:67
+#: public/modules/invoice/views/invoice-admin-settings.php:23
+#, fuzzy
+msgid "Show different taxes in separate columns"
+msgstr "পৃথক কলামে বিভিন্ন কর দেখান"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:68
+#, fuzzy
+msgid "Add order & product meta fields"
+msgstr "অর্ডার এবং পণ্য মেটা ক্ষেত্র যোগ করুন"
+
+#: public/modules/dispatchlabel/views/admin-settings.php:72
+#, fuzzy
+msgid "Generate shipping labels and delivery notes"
+msgstr "শিপিং লেবেল এবং ডেলিভারি নোট তৈরি করুন"
+
+#: public/modules/dispatchlabel/views/general.php:12
+msgid "Configure the general settings required for the dispatch label."
+msgstr "প্রেরণ লেবেলের জন্য প্রয়োজনীয় সাধারণ সেটিংস কনফিগার করুন।"
+
+#: public/modules/invoice/data/data.templates-prev-version.php:5
+#: public/modules/packinglist/data/data.templates.php:5
+msgid "Basic - 1"
+msgstr "বেসিক- ১"
+
+#: public/modules/invoice/data/data.templates.php:5
+msgid "Basic - 0"
+msgstr "মৌলিক - 0"
+
+#: public/modules/invoice/data/data.tooltip.php:3
+msgid ""
+"Admins and customers both can leverage this feature wherever applicable. Disabling will "
+"remove all the provisions. Yet, the invoices are customizable."
+msgstr ""
+"প্রশাসক এবং গ্রাহক উভয়ই যেখানে প্রযোজ্য সেখানে এই বৈশিষ্ট্যটি ব্যবহার করতে পারেন। নিষ্ক্রিয় করা "
+"সমস্ত বিধান মুছে ফেলবে৷ তবুও, চালানগুলি কাস্টমাইজযোগ্য।"
+
+#: public/modules/invoice/data/data.tooltip.php:4
+msgid ""
+"The date is displayed on the invoice. It can be either the order creation date or the "
+"invoiced date."
+msgstr "তারিখটি চালানে প্রদর্শিত হয়। এটি অর্ডার তৈরির তারিখ বা চালানের তারিখ হতে পারে।"
+
+#: public/modules/invoice/data/data.tooltip.php:5
+msgid "Allows customers to print the invoice from the specified pages."
+msgstr "গ্রাহকদের নির্দিষ্ট পৃষ্ঠাগুলি থেকে চালান প্রিন্ট করার অনুমতি দেয়।"
+
+#: public/modules/invoice/invoice.php:31
+msgid "Print invoice"
+msgstr "চালান প্রিন্ট করুন"
+
+#: public/modules/invoice/invoice.php:32
+msgid "Download invoice"
+msgstr "চালান ডাউনলোড করুন"
+
+#: public/modules/invoice/invoice.php:301
+#, php-format
+msgid ""
+"You can control the visibility of the seal according to order status via filters. See "
+"filter documentation %s here. %s"
+msgstr ""
+"আপনি ফিল্টারগুলির মাধ্যমে অর্ডার স্থিতি অনুসারে সিলের দৃশ্যমানতা নিয়ন্ত্রণ করতে পারেন। ফিল্টার "
+"ডকুমেন্টেশন দেখুন %s এখানে। %s"
+
+#: public/modules/invoice/invoice.php:320
+msgid "Width"
+msgstr " প্রস্থ"
+
+#: public/modules/invoice/invoice.php:328
+msgid "Height"
+msgstr "উচ্চতা"
+
+#: public/modules/invoice/invoice.php:352
+msgid "Border width"
+msgstr "সীমানার প্রশস্থতা"
+
+#: public/modules/invoice/invoice.php:360
+msgid "Line height"
+msgstr "লাইনের উচ্চতা"
+
+#: public/modules/invoice/invoice.php:368
+msgid "Opacity"
+msgstr "অস্বচ্ছতা"
+
+#: public/modules/invoice/invoice.php:389
+msgid "Border radius"
+msgstr "সীমানা ব্যাসার্ধ"
+
+#: public/modules/invoice/invoice.php:397
+msgid "From left"
+msgstr "বাম থেকে"
+
+#: public/modules/invoice/invoice.php:405
+msgid "From top"
+msgstr "উপর থেকে"
+
+#: public/modules/invoice/invoice.php:413
+msgid "Angle"
+msgstr "কোণ"
+
+#: public/modules/invoice/invoice.php:420
+msgid "Color"
+msgstr "রঙ"
+
+#: public/modules/invoice/invoice.php:1161
+msgid "Pro Add-on"
+msgstr "প্রো অ্যাড-অন"
+
+#: public/modules/invoice/invoice.php:1165
+msgid "Document title"
+msgstr "নথির শিরোনাম"
+
+#: public/modules/invoice/invoice.php:1166
+msgid "Company Logo / Name"
+msgstr "কোম্পানির লোগো/নাম"
+
+#: public/modules/invoice/invoice.php:1168 public/modules/invoice/invoice.php:1446
+msgid "Invoice Number"
+msgstr "চালান নম্বর"
+
+#: public/modules/invoice/invoice.php:1169
+#: public/modules/shippinglabel/shippinglabel.php:164
+msgid "Order Number"
+msgstr "অর্ডার নম্বর"
+
+#: public/modules/invoice/invoice.php:1170
+msgid "Invoice Date"
+msgstr "চালান তারিখ"
+
+#: public/modules/invoice/invoice.php:1171
+#: public/modules/shippinglabel/shippinglabel.php:165
+msgid "Order Date"
+msgstr "অর্ডারের তারিখ"
+
+#: public/modules/invoice/invoice.php:1173
+#: public/modules/shippinglabel/shippinglabel.php:162
+msgid "From Address"
+msgstr "ঠিকানা থেকে"
+
+#: public/modules/invoice/invoice.php:1174
+msgid "Billing Address"
+msgstr "বিলিং এর ঠিকানা"
+
+#: public/modules/invoice/invoice.php:1175
+msgid "Shipping Address"
+msgstr "পাঠানোর ঠিকানা"
+
+#: public/modules/invoice/invoice.php:1176
+#: public/modules/shippinglabel/shippinglabel.php:168
+msgid "Email Field"
+msgstr "ইমেল ক্ষেত্র"
+
+#: public/modules/invoice/invoice.php:1177
+#: public/modules/shippinglabel/shippinglabel.php:169
+msgid "Tel Field"
+msgstr "টেল ফিল্ড"
+
+#: public/modules/invoice/invoice.php:1179
+#: public/modules/shippinglabel/shippinglabel.php:171
+msgid "SSN number"
+msgstr "SSN নম্বর"
+
+#: public/modules/invoice/invoice.php:1180
+#: public/modules/shippinglabel/shippinglabel.php:170
+msgid "VAT number"
+msgstr "ভ্যাট নম্বর"
+
+#: public/modules/invoice/invoice.php:1182
+msgid "Payment received stamp"
+msgstr "পেমেন্ট স্ট্যাম্প প্রাপ্ত"
+
+#: public/modules/invoice/invoice.php:1187
+#: public/modules/shippinglabel/shippinglabel.php:174
+msgid "Barcode"
+msgstr "বারকোড"
+
+#: public/modules/invoice/invoice.php:1190
+msgid "QR code"
+msgstr "QR কোড"
+
+#: public/modules/invoice/invoice.php:1192
+msgid "QR Code"
+msgstr "QR কোড"
+
+#: public/modules/invoice/invoice.php:1198
+#: public/modules/shippinglabel/shippinglabel.php:175
+msgid "Tracking Number"
+msgstr "ট্র্যাকিং নম্বর"
+
+#: public/modules/invoice/invoice.php:1346
+msgid "Print Invoices"
+msgstr "চালান প্রিন্ট করুন"
+
+#: public/modules/invoice/invoice.php:1347
+msgid "Download Invoices"
+msgstr "চালান ডাউনলোড করুন"
+
+#: public/modules/invoice/invoice.php:1391 public/modules/invoice/invoice.php:1430
+msgid "Print Invoice"
+msgstr "চালান প্রিন্ট করুন"
+
+#: public/modules/invoice/invoice.php:1399 public/modules/invoice/invoice.php:1431
+msgid "Download Invoice"
+msgstr "চালান ডাউনলোড করুন"
+
+#: public/modules/invoice/invoice.php:1407 public/modules/packinglist/packinglist.php:267
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: public/modules/invoice/invoice.php:1420
+msgid "Print/Download Invoice"
+msgstr "চালান প্রিন্ট/ডাউনলোড করুন"
+
+#: public/modules/invoice/invoice.php:1707
+msgid "Customizer module is not active."
+msgstr "কাস্টমাইজার মডিউল সক্রিয় নয়।"
+
+#: public/modules/invoice/views/general.php:18
+msgid "Configure the general settings required for the invoice."
+msgstr "চালানের জন্য প্রয়োজনীয় সাধারণ সেটিংস কনফিগার করুন।"
+
+#: public/modules/invoice/views/general.php:51
+msgid "Enable to print, download, and mail invoices."
+msgstr "চালান প্রিন্ট, ডাউনলোড এবং মেল করতে সক্ষম করুন।"
+
+#: public/modules/invoice/views/general.php:53
+msgid "Enable Invoice"
+msgstr "চালান সক্ষম করুন"
+
+#: public/modules/invoice/views/general.php:76
+#: public/modules/invoice/views/qrcode_promote.php:38
+msgid "Invoice date"
+msgstr "চালান তারিখ"
+
+#: public/modules/invoice/views/general.php:82
+#: public/modules/invoice/views/qrcode_promote.php:39
+msgid "Order date"
+msgstr "অর্ডারের তারিখ"
+
+#: public/modules/invoice/views/general.php:83
+msgid "Invoiced date"
+msgstr "চালান তারিখ"
+
+#: public/modules/invoice/views/general.php:93
+msgid "Automate invoice creation"
+msgstr "চালান তৈরি স্বয়ংক্রিয়"
+
+#: public/modules/invoice/views/general.php:100
+#: public/modules/invoice/views/general.php:126
+msgid "Choose order status"
+msgstr "অর্ডার স্থিতি নির্বাচন করুন"
+
+#: public/modules/invoice/views/general.php:101
+msgid "Automatically creates invoices for selected order statuses."
+msgstr "নির্বাচিত অর্ডার স্থিতির জন্য স্বয়ংক্রিয়ভাবে চালান তৈরি করে।"
+
+#: public/modules/invoice/views/general.php:108
+msgid "Attach invoice PDF to admin email"
+msgstr "অ্যাডমিন ইমেলে চালান পিডিএফ সংযুক্ত করুন"
+
+#: public/modules/invoice/views/general.php:112
+msgid "Enable to attach invoice PDF to the new order email notification"
+msgstr "নতুন অর্ডার ইমেল বিজ্ঞপ্তিতে চালান PDF সংযুক্ত করতে সক্ষম করুন৷"
+
+#: public/modules/invoice/views/general.php:119
+msgid "Attach invoice pdf in customer email"
+msgstr "গ্রাহকের ইমেলে চালান পিডিএফ সংযুক্ত করুন"
+
+#: public/modules/invoice/views/general.php:127
+msgid ""
+"Invoice in PDF format will be attached with the order email for chosen order statuses."
+msgstr ""
+"পিডিএফ ফরম্যাটে ইনভয়েসটি নির্বাচিত অর্ডার স্ট্যাটাসের জন্য অর্ডার ইমেলের সাথে সংযুক্ত করা হবে।"
+
+#: public/modules/invoice/views/general.php:159
+#: public/modules/invoice/views/qrcode_promote.php:32
+#: public/modules/invoice/views/qrcode_promote.php:36
+msgid "Invoice number"
+msgstr "চালান নম্বর"
+
+#: public/modules/invoice/views/general.php:178
+msgid "Invoice details"
+msgstr "চালান বিস্তারিত"
+
+#: public/modules/invoice/views/general.php:185
+msgid "Order meta fields"
+msgstr "মেটা ক্ষেত্রগুলি অর্ডার করুন"
+
+#: public/modules/invoice/views/general.php:189
+msgid ""
+"Select/add order meta to display additional information related to the order on the "
+"invoice."
+msgstr "ইনভয়েসে অর্ডার সম্পর্কিত অতিরিক্ত তথ্য প্রদর্শন করতে অর্ডার মেটা নির্বাচন/যোগ করুন।"
+
+#: public/modules/invoice/views/general.php:197
+msgid ""
+"If left blank, default to the logo from General settings. Ensure to select company logo "
+"from ‘Invoice > Customize > Company Logo’ to reflect on the invoice. Recommended size "
+"is 150×50px."
+msgstr ""
+"যদি ফাঁকা রাখা হয়, সাধারণ সেটিংস থেকে লোগোতে ডিফল্ট। চালানটি প্রতিফলিত করতে 'চালনা> "
+"কাস্টমাইজ> কোম্পানির লোগো' থেকে কোম্পানির লোগো নির্বাচন করা নিশ্চিত করুন। প্রস্তাবিত আকার হল "
+"150×50px।"
+
+#: public/modules/invoice/views/general.php:218
+msgid "Generate invoices for existing orders"
+msgstr "বিদ্যমান আদেশের জন্য চালান তৈরি করুন"
+
+#: public/modules/invoice/views/general.php:222
+msgid "Enable to create invoice for orders generated before plugin installation"
+msgstr "প্লাগইন ইনস্টলেশনের আগে তৈরি করা অর্ডারগুলির জন্য চালান তৈরি করতে সক্ষম করুন৷"
+
+#: public/modules/invoice/views/general.php:233
+msgid "Enable to create invoices for free orders"
+msgstr "বিনামূল্যে অর্ডারের জন্য চালান তৈরি করতে সক্ষম করুন"
+
+#: public/modules/invoice/views/general.php:240
+msgid "Display free line items in the invoice"
+msgstr "চালানে বিনামূল্যে লাইন আইটেম প্রদর্শন করুন"
+
+#: public/modules/invoice/views/general.php:244
+msgid "Include free(priced as 0) line items in the invoice"
+msgstr "চালানে বিনামূল্যে (0 হিসাবে মূল্য) লাইন আইটেম অন্তর্ভুক্ত করুন"
+
+#: public/modules/invoice/views/general.php:247
+msgid "Enable to create invoices for free orders."
+msgstr "বিনামূল্যে অর্ডারের জন্য চালান তৈরি করতে সক্ষম করুন।"
+
+#: public/modules/invoice/views/general.php:253
+msgid "PDF name format"
+msgstr "পিডিএফ নামের বিন্যাস"
+
+#: public/modules/invoice/views/general.php:258
+msgid "[prefix][order_no]"
+msgstr "[উপসর্গ][অর্ডার_না]"
+
+#: public/modules/invoice/views/general.php:259
+msgid "[prefix][invoice_no]"
+msgstr "[প্রিফিক্স][চালান_না]"
+
+#: public/modules/invoice/views/general.php:263
+msgid "Select a name format for PDF invoice that includes invoice/order number."
+msgstr "PDF চালানের জন্য একটি নামের বিন্যাস নির্বাচন করুন যাতে চালান/অর্ডার নম্বর অন্তর্ভুক্ত থাকে।"
+
+#: public/modules/invoice/views/general.php:269
+msgid "Custom PDF name prefix"
+msgstr "কাস্টম পিডিএফ নামের উপসর্গ"
+
+#: public/modules/invoice/views/general.php:271
+msgid ""
+"Input a custom prefix for ‘PDF name format’ that will appear at the beginning of the "
+"name. Defaulted to ‘Invoice_’."
+msgstr ""
+"'PDF নাম বিন্যাস'-এর জন্য একটি কাস্টম উপসর্গ ইনপুট করুন যা নামের শুরুতে প্রদর্শিত হবে। 'ইনভয়েস_'-"
+"এ ডিফল্ট।"
+
+#: public/modules/invoice/views/general.php:277
+msgid "Use latest settings for invoice"
+msgstr "চালানের জন্য সর্বশেষ সেটিংস ব্যবহার করুন"
+
+#: public/modules/invoice/views/general.php:284
+msgid ""
+"Enable to apply the most recent settings to previous order invoices. This will match "
+"the previous invoices with the upcoming invoices.Changing the company address, name or "
+"any other settings in the future may overwrite previously created invoices with the "
+"most up-to-date information."
+msgstr ""
+"আগের অর্ডার ইনভয়েসে সবচেয়ে সাম্প্রতিক সেটিংস প্রয়োগ করতে সক্ষম করুন। এটি আসন্ন চালানগুলির সাথে "
+"পূর্ববর্তী চালানগুলির সাথে মিলিত হবে৷ ভবিষ্যতে কোম্পানির ঠিকানা, নাম বা অন্য কোনো সেটিংস "
+"পরিবর্তন করা হলে তা সবচেয়ে আপ-টু-ডেট তথ্য সহ পূর্বে তৈরি করা চালানগুলি ওভাররাইট করতে পারে৷"
+
+#: public/modules/invoice/views/general.php:312
+msgid "Date formats"
+msgstr "তারিখ বিন্যাস"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:19
+#, fuzzy
+msgid "Multiple premium invoice templates to choose from"
+msgstr "বেছে নিতে একাধিক প্রিমিয়াম চালান টেমপ্লেট"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:20
+#, fuzzy
+msgid "Add custom data like product meta, order meta, attributes etc"
+msgstr "পণ্য মেটা, অর্ডার মেটা, বৈশিষ্ট্য ইত্যাদির মতো কাস্টম ডেটা যোগ করুন"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:21
+#, fuzzy
+msgid "Enable customers to Pay Later at checkout"
+msgstr "চেকআউটে গ্রাহকদের পরে অর্থ প্রদান করতে সক্ষম করুন"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:22
+#, fuzzy
+msgid "Collect payments with a payment link on the invoice"
+msgstr "চালানে একটি পেমেন্ট লিঙ্ক দিয়ে পেমেন্ট সংগ্রহ করুন"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:25
+#, fuzzy
+msgid "Sort order items in the product table "
+msgstr "পণ্য টেবিলে অর্ডার আইটেম সাজান "
+
+#: public/modules/invoice/views/invoice-admin-settings.php:27
+#: public/modules/packinglist/views/general.php:114
+#, fuzzy
+msgid "Multiple display formats for bundled products"
+msgstr "বান্ডিল পণ্যের জন্য একাধিক প্রদর্শন বিন্যাস"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:28
+#, fuzzy
+msgid "Generate packing slips and credit notes"
+msgstr "প্যাকিং স্লিপ এবং ক্রেডিট নোট তৈরি করুন"
+
+#: public/modules/invoice/views/invoice-admin-settings.php:65
+#: public/modules/packinglist/views/general.php:131
+#, fuzzy
+msgid "Invoices, Packing slips and Credit notes"
+msgstr "চালান, প্যাকিং স্লিপ এবং ক্রেডিট নোট"
+
+#: public/modules/invoice/views/qrcode_promote.php:26
+#, fuzzy
+msgid "To help you comply with invoice mandates that require QR Codes"
+msgstr "QR কোডের প্রয়োজন হয় এমন ইনভয়েস ম্যান্ডেট মেনে চলতে আপনাকে সাহায্য করতে"
+
+#: public/modules/invoice/views/qrcode_promote.php:28
+#, fuzzy
+msgid "Assign QR code to all of invoices generated for the orders in your store"
+msgstr "আপনার দোকানে অর্ডারের জন্য তৈরি করা সমস্ত চালানে QR কোড বরাদ্দ করুন"
+
+#: public/modules/invoice/views/qrcode_promote.php:29
+#, fuzzy
+msgid "Assign different types of info in your QR code, including:"
+msgstr "আপনার QR কোডে বিভিন্ন ধরনের তথ্য বরাদ্দ করুন, যার মধ্যে রয়েছে:"
+
+#: public/modules/invoice/views/qrcode_promote.php:31
+msgid "Order number (default)"
+msgstr "অর্ডার নম্বর (ডিফল্ট)"
+
+#: public/modules/invoice/views/qrcode_promote.php:34
+msgid "Custom details, as below:"
+msgstr "কাস্টম বিবরণ, নীচের হিসাবে:"
+
+#: public/modules/invoice/views/qrcode_promote.php:40
+msgid "Seller tax ID"
+msgstr "বিক্রেতার ট্যাক্স আইডি"
+
+#: public/modules/invoice/views/qrcode_promote.php:41
+msgid "Buyer name"
+msgstr "ক্রেতার নাম"
+
+#: public/modules/invoice/views/qrcode_promote.php:42
+msgid "Seller name"
+msgstr "বিক্রেতার নাম"
+
+#: public/modules/invoice/views/qrcode_promote.php:43
+msgid "Invoice total"
+msgstr "মোট চালান"
+
+#: public/modules/invoice/views/qrcode_promote.php:44
+msgid "Invoice total tax"
+msgstr "চালান মোট কর"
+
+#: public/modules/invoice/views/qrcode_promote.php:49
+msgid ""
+"Compatible with WooCommerce PDF Invoice, Packing Slips, Delivery Notes, and Shipping "
+"Label (Free and Pro versions)"
+msgstr ""
+"WooCommerce PDF চালান, প্যাকিং স্লিপ, ডেলিভারি নোট এবং শিপিং লেবেলের সাথে সামঞ্জস্যপূর্ণ (ফ্রি "
+"এবং প্রো সংস্করণ)"
+
+#: public/modules/invoice/views/qrcode_promote.php:51
+msgid "Get Plugin"
+msgstr "প্লাগইন পান"
+
+#: public/modules/packinglist/data/data.tooltip.php:4
+msgid "Adds customer note to the packing slip"
+msgstr "প্যাকিং স্লিপে গ্রাহক নোট যোগ করে"
+
+#: public/modules/packinglist/data/data.tooltip.php:5
+msgid "Adds Footer to the packing slip"
+msgstr "প্যাকিং স্লিপে ফুটার যোগ করে"
+
+#: public/modules/packinglist/packinglist.php:238
+#: public/modules/packinglist/packinglist.php:261
+#: public/modules/packinglist/packinglist.php:279
+#: public/modules/packinglist/packinglist.php:280
+msgid "Print Packing slip"
+msgstr "প্রিন্ট প্যাকিং স্লিপ"
+
+#: public/modules/packinglist/packinglist.php:255
+msgid "Print/Download Packing slip"
+msgstr "প্যাকিং স্লিপ প্রিন্ট/ডাউনলোড করুন"
+
+#: public/modules/packinglist/packinglist.php:268
+#: public/modules/packinglist/packinglist.php:286
+#: public/modules/packinglist/packinglist.php:287
+msgid "Download Packing slip"
+msgstr "প্যাকিং স্লিপ ডাউনলোড করুন"
+
+#: public/modules/packinglist/packinglist.php:374
+#: public/modules/shippinglabel/shippinglabel.php:518
+msgid "Unable to print Packing slip. Please check the items in the order."
+msgstr "প্যাকিং স্লিপ মুদ্রণ করতে অক্ষম. অর্ডার আইটেম চেক করুন."
+
+#: public/modules/packinglist/views/general.php:12
+msgid "Configure the general settings required for the packing slip."
+msgstr "প্যাকিং স্লিপের জন্য প্রয়োজনীয় সাধারণ সেটিংস কনফিগার করুন।"
+
+#: public/modules/packinglist/views/general.php:108
+#, fuzzy
+msgid "Automatically attach packing slip with order email"
+msgstr "অর্ডার ইমেলের সাথে স্বয়ংক্রিয়ভাবে প্যাকিং স্লিপ সংযুক্ত করুন"
+
+#: public/modules/packinglist/views/general.php:109
+#, fuzzy
+msgid "Built-in templates to personalize packing slip"
+msgstr "প্যাকিং স্লিপ ব্যক্তিগতকৃত করার জন্য অন্তর্নির্মিত টেমপ্লেট"
+
+#: public/modules/packinglist/views/general.php:110
+#, fuzzy
+msgid "Add a print packing slip button to My account page"
+msgstr "আমার অ্যাকাউন্ট পৃষ্ঠায় একটি প্রিন্ট প্যাকিং স্লিপ বোতাম যোগ করুন"
+
+#: public/modules/packinglist/views/general.php:115
+#, fuzzy
+msgid "Add custom footers to packing slips"
+msgstr "প্যাকিং স্লিপগুলিতে কাস্টম ফুটার যোগ করুন"
+
+#: public/modules/packinglist/views/general.php:116
+#, fuzzy
+msgid "Add additional order & product meta fields"
+msgstr "অতিরিক্ত অর্ডার এবং পণ্য মেটা ক্ষেত্র যোগ করুন"
+
+#: public/modules/packinglist/views/general.php:117
+#, fuzzy
+msgid "Add additional product attributes"
+msgstr "অতিরিক্ত পণ্য বৈশিষ্ট্য যোগ করুন"
+
+#: public/modules/packinglist/views/general.php:118
+#, fuzzy
+msgid "Generate invoices and credits notes"
+msgstr "চালান এবং ক্রেডিট নোট তৈরি করুন"
+
+#: public/modules/shippinglabel/data/data.templates.php:5
+msgid "Shipping Label 1"
+msgstr "শিপিং লেবেল 1"
+
+#: public/modules/shippinglabel/data/data.tooltip.php:3
+msgid "Adds footer to the  Shipping label"
+msgstr "শিপিং লেবেলে ফুটার যোগ করে"
+
+#: public/modules/shippinglabel/shippinglabel.php:114
+#: public/modules/shippinglabel/shippinglabel.php:139
+msgid "Title font size"
+msgstr "শিরোনামের হরফের আকার"
+
+#: public/modules/shippinglabel/shippinglabel.php:121
+msgid "Address font size"
+msgstr "ঠিকানার ফন্ট সাইজ"
+
+#: public/modules/shippinglabel/shippinglabel.php:163
+msgid "To Address"
+msgstr "সম্বোধন করা"
+
+#: public/modules/shippinglabel/shippinglabel.php:166
+msgid "Weight"
+msgstr "ওজন"
+
+#: public/modules/shippinglabel/shippinglabel.php:167
+msgid "Shipping Method"
+msgstr "পরিবহণ মাধ্যম"
+
+#: public/modules/shippinglabel/shippinglabel.php:176
+msgid "Package Number"
+msgstr "প্যাকেজ নম্বর"
+
+#: public/modules/shippinglabel/shippinglabel.php:177
+msgid "Box name"
+msgstr "বাক্সের নাম"
+
+#: public/modules/shippinglabel/shippinglabel.php:178
+msgid "No of Items"
+msgstr "আইটেম সংখ্যা"
+
+#: public/modules/shippinglabel/shippinglabel.php:179
+msgid "Fragile"
+msgstr "ভঙ্গুর"
+
+#: public/modules/shippinglabel/shippinglabel.php:180
+msgid "This way up"
+msgstr "এই পথের উপর"
+
+#: public/modules/shippinglabel/shippinglabel.php:181
+msgid "Keep dry"
+msgstr "শুকনা রাখ"
+
+#: public/modules/shippinglabel/shippinglabel.php:183
+msgid "Return Policy"
+msgstr "প্রত্যাবর্তন নীতিমালা"
+
+#: public/modules/shippinglabel/shippinglabel.php:350
+#: public/modules/shippinglabel/shippinglabel.php:368
+#: public/modules/shippinglabel/shippinglabel.php:376
+#: public/modules/shippinglabel/shippinglabel.php:386
+#: public/modules/shippinglabel/shippinglabel.php:387
+msgid "Print Shipping Label"
+msgstr "প্রিন্ট শিপিং লেবেল"
+
+#: public/modules/shippinglabel/shippinglabel.php:367
+msgid "Shipping Label"
+msgstr "শিপিং ঠিকানা"
+
+#: public/modules/shippinglabel/views/admin-settings.php:62
+#, fuzzy
+msgid "Generate custom-sized shipping labels"
+msgstr "কাস্টম আকারের শিপিং লেবেল তৈরি করুন"
+
+#: public/modules/shippinglabel/views/admin-settings.php:63
+#, fuzzy
+msgid "Fit multiple shipping labels on a single page"
+msgstr "একক পৃষ্ঠায় একাধিক শিপিং লেবেল ফিট করুন"
+
+#: public/modules/shippinglabel/views/admin-settings.php:64
+#, fuzzy
+msgid "Add company logo & return policy to label"
+msgstr "লেবেলে কোম্পানির লোগো এবং রিটার্ন নীতি যোগ করুন"
+
+#: public/modules/shippinglabel/views/admin-settings.php:65
+#, fuzzy
+msgid "Add notes like fragile, keep dry, etc."
+msgstr "ভঙ্গুর মত নোট যোগ করুন, শুকনো রাখুন, ইত্যাদি।"
+
+#: public/modules/shippinglabel/views/admin-settings.php:66
+#, fuzzy
+msgid "Add order meta fields to shipping labels"
+msgstr "শিপিং লেবেলে অর্ডার মেটা ক্ষেত্র যোগ করুন"
+
+#: public/modules/shippinglabel/views/admin-settings.php:67
+#, fuzzy
+msgid "Include the package number & box names on the label"
+msgstr "লেবেলে প্যাকেজ নম্বর এবং বাক্সের নাম অন্তর্ভুক্ত করুন"
+
+#: public/modules/shippinglabel/views/admin-settings.php:68
+#, fuzzy
+msgid "Display the total number of items on label"
+msgstr "লেবেলে আইটেমের মোট সংখ্যা প্রদর্শন করুন"
+
+#: public/modules/shippinglabel/views/admin-settings.php:69
+#, fuzzy
+msgid "Generate dispatch labels and delivery notes"
+msgstr "প্রেরণ লেবেল এবং বিতরণ নোট তৈরি করুন"
+
+#: public/modules/shippinglabel/views/general.php:12
+msgid "Configure the general settings required for the shipping label."
+msgstr "শিপিং লেবেলের জন্য প্রয়োজনীয় সাধারণ সেটিংস কনফিগার করুন।"
+
+#: public/modules/shippinglabel/views/general.php:31
+msgid "Full Page"
+msgstr "পুরো পাতা"
+
+#: public/modules/shippinglabel/views/general.php:32
+msgid "Custom (Pro version)"
+msgstr "কাস্টম (প্রো সংস্করণ)"
+
+#: public/modules/shippinglabel/views/general.php:36
+msgid "Set the  Size of the Shipping label to be either full page or custom size."
+msgstr "শিপিং লেবেলের আকার সম্পূর্ণ পৃষ্ঠা বা কাস্টম আকারে সেট করুন।"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+msgstr "https://www.webtoffee.com/product/woocommerce-pdf-invoices-packing-slips/"
+
+#. Description of the plugin/theme
+msgid "Prints Packing List,Invoice,Delivery Note and Shipping Label."
+msgstr "প্যাকিং তালিকা, চালান, ডেলিভারি নোট এবং শিপিং লেবেল প্রিন্ট করে।"
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"

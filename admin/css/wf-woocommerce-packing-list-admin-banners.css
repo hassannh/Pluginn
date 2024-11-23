@@ -1,0 +1,7 @@
+/**
+ * All of the CSS for your banner in admin dashboard functionality should be
+ * included in this file.
+ */
+.banner_after_bulk_print_ipc {  border-left: 4px solid #5454A5; background-color: #E3E3FF; padding: 10px !important; font-size: 13px; font-weight: 400; line-height: 17.55px; letter-spacing: 0.02em; text-align: left; display: flex; align-items: center; }
+.banner_after_bulk_print_ipc .banner_close_button { background-color: #5454A5; margin-left: 15px; color: #fff; }
+.wt_pklist_banner_dismiss{ cursor: pointer; }

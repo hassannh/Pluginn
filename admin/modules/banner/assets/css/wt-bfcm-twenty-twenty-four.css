@@ -1,0 +1,15 @@
+.wt-bfcm-banner-2024{ padding: 0; border-color: #000; background: #000; background-image: url('../images/black-friday-bg-lines.png') ; border-radius: 6px; background-repeat: no-repeat; background-size: cover; border-left: none; margin: 5px 15px 2px 0px; }
+.wt-bfcm-banner-2024 .notice-dismiss:before{ content: "\f335"; color: #fff;}
+.wt-bfcm-banner-body{ display: flex; }
+.wt-bfcm-banner-body-img-section{ width: 20%; display: flex; margin-right: 15px; }
+.wt-bfcm-banner-body-info{ width: 79%; display: flex; align-items: center; padding: 5px 0; }
+.wt-bfcm-banner-body-info div{ margin-right: 20px; }
+.wt-bfcm-banner-body-img-section img{ width: 100%;}
+.never-miss-this-deal{ background: #D3FF24; border-radius: 25px; padding: 5px 10px; margin-right: 20px; color: #000; }
+.never-miss-this-deal p{ margin:0; font-weight: bold; font-size: 13px; text-align: center;}
+.wt-bfcm-banner-body-info .info p{ font-style: normal; font-weight: 600; font-size: 13px; color: #FFFFFF; text-align: center; }
+.wt-bfcm-banner-body-info .info p span { font-size: 20px; font-weight: 900; color: #D3FF24; }
+.wt-bfcm-banner-body .info-button{ border: 2px solid #D3FF24; border-radius: 80px; padding: 6px 15px; font-style: normal; font-weight: 600; font-size: 13px; text-align: center; }
+.wt-bfcm-banner-body a{ color: #D3FF24; text-decoration: none; text-align: center; }
+.wt-bfcm-banner-body .info-button:hover a { color: #000; }
+.wt-bfcm-banner-body .info-button:hover { background: #D3FF24; }
